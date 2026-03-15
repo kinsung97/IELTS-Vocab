@@ -1,92 +1,209 @@
 # 雅思词汇闪卡 (IELTS Vocabulary Flashcards) 🚀
 
-一个简洁、优雅且高效的雅思词汇背诵工具。
+
+
+一个简洁、优雅且高效的雅思词汇背诵工具。专为备考雅思的同学设计，基于艾宾浩斯遗忘曲线原理（简易版），通过闪卡（Flashcards）形式帮助你快速斩获核心词汇。
 
 本项目是 **Vibe Coding** 的典型实践：由 Gemini 指导架构设计，搭配 OpenClaw 进行快速迭代。它打破了传统背词软件的臃肿，回归最纯粹的闪卡记忆逻辑。
+
 本项目由openclaw创建。
 
 ---
 
-## 🔗 在线工作站
+
+
+## 🔗 在线使用（推荐）
+
+
 
 **👉 [https://kinsung97.github.io/IELTS-Vocab/](https://kinsung97.github.io/IELTS-Vocab/)**
 
-> **Vibe Check**: 无需安装，即开即用，进度随身。支持 PC、平板、手机全平台响应。
+
+
+无需安装，打开即用！支持 PC、平板、手机全平台访问。
+
+
 
 ---
 
-## ✨ 核心能力
 
-| 维度 | 功能描述 | 核心逻辑 |
-|------|------|------|
-| 🧠 **记忆引擎** | 智能闪卡模式 | 隐藏释义强制回忆，基于艾宾浩斯曲线自动安排复习周期 |
-| 🛡️ **数据主权** | 100% LocalStorage | 零后端依赖，所有数据锁死在浏览器本地，彻底保护隐私 |
-| 🌗 **视觉交互** | 三态主题系统 | 支持日间、夜间及**自动跟随系统**模式，深夜刷词不刺眼 |
-| 📊 **资产管理** | 多维备份方案 | 支持 JSON 全量进度备份与 CSV/Excel 学习记录导出 |
-| 🔊 **多维感官** | 在线 TTS 发音 | 深度集成浏览器原声，支持标准美式/英式发音 |
 
----
+## ✨ 核心功能
 
-## 🛠️ Vibe 技术栈
 
-- **Engine**: Vanilla JavaScript (ES6+)
-- **UI Architecture**: CSS3 Flexbox/Grid + Responsive Viewport
-- **Storage Strategy**: LocalStorage API + JSON Serialization
-- **Design Philosophy**: 极简主义、响应式优先、零外部依赖
 
----
+| 功能 | 说明 |
 
-## 🚀 开发者指南 (Vibe Workflow)
+|------|------|
 
-### 快速启动
-1. `git clone https://github.com/kinsung97/IELTS-Vocab.git`
-2. 直接在浏览器打开 `index.html`。
+| 📱 **全平台使用** | 响应式设计，完美适配 PC、平板、手机 |
 
-### 自定义词库 (Skill Expansion)
-编辑 `words.js`，按照 JSON 格式注入你的私域词汇表，即可瞬间完成工具个性化。
+| 🔒 **本地存储** | 所有数据保存在浏览器本地，**不上传任何数据到服务器**，保护隐私 |
 
-### 进度迁移
-通过侧边栏执行 **"备份进度"** 获取 JSON 指纹，在任意新设备通过 **"恢复进度"** 即可完成记忆镜像迁移。
+| 📊 **Excel 导出** | 今日背诵单词可一键导出为 **CSV/Excel** 格式，方便复盘 |
+
+| 💾 **进度备份** | 支持 JSON 格式的进度导出/导入，换设备无缝衔接 |
+
+| 📝 **自定义词库** | 修改 `words.js` 即可使用自己的词汇表 |
+
+| 🎴 **智能闪卡** | 隐藏释义，强制回忆，点击翻转 |
+
+| 🌙 **夜间模式** | 深度适配暗色主题，深夜刷词不刺眼 |
+
+| 🔊 **在线发音** | 支持标准美式/英式发音 |
+
+
 
 ---
 
-## 📖 方法论：如何高效背诵？
+## 📖 使用指南
 
-1. **沉浸 (Immerse)**：在侧边栏选择你的目标词库分类。
-2. **回忆 (Recall)**：看到单词先在大脑中构建释义，点击卡片验证。
-3. **反馈 (Feedback)**：
-   - **生疏 (1d)**：完全陌生或记忆错误。
-   - **模糊 (2d)**：需要较长时间思考才能想起。
-   - **熟悉 (4d)**：瞬间反应出主要释义。
-   - **简单 (7d)**：已形成长期记忆。
-4. **复盘 (Review)**：利用 **"导出 CSV"** 功能，定期将高频生疏词汇导入 Excel 进行二次分析。
+
+
+1. **选择词库**：在侧边栏下拉菜单选择目标分类
+
+2. **刷词流程**：
+
+   - 看到单词 → 尝试回忆 → **点击卡片**查看释义
+
+   - 根据记忆程度点击：**生疏 (1d)**、**模糊 (2d)**、**熟悉 (4d)** 或 **简单 (7d)**
+
+   - 系统会自动安排下一次复习时间
+
+3. **导出今日学习**：点击侧边栏 **"导出 CSV"** 生成 Excel 报表
+
+4. **备份进度**：点击 **"备份进度"** 下载 JSON 文件，换电脑时 **"恢复进度"** 上传即可
+
+
 
 ---
 
-## 📚 数据与致谢
 
-- **数据源**: 词汇数据继承自 [hefengxian/my-ielts](https://github.com/hefengxian/my-ielts)，涵盖《雅思词汇真经》等核心语料。
-- **指导 AI**: 本项目在开发过程中深度参考了 AI 编程的最佳实践。
+
+
+## 🚀 快速开始
+
+
+
+### 在线使用（最简单）
+
+直接访问：**https://kinsung97.github.io/IELTS-Vocab/**
+
+
+
+### 本地运行
+
+
+
+1. 点击 [Download ZIP](https://github.com/kinsung97/IELTS-Vocab/archive/refs/heads/main.zip) 下载并解压
+
+2. 双击 `index.html` 即可在浏览器中打开
+
+
+
+### 自定义词库
+
+
+
+编辑 `words.js` 文件，按照现有格式添加或修改词汇即可使用自己的词库。
+
+
 
 ---
+
+
+
+
+## 🛠️ 技术栈
+
+
+
+- **Core**: 纯原生前端（HTML5 + CSS3 + Vanilla JavaScript）
+
+- **Storage**: 浏览器 **LocalStorage**，100% 本地运行，无需服务器
+
+- **Icons/Styles**: 现代化 UI 设计，平滑过渡动画
+
+
+
+---
+
+
+
+## 📚 数据来源
+
+
+
+词汇数据来自 [hefengxian/my-ielts](https://github.com/hefengxian/my-ielts) 项目，包含《雅思词汇真经》等优质雅思备考资料。
+
+
+
+感谢原作者的整理和分享！
+
+
+
+---
+
+
 
 ## 📦 目录结构
 
+
+
 ```text
+
 .
-├── index.html          # 主程序：逻辑、样式、结构的原子化集成
-├── words.js           # 数据仓库：核心词汇数据库
-├── README.md          # 节点说明：项目方法论与指南
+
+├── index.html          # 主程序文件（包含样式与逻辑）
+
+├── words.js           # 词汇数据库（可自定义扩展）
+
+├── README.md          # 项目文档
+
 └── LICENSE            # MIT 开源协议
 
 ```
 
+
+
 ---
+
+
+
+## 🤝 参与贡献
+
+
+
+如果你有更好的词汇数据，或者发现了代码中的 Bug，欢迎提交 **Pull Request** 或 **Issue**！
+
+
+
+1. Fork 本仓库
+
+2. 新建功能分支 (`git checkout -b feature/AmazingFeature`)
+
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+
+5. 开一个 Pull Request
+
+
+
+---
+
+
 
 ## 📄 许可证
 
-本项目采用 [MIT License](https://www.google.com/search?q=LICENSE) 许可协议。
+
+
+本项目采用 [MIT License](LICENSE) 许可协议。
+
+
+
+---
+
+
 
 **💡 备考建议：** 雅思不仅是单词量，更是逻辑与表达。愿这个小工具能陪你度过枯燥的刷词时光！
-
-```
