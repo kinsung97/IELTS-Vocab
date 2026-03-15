@@ -15,12 +15,19 @@
         }
         
         /* 电脑端默认的侧边栏样式 */
-        #side-menu { 
-            width: 280px; height: 100vh; background: white; 
-            box-shadow: 2px 0 15px rgba(0,0,0,0.2); transition: margin-left 0.3s ease, background 0.3s ease; 
-            margin-left: -280px; display: flex; flex-direction: column; 
+        #side-menu {
+            width: 280px; height: 100vh; background: white;
+            box-shadow: 2px 0 15px rgba(0,0,0,0.2); transition: margin-left 0.3s ease, background 0.3s ease;
+            margin-left: -280px; display: flex; flex-direction: column;
             padding-top: 20px; flex-shrink: 0; z-index: 1003; overflow-y: auto;
             position: relative; /* 电脑端占位，推挤右侧 */
+        }
+
+        /* iOS Safari 适配：使用 dvh 单位 */
+        @supports (height: 100dvh) {
+            body { height: 100dvh; }
+            #main-area { height: 100dvh; }
+            #side-menu { height: 100dvh; }
         }
         #side-menu.open { margin-left: 0; }
 
@@ -43,10 +50,10 @@
         
         #main-area { flex-grow: 1; display: flex; justify-content: center; align-items: center; position: relative; height: 100vh; overflow: hidden; transition: width 0.3s ease; }
 
-        #menu-btn { 
-            position: absolute; 
-            top: 20px; 
-            left: 20px; 
+        #menu-btn {
+            position: absolute;
+            top: max(20px, env(safe-area-inset-top, 20px));
+            left: max(20px, env(safe-area-inset-left, 20px));
             font-size: 24px; 
             color: white; 
             cursor: pointer; 
@@ -130,7 +137,7 @@
 
         #meaning { color: #636e72; font-size: 18px; min-height: 100px; margin-bottom: 30px; cursor: pointer; padding: 15px; border: 1px dashed #dfe6e9; border-radius: 10px; display: flex; align-items: center; justify-content: center; white-space: pre-wrap; overflow-y: auto; transition: all 0.3s; }
         
-        #list-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; max-height: 80vh; overflow: hidden; flex-direction: column; margin-bottom: 60px; }
+        #list-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; max-height: 75vh; overflow: hidden; flex-direction: column; }
         #list-title { color: #6c5ce7; font-size: 24px; margin-top: 0; margin-bottom: 15px; text-align: center; transition: color 0.3s;}
         
         #list-filters { display: flex; gap: 10px; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 2px solid #f1f2f6; justify-content: center; transition: border-color 0.3s;}
@@ -265,7 +272,7 @@
                 <div id="list-content"></div>
             </div>
             
-            <div style="display: flex; gap: 10px; margin-top: 10px; flex-shrink: 0; padding-bottom: max(20px, env(safe-area-inset-bottom, 20px));">
+            <div style="display: flex; gap: 10px; margin-top: 10px; flex-shrink: 0; margin-bottom: 20px;">
                 <button onclick="switchView('flashcard-screen')" style="flex: 1;">返回背诵</button>
                 <button id="export-btn" onclick="exportToExcel()" style="flex: 1; background: #00b894; display: none;">📊 导出 Excel</button>
             </div>
