@@ -130,7 +130,7 @@
 
         #meaning { color: #636e72; font-size: 18px; min-height: 100px; margin-bottom: 30px; cursor: pointer; padding: 15px; border: 1px dashed #dfe6e9; border-radius: 10px; display: flex; align-items: center; justify-content: center; white-space: pre-wrap; overflow-y: auto; transition: all 0.3s; }
         
-        #list-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; max-height: 85vh; overflow: hidden; flex-direction: column; }
+        #list-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; max-height: 80vh; overflow: hidden; flex-direction: column; margin-bottom: 60px; }
         #list-title { color: #6c5ce7; font-size: 24px; margin-top: 0; margin-bottom: 15px; text-align: center; transition: color 0.3s;}
         
         #list-filters { display: flex; gap: 10px; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 2px solid #f1f2f6; justify-content: center; transition: border-color 0.3s;}
@@ -265,7 +265,7 @@
                 <div id="list-content"></div>
             </div>
             
-            <div style="display: flex; gap: 10px; margin-top: 10px; flex-shrink: 0; padding-bottom: env(safe-area-inset-bottom, 10px);">
+            <div style="display: flex; gap: 10px; margin-top: 10px; flex-shrink: 0; padding-bottom: max(20px, env(safe-area-inset-bottom, 20px));">
                 <button onclick="switchView('flashcard-screen')" style="flex: 1;">返回背诵</button>
                 <button id="export-btn" onclick="exportToExcel()" style="flex: 1; background: #00b894; display: none;">📊 导出 Excel</button>
             </div>
