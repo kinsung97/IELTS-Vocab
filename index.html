@@ -578,11 +578,13 @@
         }
 
         function handleRate(days) {
-            const nextReview = Date.now() + days * 24 * 60 * 60 * 1000;
+            // 计算下次复习时间：设置为几天后凌晨5点（而不是精确的24小时后）
+            const now = new Date();
+            const nextReview = new Date(now.getFullYear(), now.getMonth(), now.getDate() + days, 5, 0, 0).getTime();
             wordData[currentWord.word] = { nextReview: nextReview, level: days, lastReviewed: Date.now() };
             localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
             dailyCount++; localStorage.setItem('ielts_study_count', dailyCount);
-            localStorage.setItem('ielts_study_date', new Date().toDateString());
+            localStorage.setItem('ielts_study_date', now.toDateString());
             document.getElementById('count').innerText = dailyCount;
             nextWord();
         }
