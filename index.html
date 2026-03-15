@@ -285,7 +285,21 @@
     <script>
         let currentWord = null;
         let wordData = JSON.parse(localStorage.getItem('ielts_word_data')) || {};
-        let dailyCount = parseInt(localStorage.getItem('ielts_study_count')) || 0;
+
+        // 检查是否需要重置每日计数（跨天时）
+        function getDailyCount() {
+            const savedDate = localStorage.getItem('ielts_study_date');
+            const today = new Date().toDateString();
+            if (savedDate !== today) {
+                // 新的一天，重置计数
+                localStorage.setItem('ielts_study_date', today);
+                localStorage.setItem('ielts_study_count', '0');
+                return 0;
+            }
+            return parseInt(localStorage.getItem('ielts_study_count')) || 0;
+        }
+
+        let dailyCount = getDailyCount();
         let isAppStarted = false; 
         let currentListMode = 'learned'; 
         let currentCategory = localStorage.getItem('ielts_current_category') || 'all';
@@ -549,7 +563,9 @@
             const nextReview = Date.now() + days * 24 * 60 * 60 * 1000;
             wordData[currentWord.word] = { nextReview: nextReview, level: days, lastReviewed: Date.now() };
             localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
-            dailyCount++; localStorage.setItem('ielts_study_count', dailyCount); document.getElementById('count').innerText = dailyCount;
+            dailyCount++; localStorage.setItem('ielts_study_count', dailyCount);
+            localStorage.setItem('ielts_study_date', new Date().toDateString());
+            document.getElementById('count').innerText = dailyCount;
             nextWord();
         }
 
