@@ -199,6 +199,18 @@
             color: #f1f2f6;
             background: rgba(255, 255, 255, 0.1);
         }
+
+        /* --- [进度条组件样式] --- */
+        .progress-title { margin: 0 0 10px 0; font-size: 16px; color: #2d3436; }
+        .progress-stats { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 6px; color: #636e72; }
+        .progress-bar-bg { width: 100%; height: 12px; background: #dfe6e9; border-radius: 6px; overflow: hidden; }
+        .progress-bar-fill { height: 100%; width: 0%; transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
+        .category-progress-item { margin-bottom: 5px; }
+
+        /* 进度条夜间模式适配 */
+        body.dark-mode .progress-title { color: #f1f2f6; border-bottom-color: #3f3f4e !important; }
+        body.dark-mode .progress-stats { color: #a4b0be; }
+        body.dark-mode .progress-bar-bg { background: #3f3f4e; }
     </style>
 </head>
 <body>
@@ -213,6 +225,7 @@
         <a href="#" onclick="switchView('flashcard-screen')">📖 开始背诵</a>
         <a href="#" onclick="showList('learned')">✅ 已背诵单词</a>
         <a href="#" onclick="showList('unlearned')">⏳ 未背诵单词</a>
+        <a href="#" onclick="showStatus()">📈 学习进度</a>
         <a href="#" onclick="toggleDarkMode()">🌙 / ☀️ 夜间模式</a>
         <a href="#" onclick="backupProgress()">📥 备份进度 (导出 JSON)</a>
         <a href="#" onclick="document.getElementById('import-file').click()">📤 恢复进度 (导入 JSON)</a>
@@ -277,6 +290,28 @@
                 <button onclick="switchView('flashcard-screen')" style="flex: 1;">返回背诵</button>
                 <button id="export-btn" onclick="exportToExcel()" style="flex: 1; background: #00b894; display: none;">📊 导出 Excel</button>
             </div>
+        </div>
+
+        <!-- 进度面板 -->
+        <div id="status-screen" class="card-container" style="display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; overflow-y: auto;">
+            <h2 id="status-title" style="color: #6c5ce7; text-align: center; margin-top: 0; margin-bottom: 25px;">📊 学习进度</h2>
+
+            <div style="margin-bottom: 30px;">
+                <h3 class="progress-title">🏆 总进度</h3>
+                <div class="progress-stats">
+                    <span id="overall-progress-text">0 / 0</span>
+                    <span id="overall-progress-percent">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div id="overall-progress-fill" class="progress-bar-fill" style="background: linear-gradient(90deg, #6c5ce7, #a29bfe);"></div>
+                </div>
+            </div>
+
+            <h3 class="progress-title" style="border-bottom: 1px solid #f1f2f6; padding-bottom: 10px; margin-bottom: 15px;">📁 分类进度</h3>
+            <div id="category-progress-container" style="display: flex; flex-direction: column; gap: 15px;">
+            </div>
+
+            <button onclick="switchView('flashcard-screen')" style="margin-top: 25px;">返回背诵</button>
         </div>
     </div>
 
@@ -372,6 +407,7 @@
             document.getElementById('welcome-screen').style.display = 'none';
             document.getElementById('flashcard-screen').style.display = 'none';
             document.getElementById('list-screen').style.display = 'none';
+            document.getElementById('status-screen').style.display = 'none';
             document.getElementById(viewId).style.display = 'flex';
             if (viewId === 'flashcard-screen' && !isAppStarted) { isAppStarted = true; nextWord(); }
         }
@@ -435,6 +471,65 @@
             currentFilteredWords = targetWords;
             document.getElementById('list-title').innerText = titleText;
             renderListHTML(targetWords);
+        }
+
+        // 生成并展示学习进度
+        function showStatus() {
+            const allWords = window.ieltsWords || [];
+            if (allWords.length === 0) return;
+
+            // 1. 计算总进度
+            const totalWords = allWords.length;
+            const learnedWords = allWords.filter(w => wordData[w.word]).length;
+            const overallPercent = totalWords === 0 ? 0 : Math.round((learnedWords / totalWords) * 100);
+
+            document.getElementById('overall-progress-text').innerText = `${learnedWords} / ${totalWords}`;
+            document.getElementById('overall-progress-percent').innerText = `${overallPercent}%`;
+
+            // 2. 计算各个分类的进度
+            const categoryStats = {};
+            allWords.forEach(w => {
+                const cat = w.category || '未分类';
+                if (!categoryStats[cat]) categoryStats[cat] = { total: 0, learned: 0 };
+                categoryStats[cat].total++;
+                if (wordData[w.word]) categoryStats[cat].learned++;
+            });
+
+            // 3. 动态生成分类进度条 HTML
+            const container = document.getElementById('category-progress-container');
+            container.innerHTML = '';
+            const sortedCategories = Object.keys(categoryStats).sort();
+
+            let html = '';
+            sortedCategories.forEach(cat => {
+                const stats = categoryStats[cat];
+                const percent = stats.total === 0 ? 0 : Math.round((stats.learned / stats.total) * 100);
+                html += `
+                <div class="category-progress-item">
+                    <div class="progress-stats">
+                        <span style="font-weight: bold;">${cat}</span>
+                        <span>${stats.learned} / ${stats.total} (${percent}%)</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" style="width: 0%; background: linear-gradient(90deg, #00b894, #55efc4);"></div>
+                    </div>
+                </div>`;
+            });
+            container.innerHTML = html;
+
+            // 4. 切换到进度面板
+            switchView('status-screen');
+
+            // 5. 延迟执行动画
+            setTimeout(() => {
+                document.getElementById('overall-progress-fill').style.width = `${overallPercent}%`;
+                const fills = container.querySelectorAll('.progress-bar-fill');
+                sortedCategories.forEach((cat, index) => {
+                    const stats = categoryStats[cat];
+                    const percent = stats.total === 0 ? 0 : Math.round((stats.learned / stats.total) * 100);
+                    if (fills[index]) fills[index].style.width = `${percent}%`;
+                });
+            }, 50);
         }
 
         function renderListHTML(wordsArray) {
