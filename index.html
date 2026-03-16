@@ -1085,9 +1085,14 @@
 
             switch(event.code) {
                 case 'Space':
-                    event.preventDefault(); 
-                    if (!controlsVisible) document.getElementById('meaning').click();
-                    break;
+            event.preventDefault(); // 防止页面滚动
+            const meaningArea = document.getElementById('meaning');
+            
+            // 核心修复：只要文字是"点击看释义"，按空格就强制触发点击翻面
+            if (meaningArea && meaningArea.innerText === "点击看释义") {
+                meaningArea.click(); 
+            }
+            break;
                 case 'Digit1': case 'Numpad1':
                     if (controlsVisible) handleRate(1); break;
                 case 'Digit2': case 'Numpad2':
