@@ -84,7 +84,24 @@
 
         #side-menu a { padding: 18px 25px; text-decoration: none; color: #2d3436; font-size: 16px; font-weight: bold; border-bottom: 1px solid #f1f2f6; transition: 0.2s; }
         #side-menu a:hover { background: #f8f9fa; color: var(--primary-color); padding-left: 30px; }
-        
+        #side-menu .danger-reset-link {
+            margin-top: auto;
+            margin: auto 20px 20px;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #ff7675, #d63031);
+            color: #fff !important;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(214, 48, 49, 0.25);
+            padding: 14px 16px;
+        }
+        #side-menu .danger-reset-link:hover {
+            background: linear-gradient(135deg, #ff6b6b, #c0392b);
+            color: #fff !important;
+            padding-left: 16px;
+            transform: translateY(-1px);
+        }
+
         #main-area { flex-grow: 1; display: flex; justify-content: center; align-items: center; position: relative; height: 100vh; overflow: hidden; transition: width 0.3s ease; }
 
         #menu-btn {
@@ -216,6 +233,11 @@
         body.dark-mode #side-menu a:hover {
             background: #3f3f4e;
         }
+        body.dark-mode #side-menu .danger-reset-link,
+        body.dark-mode #side-menu .danger-reset-link:hover {
+            background: linear-gradient(135deg, #ff7675, #e74c3c);
+            color: #fff !important;
+        }
         body.dark-mode #meaning {
             color: #dcdde1;
             border-color: #4a4a6a;
@@ -292,7 +314,7 @@
         <a href="#" onclick="backupProgress()">📥 备份进度 (导出 JSON)</a>
         <a href="#" onclick="document.getElementById('import-file').click()">📤 恢复进度 (导入 JSON)</a>
         <input type="file" id="import-file" style="display:none" onchange="importProgress(this)">
-        <a href="#" onclick="resetCount()" style="color: #ff7675; margin-top: auto;">⚠️ 重置所有进度</a>
+        <a href="#" onclick="resetCount()" class="danger-reset-link">⚠️ 重置所有进度</a>
     </div>
 
     <div id="overlay" onclick="toggleMenu()"></div>
@@ -499,7 +521,13 @@
             currentCategory = document.getElementById('category-select').value;
             localStorage.setItem('ielts_current_category', currentCategory);
             updateCategoryBadge();
-            if (document.getElementById('flashcard-screen').style.display === 'flex') nextWord();
+            
+            if (document.getElementById('flashcard-screen').style.display === 'flex') {
+                nextWord();
+            }
+            if (document.getElementById('list-screen').style.display === 'flex' && currentListMode === 'unlearned') {
+                applyFilters();
+            }
         }
 
         function updateCategoryBadge() {
@@ -542,6 +570,10 @@
             return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
         }
 
+        function isLearnedRecord(record) {
+            return !!(record && record.level && record.lastReviewed && record.nextReview);
+        }
+
         function showList(type) {
             currentListMode = type;
             const listFilters = document.getElementById('list-filters');
@@ -557,7 +589,7 @@
                 listFilters.style.display = 'flex';
                 dateFilter.style.display = '';
                 levelFilter.style.display = '';
-                categoryFilter.style.display = 'none';
+                categoryFilter.style.display = '';
                 document.getElementById('export-btn').style.display = 'block';
             } else if (type === 'favorite') {
                 listFilters.style.display = 'flex';
@@ -580,11 +612,12 @@
         function applyFilters() {
             const allWords = window.ieltsWords || [];
             const categoryWords = currentCategory === 'all' ? allWords : allWords.filter(w => w.category === currentCategory);
+            const listCategoryFilter = document.getElementById('filter-category').value;
             let targetWords = [];
             let titleText = "";
 
             if (currentListMode === 'learned') {
-                targetWords = categoryWords.filter(w => wordData[w.word]);
+                targetWords = allWords.filter(w => isLearnedRecord(wordData[w.word]));
                 const dateFilter = document.getElementById('filter-date').value;
                 const levelFilter = document.getElementById('filter-level').value;
 
@@ -593,17 +626,19 @@
                 else if (dateFilter === 'earlier') targetWords = targetWords.filter(w => !isToday(wordData[w.word].lastReviewed) && !isYesterday(wordData[w.word].lastReviewed));
 
                 if (levelFilter !== 'all') targetWords = targetWords.filter(w => wordData[w.word].level == levelFilter);
+                 if (listCategoryFilter !== 'all') {
+                    targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
+                }
 
                 titleText = `✅ 已背诵(${targetWords.length})`;
             } else if (currentListMode === 'favorite') {
                 targetWords = allWords.filter(w => wordData[w.word] && wordData[w.word].isFavorite);
-                const categoryFilter = document.getElementById('filter-category').value;
-                if (categoryFilter !== 'all') {
-                    targetWords = targetWords.filter(w => (w.category || '未分类') === categoryFilter);
+                 if (listCategoryFilter !== 'all') {
+                    targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
                 }
                 titleText = `⭐ 收藏单词 (${targetWords.length})`;
             } else {
-                targetWords = categoryWords.filter(w => !wordData[w.word]);
+                targetWords = categoryWords.filter(w => !isLearnedRecord(wordData[w.word]));
                 titleText = `📝 未背诵(${targetWords.length})`;
 
                 if (targetWords.length > 100) {
@@ -624,7 +659,7 @@
 
             // 1. 计算总进度
             const totalWords = allWords.length;
-            const learnedWords = allWords.filter(w => wordData[w.word]).length;
+            const learnedWords = allWords.filter(w => isLearnedRecord(wordData[w.word])).length;
             const overallPercent = totalWords === 0 ? 0 : Math.round((learnedWords / totalWords) * 100);
 
             document.getElementById('overall-progress-text').innerText = `${learnedWords} / ${totalWords}`;
@@ -636,7 +671,7 @@
                 const cat = w.category || '未分类';
                 if (!categoryStats[cat]) categoryStats[cat] = { total: 0, learned: 0 };
                 categoryStats[cat].total++;
-                if (wordData[w.word]) categoryStats[cat].learned++;
+                if (isLearnedRecord(wordData[w.word])) categoryStats[cat].learned++;
             });
 
             // 3. 动态生成分类进度条 HTML
@@ -682,7 +717,7 @@
             if (wordsArray.length === 0) { content.innerHTML = '<p style="text-align:center; color:#ccc; margin-top:30px;">没有找到符合条件的单词~</p>'; return; }
 
             wordsArray.forEach(w => {
-                const shouldShowCategory = currentListMode === 'favorite';
+                const shouldShowCategory = currentListMode === 'favorite' || currentListMode === 'learned';
                 const categoryTagHTML = shouldShowCategory ? `<div class="list-category-tag">📁 ${w.category || '未分类'}</div>` : '';
                 let posBadgesHTML = '';
                 if (w.pos) {
@@ -941,7 +976,7 @@
         }
 
         function resetCount() {
-            if(confirm("确定要彻底重置所有单词进度和计数吗？此操作不可逆！")) { localStorage.clear(); location.reload(); }
+            if(confirm("确定要彻底重置所有单词进度和计数吗？操作前请备份！此操作不可逆！")) { localStorage.clear(); location.reload(); }
         }
 
         function backupProgress() {
