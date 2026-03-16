@@ -1,0 +1,15 @@
+<view class="container">
+  <picker mode="selector" range="{{categories}}" bindchange="onCategoryChange">
+    <view class="picker">分类：{{selectedCategory}}</view>
+  </picker>
+
+  <input class="search" placeholder="搜索单词" value="{{keyword}}" bindinput="onKeywordInput" />
+
+  <scroll-view scroll-y class="list">
+    <view wx:for="{{filteredWords}}" wx:key="word" class="item">
+      <view class="word">{{item.word}}</view>
+      <view class="meta">{{item.category}} · {{item.pos}}</view>
+      <view class="meaning">{{item.meaning}}</view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/study/study",
+    "pages/library/library",
+    "pages/progress/progress",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "navigationBarTitleText": "IELTS 背词",
+    "navigationBarBackgroundColor": "#6C5CE7",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#636e72",
+    "selectedColor": "#6c5ce7",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/study/study",
+        "text": "背诵"
+      },
+      {
+        "pagePath": "pages/library/library",
+        "text": "词库"
+      },
+      {
+        "pagePath": "pages/progress/progress",
+        "text": "进度"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

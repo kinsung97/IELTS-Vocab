@@ -1,0 +1,6 @@
+.container { padding: 24rpx; }
+.item { background: #fff; border-radius: 16rpx; padding: 24rpx; margin-bottom: 16rpx; }
+.label { color: #2d3436; font-size: 28rpx; margin-bottom: 12rpx; display: block; }
+.picker { color: #6c5ce7; font-size: 28rpx; }
+.switch-row { display: flex; justify-content: space-between; align-items: center; }
+.reset { margin-top: 20rpx; background: #e17055; color: #fff; border-radius: 999rpx; }

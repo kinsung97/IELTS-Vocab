@@ -1,0 +1,4 @@
+.container { padding: 24rpx; display: grid; grid-template-columns: 1fr 1fr; gap: 16rpx; }
+.card { background: #fff; border-radius: 16rpx; padding: 24rpx; min-height: 140rpx; }
+.label { color: #636e72; font-size: 24rpx; }
+.value { margin-top: 14rpx; color: #2d3436; font-size: 44rpx; font-weight: 700; }

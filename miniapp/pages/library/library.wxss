@@ -1,0 +1,7 @@
+.container { padding: 24rpx; }
+.picker, .search { background: #fff; border-radius: 16rpx; padding: 18rpx 24rpx; margin-bottom: 16rpx; }
+.list { height: calc(100vh - 240rpx); }
+.item { background: #fff; border-radius: 16rpx; padding: 20rpx; margin-bottom: 12rpx; }
+.word { font-size: 36rpx; font-weight: 700; }
+.meta { color: #6c5ce7; font-size: 22rpx; margin: 8rpx 0; }
+.meaning { color: #636e72; white-space: pre-wrap; font-size: 24rpx; }

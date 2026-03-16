@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="card">
+    <view class="label">总词量</view>
+    <view class="value">{{totalCount}}</view>
+  </view>
+  <view class="card">
+    <view class="label">已学习</view>
+    <view class="value">{{learnedCount}}</view>
+  </view>
+  <view class="card">
+    <view class="label">今日待复习</view>
+    <view class="value">{{dueCount}}</view>
+  </view>
+  <view class="card">
+    <view class="label">完成率</view>
+    <view class="value">{{completionRate}}%</view>
+  </view>
+</view>

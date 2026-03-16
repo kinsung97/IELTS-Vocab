@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="item">
+    <text class="label">学习分类</text>
+    <picker mode="selector" range="{{categories}}" bindchange="onCategoryChange">
+      <view class="picker">{{selectedCategory}}</view>
+    </picker>
+  </view>
+
+  <view class="item switch-row">
+    <text class="label">自动发音（占位）</text>
+    <switch checked="{{autoPlayPronunciation}}" bindchange="onAutoPlayChange" color="#6c5ce7" />
+  </view>
+
+  <button class="reset" bindtap="resetProgress">清空学习进度</button>
+</view>
