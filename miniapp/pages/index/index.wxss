@@ -1,0 +1,71 @@
+.container {
+  padding: 32rpx;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 36rpx;
+  min-height: 360rpx;
+  box-shadow: 0 8rpx 24rpx rgba(108, 92, 231, 0.12);
+}
+
+.category {
+  color: #6c5ce7;
+  font-size: 24rpx;
+}
+
+.word {
+  margin-top: 16rpx;
+  font-size: 56rpx;
+  font-weight: 700;
+}
+
+.phonetic {
+  margin-top: 12rpx;
+  color: #636e72;
+}
+
+.hint {
+  margin-top: 60rpx;
+  color: #b2bec3;
+}
+
+.meaning {
+  margin-top: 40rpx;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.actions {
+  margin-top: 28rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16rpx;
+}
+
+.btn {
+  border-radius: 999rpx;
+  color: white;
+  border: none;
+}
+
+.danger { background: #e17055; }
+.warn { background: #fdcb6e; color: #2d3436; }
+.ok { background: #00b894; }
+.easy { background: #0984e3; }
+
+.ghost {
+  margin-top: 20rpx;
+  border: 2rpx solid #6c5ce7;
+  color: #6c5ce7;
+  background: transparent;
+}
+
+.tip {
+  margin-top: 20rpx;
+  display: block;
+  text-align: center;
+  color: #636e72;
+  font-size: 24rpx;
+}

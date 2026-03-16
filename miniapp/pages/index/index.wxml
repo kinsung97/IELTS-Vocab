@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="card" bindtap="toggleMeaning">
+    <view class="category">{{currentWord.category}}</view>
+    <view class="word">{{currentWord.word}}</view>
+    <view wx:if="{{currentWord.phonetic}}" class="phonetic">{{currentWord.phonetic}}</view>
+
+    <view wx:if="{{showMeaning}}" class="meaning">{{currentWord.meaning}}</view>
+    <view wx:else class="hint">点击卡片查看释义</view>
+  </view>
+
+  <view class="actions">
+    <button class="btn danger" data-level="1" bindtap="rateWord">生疏(1d)</button>
+    <button class="btn warn" data-level="2" bindtap="rateWord">模糊(2d)</button>
+    <button class="btn ok" data-level="4" bindtap="rateWord">熟悉(4d)</button>
+    <button class="btn easy" data-level="7" bindtap="rateWord">简单(7d)</button>
+  </view>
+
+  <button class="ghost" bindtap="nextWord">换一个</button>
+  <text class="tip">已学习 {{learnedCount}} / {{totalCount}}</text>
+</view>
