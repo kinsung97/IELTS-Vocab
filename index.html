@@ -11,6 +11,7 @@
             --primary-color: #6c5ce7;
             --primary-light: #a29bfe;
             --primary-dark: #5b4cdb;
+            --primary-glow: rgba(108, 92, 231, 0.4);
             --gradient-start: #667eea;
             --gradient-end: #764ba2;
         }
@@ -20,8 +21,9 @@
             --primary-color: #3498db;
             --primary-light: #74b9ff;
             --primary-dark: #2980b9;
-            --gradient-start: #3498db;
-            --gradient-end: #2980b9;
+            --primary-glow: rgba(52, 152, 219, 0.4);
+            --gradient-start: #74b9ff;
+            --gradient-end: #0984e3;
         }
 
         /* 主题色：薄荷绿 */
@@ -29,8 +31,9 @@
             --primary-color: #00b894;
             --primary-light: #55efc4;
             --primary-dark: #00a085;
-            --gradient-start: #00b894;
-            --gradient-end: #00a085;
+            --primary-glow: rgba(0, 184, 148, 0.4);
+            --gradient-start: #55efc4;
+            --gradient-end: #00b894;
         }
 
         /* 主题色：活力橙 */
@@ -38,124 +41,139 @@
             --primary-color: #e67e22;
             --primary-light: #fab1a0;
             --primary-dark: #d35400;
-            --gradient-start: #e67e22;
-            --gradient-end: #d35400;
+            --primary-glow: rgba(230, 126, 34, 0.4);
+            --gradient-start: #fc917a;
+            --gradient-end: #e67e22;
+        }
+
+        /* 主题色：落霞 */
+        body.theme-sunset {
+            --primary-color: #FA7C5E;
+            --primary-light: #FFB199;
+            --primary-dark: #E66A4D;
+            --primary-glow: rgba(250, 124, 94, 0.4);
+            --gradient-start: #FFB199;
+            --gradient-end: #FA7C5E;
         }
 
         /* --- 基础样式 --- */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex; flex-direction: row; height: 100vh; margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", STHeiti, "Microsoft YaHei", sans-serif;
+            -webkit-font-smoothing: antialiased; 
+            -moz-osx-font-smoothing: grayscale;
+            display: flex; flex-direction: column; height: 100vh; margin: 0;
             background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
             overflow: hidden;
-            transition: background 0.3s ease;
-        }
-        
-        /* 电脑端默认的侧边栏样式 */
-        #side-menu {
-            width: 280px; height: 100vh; background: white;
-            box-shadow: 2px 0 15px rgba(0,0,0,0.2); transition: margin-left 0.3s ease, background 0.3s ease;
-            margin-left: -280px; display: flex; flex-direction: column;
-            padding-top: 20px; flex-shrink: 0; z-index: 1003; overflow-y: auto;
-            position: relative; /* 电脑端占位，推挤右侧 */
+            transition: background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* iOS Safari 适配：使用 dvh 单位 */
         @supports (height: 100dvh) {
             body { height: 100dvh; }
             #main-area { height: 100dvh; }
-            #side-menu { height: 100dvh; }
         }
-        #side-menu.open { margin-left: 0; }
 
-        /* 新增：遮罩层基础样式（默认隐藏） */
-        #overlay {
-            display: none;
+        /* =========================================
+           桌面端：苹果液态玻璃悬浮导航栏
+           ========================================= */
+        #top-navbar {
             position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            backdrop-filter: blur(3px);
-            z-index: 1002;
-        }
-
-        .category-selector-container { padding: 15px 25px; border-bottom: 1px solid #f1f2f6; transition: border-color 0.3s; }
-        .category-selector-container label { font-size: 14px; color: #636e72; font-weight: bold; display: block; margin-bottom: 8px; }
-        #category-select { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #dfe6e9; color: #2d3436; font-size: 14px; outline: none; transition: all 0.3s; }
-
-        #side-menu a { padding: 18px 25px; text-decoration: none; color: #2d3436; font-size: 16px; font-weight: bold; border-bottom: 1px solid #f1f2f6; transition: 0.2s; }
-        #side-menu a:hover { background: #f8f9fa; color: var(--primary-color); padding-left: 30px; }
-        
-        #main-area { flex-grow: 1; display: flex; justify-content: center; align-items: center; position: relative; height: 100vh; overflow: hidden; transition: width 0.3s ease; }
-
-        #menu-btn {
-            position: absolute;
-            top: max(20px, env(safe-area-inset-top, 20px));
-            left: max(20px, env(safe-area-inset-left, 20px));
-            font-size: 24px; 
-            color: white; 
-            cursor: pointer; 
-            z-index: 1001; /* 保证在主区域最上层 */
-            text-shadow: 0 2px 5px rgba(0,0,0,0.2); 
-            transition: all 0.2s; 
-            background: rgba(255, 255, 255, 0.2);
-            width: 45px;
-            height: 45px;
+            top: 25px;
+            left: 50%;
+            transform: translateX(-50%);
             display: flex;
             align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            backdrop-filter: blur(5px);
-        }
-        #menu-btn:hover { 
-            transform: scale(1.1); 
-            background: rgba(255, 255, 255, 0.3);
+            justify-content: space-between;
+            padding: 10px 25px;
+            width: 90%;
+            max-width: 850px; 
+            border-radius: 999px; 
+            
+            background: rgba(255, 255, 255, 0.65);
+            backdrop-filter: blur(24px) saturate(180%);
+            -webkit-backdrop-filter: blur(24px) saturate(180%);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+            z-index: 1000;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        /* 当侧边栏打开时，如果是白底，让汉堡按钮变色 */
-        #side-menu.open ~ #main-area #menu-btn {
-            color: var(--primary-color); 
-            background: rgba(108, 92, 231, 0.1); /* 给一点淡紫色的半透明底座 */
+        #top-navbar .nav-brand {
+            font-weight: 800;
+            font-size: 18px;
+            color: var(--primary-color);
+            letter-spacing: 0.5px;
         }
 
-        /* 电脑端默认卡片样式 */
+        #top-navbar .nav-links { display: flex; gap: 8px; }
+        #top-navbar .nav-links a {
+            text-decoration: none; color: #424245; font-size: 14px; font-weight: bold;
+            padding: 8px 16px; border-radius: 999px; transition: all 0.3s ease;
+        }
+        #top-navbar .nav-links a:hover {
+            background: rgba(0, 0, 0, 0.05); color: var(--primary-color);
+        }
+
+        #top-navbar .nav-settings-btn {
+            background: rgba(0, 0, 0, 0.04); color: #2d3436; border: none; padding: 8px 18px;
+            border-radius: 999px; font-size: 14px; font-weight: bold; cursor: pointer;
+            transition: all 0.3s ease; box-shadow: none; width: auto;
+        }
+        #top-navbar .nav-settings-btn:hover {
+            background: rgba(0, 0, 0, 0.08); transform: translateY(-1px);
+        }
+
+        /* 主内容区 */
+        #main-area { flex-grow: 1; display: flex; justify-content: center; align-items: center; position: relative; height: 100vh; overflow: hidden; }
+
+        /* 卡片基础样式 */
         .card-container {
-            background: white; 
-            padding: 40px; 
-            border-radius: 20px; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2); 
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(12px);
+            padding: 45px 40px; 
+            border-radius: 24px; 
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08), 0 2px 6px rgba(0, 0, 0, 0.03); 
+            border: 1px solid rgba(255, 255, 255, 0.6);
             text-align: center; 
-            width: 350px; 
-            transition: all 0.3s ease; 
+            width: 380px; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
             max-height: 85vh; 
             display: flex; 
             flex-direction: column; 
         }
 
-        /* --- 手机端响应式布局核心 --- */
+        /* =========================================
+           移动端原生 App 级底部导航与弹窗样式
+           ========================================= */
+        #bottom-tab-bar {
+            display: none; 
+            position: fixed; bottom: 0; left: 0; width: 100%; height: 65px;
+            background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(15px);
+            border-top: 1px solid rgba(0,0,0,0.05); z-index: 1000;
+            justify-content: space-around; align-items: center;
+            padding-bottom: env(safe-area-inset-bottom);
+        }
+        .tab-item {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            color: #636e72; font-size: 11px; font-weight: bold; cursor: pointer; transition: all 0.2s;
+            width: 25%; height: 100%;
+        }
+        .tab-item:active { transform: scale(0.9); }
+        .tab-icon { font-size: 22px; margin-bottom: 2px; }
+
+        .modal-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.4); backdrop-filter: blur(5px);
+            z-index: 2000; display: flex; justify-content: center; align-items: center;
+            opacity: 0; transition: opacity 0.3s ease;
+        }
+
+        /* --- 手机端响应式 --- */
         @media (max-width: 600px) {
-            #side-menu {
-                position: fixed; /* 手机端悬浮在上方，不推挤 */
-                width: 80%;      /* 占据 80% 屏幕 */
-                max-width: 300px;
-                margin-left: -100%; /* 默认藏在最左侧边 */
+            #top-navbar { display: none !important; } /* 手机彻底隐藏顶部悬浮导航 */
+            #bottom-tab-bar { display: flex; } /* 显示底部原生导航 */
+            #main-area { 
+                height: calc(100vh - 65px - env(safe-area-inset-bottom)) !important; 
             }
-            #side-menu.open {
-                margin-left: 0;
-            }
-            /* 手机端打开菜单时，显示遮罩层 */
-            #side-menu.open ~ #overlay {
-                display: block;
-            }
-            /* 手机端主区域强制满宽 */
-            #main-area {
-                width: 100% !important;
-                margin-left: 0 !important;
-            }
-            /* 手机端卡片微调，防拥挤 */
-            .card-container {
-                width: 85vw;
-                padding: 25px 20px;
-            }
+            .card-container { width: 85vw; padding: 25px 20px; }
         }
 
         #welcome-screen h1 { color: var(--primary-color); font-size: 36px; margin-bottom: 10px; transition: color 0.3s; }
@@ -172,8 +190,15 @@
 
         #current-category-badge { display: inline-block; font-size: 12px; color: var(--primary-light); border: 1px solid var(--primary-light); padding: 2px 8px; border-radius: 20px; margin-bottom: 15px; align-self: center; }
 
-        #meaning { color: #636e72; font-size: 18px; min-height: 100px; margin-bottom: 30px; cursor: pointer; padding: 15px; border: 1px dashed #dfe6e9; border-radius: 10px; display: flex; align-items: center; justify-content: center; white-space: pre-wrap; overflow-y: auto; transition: all 0.3s; }
-        
+        #meaning { 
+            color: #424245; font-size: 17px; line-height: 1.7; letter-spacing: 0.02em;
+            min-height: 120px; margin-bottom: 30px; padding: 24px; 
+            background: #fbfbfd; border-radius: 16px; border: none; 
+            box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03); 
+            display: flex; align-items: center; justify-content: center; 
+            white-space: pre-wrap; overflow-y: auto; transition: all 0.3s ease; 
+        }
+
         #list-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; max-height: 75vh; overflow: hidden; flex-direction: column; }
         #list-title { color: var(--primary-color); font-size: 24px; margin-top: 0; margin-bottom: 15px; text-align: center; transition: color 0.3s;}
         
@@ -181,69 +206,82 @@
         .filter-select { padding: 6px; border-radius: 6px; border: 1px solid #dfe6e9; color: #636e72; font-size: 13px; outline: none; background: #f8f9fa; cursor: pointer; transition: all 0.3s;}
 
         #list-content-wrapper { overflow-y: auto; flex-grow: 1; margin-bottom: 15px; padding-right: 5px;}
+        #status-screen { display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; overflow: hidden; }
+        #status-content-wrapper { overflow-y: auto; flex-grow: 1; margin-bottom: 15px; padding-right: 5px; }
         .list-item { border-bottom: 1px solid #f1f2f6; padding: 12px 0; transition: border-color 0.3s; }
+        .list-category-tag { display: inline-block; margin-bottom: 6px; padding: 2px 8px; font-size: 11px; border-radius: 999px; color: white; border: none; background: linear-gradient(90deg, var(--primary-color), var(--primary-light)); }
         .list-word { font-weight: bold; color: #2d3436; font-size: 18px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; transition: color 0.3s;}
         .list-meaning { color: #636e72; font-size: 14px; margin-top: 5px; transition: color 0.3s;}
+        .list-favorite-toggle { margin-left: auto; border: none; background: none; color: #fdcb6e; font-size: 20px; cursor: pointer; padding: 2px 4px; line-height: 1; width: auto; box-shadow: none; }
+        #favorite-btn { color: var(--primary-color); text-shadow: none; }
         
-        button { background: var(--primary-color); color: white; border: none; padding: 15px 30px; border-radius: 50px; font-size: 16px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px rgba(108, 92, 231, 0.4); transition: transform 0.2s; width: 100%; flex-shrink: 0; }
+        button { background: var(--primary-color); color: white; border: none; padding: 15px 30px; border-radius: 50px; font-size: 16px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px var(--primary-glow); transition: transform 0.2s; width: 100%; flex-shrink: 0; }
         button:active { transform: scale(0.95); }
         #controls { display: none; grid-template-columns: 1fr 1fr; gap: 10px; }
         #flashcard-screen { display: none; }
 
+        .category-selector-container { padding: 15px 25px; border-bottom: 1px solid #f1f2f6; transition: border-color 0.3s; }
+        #category-select, #theme-select { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #dfe6e9; color: #2d3436; font-size: 14px; outline: none; transition: all 0.3s; }
+        
+        .danger-reset-link {
+            border: none; border-radius: 12px; background: linear-gradient(135deg, #ff7675, #d63031);
+            color: #fff !important; text-align: center; box-shadow: 0 8px 20px rgba(214, 48, 49, 0.25);
+            padding: 14px 16px; cursor: pointer; font-weight: bold;
+        }
+        .danger-reset-link:hover { background: linear-gradient(135deg, #ff6b6b, #c0392b); transform: translateY(-1px); }
+
         /* =========================================
            夜间模式专属样式
            ========================================= */
-        body.dark-mode {
-            background: linear-gradient(135deg, #1e1e2f 0%, #252542 100%);
-        }
-        body.dark-mode #side-menu,
+        body.dark-mode { background: linear-gradient(135deg, #121212 0%, #2a2a2a 100%); }
         body.dark-mode .card-container {
-            background: #2b2b36;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            background: rgba(43, 43, 54, 0.85); 
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
         }
-        body.dark-mode h1, 
-        body.dark-mode #side-menu a, 
-        body.dark-mode .list-word,
-        body.dark-mode #flashcard-screen h1 {
-            color: #f1f2f6;
+        
+        /* 顶部悬浮导航的夜间模式 */
+        body.dark-mode #top-navbar {
+            background: rgba(28, 28, 30, 0.65);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
         }
-        body.dark-mode #welcome-screen p { color: #a4b0be; }
-        body.dark-mode #side-menu a:hover {
-            background: #3f3f4e;
-        }
-        body.dark-mode #meaning {
-            color: #dcdde1;
-            border-color: #4a4a6a;
-        }
-        body.dark-mode .category-selector-container,
-        body.dark-mode .list-item,
-        body.dark-mode #list-filters,
-        body.dark-mode #side-menu a {
-            border-bottom-color: #3f3f4e;
-        }
-        body.dark-mode #category-select,
-        body.dark-mode .filter-select {
-            background: #3f3f4e;
-            color: #f1f2f6;
-            border-color: #4a4a6a;
-        }
-        body.dark-mode .list-meaning {
-            color: #a4b0be;
-        }
-        /* 夜间模式且侧边栏打开时，汉堡图标的颜色适应 */
-        body.dark-mode #side-menu.open ~ #main-area #menu-btn {
-            color: #f1f2f6;
-            background: rgba(255, 255, 255, 0.1);
-        }
+        body.dark-mode #top-navbar .nav-links a { color: #e5e5ea; }
+        body.dark-mode #top-navbar .nav-links a:hover { background: rgba(255, 255, 255, 0.1); color: #fff; }
+        body.dark-mode #top-navbar .nav-settings-btn { background: rgba(255, 255, 255, 0.1); color: #e5e5ea; }
+        body.dark-mode #top-navbar .nav-settings-btn:hover { background: rgba(255, 255, 255, 0.2); }
 
-        /* --- [进度条组件样式] --- */
+        body.dark-mode h1, 
+        body.dark-mode .list-word,
+        body.dark-mode #flashcard-screen h1 { color: #f1f2f6; }
+        body.dark-mode #welcome-screen p { color: #a4b0be; }
+        body.dark-mode #meaning {
+            background: #1c1c1e; color: #dcdde1; border: none; box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
+        }
+        body.dark-mode .list-item, body.dark-mode #list-filters { border-bottom-color: #3f3f4e; }
+        body.dark-mode #category-select, body.dark-mode #theme-select, body.dark-mode .filter-select { background: #3f3f4e; color: #f1f2f6; border-color: #4a4a6a; }
+        body.dark-mode .list-meaning { color: #a4b0be; }
+        body.dark-mode .list-category-tag { color: white; border: none; background: linear-gradient(90deg, var(--primary-color), var(--primary-light)); }
+        body.dark-mode .list-favorite-toggle, body.dark-mode #favorite-btn { color: #ffeaa7; }
+
+        body.dark-mode #bottom-tab-bar { background: rgba(28, 28, 30, 0.9); border-top: 1px solid rgba(255,255,255,0.05); }
+        body.dark-mode .tab-item { color: #8e8e93; }
+        body.dark-mode .modal-content span { color: #f1f2f6 !important; }
+        body.dark-mode .modal-overlay .card-container { background: #1c1c1e; border: 1px solid rgba(255,255,255,0.1); }
+
+        /* 欢迎页提示框夜间模式适配 */
+        body.dark-mode #welcome-screen div[style*="background: rgba(0,0,0,0.03)"] { 
+            background: #2c2c2e !important; 
+            border-color: rgba(255,255,255,0.05) !important; 
+            color: #a4b0be !important; 
+        }
+        body.dark-mode #welcome-screen code { background: #3f3f4e; padding: 2px 4px; border-radius: 4px; }
+
         .progress-title { margin: 0 0 10px 0; font-size: 16px; color: #2d3436; }
         .progress-stats { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 6px; color: #636e72; }
         .progress-bar-bg { width: 100%; height: 12px; background: #dfe6e9; border-radius: 6px; overflow: hidden; }
         .progress-bar-fill { height: 100%; width: 0%; transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1); }
         .category-progress-item { margin-bottom: 5px; }
 
-        /* 进度条夜间模式适配 */
         body.dark-mode .progress-title { color: #f1f2f6; border-bottom-color: #3f3f4e !important; }
         body.dark-mode .progress-stats { color: #a4b0be; }
         body.dark-mode .progress-bar-bg { background: #3f3f4e; }
@@ -251,43 +289,62 @@
 </head>
 <body>
 
-    <div id="side-menu">
-        <div class="category-selector-container">
-            <label>📚 选择当前词库</label>
-            <select id="category-select" onchange="changeCategory()">
-                <option value="all">全库混背 (All)</option>
-            </select>
+    <nav id="top-navbar">
+        <div class="nav-brand">雅思闪卡 🚀</div>
+        <div class="nav-links">
+            <a href="#" onclick="switchView('flashcard-screen')">📖 背诵</a>
+            <a href="#" onclick="showList('learned')">✅ 已背</a>
+            <a href="#" onclick="showList('unlearned')">📝 未背</a>
+            <a href="#" onclick="showList('favorite')">⭐ 收藏</a>
+            <a href="#" onclick="showStatus()">📈 进度</a>
         </div>
-        <a href="#" onclick="switchView('flashcard-screen')">📖 开始背诵</a>
-        <a href="#" onclick="showList('learned')">✅ 已背诵单词</a>
-        <a href="#" onclick="showList('unlearned')">📝 未背诵单词</a>
-        <a href="#" onclick="showList('favorite')">⭐ 收藏单词</a>
-        <a href="#" onclick="showStatus()">📈 学习进度</a>
-        <div class="category-selector-container" style="margin-top: 10px;">
-            <label>🎨 主题色：</label>
-            <select id="theme-select" onchange="changeTheme()">
-                <option value="purple">🟣 紫罗兰</option>
-                <option value="blue">🔵 天空蓝</option>
-                <option value="green">🟢 薄荷绿</option>
-                <option value="orange">🟠 活力橙</option>
-            </select>
+        <div class="nav-actions">
+            <button class="nav-settings-btn" onclick="openSettings()">⚙️ 设置</button>
         </div>
-        <a href="#" onclick="toggleDarkMode()">🌙 / ☀️ 夜间模式</a>
-        <a href="#" onclick="toggleAutoSpeak()">🔊 自动发音: <span id="auto-speak-status">开</span></a>
-        <a href="#" onclick="backupProgress()">📥 备份进度 (导出 JSON)</a>
-        <a href="#" onclick="document.getElementById('import-file').click()">📤 恢复进度 (导入 JSON)</a>
-        <input type="file" id="import-file" style="display:none" onchange="importProgress(this)">
-        <a href="#" onclick="resetCount()" style="color: #ff7675; margin-top: auto;">⚠️ 重置所有进度</a>
+    </nav>
+
+    <div id="bottom-tab-bar">
+        <div class="tab-item" onclick="switchView('flashcard-screen')">
+            <div class="tab-icon">📖</div><span>背诵</span>
+        </div>
+        <div class="tab-item" onclick="showList('learned')">
+            <div class="tab-icon">📚</div><span>词库</span>
+        </div>
+        <div class="tab-item" onclick="showStatus()">
+            <div class="tab-icon">📈</div><span>进度</span>
+        </div>
+        <div class="tab-item" onclick="openSettings()">
+            <div class="tab-icon">⚙️</div><span>设置</span>
+        </div>
     </div>
 
-    <div id="overlay" onclick="toggleMenu()"></div>
-
     <div id="main-area">
-        <div id="menu-btn" onclick="toggleMenu()">☰</div>
 
         <div id="welcome-screen" class="card-container">
-            <h1>雅思闪卡🚀</h1>
-            <p>今日已斩获单词：<br><span class="highlight-text"><span id="welcome-count">0</span> 个</span></p>
+            <h1 style="margin-bottom: 5px;">雅思闪卡🚀</h1>
+            <p style="margin-bottom: 20px;">今日已学习的单词：<span class="highlight-text" style="font-size: 22px;"><span id="welcome-count">0</span> 个</span></p>
+            
+            <div style="text-align: left; background: rgba(0,0,0,0.03); padding: 18px; border-radius: 16px; margin-bottom: 25px; font-size: 13px; color: #636e72; line-height: 1.6; border: 1px solid rgba(0,0,0,0.03);">
+                <div style="font-weight: bold; color: var(--primary-color); margin-bottom: 10px; font-size: 15px; display: flex; align-items: center; gap: 5px;">
+                    💡 使用指南与数据说明
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <b>⚙️ 功能入口：</b>切换词库、夜间模式、主题色等设置，请点击桌面端右上角 <b>“设置”</b> 或手机端底部 <b>“设置”</b>。
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <b>💾 进度备份：</b>数据存屏于浏览器本地。请定期在设置中 <b>“导出备份”</b> (JSON)，以便在其他设备恢复。
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <b>📊 离线复习：</b>在单词列表界面，可点击 <b>“导出 Excel”</b> (CSV) 将记录导出为表格，方便整理或打印。
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <b>⌨️ 极客快捷键：</b>电脑端支持 <code>Space</code> 翻看，<code>1-4</code> 定级，<code>S</code> 键发音，<code>F</code> 键快速收藏。
+                </div>
+                <div>
+                    <b>🧠 记忆算法：</b>基于艾宾浩斯曲线，系统会自动根据您的熟练度反馈（1-4级）安排复习周期。
+                </div>
+            </div>
+
             <button onclick="enterApp()">开始今天的挑战</button>
         </div>
 
@@ -317,6 +374,11 @@
             <h2 id="list-title">单词列表</h2>
             
             <div id="list-filters">
+                <select id="list-mode-select" class="filter-select" onchange="changeListMode()" style="font-weight: bold; color: var(--primary-color);">
+                    <option value="learned">✅ 已背</option>
+                    <option value="unlearned">📝 未背</option>
+                    <option value="favorite">⭐ 收藏</option>
+                </select>
                 <select id="filter-date" class="filter-select" onchange="applyFilters()">
                     <option value="all">📅 全部时间</option>
                     <option value="today">今天</option>
@@ -330,6 +392,9 @@
                     <option value="3">熟悉 (4d)</option>
                     <option value="5">简单(7d)</option>
                 </select>
+                <select id="filter-category" class="filter-select" onchange="applyFilters()" style="display:none;">
+                    <option value="all">📁 全部分类</option>
+                </select>
             </div>
 
             <div id="list-content-wrapper">
@@ -337,33 +402,78 @@
             </div>
             
             <div style="display: flex; gap: 10px; margin-top: 10px; flex-shrink: 0; margin-bottom: 20px;">
-                <button onclick="switchView('flashcard-screen')" style="flex: 1;">返回背诵</button>
                 <button id="export-btn" onclick="exportToExcel()" style="flex: 1; background: #00b894; display: none;">📊 导出 Excel</button>
             </div>
         </div>
-
-        <!-- 进度面板 -->
-        <div id="status-screen" class="card-container" style="display: none; padding: 30px 20px; width: 90%; max-width: 450px; text-align: left; overflow-y: auto;">
+        
+        <div id="status-screen" class="card-container">
             <h2 id="status-title" style="color: var(--primary-color); text-align: center; margin-top: 0; margin-bottom: 25px;">📊 学习进度</h2>
 
-            <div style="margin-bottom: 30px;">
-                <h3 class="progress-title">🏆 总进度</h3>
-                <div class="progress-stats">
-                    <span id="overall-progress-text">0 / 0</span>
-                    <span id="overall-progress-percent">0%</span>
+            <div id="status-content-wrapper">
+                <div style="margin-bottom: 30px;">
+                    <h3 class="progress-title">🏆 总进度</h3>
+                    <div class="progress-stats">
+                        <span id="overall-progress-text">0 / 0</span>
+                        <span id="overall-progress-percent">0%</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="overall-progress-fill" class="progress-bar-fill" style="background: linear-gradient(90deg, var(--primary-color), var(--primary-light));"></div>
+                    </div>
                 </div>
-                <div class="progress-bar-bg">
-                    <div id="overall-progress-fill" class="progress-bar-fill" style="background: linear-gradient(90deg, var(--primary-color), var(--primary-light));"></div>
+
+                <h3 class="progress-title" style="border-bottom: 1px solid #f1f2f6; padding-bottom: 10px; margin-bottom: 15px;">📁 分类进度</h3>
+                <div id="category-progress-container" style="display: flex; flex-direction: column; gap: 15px;">
                 </div>
             </div>
-
-            <h3 class="progress-title" style="border-bottom: 1px solid #f1f2f6; padding-bottom: 10px; margin-bottom: 15px;">📁 分类进度</h3>
-            <div id="category-progress-container" style="display: flex; flex-direction: column; gap: 15px;">
-            </div>
-
-            <button onclick="switchView('flashcard-screen')" style="margin-top: 25px;">返回背诵</button>
         </div>
     </div>
+
+    <div id="settings-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content card-container" style="width: 90%; max-width: 380px; padding: 25px; max-height: 90vh; overflow-y: auto;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h2 style="margin: 0; color: var(--primary-color); font-size: 20px;">⚙️ 系统设置</h2>
+                <span onclick="closeSettings()" style="font-size: 28px; cursor: pointer; color: #636e72; line-height: 1;">&times;</span>
+            </div>
+            
+            <div class="category-selector-container" style="padding: 10px 0; border:none; text-align: left;">
+                <label>📚 当前词库</label>
+                <select id="category-select" onchange="changeCategory()">
+                    <option value="all">全库混背 (All)</option>
+                </select>
+            </div>
+
+            <div style="padding: 10px 0; text-align: left;">
+                <label style="font-size: 14px; color: #636e72; font-weight: bold; display: block; margin-bottom: 8px;">🎨 主题色</label>
+                <select id="theme-select" onchange="changeTheme()">
+                    <option value="purple">🟣 紫罗兰</option>
+                    <option value="blue">🔵 天空蓝</option>
+                    <option value="green">🟢 薄荷绿</option>
+                    <option value="orange">🟠 活力橙</option>
+                    <option value="sunset">🟧 落霞</option>
+                </select>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #f1f2f6; align-items: center;">
+                <span style="color: #2d3436; font-weight: bold;">🌙 夜间模式</span>
+                <button onclick="toggleDarkMode(); updateSettingsUI();" style="width:auto; padding: 8px 15px; font-size: 14px;">切换</button>
+            </div>
+
+            <div style="display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #f1f2f6; align-items: center;">
+                <span style="color: #2d3436; font-weight: bold;">🔊 自动发音 <span id="auto-speak-status" style="font-weight:normal;color:var(--primary-light);"></span></span>
+                <button onclick="toggleAutoSpeak()" style="width:auto; padding: 8px 15px; font-size: 14px;">切换</button>
+            </div>
+
+            <div style="display: flex; gap: 10px; margin-top: 25px;">
+                <button onclick="backupProgress()" style="flex: 1; padding: 12px; font-size: 14px; background: #00b894;">📥 导出备份</button>
+                <button onclick="document.getElementById('import-file').click()" style="flex: 1; padding: 12px; font-size: 14px; background: #0984e3;">📤 恢复数据</button>
+                <input type="file" id="import-file" style="display:none" onchange="importProgress(this)">
+            </div>
+            
+            <button onclick="resetCount()" class="danger-reset-link" style="margin-top: 15px; width: 100%; padding: 12px; background: #ff7675;">⚠️ 重置所有进度</button>
+        </div>
+    </div>
+
+    <div id="toast" style="position:fixed; top:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); color:white; padding:10px 24px; border-radius:20px; font-size:14px; z-index:9999; opacity:0; transition:opacity 0.3s, top 0.3s; pointer-events:none; backdrop-filter: blur(5px); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">提示内容</div>
 
     <script src="words.js"></script>
     
@@ -371,12 +481,10 @@
         let currentWord = null;
         let wordData = JSON.parse(localStorage.getItem('ielts_word_data')) || {};
 
-        // 检查是否需要重置每日计数（跨天时）
         function getDailyCount() {
             const savedDate = localStorage.getItem('ielts_study_date');
             const today = new Date().toDateString();
             if (savedDate !== today) {
-                // 新的一天，重置计数
                 localStorage.setItem('ielts_study_date', today);
                 localStorage.setItem('ielts_study_count', '0');
                 return 0;
@@ -400,54 +508,78 @@
         document.getElementById('welcome-count').innerText = dailyCount;
         document.getElementById('count').innerText = dailyCount;
 
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.innerText = message;
+            toast.style.top = '80px'; 
+            toast.style.opacity = '1';
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.top = '70px';
+            }, 2000);
+        }
+
+        // --- 系统设置弹窗逻辑 ---
+        function openSettings() {
+            const modal = document.getElementById('settings-modal');
+            modal.style.display = 'flex';
+            setTimeout(() => { modal.style.opacity = '1'; }, 10);
+            updateSettingsUI();
+        }
+        function closeSettings() {
+            const modal = document.getElementById('settings-modal');
+            modal.style.opacity = '0';
+            setTimeout(() => { modal.style.display = 'none'; }, 300);
+        }
+        function updateSettingsUI() {
+            document.getElementById('auto-speak-status').innerText = autoSpeakEnabled ? '(已开)' : '(已关)';
+        }
+        document.getElementById('settings-modal').addEventListener('click', function(e) {
+            if (e.target === this) closeSettings();
+        });
+
         function toggleDarkMode() {
             document.body.classList.toggle('dark-mode');
             const isDark = document.body.classList.contains('dark-mode');
             localStorage.setItem('ielts_dark_mode', isDark);
+            showToast(isDark ? '🌙 已开启夜间模式' : '☀️ 已开启日间模式');
         }
 
         function initDarkMode() {
             const savedMode = localStorage.getItem('ielts_dark_mode');
-
-            // 如果用户手动设过（true/false），就按手动设置
-            if (savedMode !== null) {
-                if (savedMode === 'true') document.body.classList.add('dark-mode');
+            if (savedMode !== null && savedMode === 'true') {
+                document.body.classList.add('dark-mode');
             }
         }
 
-        // 主题色切换
         function changeTheme() {
             const theme = document.getElementById('theme-select').value;
-            document.body.classList.remove('theme-blue', 'theme-green', 'theme-orange');
-            if (theme !== 'purple') {
-                document.body.classList.add(`theme-${theme}`);
-            }
+            document.body.classList.remove('theme-blue', 'theme-green', 'theme-orange', 'theme-sunset');
+            if (theme !== 'purple') document.body.classList.add(`theme-${theme}`);
             localStorage.setItem('ielts_theme', theme);
+            const themeNames = { purple: '紫罗兰', blue: '天空蓝', green: '薄荷绿', orange: '活力橙', sunset: '落霞' };
+            showToast(`🎨 已切换至 ${themeNames[theme] || '默认'} 主题`);
         }
 
-        // 自动发音设置
-        let autoSpeakEnabled = localStorage.getItem('ielts_auto_speak') !== 'false'; // 默认开启
-
+        // 默认发音关闭
+        let autoSpeakEnabled = localStorage.getItem('ielts_auto_speak') === 'true'; 
         function toggleAutoSpeak() {
             autoSpeakEnabled = !autoSpeakEnabled;
             localStorage.setItem('ielts_auto_speak', autoSpeakEnabled);
-            document.getElementById('auto-speak-status').innerText = autoSpeakEnabled ? '开' : '关';
+            updateSettingsUI();
+            showToast(autoSpeakEnabled ? '🔊 自动发音已开启' : '🔇 自动发音已关闭');
         }
 
         function initAutoSpeak() {
             const saved = localStorage.getItem('ielts_auto_speak');
-            if (saved !== null) {
-                autoSpeakEnabled = saved === 'true';
-            }
-            document.getElementById('auto-speak-status').innerText = autoSpeakEnabled ? '开' : '关';
+            if (saved !== null) autoSpeakEnabled = saved === 'true';
+            updateSettingsUI();
         }
 
         function initTheme() {
             const savedTheme = localStorage.getItem('ielts_theme') || 'purple';
             document.getElementById('theme-select').value = savedTheme;
-            if (savedTheme !== 'purple') {
-                document.body.classList.add(`theme-${savedTheme}`);
-            }
+            if (savedTheme !== 'purple') document.body.classList.add(`theme-${savedTheme}`);
         }
 
         function initCategories() {
@@ -456,11 +588,16 @@
             initAutoSpeak(); 
             
             const allWords = window.ieltsWords || [];
-            const categories = [...new Set(allWords.map(w => w.category).filter(c => c))];
+            const categories = [...new Set(allWords.map(w => w.category || '未分类'))].sort();
             const select = document.getElementById('category-select');
+            const listCategorySelect = document.getElementById('filter-category');
+
             categories.forEach(cat => {
                 const option = document.createElement('option');
                 option.value = cat; option.innerText = cat; select.appendChild(option);
+
+                const listOption = document.createElement('option');
+                listOption.value = cat; listOption.innerText = cat; listCategorySelect.appendChild(listOption);
             });
             select.value = currentCategory;
             updateCategoryBadge();
@@ -470,7 +607,9 @@
             currentCategory = document.getElementById('category-select').value;
             localStorage.setItem('ielts_current_category', currentCategory);
             updateCategoryBadge();
+            
             if (document.getElementById('flashcard-screen').style.display === 'flex') nextWord();
+            if (document.getElementById('list-screen').style.display === 'flex' && currentListMode === 'unlearned') applyFilters();
         }
 
         function updateCategoryBadge() {
@@ -480,11 +619,6 @@
         }
 
         window.onload = initCategories;
-
-        function toggleMenu() {
-            const menu = document.getElementById('side-menu');
-            menu.classList.toggle('open');
-        }
 
         function switchView(viewId) {
             document.getElementById('welcome-screen').style.display = 'none';
@@ -513,29 +647,50 @@
             return new Date(d.getFullYear(), d.getMonth(), d.getDate()).getTime();
         }
 
+        function isLearnedRecord(record) {
+            return !!(record && record.level && record.lastReviewed && record.nextReview);
+        }
+
+        function changeListMode() {
+            const mode = document.getElementById('list-mode-select').value;
+            showList(mode);
+        }
+
         function showList(type) {
             currentListMode = type;
-            if (type === 'unlearned' || type === 'favorite') {
-                document.getElementById('list-filters').style.display = 'none';
-                document.getElementById('export-btn').style.display = type === 'favorite' ? 'block' : 'none';
-            } else {
-                document.getElementById('list-filters').style.display = 'flex';
-                document.getElementById('filter-date').value = 'all';
-                document.getElementById('filter-level').value = 'all';
+            const modeSelect = document.getElementById('list-mode-select');
+            if (modeSelect) modeSelect.value = type;
+
+            const listFilters = document.getElementById('list-filters');
+            const dateFilter = document.getElementById('filter-date');
+            const levelFilter = document.getElementById('filter-level');
+            const categoryFilter = document.getElementById('filter-category');
+
+            dateFilter.value = 'all'; levelFilter.value = 'all'; categoryFilter.value = 'all';
+            listFilters.style.display = 'flex'; 
+
+            if (type === 'learned') {
+                dateFilter.style.display = ''; levelFilter.style.display = ''; categoryFilter.style.display = '';
                 document.getElementById('export-btn').style.display = 'block';
+            } else if (type === 'favorite') {
+                dateFilter.style.display = 'none'; levelFilter.style.display = 'none'; categoryFilter.style.display = '';
+                document.getElementById('export-btn').style.display = 'block';
+            } else {
+                dateFilter.style.display = 'none'; levelFilter.style.display = 'none'; categoryFilter.style.display = '';
+                document.getElementById('export-btn').style.display = 'none';
             }
+
             applyFilters();
             switchView('list-screen');
         }
 
         function applyFilters() {
             const allWords = window.ieltsWords || [];
-            const categoryWords = currentCategory === 'all' ? allWords : allWords.filter(w => w.category === currentCategory);
-            let targetWords = [];
-            let titleText = "";
+            const listCategoryFilter = document.getElementById('filter-category').value;
+            let targetWords = []; let titleText = "";
 
             if (currentListMode === 'learned') {
-                targetWords = categoryWords.filter(w => wordData[w.word]);
+                targetWords = allWords.filter(w => isLearnedRecord(wordData[w.word]));
                 const dateFilter = document.getElementById('filter-date').value;
                 const levelFilter = document.getElementById('filter-level').value;
 
@@ -544,18 +699,20 @@
                 else if (dateFilter === 'earlier') targetWords = targetWords.filter(w => !isToday(wordData[w.word].lastReviewed) && !isYesterday(wordData[w.word].lastReviewed));
 
                 if (levelFilter !== 'all') targetWords = targetWords.filter(w => wordData[w.word].level == levelFilter);
+                if (listCategoryFilter !== 'all') targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
 
-                titleText = `✅ 已背诵(${targetWords.length})`;
+                titleText = `✅ 已背(${targetWords.length})`;
             } else if (currentListMode === 'favorite') {
                 targetWords = allWords.filter(w => wordData[w.word] && wordData[w.word].isFavorite);
-                titleText = `⭐ 收藏单词 (${targetWords.length})`;
+                if (listCategoryFilter !== 'all') targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
+                titleText = `⭐ 收藏 (${targetWords.length})`;
             } else {
-                targetWords = categoryWords.filter(w => !wordData[w.word]);
-                titleText = `📝 未背诵(${targetWords.length})`;
+                targetWords = allWords.filter(w => !isLearnedRecord(wordData[w.word]));
+                if (listCategoryFilter !== 'all') targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
+                titleText = `📝 未背(${targetWords.length})`;
 
                 if (targetWords.length > 100) {
-                    titleText += " (仅展示前100个)";
-                    targetWords = targetWords.slice(0, 100);
+                    titleText += " (展示前100)"; targetWords = targetWords.slice(0, 100);
                 }
             }
 
@@ -564,29 +721,25 @@
             renderListHTML(targetWords);
         }
 
-        // 生成并展示学习进度
         function showStatus() {
             const allWords = window.ieltsWords || [];
             if (allWords.length === 0) return;
 
-            // 1. 计算总进度
             const totalWords = allWords.length;
-            const learnedWords = allWords.filter(w => wordData[w.word]).length;
+            const learnedWords = allWords.filter(w => isLearnedRecord(wordData[w.word])).length;
             const overallPercent = totalWords === 0 ? 0 : Math.round((learnedWords / totalWords) * 100);
 
             document.getElementById('overall-progress-text').innerText = `${learnedWords} / ${totalWords}`;
             document.getElementById('overall-progress-percent').innerText = `${overallPercent}%`;
 
-            // 2. 计算各个分类的进度
             const categoryStats = {};
             allWords.forEach(w => {
                 const cat = w.category || '未分类';
                 if (!categoryStats[cat]) categoryStats[cat] = { total: 0, learned: 0 };
                 categoryStats[cat].total++;
-                if (wordData[w.word]) categoryStats[cat].learned++;
+                if (isLearnedRecord(wordData[w.word])) categoryStats[cat].learned++;
             });
 
-            // 3. 动态生成分类进度条 HTML
             const container = document.getElementById('category-progress-container');
             container.innerHTML = '';
             const sortedCategories = Object.keys(categoryStats).sort();
@@ -602,16 +755,13 @@
                         <span>${stats.learned} / ${stats.total} (${percent}%)</span>
                     </div>
                     <div class="progress-bar-bg">
-                        <div class="progress-bar-fill" style="width: 0%; background: linear-gradient(90deg, #00b894, #55efc4);"></div>
+                        <div class="progress-bar-fill" style="width: 0%; background: linear-gradient(90deg, var(--primary-color), var(--primary-light));"></div>
                     </div>
                 </div>`;
             });
             container.innerHTML = html;
-
-            // 4. 切换到进度面板
             switchView('status-screen');
 
-            // 5. 延迟执行动画
             setTimeout(() => {
                 document.getElementById('overall-progress-fill').style.width = `${overallPercent}%`;
                 const fills = container.querySelectorAll('.progress-bar-fill');
@@ -629,6 +779,8 @@
             if (wordsArray.length === 0) { content.innerHTML = '<p style="text-align:center; color:#ccc; margin-top:30px;">没有找到符合条件的单词~</p>'; return; }
 
             wordsArray.forEach(w => {
+                const shouldShowCategory = currentListMode === 'favorite' || currentListMode === 'learned';
+                const categoryTagHTML = shouldShowCategory ? `<div class="list-category-tag">📁 ${w.category || '未分类'}</div>` : '';
                 let posBadgesHTML = '';
                 if (w.pos) {
                     const posArray = w.pos.split(/[\/\s]+/).filter(p => p.trim() !== '');
@@ -642,13 +794,13 @@
                         memoryBadgeHTML = `<span onclick="changeWordLevel('${w.word}', event)" style="border: 1px solid ${styleInfo.color}; color: ${styleInfo.color}; padding: 1px 5px; border-radius: 4px; font-size: 10px; margin-left: auto; cursor: pointer; user-select: none;" title="点击修改熟练度">${styleInfo.text}</span>`;
                     }
                 }
-                let categoryBadgeHTML = '';
-if (currentListMode === 'favorite' && w.category) {
-categoryBadgeHTML = `<span style="font-size:11px; color:var(--primary-light); background:rgba(99,179,237,0.1); padding:2px 8px; border-radius:12px; margin-left:8px;">${w.category}</span>`;
-}
-content.innerHTML += `
+                const favoriteToggleHTML = currentListMode === 'favorite'
+                    ? `<button class="list-favorite-toggle" onclick="toggleFavoriteByWord('${w.word}', event)" title="取消收藏">★</button>`
+                    : '';
+                content.innerHTML += `
                     <div class="list-item">
-                        <div class="list-word"><span>${w.word}</span><div style="display:flex; gap:2px; flex-wrap:wrap;">${posBadgesHTML}</div><span style="font-size:13px; color:var(--primary-light); font-weight:normal; margin-left: 4px;">${w.phonetic || ''}</span>${categoryBadgeHTML}${memoryBadgeHTML}</div>
+                        ${categoryTagHTML}
+                        <div class="list-word"><span>${w.word}</span><div style="display:flex; gap:2px; flex-wrap:wrap;">${posBadgesHTML}</div><span style="font-size:13px; color:var(--primary-light); font-weight:normal; margin-left: 4px;">${w.phonetic || ''}</span>${memoryBadgeHTML}${favoriteToggleHTML}</div>
                         <div class="list-meaning">${w.meaning}</div>
                     </div>`;
             });
@@ -656,20 +808,16 @@ content.innerHTML += `
 
         function exportToExcel() {
             if (currentFilteredWords.length === 0) {
-                alert("当前列表为空，没有可以导出的数据！");
-                return;
+                showToast("当前列表为空，没有可以导出的数据！"); return;
             }
-
             let csvContent = "\uFEFF"; 
             csvContent += "分类,单词,词性,音标,释义,例句,熟练度,最近打卡日期,下次复习日期\n";
 
             currentFilteredWords.forEach(w => {
                 const record = wordData[w.word] || {};
                 const levelText = record.level ? levelStyleMap[record.level].text : "无记录";
-                
                 const lastDate = record.lastReviewed ? new Date(record.lastReviewed).toLocaleDateString() : "无记录";
                 const nextDate = record.nextReview ? new Date(record.nextReview).toLocaleDateString() : "无记录";
-                
                 const safeCategory = w.category ? `"${w.category.replace(/"/g, '""')}"` : '""';
                 const safeMeaning = w.meaning ? `"${w.meaning.replace(/"/g, '""')}"` : '""';
                 const safeExample = w.example ? `"${w.example.replace(/"/g, '""')}"` : '""';
@@ -682,14 +830,14 @@ content.innerHTML += `
             const link = document.createElement("a");
             const url = URL.createObjectURL(blob);
             link.setAttribute("href", url);
-            link.setAttribute("download", `雅思背诵记录_${new Date().toLocaleDateString()}.csv`);
+            const exportPrefix = currentListMode === 'favorite' ? '雅思收藏单词' : '雅思背诵记录';
+            link.setAttribute("download", `${exportPrefix}_${new Date().toLocaleDateString()}.csv`);
             link.style.visibility = 'hidden';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         }
 
-        // 在列表中修改单词熟练度
         function changeWordLevel(word, event) {
             event.stopPropagation();
             const record = wordData[word];
@@ -703,29 +851,30 @@ content.innerHTML += `
                 { value: 5, text: '简单', days: 7, color: '#00cec9' }
             ];
 
-            // 创建自定义弹窗
             const overlay = document.createElement('div');
-            overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:2000;display:flex;justify-content:center;align-items:center;';
+            overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:2000;display:flex;justify-content:center;align-items:center;backdrop-filter:blur(5px);';
 
             const popup = document.createElement('div');
             popup.style.cssText = 'background:white;padding:25px;border-radius:15px;min-width:280px;max-width:90%;box-shadow:0 10px 40px rgba(0,0,0,0.3);';
+            if(document.body.classList.contains('dark-mode')) popup.style.background = '#1c1c1e';
 
             let buttonsHtml = levels.map(l => {
                 const isCurrent = l.value === currentLevel;
-                return `<button onclick="confirmLevelChange('${word}', ${l.value})" style="width:100%;margin:8px 0;padding:12px;border:2px solid ${l.color};background:${isCurrent ? l.color : 'white'};color:${isCurrent ? 'white' : l.color};border-radius:8px;font-size:14px;font-weight:bold;cursor:pointer;transition:all 0.2s;">
+                return `<button onclick="confirmLevelChange('${word}', ${l.value})" style="width:100%;margin:8px 0;padding:12px;border:2px solid ${l.color};background:${isCurrent ? l.color : 'transparent'};color:${isCurrent ? 'white' : l.color};border-radius:8px;font-size:14px;font-weight:bold;cursor:pointer;transition:all 0.2s;">
                     ${l.text} (${l.days}天) ${isCurrent ? '✓ 当前' : ''}
                 </button>`;
             }).join('');
 
+            const titleColor = document.body.classList.contains('dark-mode') ? '#f1f2f6' : '#2d3436';
+            const btnBg = document.body.classList.contains('dark-mode') ? '#2c2c2e' : '#dfe6e9';
+
             popup.innerHTML = `
-                <h3 style="margin:0 0 20px 0;color:#2d3436;text-align:center;font-size:18px;">修改 "${word}" 熟练度</h3>
+                <h3 style="margin:0 0 20px 0;color:${titleColor};text-align:center;font-size:18px;">修改 "${word}" 熟练度</h3>
                 <div style="display:flex;flex-direction:column;">${buttonsHtml}</div>
-                <button onclick="closeLevelPopup()" style="width:100%;margin-top:15px;padding:10px;background:#dfe6e9;color:#636e72;border:none;border-radius:8px;cursor:pointer;">取消</button>
+                <button onclick="closeLevelPopup()" style="width:100%;margin-top:15px;padding:10px;background:${btnBg};color:#636e72;border:none;border-radius:8px;cursor:pointer;">取消</button>
             `;
 
-            overlay.appendChild(popup);
-            overlay.id = 'level-popup-overlay';
-            document.body.appendChild(overlay);
+            overlay.appendChild(popup); overlay.id = 'level-popup-overlay'; document.body.appendChild(overlay);
         }
 
         function closeLevelPopup() {
@@ -743,35 +892,34 @@ content.innerHTML += `
             nextReview.setDate(nextReview.getDate() + days);
             nextReview.setHours(5, 0, 0, 0);
 
-            wordData[word] = {
-                ...record,
-                level: newLevel,
-                nextReview: nextReview.getTime(),
-                lastReviewed: Date.now()
-            };
+            wordData[word] = { ...record, level: newLevel, nextReview: nextReview.getTime(), lastReviewed: Date.now() };
             localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
+            showToast("熟练度已更新");
             applyFilters();
         }
 
-        // 收藏功能
         function toggleFavorite() {
             if (!currentWord || !currentWord.word) return;
-
             const record = wordData[currentWord.word] || {};
             const isFavorite = !record.isFavorite;
-
-            wordData[currentWord.word] = {
-                ...record,
-                isFavorite: isFavorite
-            };
+            wordData[currentWord.word] = { ...record, isFavorite: isFavorite };
             localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
             updateFavoriteButton();
+            showToast(isFavorite ? "⭐ 已加入收藏" : "∅ 已取消收藏");
+        }
+
+        function toggleFavoriteByWord(word, event) {
+            if (event) event.stopPropagation();
+            const record = wordData[word] || {};
+            wordData[word] = { ...record, isFavorite: !record.isFavorite };
+            localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
+            showToast(wordData[word].isFavorite ? "⭐ 已加入收藏" : "∅ 已取消收藏");
+            applyFilters();
         }
 
         function updateFavoriteButton() {
             const btn = document.getElementById('favorite-btn');
             if (!btn || !currentWord) return;
-
             const record = wordData[currentWord.word];
             const isFavorite = record && record.isFavorite;
             btn.innerText = isFavorite ? '★' : '☆';
@@ -795,25 +943,17 @@ content.innerHTML += `
             const allWords = window.ieltsWords || [];
             let categoryWords = currentCategory === 'all' ? allWords : allWords.filter(w => w.category === currentCategory);
 
-            // 分离到期单词：优先复习生疏1天的词
-            let level1Words = []; // 生疏 - 最优先
-            let otherDueWords = []; // 其他到期单词
-
+            let level1Words = []; let otherDueWords = [];
             categoryWords.forEach(w => {
                 const record = wordData[w.word];
                 const isDue = !record || !record.nextReview || getDateKey(record.nextReview) <= todayKey;
                 if (isDue) {
-                    if (record && record.level === 1) {
-                        level1Words.push(w); // 生疏的词优先
-                    } else {
-                        otherDueWords.push(w);
-                    }
+                    if (record && record.level === 1) level1Words.push(w);
+                    else otherDueWords.push(w);
                 }
             });
 
-            // 合并：生疏的词排在前面
             let dueWords = [...level1Words, ...otherDueWords];
-
             document.getElementById('review-count').innerText = dueWords.length;
 
             if (dueWords.length === 0) {
@@ -823,12 +963,9 @@ content.innerHTML += `
                 document.getElementById('controls').style.display = 'none'; return;
             }
 
-            // 优先从生疏的词里选，没有才从其他到期词里随机选
-            if (level1Words.length > 0) {
-                currentWord = level1Words[Math.floor(Math.random() * level1Words.length)];
-            } else {
-                currentWord = otherDueWords[Math.floor(Math.random() * otherDueWords.length)];
-            }
+            if (level1Words.length > 0) currentWord = level1Words[Math.floor(Math.random() * level1Words.length)];
+            else currentWord = otherDueWords[Math.floor(Math.random() * otherDueWords.length)];
+            
             document.getElementById('word').innerText = currentWord.word; document.getElementById('phonetic').innerText = currentWord.phonetic || "";
             
             const posContainer = document.getElementById('pos-container'); posContainer.innerHTML = ''; 
@@ -838,43 +975,40 @@ content.innerHTML += `
             }
 
             document.getElementById('meaning').innerText = "点击看释义"; 
-            
-            if(document.body.classList.contains('dark-mode')){
-                document.getElementById('meaning').style.color = "#636e72"; 
-            } else {
-                document.getElementById('meaning').style.color = "#ccc";
-            }
-            
+            document.getElementById('meaning').style.color = document.body.classList.contains('dark-mode') ? "#636e72" : "#ccc";
             document.getElementById('start-btn').style.display = 'none'; document.getElementById('controls').style.display = 'grid';
 
-            // 更新收藏按钮状态
             updateFavoriteButton();
-
             if (autoSpeakEnabled) speakCurrentWord();
+
             document.getElementById('meaning').onclick = function() {
                 this.innerText = currentWord.meaning + (currentWord.example ? "\n\n" + currentWord.example : ""); 
-                if(document.body.classList.contains('dark-mode')){
-                    this.style.color = "#dcdde1";
-                } else {
-                    this.style.color = "#636e72";
-                }
+                this.style.color = document.body.classList.contains('dark-mode') ? "#dcdde1" : "#424245";
             };
         }
 
         function handleRate(days) {
-            // 计算下次复习时间：设置为几天后凌晨0点（而不是精确的24小时后）
             const now = new Date();
-            const nextReview = new Date(now.getFullYear(), now.getMonth(), now.getDate() + days, 5, 0, 0).getTime();
-            wordData[currentWord.word] = { nextReview: nextReview, level: days, lastReviewed: Date.now() };
+            let baseDate = new Date(now);
+            if (now.getHours() < 5) baseDate.setDate(baseDate.getDate() - 1);
+            const nextReview = new Date(baseDate.getFullYear(), baseDate.getMonth(), baseDate.getDate() + days, 5, 0, 0).getTime();
+            
+            const record = wordData[currentWord.word] || {};
+            wordData[currentWord.word] = { ...record, nextReview: nextReview, level: days, lastReviewed: Date.now() };
+            
             localStorage.setItem('ielts_word_data', JSON.stringify(wordData));
             dailyCount++; localStorage.setItem('ielts_study_count', dailyCount);
-            localStorage.setItem('ielts_study_date', now.toDateString());
+            localStorage.setItem('ielts_study_date', baseDate.toDateString());
             document.getElementById('count').innerText = dailyCount;
             nextWord();
         }
 
         function resetCount() {
-            if(confirm("确定要彻底重置所有单词进度和计数吗？此操作不可逆！")) { localStorage.clear(); location.reload(); }
+            if(confirm("确定要彻底重置所有单词进度和计数吗？操作前请备份！此操作不可逆！")) { 
+                localStorage.clear(); 
+                showToast("已重置所有进度");
+                setTimeout(() => location.reload(), 1000);
+            }
         }
 
         function backupProgress() {
@@ -888,6 +1022,7 @@ content.innerHTML += `
             link.href = url;
             link.download = `雅思备份_${new Date().toLocaleDateString()}.json`;
             link.click();
+            showToast("📥 进度备份已导出");
         }
 
         function importProgress(input) {
@@ -902,29 +1037,48 @@ content.innerHTML += `
                         if (confirm("导入将覆盖当前的背诵进度，确定吗？")) {
                             localStorage.setItem('ielts_word_data', JSON.stringify(data.wordData));
                             localStorage.setItem('ielts_study_count', data.dailyCount);
-                            alert("进度恢复成功！页面即将刷新。");
-                            location.reload();
+                            showToast("📤 进度恢复成功！即将刷新...");
+                            setTimeout(() => location.reload(), 1500);
                         }
                     } else {
-                        alert("文件格式不正确！");
+                        showToast("文件格式不正确！");
                     }
                 } catch (err) {
-                    alert("读取失败，请确保文件是正确的备份格式。");
+                    showToast("读取失败，请确保文件是正确的备份格式。");
                 }
             };
             reader.readAsText(file);
         }
+
+        // --- 全局极客键盘快捷键 ---
+        document.addEventListener('keydown', function(event) {
+            if (document.getElementById('flashcard-screen').style.display !== 'flex') return;
+            if (event.target.tagName === 'SELECT' || event.target.tagName === 'INPUT') return;
+
+            switch(event.code) {
+                case 'Space':
+                    event.preventDefault(); 
+                    const meaningArea = document.getElementById('meaning');
+                    if (meaningArea && meaningArea.innerText === "点击看释义") meaningArea.click(); 
+                    break;
+                case 'Digit1': case 'Numpad1':
+                    if (document.getElementById('meaning').innerText !== "点击看释义") handleRate(1); 
+                    break;
+                case 'Digit2': case 'Numpad2':
+                    if (document.getElementById('meaning').innerText !== "点击看释义") handleRate(2); 
+                    break;
+                case 'Digit3': case 'Numpad3':
+                    if (document.getElementById('meaning').innerText !== "点击看释义") handleRate(3); 
+                    break;
+                case 'Digit4': case 'Numpad4':
+                    if (document.getElementById('meaning').innerText !== "点击看释义") handleRate(5); 
+                    break; 
+                case 'KeyS':
+                    speakCurrentWord(); break;
+                case 'KeyF':
+                    toggleFavorite(); break;
+            }
+        });
     </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
