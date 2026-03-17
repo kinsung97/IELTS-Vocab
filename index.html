@@ -144,6 +144,7 @@
             background: rgba(255, 255, 255, 0.14);
             transform: scale(1.05);
         }
+        #top-navbar .nav-links a.mobile-only { display: none; }
 
         #top-navbar .nav-actions {
             display: flex;
@@ -227,13 +228,34 @@
 
         /* --- 手机端响应式 --- */
         @media (max-width: 600px) {
-            #top-navbar { display: none !important; }
+            #top-navbar {
+                display: flex !important;
+                top: 10px;
+                width: calc(100% - 16px);
+                padding: 8px 10px;
+            }
+            #top-navbar .nav-brand,
+            #top-navbar .nav-actions,
+            #top-navbar .nav-links a.desktop-only {
+                display: none;
+            }
+            #top-navbar .nav-links {
+                width: 100%;
+                margin: 0;
+                justify-content: space-between;
+                gap: 6px;
+            }
+            #top-navbar .nav-links a.mobile-only {
+                display: inline-flex;
+                font-size: 13px;
+                padding: 8px 10px;
+            }
 
-            #bottom-tab-bar { display: flex; }
+            #bottom-tab-bar { display: none; }
             #main-area {
-                height: calc(100vh - 65px - env(safe-area-inset-bottom)) !important;
-                padding-top: 12px;
-                padding-bottom: 10px;
+                height: calc(100vh - 78px) !important;
+                padding-top: 72px;
+                padding-bottom: 0;
             }
             .card-container { width: calc(100vw - 24px); padding: 20px 16px; }
             #list-screen, #status-screen {
@@ -396,11 +418,16 @@
     <nav id="top-navbar">
         <div class="nav-brand">bloom</div>
         <div class="nav-links">
-            <a href="#" onclick="switchView('flashcard-screen')">📖 背诵</a>
-            <a href="#" onclick="showList('learned')">✅ 已背</a>
-            <a href="#" onclick="showList('unlearned')">📝 未背</a>
-            <a href="#" onclick="showList('favorite')">⭐ 收藏</a>
-            <a href="#" onclick="showStatus()">📈 进度</a>
+            <a class="desktop-only" href="#" onclick="switchView('flashcard-screen')">📖 背诵</a>
+            <a class="desktop-only" href="#" onclick="showList('learned')">✅ 已背</a>
+            <a class="desktop-only" href="#" onclick="showList('unlearned')">📝 未背</a>
+            <a class="desktop-only" href="#" onclick="showList('favorite')">⭐ 收藏</a>
+            <a class="desktop-only" href="#" onclick="showStatus()">📈 进度</a>
+
+            <a class="mobile-only" href="#" onclick="switchView('flashcard-screen')">📖 背诵</a>
+            <a class="mobile-only" href="#" onclick="showList('learned')">📚 资料库</a>
+            <a class="mobile-only" href="#" onclick="showStatus()">📈 进度</a>
+            <a class="mobile-only" href="#" onclick="openSettings()">⚙️ 设置</a>
         </div>
         <div class="nav-actions">
             <button id="desktop-mode-btn" class="nav-circle-btn" onclick="toggleDarkMode()" title="切换夜间模式">🌙</button>
