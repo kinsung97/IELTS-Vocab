@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>雅思词汇闪卡 - 旗舰版</title>
+    <title>Vocab-Flash 词汇闪卡</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>
         /* --- CSS 变量定义主题色 --- */
@@ -290,7 +290,7 @@
 <body>
 
     <nav id="top-navbar">
-        <div class="nav-brand">雅思闪卡 🚀</div>
+        <div class="nav-brand">词汇闪卡</div>
         <div class="nav-links">
             <a href="#" onclick="switchView('flashcard-screen')">📖 背诵</a>
             <a href="#" onclick="showList('learned')">✅ 已背</a>
@@ -321,12 +321,12 @@
     <div id="main-area">
 
         <div id="welcome-screen" class="card-container">
-            <h1 style="margin-bottom: 5px;">雅思闪卡🚀</h1>
+            <h1 style="margin-bottom: 5px;">词汇闪卡</h1>
             <p style="margin-bottom: 20px;">今日已学习的单词：<span class="highlight-text" style="font-size: 22px;"><span id="welcome-count">0</span> 个</span></p>
             
             <div style="text-align: left; background: rgba(0,0,0,0.03); padding: 18px; border-radius: 16px; margin-bottom: 25px; font-size: 13px; color: #636e72; line-height: 1.6; border: 1px solid rgba(0,0,0,0.03);">
                 <div style="font-weight: bold; color: var(--primary-color); margin-bottom: 10px; font-size: 15px; display: flex; align-items: center; gap: 5px;">
-                    💡 使用指南与数据说明
+                    💡 使用指南
                 </div>
                 <div style="margin-bottom: 8px;">
                     <b>⚙️ 功能入口：</b>切换词库、夜间模式、主题色等设置，请点击桌面端右上角 <b>“设置”</b> 或手机端底部 <b>“设置”</b>。
@@ -339,9 +339,6 @@
                 </div>
                 <div style="margin-bottom: 8px;">
                     <b>⌨️ 极客快捷键：</b>电脑端支持 <code>Space</code> 翻看，<code>1-4</code> 定级，<code>S</code> 键发音，<code>F</code> 键快速收藏。
-                </div>
-                <div>
-                    <b>🧠 记忆算法：</b>基于艾宾浩斯曲线，系统会自动根据您的熟练度反馈（1-4级）安排复习周期。
                 </div>
             </div>
 
@@ -830,7 +827,7 @@
             const link = document.createElement("a");
             const url = URL.createObjectURL(blob);
             link.setAttribute("href", url);
-            const exportPrefix = currentListMode === 'favorite' ? '雅思收藏单词' : '雅思背诵记录';
+            const exportPrefix = currentListMode === 'favorite' ? '收藏单词' : '背诵记录';
             link.setAttribute("download", `${exportPrefix}_${new Date().toLocaleDateString()}.csv`);
             link.style.visibility = 'hidden';
             document.body.appendChild(link);
@@ -1020,7 +1017,7 @@
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = `雅思备份_${new Date().toLocaleDateString()}.json`;
+            link.download = `进度备份_${new Date().toLocaleDateString()}.json`;
             link.click();
             showToast("📥 进度备份已导出");
         }
