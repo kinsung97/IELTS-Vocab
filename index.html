@@ -500,14 +500,25 @@
         @media (max-width: 600px) {
             #bottom-tab-bar { display: none; }
             #main-area {
-                /* 主区域顶部让出更大的空间给导航栏 */
+                /* 新增：取消强制垂直居中，让内容向上对齐 */
+                align-items: flex-start !important; 
+                
+                /* 下面的保持原样 */
                 min-height: calc(100vh - 85px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom)) !important;
                 padding-top: calc(85px + env(safe-area-inset-top));
                 padding-bottom: env(safe-area-inset-bottom);
             }
-            /* 卡片左右也留出 20px 安全距离，不顶边 */
-            #flashcard-wrapper { width: calc(100vw - 48px); max-width: 420px; }
-            #welcome-screen { width: calc(100vw - 48px) !important; max-width: 420px !important; }
+            /* 卡片左右留出安全距离，同时增加顶部间距 */
+            #flashcard-wrapper { 
+                width: calc(100vw - 48px); 
+                max-width: 420px; 
+                margin-top: 20px; /* 新增：距离导航栏 20px */
+            }
+            #welcome-screen { 
+                width: calc(100vw - 48px) !important; 
+                max-width: 420px !important; 
+                margin-top: 20px; /* 新增：首页卡片也同步上移 */
+            }
             .card-container { 
                 width: 100%; 
                 padding: 24px 18px; 
