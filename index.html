@@ -2,10 +2,28 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>VocabFlash by Kinsung</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <style>
+        /* =========================================
+           iOS Safari 安全区域适配
+           ========================================= */
+        :root {
+            --safe-area-inset-top: env(safe-area-inset-top);
+            --safe-area-inset-right: env(safe-area-inset-right);
+            --safe-area-inset-bottom: env(safe-area-inset-bottom);
+            --safe-area-inset-left: env(safe-area-inset-left);
+        }
+
+        /* 确保页面内容不被iOS浏览器UI遮挡 */
+        body {
+            padding-top: var(--safe-area-inset-top);
+            padding-bottom: var(--safe-area-inset-bottom);
+            padding-left: var(--safe-area-inset-left);
+            padding-right: var(--safe-area-inset-right);
+        }
+
         /* --- CSS 变量定义主题色 --- */
         :root {
             --primary-color: #6c5ce7;
@@ -239,7 +257,7 @@
            ========================================= */
         #top-navbar {
             position: fixed;
-            top: 25px;
+            top: calc(25px + var(--safe-area-inset-top));
             left: 50%;
             transform: translateX(-50%) scale(1);
             display: flex;
@@ -370,11 +388,11 @@
             justify-content: center;
             align-items: center;
             position: relative;
-            height: 100vh;
+            height: calc(100vh - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
             overflow-x: hidden; /* 只裁横向，纵向放开让列表卡片能滚到底 */
             overflow-y: visible;
             box-sizing: border-box;
-            padding-top: 95px;
+            padding-top: calc(95px + var(--safe-area-inset-top));
         }
 
         /* 高级毛玻璃卡片 */
@@ -393,7 +411,7 @@
             text-align: center; 
             width: 380px; 
             transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1); 
-            max-height: 85vh; 
+            max-height: calc(100vh - var(--safe-area-inset-top) - var(--safe-area-inset-bottom) - 120px); 
             display: flex; 
             flex-direction: column; 
         }
@@ -403,14 +421,14 @@
            ========================================= */
         #bottom-tab-bar {
             display: none; 
-            position: fixed; bottom: 0; left: 0; width: 100%; height: 65px;
+            position: fixed; bottom: 0; left: 0; width: 100%; height: calc(65px + var(--safe-area-inset-bottom));
             background: rgba(255, 255, 255, 0.65); 
             backdrop-filter: saturate(180%) blur(24px);
             -webkit-backdrop-filter: saturate(180%) blur(24px);
             border-top: 1px solid rgba(255, 255, 255, 0.4); 
             z-index: 1000;
             justify-content: space-around; align-items: center;
-            padding-bottom: env(safe-area-inset-bottom);
+            padding-bottom: var(--safe-area-inset-bottom);
             box-shadow: 0 -4px 20px rgba(0,0,0,0.03);
         }
         .tab-item {
@@ -474,7 +492,7 @@
             #bottom-tab-bar { display: none; }
             #main-area {
                 /* 主区域顶部让出更大的空间给导航栏 */
-                height: calc(100vh - 85px - env(safe-area-inset-top)) !important;
+                height: calc(100vh - 85px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom)) !important;
                 padding-top: calc(85px + env(safe-area-inset-top));
                 padding-bottom: env(safe-area-inset-bottom);
             }
@@ -485,8 +503,9 @@
                 width: 100%; 
                 padding: 24px 18px; 
                 border-radius: 28px;
-                max-height: calc(100vh - 140px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+                max-height: calc(100vh - 120px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom));
                 overflow-y: auto;
+                min-height: auto;
             }
             #flashcard-screen h1 { font-size: 36px; }
             #meaning { font-size: 16px; min-height: 80px; padding: 16px; margin-bottom: 20px; }
@@ -900,7 +919,7 @@
         /* 2. 悬浮控制台：单行布局，搜索+导出靠左，筛选靠右 */
         .list-header-area {
             position: fixed;
-            top: 85px;
+            top: calc(85px + var(--safe-area-inset-top));
             left: 50%;
             transform: translateX(-50%);
             width: min(1240px, 94vw);
@@ -976,6 +995,20 @@
             box-sizing: border-box;
             display: inline-flex;
             align-items: center;
+            outline: none;
+        }
+        .glass-pill:focus { outline: none; box-shadow: none; }
+        #list-filters-group select.glass-pill { width: 100px; text-align: center; }
+        #list-filters-group select.glass-pill option { text-align: center; }
+        #filter-level, #filter-category { width: 120px; }
+        /* 桌面端分类胶囊需要更宽以显示完整分类名 */
+        @media (min-width: 801px) {
+            #filter-category { width: 150px !important; min-width: 150px; }
+        }
+        /* 桌面端隐藏已背/未背/收藏筛选，因为导航栏已有 */
+        #list-mode-select { display: none; }
+        @media (max-width: 800px) {
+            #list-mode-select { display: inline-flex; }
         }
         .glass-pill:hover { background: rgba(255, 255, 255, 0.9); transform: scale(1.05); }
         .action-pill { background: rgba(255, 255, 255, 0.6); color: #424245; border-color: rgba(255, 255, 255, 0.5); }
@@ -1005,7 +1038,7 @@
             .list-screen-inner { padding-top: 200px; }
             .list-header-area { 
                 flex-direction: column; align-items: stretch; gap: 10px; 
-                top: calc(16px + env(safe-area-inset-top) + 52px + 12px);
+                top: calc(16px + var(--safe-area-inset-top) + 52px + 12px);
                 left: 50%; transform: translateX(-50%);
                 width: min(1240px, 94vw);
                 box-sizing: border-box;
@@ -1020,6 +1053,15 @@
             #list-filters-group { justify-content: flex-start; margin-left: 0; flex-wrap: nowrap; overflow-x: auto; -ms-overflow-style: none; scrollbar-width: none; }
             #list-filters-group::-webkit-scrollbar { display: none; }
             #list-filters-group .glass-pill { flex: 1; min-width: 0; text-align: center; justify-content: center; }
+            
+            /* 移动端禁用胶囊的hover缩放特效，避免边界裁切 */
+            .glass-pill:hover { transform: none; }
+            
+            /* 同时禁用触摸设备上的所有变换特效 */
+            @media (hover: none) and (pointer: coarse) {
+                .glass-pill:hover { transform: none !important; }
+            }
+            
             .word-grid { grid-template-columns: 1fr; }
         }
 
@@ -1036,6 +1078,11 @@
         body.dark-mode #search-input:focus { background: rgba(30, 30, 36, 0.8); border-color: rgba(255, 255, 255, 0.15); }
         body.dark-mode .glass-pill { background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.08); color: #f1f2f6; }
         body.dark-mode .glass-pill:hover { background: rgba(255, 255, 255, 0.15); color: #f1f2f6; }
+        
+        /* 移动端深色模式也禁用胶囊缩放特效 */
+        @media (max-width: 800px) {
+            body.dark-mode .glass-pill:hover { transform: none; }
+        }
         body.dark-mode .glass-pill option { background: #2c2c2e; color: #f1f2f6; }
         body.dark-mode .word-card { background: rgba(30, 30, 36, 0.45); border-color: rgba(255, 255, 255, 0.08); box-shadow: 0 8px 24px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,0.1); }
         body.dark-mode .word-card:hover { background: rgba(30, 30, 36, 0.65); box-shadow: 0 16px 40px rgba(0,0,0,0.4); }
@@ -1076,10 +1123,10 @@
     <script>
         // 提前应用主题和深色模式，防止刷新时闪烁默认样式
         (function() {
-            var theme = localStorage.getItem('ielts_theme') || 'mono-aurora';
+            var theme = localStorage.getItem('ielts_theme') || 'blue';
             if (theme !== 'purple') document.body.classList.add('theme-' + theme);
             var savedMode = localStorage.getItem('ielts_dark_mode');
-            if (savedMode === null || savedMode === 'true') document.body.classList.add('dark-mode');
+            if (savedMode !== null && savedMode === 'true') document.body.classList.add('dark-mode');
         })();
     </script>
 
@@ -1090,7 +1137,7 @@
     </div>
 
     <nav id="top-navbar">
-        <a class="nav-brand" href="https://github.com/kinsung97/VocabFlash" target="_blank" title="雅思词汇闪卡 - 一个简洁优雅的雅思词汇学习工具" style="text-decoration:none; display:inline-flex; align-items:center; gap:7px;">
+        <a class="nav-brand" href="https://github.com/kinsung97/IELTS-Vocab" target="_blank" title="雅思词汇闪卡 - 一个简洁优雅的雅思词汇学习工具" style="text-decoration:none; display:inline-flex; align-items:center; gap:7px;">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink:0;"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
             VocabFlash
         </a>
@@ -1102,10 +1149,11 @@
             <a class="desktop-only" href="#" onclick="showStatus()">进度</a>
 
             <a class="mobile-only" href="#" onclick="switchView('flashcard-screen')">背诵</a>
-            <a class="mobile-only" href="#" onclick="showList('learned')">资料库</a>
+            <a class="mobile-only" href="#" onclick="showList('learned')">资料</a>
             <a class="mobile-only" href="#" onclick="showStatus()">进度</a>
         </div>
         <div class="nav-actions">
+            <button id="fullscreen-btn" class="nav-circle-btn" onclick="toggleFullscreen()" title="全屏">⛶</button>
             <button id="desktop-mode-btn" class="nav-circle-btn" onclick="toggleDarkMode()" title="切换夜间模式">🌙</button>
             <button class="nav-circle-btn" onclick="openSettings()" title="设置">⚙️</button>
         </div>
@@ -1116,7 +1164,7 @@
             <div class="tab-icon">📖</div><span>背诵</span>
         </div>
         <div class="tab-item" onclick="showList('learned')">
-            <div class="tab-icon">📚</div><span>资料库</span>
+            <div class="tab-icon">📚</div><span>资料</span>
         </div>
         <div class="tab-item" onclick="showStatus()">
             <div class="tab-icon">📈</div><span>进度</span>
@@ -1197,30 +1245,30 @@
                         <div class="search-bar-container">
                             <input type="text" id="search-input" placeholder="🔍 搜索单词..." oninput="applyFilters()">
                         </div>
-                        <button id="export-btn" class="glass-pill action-pill" onclick="exportToExcel()" style="display: none;" title="导出 Excel">📊 导出</button>
+                        <button id="export-btn" class="glass-pill action-pill" onclick="exportToExcel()" style="display: none;" title="导出 Excel">导出</button>
                     </div>
                     
                     <div id="list-filters-group">
-                        <select id="list-mode-select" class="glass-pill" onchange="changeListMode()" style="color: var(--primary-color);">
-                            <option value="learned">✅ 已背</option>
-                            <option value="unlearned">📝 未背</option>
-                            <option value="favorite">⭐ 收藏</option>
+                        <select id="list-mode-select" class="glass-pill" onchange="changeListMode()">
+                            <option value="learned">已背</option>
+                            <option value="unlearned">未背</option>
+                            <option value="favorite">收藏</option>
                         </select>
                         <select id="filter-date" class="glass-pill" onchange="applyFilters()">
-                            <option value="all">📅 全部</option>
+                            <option value="all">时间</option>
                             <option value="today">今天</option>
                             <option value="yesterday">昨天</option>
                             <option value="earlier">更早</option>
                         </select>
                         <select id="filter-level" class="glass-pill" onchange="applyFilters()">
-                            <option value="all">🧠 全部</option>
+                            <option value="all">熟练度</option>
                             <option value="1">生疏</option>
                             <option value="2">模糊</option>
                             <option value="3">熟悉</option>
                             <option value="5">简单</option>
                         </select>
                         <select id="filter-category" class="glass-pill" onchange="applyFilters()" style="display:none;">
-                            <option value="all">📁 分类</option>
+                            <option value="all">分类</option>
                         </select>
                     </div>
                 </div>
@@ -1325,6 +1373,26 @@
         let currentWord = null;
         let wordData = JSON.parse(localStorage.getItem('ielts_word_data')) || {};
 
+        // 格式化单词卡片中的释义，让例句换行显示
+        function formatMeaningForCard(meaning) {
+            if (!meaning) return '';
+            
+            // 检查是否为深色模式
+            const isDarkMode = document.body.classList.contains('dark-mode');
+            const exampleColor = isDarkMode ? '#999' : '#888';
+            const borderColor = isDarkMode ? 'rgba(255,255,255,0.08)' : 'rgba(0,0,0,0.08)';
+            
+            // 将例句部分格式化为换行显示
+            let formatted = meaning.replace(/\n\n例句：\n/g, `\n\n<div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid ${borderColor}; font-style: italic; color: ${exampleColor}; line-height: 1.4;">例句：<br>`);
+            
+            // 如果有例句，需要闭合div标签
+            if (formatted.includes('<div style="margin-top: 8px;')) {
+                formatted += '</div>';
+            }
+            
+            return formatted;
+        }
+
         function getDailyCount() {
             const savedDate = localStorage.getItem('ielts_study_date');
             const today = new Date().toDateString();
@@ -1374,7 +1442,32 @@
             localStorage.setItem('ielts_dark_mode', isDark);
             syncDesktopModeButton();
             showToast(isDark ? '🌙 已开启夜间模式' : '☀️ 已开启日间模式');
+            
+            // 如果当前在列表页面，重新渲染以更新例句样式
+            if (document.getElementById('list-screen').style.display !== 'none') {
+                renderWordList();
+            }
         }
+
+        function toggleFullscreen() {
+            const btn = document.getElementById('fullscreen-btn');
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(() => {});
+                if (btn) { btn.textContent = '⊠'; btn.title = '退出全屏'; }
+            } else {
+                document.exitFullscreen().catch(() => {});
+                if (btn) { btn.textContent = '⛶'; btn.title = '全屏'; }
+            }
+        }
+        document.addEventListener('fullscreenchange', () => {
+            const btn = document.getElementById('fullscreen-btn');
+            if (!btn) return;
+            if (document.fullscreenElement) {
+                btn.textContent = '⊠'; btn.title = '退出全屏';
+            } else {
+                btn.textContent = '⛶'; btn.title = '全屏';
+            }
+        });
 
         function syncDesktopModeButton() {
             const btn = document.getElementById('desktop-mode-btn');
@@ -1386,7 +1479,7 @@
 
         function initDarkMode() {
             const savedMode = localStorage.getItem('ielts_dark_mode');
-            if (savedMode === null || savedMode === 'true') {
+            if (savedMode !== null && savedMode === 'true') {
                 document.body.classList.add('dark-mode');
             }
             syncDesktopModeButton();
@@ -1417,7 +1510,7 @@
         }
 
         function initTheme() {
-            const savedTheme = localStorage.getItem('ielts_theme') || 'mono-aurora';
+            const savedTheme = localStorage.getItem('ielts_theme') || 'blue';
             document.getElementById('theme-select').value = savedTheme;
             if (savedTheme !== 'purple') document.body.classList.add(`theme-${savedTheme}`);
         }
@@ -1522,7 +1615,7 @@
             if (currentListMode && viewId === 'list-screen') {
                 const modeLabel = { learned: '已背', unlearned: '未背', favorite: '收藏' }[currentListMode];
                 document.querySelectorAll('#top-navbar .nav-links a').forEach(a => {
-                    if (a.innerText.includes(modeLabel) || a.innerText.includes('资料库')) a.classList.add('active');
+                    if (a.innerText.includes(modeLabel) || a.innerText.includes('资料')) a.classList.add('active');
                 });
             } else {
                 const labels = map[viewId] || [];
@@ -1615,23 +1708,23 @@
                 if (levelFilter !== 'all') targetWords = targetWords.filter(w => wordData[w.word].level == levelFilter);
                 if (listCategoryFilter !== 'all') targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
 
-                countText = `✅ 已背 (${targetWords.length})`;
+                countText = `已背 (${targetWords.length})`;
             } else if (currentListMode === 'favorite') {
                 targetWords = allWords.filter(w => wordData[w.word] && wordData[w.word].isFavorite);
                 if (listCategoryFilter !== 'all') targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
-                countText = `⭐ 收藏 (${targetWords.length})`;
+                countText = `收藏 (${targetWords.length})`;
             } else {
                 targetWords = allWords.filter(w => !isLearnedRecord(wordData[w.word]));
                 if (listCategoryFilter !== 'all') {
                     // 已选具体分类：不限制数量，直接显示全部
                     targetWords = targetWords.filter(w => (w.category || '未分类') === listCategoryFilter);
-                    countText = `📝 未背 (${targetWords.length})`;
+                    countText = `未背 (${targetWords.length})`;
                 } else if (searchQuery) {
                     // 有搜索词时：不限制，直接搜索全库
-                    countText = `📝 未背 (${targetWords.length})`;
+                    countText = `未背 (${targetWords.length})`;
                 } else {
                     // 全部分类且无搜索：提示先选分类，只显示前100条
-                    countText = `📝 未背 (${targetWords.length}) · 请选择分类查看全部`;
+                    countText = `未背 (${targetWords.length}) · 请选择分类查看全部`;
                     targetWords = targetWords.slice(0, 100);
                 }
             }
@@ -1717,7 +1810,7 @@
             let html = '';
             wordsArray.forEach(w => {
                 const shouldShowCategory = currentListMode === 'favorite' || currentListMode === 'learned';
-                const categoryTagHTML = shouldShowCategory ? `<div class="list-category-tag" style="align-self: flex-start; margin-bottom: 0;">📁 ${w.category || '未分类'}</div>` : '';
+                const categoryTagHTML = shouldShowCategory ? `<div class="list-category-tag" style="align-self: flex-start; margin-bottom: 0;">${w.category || '未分类'}</div>` : '';
                 let posBadgesHTML = '';
                 if (w.pos) {
                     const posArray = w.pos.split(/[\/\s]+/).filter(p => p.trim() !== '');
@@ -1748,7 +1841,7 @@
                             <span style="font-size:15px; color:var(--primary-dark); font-weight:600;">${w.phonetic || ''}</span>
                         </div>
                         <div style="display:flex; flex-wrap:wrap; margin-bottom: 12px;">${posBadgesHTML}</div>
-                        <div class="list-meaning">${w.meaning}</div>
+                        <div class="list-meaning">${formatMeaningForCard(w.meaning)}</div>
                         ${favoriteToggleHTML}
                     </div>`;
             });
