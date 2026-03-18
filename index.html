@@ -602,13 +602,14 @@
             text-align: left;
             background: transparent;
             z-index: 5;
+            align-self: flex-start; /* 新增：强制置顶对齐 */
         }
         #status-screen::-webkit-scrollbar { display: none; }
         #status-content-wrapper { 
             width: min(1240px, 94vw);
             margin: 0 auto;
-            padding-top: 120px;
-            padding-bottom: 40px;
+            padding-top: 30px; /* 这里的 120px 改小为 30px */
+            padding-bottom: calc(40px + var(--safe-area-inset-bottom));
         }
         #category-progress-container {
             display: grid !important;
@@ -898,13 +899,13 @@
         /* 1. 解放容器：全屏固定覆盖，完全脱离 main-area 的裁剪限制 */
         #list-screen {
             display: none;
-            top: 0; left: 0; right: 0; bottom: 0;
             width: 100% !important;
             max-width: none !important;
             padding: 0 !important;
             margin: 0 !important;
             background: transparent;
             z-index: 5;
+            align-self: flex-start; /* 新增：强制置顶对齐 */
         }
         #list-screen::-webkit-scrollbar { display: none; }
 
@@ -912,7 +913,7 @@
         .list-screen-inner {
             width: min(1240px, 94vw);
             margin: 0 auto;
-            padding-top: 160px;
+            padding-top: 70px; /* 这里的 160px 改小为 70px */
             padding-bottom: calc(60px + env(safe-area-inset-bottom));
             display: flex;
             flex-direction: column;
@@ -1037,8 +1038,8 @@
 
         /* 移动端适配：悬浮条变为两行 */
         @media (max-width: 800px) {
-            .list-screen-inner { padding-top: 200px; }
-            .list-header-area { 
+            .list-screen-inner { padding-top: 120px; } /* 这里的 200px 改小为 120px */
+            .list-header-area {
                 flex-direction: column; align-items: stretch; gap: 10px; 
                 top: calc(16px + var(--safe-area-inset-top) + 52px + 12px);
                 left: 50%; transform: translateX(-50%);
