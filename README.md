@@ -1,6 +1,6 @@
-# 雅思词汇闪卡 (IELTS Vocabulary Flashcards) 🚀
+# 词汇闪卡 (VocabFlash) 🚀
 
-一个简洁、优雅且高效的雅思词汇背诵工具。专为备考雅思的同学设计，基于艾宾浩斯遗忘曲线原理，通过闪卡（Flashcards）形式帮助你快速斩获核心词汇。
+一个简洁、优雅且高效的词汇背诵工具。通过闪卡（Flashcards）形式帮助你快速斩获核心词汇。
 
 本项目是 **Vibe Coding** 的典型实践：由 AI 辅助进行快速迭代开发。它打破了传统背词软件的臃肿，回归最纯粹的闪卡记忆逻辑。
 
@@ -182,7 +182,7 @@
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=kinsung97/IELTS-Vocab&type=Date)](https://star-history.com/#kinsung97/IELTS-Vocab&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=kinsung97/VocabFlash&type=Date)](https://star-history.com/#kinsung97/VocabFlash&Date)
 
 ---
 
