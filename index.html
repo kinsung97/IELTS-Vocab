@@ -497,7 +497,7 @@
             #bottom-tab-bar { display: none; }
             #main-area {
                 /* 主区域顶部让出更大的空间给导航栏 */
-                height: calc(100vh - 85px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom)) !important;
+                min-height: calc(100vh - 85px - var(--safe-area-inset-top) - var(--safe-area-inset-bottom)) !important;
                 padding-top: calc(85px + env(safe-area-inset-top));
                 padding-bottom: env(safe-area-inset-bottom);
             }
@@ -1142,8 +1142,10 @@
     </div>
 
     <nav id="top-navbar">
-        <a class="nav-brand" href="https://github.com/kinsung97/IELTS-Vocab" target="_blank" title="雅思词汇闪卡 - 一个简洁优雅的雅思词汇学习工具" style="text-decoration:none; display:inline-flex; align-items:center; gap:7px;">
-            <svg width="20" height="20" ...></svg>
+        <a class="nav-brand" href="https://github.com/kinsung97/VocabFlash" target="_blank" title="雅思词汇闪卡 - 一个简洁优雅的雅思词汇学习工具" style="text-decoration:none; display:inline-flex; align-items:center; gap:7px;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+            </svg>
             <span class="brand-text">VocabFlash</span>
         </a>
         <div class="nav-links">
