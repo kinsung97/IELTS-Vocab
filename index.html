@@ -477,12 +477,12 @@
                 padding: 8px 10px;
             }
             #top-navbar .nav-actions {
-                display: flex;
-                margin-right: 0;
-                gap: 6px;
-            }
-            #top-navbar .nav-actions .nav-circle-btn {
-                width: 34px;
+            #main-area {
+                /* 主区域顶部让出更大的空间给导航栏 */
+                height: 100svh !important;
+                padding-top: 85px;
+                padding-bottom: 0;
+            }   width: 34px;
                 height: 34px;
                 font-size: 16px;
             }
@@ -1022,7 +1022,7 @@
             flex-shrink: 0;
             margin: 0;
         }
-
+            .list-screen-inner { padding-top: 200px; padding-bottom: calc(80px + env(safe-area-inset-bottom)); }
         /* 5. 卡片网格：恢复正常的宽度和瀑布流 */
         #list-content-wrapper { overflow: visible; width: 100%; }
         .word-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
