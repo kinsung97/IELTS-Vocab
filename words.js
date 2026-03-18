@@ -78,7 +78,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  地幔；\nv.  斗篷；披风；覆盖\n\n例句：\nParents often use mantles for their babies to keep warm",
+        "meaning": "n.  地幔；斗篷；披风\nv.  覆盖\n\n例句：\nParents often use mantles for their babies to keep warm",
         "example": ""
     },
     {
@@ -100,9 +100,9 @@ const ieltsWords = [
     {
         "word": "horizon",
         "category": "自然地理",
-        "pos": "n. adj.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n地平线；眼界；见识\nhorizontal\nadj.  水平的。broaden\nsb. 's horizons 开阔眼界\n\n例句：\nI could see a ship on the horizon",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n地平线；[~s]眼界；见识\nbroaden\nsb. 's horizons 开阔眼界\n\n例句：\nI could see a ship on the horizon",
         "example": ""
     },
     {
@@ -148,15 +148,15 @@ const ieltsWords = [
     {
         "word": "endanger",
         "category": "自然地理",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n使遭受危险；危及\nendangered\nadj.  濒临灭绝\n\n例句：\nIf you are work hard without rest, you will endanger your health",
+        "meaning": "v.\n使遭受危险；危及\n\n例句：\nIf you are work hard without rest, you will endanger your health",
         "example": ""
     },
     {
         "word": "jeopardise",
         "category": "自然地理",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/jeopardize\nv.\n危害；危及\njeopardise\nsb. 's life 危及某人生命\n\n例句：\nIf you are rude to the boss, your chances of success may be jeopardised",
         "example": ""
@@ -204,9 +204,9 @@ const ieltsWords = [
     {
         "word": "magnet",
         "category": "自然地理",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n磁铁；吸铁石\nmagnetic adj./词的，有磁性的；有吸引力的\n\n例句：\nHe picked all the pins up with a magnet",
+        "meaning": "n.\n磁铁；吸铁石\n有吸引力的\n\n例句：\nHe picked all the pins up with a magnet",
         "example": ""
     },
     {
@@ -350,7 +350,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  （难闻有害的）烟，气体；\nv.  发怒，愤怒\n\n例句：\nPetrol fumes from cars are poisoning the atmosphere",
+        "meaning": "n./v. （难闻有害的）烟，气体；发怒，愤怒\n\n例句：\nPetrol fumes from cars are poisoning the atmosphere",
         "example": ""
     },
     {
@@ -430,7 +430,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  风景；\nv.  地貌；对...进行景观美化\n\n例句：\nThe trees and the mountains made the landscape very beautiful",
+        "meaning": "n.  风景；地貌\nv.  对...进行景观美化\n\n例句：\nThe trees and the mountains made the landscape very beautiful",
         "example": ""
     },
     {
@@ -486,7 +486,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  平原；简朴的；\nadj.  明白的\n\n例句：\nOnce there were seventy million buffalo roaming in the great plains",
+        "meaning": "n.  平原；简朴的\nadj.  明白的\n\n例句：\nOnce there were seventy million buffalo roaming in the great plains",
         "example": ""
     },
     {
@@ -534,7 +534,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  北极的；\nn.  极冷的；北极地区；北极\n\n例句：\nThe polar bears' habitat is the icy waters of the Arctic",
+        "meaning": "adj.  北极的；极冷的\nn.  北极地区；北极\n\n例句：\nThe polar bears' habitat is the icy waters of the Arctic",
         "example": ""
     },
     {
@@ -542,7 +542,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  南极的；\nn.  南极地区；南极洲\n\n例句：\nBecause of the extreme cold, the environment in the Antarctic is uniquely fragile",
+        "meaning": "adj.  南极的\nn.  南极地区；南极洲\n\n例句：\nBecause of the extreme cold, the environment in the Antarctic is uniquely fragile",
         "example": ""
     },
     {
@@ -556,9 +556,9 @@ const ieltsWords = [
     {
         "word": "polar",
         "category": "自然地理",
-        "pos": "adj. v.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n极地的；近极地的；对立的\na polar bear 北极熊；polarize\nv.  使两极分化\n\n例句：\nIn these polar regions, the balance of nature has already been disrupted",
+        "meaning": "adj.\n极地的；近极地的；对立的\na polar bear 北极熊；\n\n例句：\nIn these polar regions, the balance of nature has already been disrupted",
         "example": ""
     },
     {
@@ -604,9 +604,9 @@ const ieltsWords = [
     {
         "word": "erode",
         "category": "自然地理",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n侵蚀；腐蚀\nerosion\nn.  侵蚀；腐蚀\n\n例句：\nThe waves erode the rocks on the shore",
+        "meaning": "v.\n侵蚀；腐蚀\n\n例句：\nThe waves erode the rocks on the shore",
         "example": ""
     },
     {
@@ -614,7 +614,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  地中海的；\nn.  地中海地区的；地中海；地中海地区\n\n例句：\nThis dish is a cross between Asian and Mediterranean food",
+        "meaning": "adj.  地中海的；地中海地区的\nn.  地中海；地中海地区\n\n例句：\nThis dish is a cross between Asian and Mediterranean food",
         "example": ""
     },
     {
@@ -628,9 +628,9 @@ const ieltsWords = [
     {
         "word": "pacific",
         "category": "自然地理",
-        "pos": "adj./n. v.",
+        "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  平静的；\nn.  平和的；太平洋的；太平洋\npacify\nv.  平息；安抚；使平静\n\n例句：\nWhat a beautiful and pacific place this is",
+        "meaning": "adj.  平静的；平和的；太平洋的\nn.  太平洋\n安抚；使平静\n\n例句：\nWhat a beautiful and pacific place this is",
         "example": ""
     },
     {
@@ -644,9 +644,9 @@ const ieltsWords = [
     {
         "word": "marine",
         "category": "自然地理",
-        "pos": "adj.",
-        "phonetic": "/n.|海洋的；海生的；海事的/",
-        "meaning": "adj. 水兵\na marine product 海产品；船用品\n\n例句：\nIt is true that a lot of people like marine plants as their food",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  海洋的；海生的；海事的\nn.  水兵\na marine product 海产品；船用品\n\n例句：\nIt is true that a lot of people like marine plants as their food",
         "example": ""
     },
     {
@@ -654,7 +654,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n航海；航行\nnavigator\nn.  航海家；领航员\n\n例句：\nNavigation is a game for brave people",
+        "meaning": "n.\n航海；航行\n领航员\n\n例句：\nNavigation is a game for brave people",
         "example": ""
     },
     {
@@ -692,9 +692,9 @@ const ieltsWords = [
     {
         "word": "tide",
         "category": "自然地理",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n趋势；潮流；潮汐\ntidal\nadj.  潮汐的。at low tide 退潮时，低潮时。Time and tide wait for no man 岁月不等人\n\n例句：\nThe gravitational attraction between the moon and the earth causes tides",
+        "meaning": "n.\n趋势；潮流；潮汐\nat low tide 退潮时，低潮时。Time and tide wait for no man 岁月不等人\n\n例句：\nThe gravitational attraction between the moon and the earth causes tides",
         "example": ""
     },
     {
@@ -716,9 +716,9 @@ const ieltsWords = [
     {
         "word": "stream",
         "category": "自然地理",
-        "pos": "n./v. n.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  小河；\nv.  溪；流；流动；流出\nwillow\nn.  垂柳\n\n例句：\nOn either bank of the stream stand rows of willow trees",
+        "meaning": "n.  小河；溪\nv.  流；流动；流出\n\n例句：\nOn either bank of the stream stand rows of willow trees",
         "example": ""
     },
     {
@@ -804,9 +804,9 @@ const ieltsWords = [
     {
         "word": "parallel",
         "category": "自然地理",
-        "pos": "n. v. adj.",
-        "phonetic": "/adj./",
-        "meaning": "n.\nv.\n平行线；相似之处/平行的/与...相似；比得上\nunparalleled\nadj.  无比的；无双的\n\n例句：\nThere are few parallels between American football and European football",
+        "pos": "n./adj./v.",
+        "phonetic": "",
+        "meaning": "n.  /\nadj.\nv.\n平行线；相似之处/平行的/与...相似；比得上\n无双的\n\n例句：\nThere are few parallels between American football and European football",
         "example": ""
     },
     {
@@ -814,7 +814,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  狭窄的；\nn.  有极限的\n\n例句：\nThe only access to the garden is by a narrow path at the side of the house",
+        "meaning": "adj.  狭窄的\nn.  有极限的\n\n例句：\nThe only access to the garden is by a narrow path at the side of the house",
         "example": ""
     },
     {
@@ -884,17 +884,17 @@ const ieltsWords = [
     {
         "word": "moderate",
         "category": "自然地理",
-        "pos": "adj.",
-        "phonetic": "/v.|适度的；温和的；中等的/",
-        "meaning": "adj. 使缓和\na moderate climate 温和的气候\n\n例句：\nThe wind was strong all day, but it moderated in the evening",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  适度的；温和的；中等的\nv.  使缓和\na moderate climate 温和的气候\n\n例句：\nThe wind was strong all day, but it moderated in the evening",
         "example": ""
     },
     {
         "word": "warm",
         "category": "自然地理",
-        "pos": "adj.",
-        "phonetic": "/v.|温暖的/",
-        "meaning": "adj. （使）变暖\n\n例句：\nThe blood of a warm-blooded animal remains around the same temperature both on warm and cold days",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  温暖的\nv.  （使）变暖\n\n例句：\nThe blood of a warm-blooded animal remains around the same temperature both on warm and cold days",
         "example": ""
     },
     {
@@ -964,25 +964,25 @@ const ieltsWords = [
     {
         "word": "hail",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/v.|冰雹/",
-        "meaning": "n. 赞扬；招呼；下冰雹\n\n例句：\nIt hailed during the night",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  冰雹\nv.  赞扬；招呼；下冰雹\n\n例句：\nIt hailed during the night",
         "example": ""
     },
     {
         "word": "thaw",
         "category": "自然地理",
-        "pos": "v.",
-        "phonetic": "/n.|解冻；融解；融化/",
-        "meaning": "v. 解冻时期\nthaw sth./out 使...解冻；使...变暖\n\n例句：\nThe sun thawed the ice and melted the snow",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  解冻；融解；融化\nn.  解冻时期\nthaw sth./out 使...解冻；使...变暖\n\n例句：\nThe sun thawed the ice and melted the snow",
         "example": ""
     },
     {
         "word": "chill",
         "category": "自然地理",
-        "pos": "v. adj.",
-        "phonetic": "/n.|使变冷；使恐惧/",
-        "meaning": "v. 寒冷；害怕\nchilly adj./寒冷的；chill enthusiasm 使热情冷却\n\n例句：\nThe bad news cast a chill over the whole family",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使变冷；使恐惧\nn.  寒冷；害怕\nchill enthusiasm 使热情冷却\n\n例句：\nThe bad news cast a chill over the whole family",
         "example": ""
     },
     {
@@ -990,7 +990,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  结冰；\nn.  霜冻；严寒期\n\n例句：\nThe weatherman predicted a freeze for tonight",
+        "meaning": "v./n. 结冰；霜冻；严寒期\n\n例句：\nThe weatherman predicted a freeze for tonight",
         "example": ""
     },
     {
@@ -1006,7 +1006,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  战栗；\nn.  颤抖\n\n例句：\nThere was a tremble in her voice",
+        "meaning": "v./n. 战栗；颤抖\n\n例句：\nThere was a tremble in her voice",
         "example": ""
     },
     {
@@ -1020,17 +1020,17 @@ const ieltsWords = [
     {
         "word": "thunder",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/v.|雷；雷声/",
-        "meaning": "n. 打雷；轰隆隆的快速移动\nthunderstorm\nn.  雷雨\n\n例句：\nAn express train thundered through the station",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  雷；雷声\nv.  打雷；轰隆隆的快速移动\n\n例句：\nAn express train thundered through the station",
         "example": ""
     },
     {
         "word": "lightning",
         "category": "自然地理",
-        "pos": "n. v. adv.",
-        "phonetic": "/v.|闪电/",
-        "meaning": "n. 闪电般的，极快的\nlighten\nv.  使变轻；（使）发亮。lighter\nn.  打火机。lightly\nadv.  轻轻地；轻松地\n\n例句：\nDuring the storm, flashes of lightning appeared in the sky",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  闪电\nv.  闪电般的，极快的\n（使）发亮。轻松地\n\n例句：\nDuring the storm, flashes of lightning appeared in the sky",
         "example": ""
     },
     {
@@ -1060,9 +1060,9 @@ const ieltsWords = [
     {
         "word": "sprinkle",
         "category": "自然地理",
-        "pos": "v.",
-        "phonetic": "/n.|撒；下小雨/",
-        "meaning": "v. 少量；小雨\nsprinkle\nsth.  on\nsth.  把某物撒到某物上\n\n例句：\nWe've only had a few sprinkles of rain recently",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  撒；下小雨\nn.  少量；小雨\nsprinkle\nsth.  on\nsth.  把某物撒到某物上\n\n例句：\nWe've only had a few sprinkles of rain recently",
         "example": ""
     },
     {
@@ -1084,9 +1084,9 @@ const ieltsWords = [
     {
         "word": "Celsius",
         "category": "自然地理",
-        "pos": "adj. adj./n.",
-        "phonetic": "/n.|摄氏的/",
-        "meaning": "adj. 摄氏温度\nThe maximum temperature in July may be 36 degrees Celsius\nFarhrenheit\nadj.  华氏的/华氏温度\nn.",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  摄氏的\nn.  摄氏温度\nThe maximum temperature in July may be 36 degrees Celsius\nFarhrenheit\nadj.  华氏的\nn.  华氏温度",
         "example": ""
     },
     {
@@ -1100,9 +1100,9 @@ const ieltsWords = [
     {
         "word": "forecast",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/v.|预测；预报/",
-        "meaning": "n. 预测；预言\n\n例句：\nThe recent statement of the president forecasts a change in the situation",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  预测；预报\nv.  预测；预言\n\n例句：\nThe recent statement of the president forecasts a change in the situation",
         "example": ""
     },
     {
@@ -1110,23 +1110,23 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  山峰；\nv.  顶点；达到最大值\nall year around 一年到头\n\n例句：\nThe mountain peaks are covered with snow all year around",
+        "meaning": "n./v. 山峰；顶点；达到最大值\nall year around 一年到头\n\n例句：\nThe mountain peaks are covered with snow all year around",
         "example": ""
     },
     {
         "word": "mount",
         "category": "自然地理",
-        "pos": "v.",
-        "phonetic": "/n.|渐渐增加；爬上；登上/",
-        "meaning": "v. 山\n\n例句：\nThe old lady can only mount the stairs with difficulty",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  渐渐增加；爬上；登上\nn.  山\n\n例句：\nThe old lady can only mount the stairs with difficulty",
         "example": ""
     },
     {
         "word": "mountain",
         "category": "自然地理",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n山，山岳，高山\nmountainous\nadj.  多山的\n\n例句：\nThe northern side of the mountain is almost vertical",
+        "meaning": "n.\n山，山岳，高山\n\n例句：\nThe northern side of the mountain is almost vertical",
         "example": ""
     },
     {
@@ -1140,9 +1140,9 @@ const ieltsWords = [
     {
         "word": "ridge",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/v.|山脊；山脉/",
-        "meaning": "n. 使隆起\n\n例句：\nThe sky above the ridges of the mountains brightened",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  山脊；山脉\nv.  使隆起\n\n例句：\nThe sky above the ridges of the mountains brightened",
         "example": ""
     },
     {
@@ -1150,7 +1150,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  倾斜；\nn.  有坡度；山坡；斜坡\n\n例句：\nHe ran up the slope to the top of the hill",
+        "meaning": "v.  倾斜\nn.  有坡度；山坡；斜坡\n\n例句：\nHe ran up the slope to the top of the hill",
         "example": ""
     },
     {
@@ -1238,7 +1238,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n必然的；不可避免的\nevitable\nadj.  可避免的\n\n例句：\nSuch a difficult operation may not succeed, but it's an inevitable gamble",
+        "meaning": "adj.\n必然的；不可避免的\n\n例句：\nSuch a difficult operation may not succeed, but it's an inevitable gamble",
         "example": ""
     },
     {
@@ -1286,7 +1286,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  淤泥；泥沙；\nv.  使淤塞\n\n例句：\nRiver sediments gradually silted up the harbor",
+        "meaning": "n.  淤泥；泥沙\nv.  使淤塞\n\n例句：\nRiver sediments gradually silted up the harbor",
         "example": ""
     },
     {
@@ -1324,9 +1324,9 @@ const ieltsWords = [
     {
         "word": "suburb",
         "category": "自然地理",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n郊区；郊外；近郊\nsuburban\nadj.  郊区的；土气的\n\n例句：\nThey proposed setting up a school in the suburbs",
+        "meaning": "n.\n郊区；郊外；近郊\n土气的\n\n例句：\nThey proposed setting up a school in the suburbs",
         "example": ""
     },
     {
@@ -1374,7 +1374,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n有毒的\npoisonous\nadj.  有毒的；toxic waste 有毒的废物；highly toxic 剧毒的\n\n例句：\nAll medicines are toxic",
+        "meaning": "adj.\n有毒的\ntoxic waste 有毒的废物；highly toxic 剧毒的\n\n例句：\nAll medicines are toxic",
         "example": ""
     },
     {
@@ -1414,7 +1414,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  边界；\nv.  边界地区；镶边；和...毗邻；形成...边界\n\n例句：\nThe border incident led to the war between the two countries",
+        "meaning": "n.  边界；边界地区；镶边；和...毗邻\nv.  形成...边界\n\n例句：\nThe border incident led to the war between the two countries",
         "example": ""
     },
     {
@@ -1428,9 +1428,9 @@ const ieltsWords = [
     {
         "word": "fringe",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/adj.|边缘；刘海/",
-        "meaning": "n. 非主要的；次要的；边缘的，附加的\n\n例句：\nWe feel it's pretty good and we also offer some good fringe benefits",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  边缘；刘海\nadj.  非主要的；次要的；边缘的，附加的\n\n例句：\nWe feel it's pretty good and we also offer some good fringe benefits",
         "example": ""
     },
     {
@@ -1452,9 +1452,9 @@ const ieltsWords = [
     {
         "word": "crack",
         "category": "自然地理",
-        "pos": "v.",
-        "phonetic": "/n.|破裂；发出爆裂声/",
-        "meaning": "v. 裂缝；缝隙\ncause a crack 弄出裂缝\n\n例句：\nThe door opened just a crack",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  破裂；发出爆裂声\nn.  裂缝；缝隙\ncause a crack 弄出裂缝\n\n例句：\nThe door opened just a crack",
         "example": ""
     },
     {
@@ -1516,33 +1516,33 @@ const ieltsWords = [
     {
         "word": "wilderness",
         "category": "自然地理",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n荒野\nwild\nadj.  野生的；荒芜的。 attic 阁楼；顶楼\n\n例句：\nFrom his attic window, he looked out over a beautiful wildernes",
+        "meaning": "n.\n荒野\n荒芜的。 attic 阁楼；顶楼\n\n例句：\nFrom his attic window, he looked out over a beautiful wildernes",
         "example": ""
     },
     {
         "word": "desert",
         "category": "自然地理",
-        "pos": "n.",
-        "phonetic": "/v.|/",
-        "meaning": "n. ˈ\ndez. ət/ 沙漠/ /dɪˈzɜːt/遗弃\na cultural desert 文化沙漠\n\n例句：\nThe baby's mother deserted him soon after giving birth",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.\nv.  ˈ\ndez. ət/ 沙漠/ /dɪˈzɜːt/遗弃\na cultural desert 文化沙漠\n\n例句：\nThe baby's mother deserted him soon after giving birth",
         "example": ""
     },
     {
         "word": "deforest",
         "category": "自然地理",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n毁掉...森林\ndeforestation\nn.  毁林，滥伐森林\n\n例句：\nThe land is severely eroded as a result of widespread deforesting and intensive farming",
+        "meaning": "v.\n毁掉...森林\n\n例句：\nThe land is severely eroded as a result of widespread deforesting and intensive farming",
         "example": ""
     },
     {
         "word": "barren",
         "category": "自然地理",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n贫瘠的；荒芜的；不结果实的\ngranary\nn.  谷仓；粮仓\n\n例句：\nThat remote barren land has blossomed into rich granaries",
+        "meaning": "adj.\n贫瘠的；荒芜的；不结果实的\n\n例句：\nThat remote barren land has blossomed into rich granaries",
         "example": ""
     },
     {
@@ -1556,9 +1556,9 @@ const ieltsWords = [
     {
         "word": "fertilise",
         "category": "自然地理",
-        "pos": "v. n.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/fertilize\nv.\n施肥于\nlawn\nn.  草坪；weed\nn.  杂草\n\n例句：\nI fertilized the lawn and pulled out the weeds",
+        "meaning": "/fertilize\nv.\n施肥于\n\n例句：\nI fertilized the lawn and pulled out the weeds",
         "example": ""
     },
     {
@@ -1614,7 +1614,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n黄昏\ndawn\nn.  黎明；拂晓\n\n例句：\nThe street lights go on at dusk",
+        "meaning": "n.\n黄昏\n\n例句：\nThe street lights go on at dusk",
         "example": ""
     },
     {
@@ -1646,7 +1646,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  阴影部分；\nv.  背阴处；给...遮挡（光线）\n\n例句：\nHe tried the shade his house with thick trees",
+        "meaning": "n./v. 阴影部分；背阴处；给...遮挡（光线）\n\n例句：\nHe tried the shade his house with thick trees",
         "example": ""
     },
     {
@@ -1660,7 +1660,7 @@ const ieltsWords = [
     {
         "word": "vapour",
         "category": "自然地理",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/vapor\nn.\n蒸汽；水汽\n与 steam 的区别是，steam 一般指的是水蒸气，vapor 泛指蒸汽，比如 mercury vapor 汞蒸汽\n\n例句：\nWhen water changes to water vapor, we say it evaporates",
         "example": ""
@@ -1684,9 +1684,9 @@ const ieltsWords = [
     {
         "word": "precipitate",
         "category": "自然地理",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n凝结；沉淀\nprecipitation\nn.  沉淀；降水量；陡然下落\n\n例句：\nClouds usually precipitate as rain or snow",
+        "meaning": "v.\n凝结；沉淀\n降水量；陡然下落\n\n例句：\nClouds usually precipitate as rain or snow",
         "example": ""
     },
     {
@@ -1742,7 +1742,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  排空；\nn.  流出；耗竭\n\n例句：\nThey drained the swamp and turn it into fertile land",
+        "meaning": "v.  排空\nn.  流出；耗竭\n\n例句：\nThey drained the swamp and turn it into fertile land",
         "example": ""
     },
     {
@@ -1766,7 +1766,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  吹；\nn.  打击；挫折\n\n例句：\nNow, Peter, make a wish and blow out the candles",
+        "meaning": "v./n. 吹；打击；挫折\n\n例句：\nNow, Peter, make a wish and blow out the candles",
         "example": ""
     },
     {
@@ -1774,7 +1774,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  喷出；\nn.  喘息；（吹出的）一股；一缕\n\n例句：\nDon't puff cigarette smoke in my face",
+        "meaning": "v.  喷出\nn.  喘息；（吹出的）一股；一缕\n\n例句：\nDon't puff cigarette smoke in my face",
         "example": ""
     },
     {
@@ -1782,15 +1782,15 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  涌出\nn.\ngush out 涌出；喷出；gush from 从...喷出\n\n例句：\nIn a moment more, the crowd began to gush forth from the doors of the church",
+        "meaning": "v./n. 涌出\ngush out 涌出；喷出；gush from 从...喷出\n\n例句：\nIn a moment more, the crowd began to gush forth from the doors of the church",
         "example": ""
     },
     {
         "word": "dense",
         "category": "自然地理",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n密集的；稠密的\ndensity\nn.  密度\n\n例句：\nThere will be dense fog in northern parts of the country tomorrow",
+        "meaning": "adj.\n密集的；稠密的\n\n例句：\nThere will be dense fog in northern parts of the country tomorrow",
         "example": ""
     },
     {
@@ -1822,7 +1822,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  闪光；\nn.  反射\nflash through\nsb. 's mind 闪过某人脑海\n\n例句：\nThe good news was flashed across the country",
+        "meaning": "v./n. 闪光；反射\nflash through\nsb. 's mind 闪过某人脑海\n\n例句：\nThe good news was flashed across the country",
         "example": ""
     },
     {
@@ -1844,9 +1844,9 @@ const ieltsWords = [
     {
         "word": "surrounding",
         "category": "自然地理",
-        "pos": "adj. adv.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n周围的；附近的\nunceremoniously\nadv.  无礼地；随便地\n\n例句：\nThe polluted waste is often dumped unceremoniously, making the surrounding land infertile",
+        "meaning": "adj.\n周围的；附近的\n随便地\n\n例句：\nThe polluted waste is often dumped unceremoniously, making the surrounding land infertile",
         "example": ""
     },
     {
@@ -1901,24 +1901,24 @@ const ieltsWords = [
         "word": "petrol",
         "category": "自然地理",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n汽油\n\n例句：\nMy new car really eats up petrol",
+        "phonetic": "",
+        "meaning": "n.\n[英]汽油\n\n例句：\nMy new car really eats up petrol",
         "example": ""
     },
     {
         "word": "gas",
         "category": "自然地理",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n气体；汽油\n\n例句：\nThere are reports that some gas stations have run out of gas",
+        "phonetic": "",
+        "meaning": "n.\n气体；[美]汽油\n\n例句：\nThere are reports that some gas stations have run out of gas",
         "example": ""
     },
     {
         "word": "gasoline",
         "category": "自然地理",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n汽油\n\n例句：\nThe price of gasoline is unstable",
+        "phonetic": "",
+        "meaning": "n.\n[美]汽油\n\n例句：\nThe price of gasoline is unstable",
         "example": ""
     },
     {
@@ -1926,7 +1926,7 @@ const ieltsWords = [
         "category": "自然地理",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n石油\npetrology\nn.  岩石学\n\n例句：\nPetroleum is an important natural resource",
+        "meaning": "n.\n石油\n\n例句：\nPetroleum is an important natural resource",
         "example": ""
     },
     {
@@ -1958,7 +1958,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n植物；草木\nvegetable\nn.  蔬菜 vegetarian\nn.  素食者\n\n例句：\nThere is not much vegetation in deserts",
+        "meaning": "n.\n植物；草木\n\n例句：\nThere is not much vegetation in deserts",
         "example": ""
     },
     {
@@ -1974,7 +1974,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  多年生植物；长期的；\nadj.  持久的\n\n例句：\nThese perennials should be planted where they can naturalize",
+        "meaning": "n.  多年生植物；长期的\nadj.  持久的\n\n例句：\nThese perennials should be planted where they can naturalize",
         "example": ""
     },
     {
@@ -2006,7 +2006,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n对生态环境友好的\nuser-friendly\nadj.  便于使用的\n\n例句：\nAttention to eco-friendly packaging is increasing",
+        "meaning": "adj.\n对生态环境友好的\nuser-\n\n例句：\nAttention to eco-friendly packaging is increasing",
         "example": ""
     },
     {
@@ -2022,15 +2022,15 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n有机体；生物\norgan\nn.  器官\n\n例句：\nThis insect behaves like a parasite, an organism that lives on or in another organism called a host",
+        "meaning": "n.\n有机体；生物\n\n例句：\nThis insect behaves like a parasite, an organism that lives on or in another organism called a host",
         "example": ""
     },
     {
         "word": "genetics",
         "category": "植物研究",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n遗传学\ngene\nn.  基因。genetic\nadj.  基因的\n\n例句：\nIn genetics, genes were formerly called factors",
+        "meaning": "n.\n遗传学\n\n例句：\nIn genetics, genes were formerly called factors",
         "example": ""
     },
     {
@@ -2044,9 +2044,9 @@ const ieltsWords = [
     {
         "word": "variation",
         "category": "植物研究",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n变种；变异\nvary\nv.  变化\n\n例句：\nVariation among dogs is limited to the possible permutations of their genes",
+        "meaning": "n.\n变种；变异\n\n例句：\nVariation among dogs is limited to the possible permutations of their genes",
         "example": ""
     },
     {
@@ -2060,7 +2060,7 @@ const ieltsWords = [
     {
         "word": "hybridisation",
         "category": "植物研究",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/hybridization\nn.\n杂交\nhybrid car 混合动力车；somatic cell 体细胞\n\n例句：\nSomatic cell hybridization is a very useful technique",
         "example": ""
@@ -2068,9 +2068,9 @@ const ieltsWords = [
     {
         "word": "classify",
         "category": "植物研究",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n分类\nclassified\nadj.  机密的；秘密的\n\n例句：\nLibrarians spend a lot of time classifying books",
+        "meaning": "v.\n分类\n秘密的\n\n例句：\nLibrarians spend a lot of time classifying books",
         "example": ""
     },
     {
@@ -2084,9 +2084,9 @@ const ieltsWords = [
     {
         "word": "evolve",
         "category": "植物研究",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n进化；发展\nevolve from 从...进化而来；primates\nn.  灵长类动物\n\n例句：\nThe developmental history of society tells us that man has evolved from some ancient primates",
+        "meaning": "v.\n进化；发展\nevolve from 从...进化而来；\n\n例句：\nThe developmental history of society tells us that man has evolved from some ancient primates",
         "example": ""
     },
     {
@@ -2126,7 +2126,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  收割；\nn.  收获；收成\nat the harvest；come by 得到，顺便访问\n\n例句：\nA good summer harvest is not easy to come by",
+        "meaning": "v./n. 收割；收获；收成\nat the harvest；come by 得到，顺便访问\n\n例句：\nA good summer harvest is not easy to come by",
         "example": ""
     },
     {
@@ -2148,9 +2148,9 @@ const ieltsWords = [
     {
         "word": "yield",
         "category": "植物研究",
-        "pos": "v./n. adj.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  产出；\nn.  屈服；服从；产量；投资收益\nyielding\nadj.  易弯曲的；顺从的。unyielding\nadj.  坚硬的；不屈不挠的\n\n例句：\nThis land yields well",
+        "meaning": "v.  产出\nn.  屈服；服从；产量；投资收益\n顺从的。不屈不挠的\n\n例句：\nThis land yields well",
         "example": ""
     },
     {
@@ -2158,7 +2158,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  培养；\nn.  抚养；饲养；后部\n\n例句：\nMost farmers in this area rear sheep",
+        "meaning": "v.  培养\nn.  抚养；饲养；后部\n\n例句：\nMost farmers in this area rear sheep",
         "example": ""
     },
     {
@@ -2172,9 +2172,9 @@ const ieltsWords = [
     {
         "word": "plough",
         "category": "植物研究",
-        "pos": "v.",
-        "phonetic": "/plow|n./",
-        "meaning": "v.\n犁；耕\nThe ground was ploughed/plowed and planted with corn",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/plow\nn./v. 犁；耕\nThe ground was ploughed/plowed and planted with corn",
         "example": ""
     },
     {
@@ -2190,7 +2190,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  耙子；\nv.  耙；搜索\nrake up leaves 耙落叶；His is raking it in 他很赚钱\n\n例句：\nWith an ancient rusty rake I went to work",
+        "meaning": "n./v. 耙子；耙；搜索\nrake up leaves 耙落叶；His is raking it in 他很赚钱\n\n例句：\nWith an ancient rusty rake I went to work",
         "example": ""
     },
     {
@@ -2198,7 +2198,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  堆；\nv.  垛；堆积\nI have a stack of homework to do；He placed the books in a neat stack\n委婉的拒绝别人：I have stack of things to\ndo.  My friend has a stack of money that his is raking it in",
+        "meaning": "n./v. 堆；垛；堆积\nI have a stack of homework to do；He placed the books in a neat stack\n委婉的拒绝别人：I have stack of things to\ndo.  My friend has a stack of money that his is raking it in",
         "example": ""
     },
     {
@@ -2268,9 +2268,9 @@ const ieltsWords = [
     {
         "word": "mould",
         "category": "植物研究",
-        "pos": "v.",
-        "phonetic": "/mold|n./",
-        "meaning": "v.\n霉菌/发霉\n\n例句：\nThe walls were black with mould",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/mold\nn.  霉菌\nv.  发霉\n\n例句：\nThe walls were black with mould",
         "example": ""
     },
     {
@@ -2278,7 +2278,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  花粉；\nv.  给...授粉\n\n例句：\nEach spring, pollen from nearby plants is blown into the water",
+        "meaning": "n./v. 花粉；给...授粉\n\n例句：\nEach spring, pollen from nearby plants is blown into the water",
         "example": ""
     },
     {
@@ -2294,15 +2294,15 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n种子\nseedling\nn.  秧苗；幼苗。sow seeds 播种\n\n例句：\nThe farmers were scattering seeds over the fields",
+        "meaning": "n.\n种子\n幼苗。sow seeds 播种\n\n例句：\nThe farmers were scattering seeds over the fields",
         "example": ""
     },
     {
         "word": "burgeon",
         "category": "植物研究",
-        "pos": "n.",
-        "phonetic": "/v.|嫩枝；新芽/",
-        "meaning": "n. 极速生长；发芽；抽枝\nburgeoning market 新兴市场\n\n例句：\nThe firm aimed at the burgeoning market for augmented reality games",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  嫩枝；新芽\nv.  极速生长；发芽；抽枝\nburgeoning market 新兴市场\n\n例句：\nThe firm aimed at the burgeoning market for augmented reality games",
         "example": ""
     },
     {
@@ -2316,9 +2316,9 @@ const ieltsWords = [
     {
         "word": "flower",
         "category": "植物研究",
-        "pos": "n.",
-        "phonetic": "/v.|花；开花植物/",
-        "meaning": "n. 成熟；繁荣；开花\n\n例句：\nCherry trees flower in the early spring",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  花；开花植物\nv.  成熟；繁荣；开花\n\n例句：\nCherry trees flower in the early spring",
         "example": ""
     },
     {
@@ -2326,7 +2326,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  开花；\nn.  花朵\n可以用于比喻，表示某事物或概念的发展、兴盛或繁荣。\n\n例句：\nThe tree was covered with beautiful pink blossom",
+        "meaning": "v./n. 开花；花朵\n可以用于比喻，表示某事物或概念的发展、兴盛或繁荣。\n\n例句：\nThe tree was covered with beautiful pink blossom",
         "example": ""
     },
     {
@@ -2342,7 +2342,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  气味；香味；\nv.  使具有香味\n\n例句：\nThe flower scents the air",
+        "meaning": "n.  气味；香味\nv.  使具有香味\n\n例句：\nThe flower scents the air",
         "example": ""
     },
     {
@@ -2356,9 +2356,9 @@ const ieltsWords = [
     {
         "word": "ripen",
         "category": "植物研究",
-        "pos": "v. adj. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n使成熟\nripe\nadj.  熟的。ripener\nn.  催熟剂。Is this fruit ripe? 这个果子熟了么？\n\n例句：\nThe sun ripens the corn",
+        "meaning": "v.\n使成熟\nIs this fruit ripe? 这个果子熟了么？\n\n例句：\nThe sun ripens the corn",
         "example": ""
     },
     {
@@ -2372,9 +2372,9 @@ const ieltsWords = [
     {
         "word": "wither",
         "category": "植物研究",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n（使）枯萎\nwithered\nadj.  凋谢了的；枯萎的\n\n例句：\nThe grapes withered on the vine",
+        "meaning": "v.\n（使）枯萎\n枯萎的\n\n例句：\nThe grapes withered on the vine",
         "example": ""
     },
     {
@@ -2390,7 +2390,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  使腐烂；\nn.  使腐坏；腐烂\n\n例句：\nRot in the tree trunk caused the tree to fall",
+        "meaning": "v.  使腐烂\nn.  使腐坏；腐烂\n\n例句：\nRot in the tree trunk caused the tree to fall",
         "example": ""
     },
     {
@@ -2452,17 +2452,17 @@ const ieltsWords = [
     {
         "word": "timber",
         "category": "植物研究",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n木材；木料；林木\nhew\nv.  砍；劈\n\n例句：\nThe farmer spent a day in the woods, hewing timber",
+        "meaning": "n.\n木材；木料；林木\n\n例句：\nThe farmer spent a day in the woods, hewing timber",
         "example": ""
     },
     {
         "word": "charcoal",
         "category": "植物研究",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n木炭\ngrill\nn.  烧烤架；\nv.  烧，烤\n\n例句：\nPreare a fire in a charcoal grill",
+        "meaning": "n.\n木炭\nv.  烧，烤\n\n例句：\nPreare a fire in a charcoal grill",
         "example": ""
     },
     {
@@ -2518,7 +2518,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  根；\nv.  使生根\nroot cause 根本原因\n\n例句：\nThe dog is snuffling about the root of a tree",
+        "meaning": "n.  根\nv.  使生根\nroot cause 根本原因\n\n例句：\nThe dog is snuffling about the root of a tree",
         "example": ""
     },
     {
@@ -2548,9 +2548,9 @@ const ieltsWords = [
     {
         "word": "thorn",
         "category": "植物研究",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n刺；荆棘\nthorny\nadj.  多刺的；棘手的；a thorn in my side/flesh 眼中钉、肉中刺\n\n例句：\nShe got her finger pricked by a thorn",
+        "meaning": "n.\n刺；荆棘\n棘手的；a thorn in my side/flesh 眼中钉、肉中刺\n\n例句：\nShe got her finger pricked by a thorn",
         "example": ""
     },
     {
@@ -2580,9 +2580,9 @@ const ieltsWords = [
     {
         "word": "lawn",
         "category": "植物研究",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n草地；草坪\nmow\nv.  割草\n\n例句：\nMy mother asked me to mow the lawn",
+        "meaning": "n.\n草地；草坪\n\n例句：\nMy mother asked me to mow the lawn",
         "example": ""
     },
     {
@@ -2612,9 +2612,9 @@ const ieltsWords = [
     {
         "word": "violet",
         "category": "植物研究",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n紫罗兰\ndainty\nadj.  精致的；美味的\n\n例句：\nThe violet is dainty spring flower",
+        "meaning": "n.\n紫罗兰\n美味的\n\n例句：\nThe violet is dainty spring flower",
         "example": ""
     },
     {
@@ -2628,25 +2628,25 @@ const ieltsWords = [
     {
         "word": "mint",
         "category": "植物研究",
-        "pos": "n.",
-        "phonetic": "/v.|薄荷；铸币厂/",
-        "meaning": "n. 铸造（硬币）\nWe sat in the back row, sucking mints 我们坐在后排，嘴里咂着薄荷糖",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  薄荷；铸币厂\nv.  铸造（硬币）\nWe sat in the back row, sucking mints 我们坐在后排，嘴里咂着薄荷糖",
         "example": ""
     },
     {
         "word": "reef",
         "category": "植物研究",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n暗礁\nThe ship was wrecked on a\nreef.  这船触礁失事了\nwreck\nv.  失事；毁坏",
+        "meaning": "n.\n暗礁\nThe ship was wrecked on a\nreef.  这船触礁失事了",
         "example": ""
     },
     {
         "word": "alga",
         "category": "植物研究",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n海藻\nalgal\nadj.  海藻的。algae 复数形式\n\n例句：\nSome of the algae are edible",
+        "meaning": "n.\n海藻\nalgae 复数形式\n\n例句：\nSome of the algae are edible",
         "example": ""
     },
     {
@@ -2670,7 +2670,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  释放；\nn.  发布\n\n例句：\nI released the horse and it ran away",
+        "meaning": "v./n. 释放；发布\n\n例句：\nI released the horse and it ran away",
         "example": ""
     },
     {
@@ -2718,7 +2718,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n营养物质\nnutrition\nn.  营养\n\n例句：\nThe nutrient in the soil acts as a stimulus to growth in plants",
+        "meaning": "n.\n营养物质\n\n例句：\nThe nutrient in the soil acts as a stimulus to growth in plants",
         "example": ""
     },
     {
@@ -2750,7 +2750,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  其平衡作用的事物；\nv.  抵消；对...起平衡作用\n\n例句：\nTheir strength in defense couterbalances our strength in attack",
+        "meaning": "n./v. 其平衡作用的事物；抵消；对...起平衡作用\n\n例句：\nTheir strength in defense couterbalances our strength in attack",
         "example": ""
     },
     {
@@ -2774,7 +2774,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n（对自然环境的）保护；保存\nSome accommodation between conservation and tourism is essential. 对自然环境的保护和旅游业之前的相互协调是至关重要的 —— accommodation 除了有住宿还有和解协调的意思\nconversation\nn.  交谈",
+        "meaning": "n.\n（对自然环境的）保护；保存\nSome accommodation between conservation and tourism is essential. 对自然环境的保护和旅游业之前的相互协调是至关重要的 —— accommodation 除了有住宿还有和解协调的意思",
         "example": ""
     },
     {
@@ -2806,7 +2806,7 @@ const ieltsWords = [
         "category": "植物研究",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  毁坏；\nn.  摧毁；毁灭；废墟\n\n例句：\nThe stome ruinned the crops",
+        "meaning": "v.  毁坏\nn.  摧毁；毁灭；废墟\n\n例句：\nThe stome ruinned the crops",
         "example": ""
     },
     {
@@ -2844,9 +2844,9 @@ const ieltsWords = [
     {
         "word": "extinction",
         "category": "植物研究",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n灭绝\ntinct\nadj.  已灭绝的\nBy 2050, a quarter of the earth's species could be threatend with extinction",
+        "meaning": "n.\n灭绝\nBy 2050, a quarter of the earth's species could be threatend with extinction",
         "example": ""
     },
     {
@@ -2892,7 +2892,7 @@ const ieltsWords = [
     {
         "word": "favourable",
         "category": "植物研究",
-        "pos": "adj.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/favorable\nadj.\n有利的；赞成的；肯定的\n\n例句：\nIt's encouraging to receive a favorable report on one study",
         "example": ""
@@ -2940,9 +2940,9 @@ const ieltsWords = [
     {
         "word": "immense",
         "category": "植物研究",
-        "pos": "adj. v. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n巨大的；极好的\nplunge\nv.  投入；跳入 zeal\nn.  热情\n\n例句：\nThey plunged into their work with immense zeal",
+        "meaning": "adj.\n巨大的；极好的\n\n例句：\nThey plunged into their work with immense zeal",
         "example": ""
     },
     {
@@ -2964,7 +2964,7 @@ const ieltsWords = [
     {
         "word": "optimal",
         "category": "植物研究",
-        "pos": "adj.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/optimum\nadj.\n最佳的；最理想的\n\n例句：\nThis is the optimal season for the growth of plants",
         "example": ""
@@ -3036,9 +3036,9 @@ const ieltsWords = [
     {
         "word": "amphibian",
         "category": "动物保护",
-        "pos": "n. adj.",
+        "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.\n两栖动物\nadj.\n两栖的\n\n例句：\nNobody knows why amphibians are disappearing. Dolphins are dying and coral is turning white",
+        "meaning": "n.  两栖动物\nadj.  两栖的\n\n例句：\nNobody knows why amphibians are disappearing. Dolphins are dying and coral is turning white",
         "example": ""
     },
     {
@@ -3100,9 +3100,9 @@ const ieltsWords = [
     {
         "word": "flock",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/v.|（羊或鸟）群/",
-        "meaning": "n. 聚集\n\n例句：\nSheep usually flock together",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  （羊或鸟）群\nv.  聚集\n\n例句：\nSheep usually flock together",
         "example": ""
     },
     {
@@ -3124,9 +3124,9 @@ const ieltsWords = [
     {
         "word": "throng",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/v.|人群/",
-        "meaning": "n. 群集\n\n例句：\nHe was met a throng of journalists and photographers",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  人群\nv.  群集\n\n例句：\nHe was met a throng of journalists and photographers",
         "example": ""
     },
     {
@@ -3180,9 +3180,9 @@ const ieltsWords = [
     {
         "word": "stem",
         "category": "动物保护",
-        "pos": "v.",
-        "phonetic": "/n.|起源于；来自/",
-        "meaning": "v. 茎；梗\nstem from 源自；起源于\n\n例句：\nCorrect decisions stem from correct judgments",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  起源于；来自\nn.  茎；梗\nstem from 源自；起源于\n\n例句：\nCorrect decisions stem from correct judgments",
         "example": ""
     },
     {
@@ -3196,9 +3196,9 @@ const ieltsWords = [
     {
         "word": "descendant",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/adj.|后裔；后代/",
-        "meaning": "n. 下降的\n\n例句：\nHe is a descendant of Queen Victoria",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  后裔；后代\nadj.  下降的\n\n例句：\nHe is a descendant of Queen Victoria",
         "example": ""
     },
     {
@@ -3228,9 +3228,9 @@ const ieltsWords = [
     {
         "word": "breed",
         "category": "动物保护",
-        "pos": "v.",
-        "phonetic": "/n.|饲养；繁殖/",
-        "meaning": "v. 品种\n\n例句：\nShe breeds orchids in her greenhouse",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  饲养；繁殖\nn.  品种\n\n例句：\nShe breeds orchids in her greenhouse",
         "example": ""
     },
     {
@@ -3244,7 +3244,7 @@ const ieltsWords = [
     {
         "word": "hybridize",
         "category": "动物保护",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/hybridise\nv.\n（使）杂交\n\n例句：\nImmediately rose breeders began to hybridize it with other red roses",
         "example": ""
@@ -3268,9 +3268,9 @@ const ieltsWords = [
     {
         "word": "mate",
         "category": "动物保护",
-        "pos": "v.",
-        "phonetic": "/n.|交配/",
-        "meaning": "v. 配偶\n\n例句：\nMany animals mate in the spring",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  交配\nn.  配偶\n\n例句：\nMany animals mate in the spring",
         "example": ""
     },
     {
@@ -3294,7 +3294,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  孵化\nn.\nDon't count the chickens before they are hatched 不要过早打如意算盘",
+        "meaning": "v./n. 孵化\nDon't count the chickens before they are hatched 不要过早打如意算盘",
         "example": ""
     },
     {
@@ -3302,7 +3302,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  一窝幼鸟；\nv.  孵（蛋）\n\n例句：\nThe bird was trying to find food for its brood",
+        "meaning": "n./v. 一窝幼鸟；孵（蛋）\n\n例句：\nThe bird was trying to find food for its brood",
         "example": ""
     },
     {
@@ -3310,15 +3310,15 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  （鱼、蛙的）卵；\nv.  产卵；引起\n\n例句：\nMany sea fishes spawn in rivers",
+        "meaning": "n./v. （鱼、蛙的）卵；产卵；引起\n\n例句：\nMany sea fishes spawn in rivers",
         "example": ""
     },
     {
         "word": "mature",
         "category": "动物保护",
-        "pos": "adj./v. adj.",
+        "pos": "adj./v.",
         "phonetic": "",
-        "meaning": "adj.  成熟的；\nv.  成熟\nimmature\nadj.  不成熟的，未完全发育的\n\n例句：\nYou are a mature man now, you are no longer a boy",
+        "meaning": "adj.  成熟的\nv.  成熟\n\n例句：\nYou are a mature man now, you are no longer a boy",
         "example": ""
     },
     {
@@ -3332,9 +3332,9 @@ const ieltsWords = [
     {
         "word": "claw",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/v.|爪；钳；鳌；爪状物/",
-        "meaning": "n. 抓；挠；撕\n\n例句：\nA hen's claw has four toes",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  爪；钳；鳌；爪状物\nv.  抓；挠；撕\n\n例句：\nA hen's claw has four toes",
         "example": ""
     },
     {
@@ -3404,9 +3404,9 @@ const ieltsWords = [
     {
         "word": "curl",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/v.|卷曲；螺旋状物/",
-        "meaning": "n. （使）卷曲\n\"curl\" 更强调弯曲或卷曲的动作或形状，而 \"curve\" 更倾向于描述曲线的形状或者趋势。\n\n例句：\nAs he got older, his hair lost its curl",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  卷曲；螺旋状物\nv.  （使）卷曲\n\"curl\" 更强调弯曲或卷曲的动作或形状，而 \"curve\" 更倾向于描述曲线的形状或者趋势。\n\n例句：\nAs he got older, his hair lost its curl",
         "example": ""
     },
     {
@@ -3486,7 +3486,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  海豹；\nv.  封条；图章；密封\n\n例句：\nPolar bears set off in search of their favorite meal-seals",
+        "meaning": "n.  海豹\nv.  封条；图章；密封\n\n例句：\nPolar bears set off in search of their favorite meal-seals",
         "example": ""
     },
     {
@@ -3494,7 +3494,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n龟；陆龟\nDo you remember the story about a race between the tortoise and the hare?\nhare\nn.  野兔",
+        "meaning": "n.\n龟；陆龟\nDo you remember the story about a race between the tortoise and the hare?",
         "example": ""
     },
     {
@@ -3510,7 +3510,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  鲸；\nv.  捕鲸\n\n例句：\nWe may live to see the extinction of the whale",
+        "meaning": "n./v. 鲸；捕鲸\n\n例句：\nWe may live to see the extinction of the whale",
         "example": ""
     },
     {
@@ -3622,7 +3622,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n幼小动物\npuppy\nn.  幼犬。Alsatian\nn.  阿尔萨斯狼狗，德国牧羊犬（同 German shepherd）\n\n例句：\nI'll get you an Alsatian pup for Christmas",
+        "meaning": "n.\n幼小动物\nAlsatian\nn.  阿尔萨斯狼狗，德国牧羊犬（同 German shepherd）\n\n例句：\nI'll get you an Alsatian pup for Christmas",
         "example": ""
     },
     {
@@ -3836,7 +3836,7 @@ const ieltsWords = [
     {
         "word": "behaviour",
         "category": "动物保护",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/behavior\nn.\n行为；活动方式\n\n例句：\nThey observed the behavior of their new pet",
         "example": ""
@@ -3846,7 +3846,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  咬；\nn.  （昆虫）叮；吞饵\n\n例句：\nThe mosquitoes are biting me",
+        "meaning": "v./n. 咬；（昆虫）叮；吞饵\n\n例句：\nThe mosquitoes are biting me",
         "example": ""
     },
     {
@@ -3854,7 +3854,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  刺；\nn.  叮；（使）感觉刺痛；鳌针；蜇痛\nsting\nsb.  into doing\nsth.  刺激某人做某事 scorpion 蝎子\n\n例句：\nIt is the nature of the scorpion to sting",
+        "meaning": "v.  刺\nn.  叮；（使）感觉刺痛；鳌针；蜇痛\nsting\nsb.  into doing\nsth.  刺激某人做某事 scorpion 蝎子\n\n例句：\nIt is the nature of the scorpion to sting",
         "example": ""
     },
     {
@@ -3862,7 +3862,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  吠；\nn.  大声嚷；树皮\n\n例句：\nBarking dogs seldom bite",
+        "meaning": "v./n. 吠；大声嚷；树皮\n\n例句：\nBarking dogs seldom bite",
         "example": ""
     },
     {
@@ -3870,15 +3870,15 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  吼叫；\nv.  咆哮\n\n例句：\nThe whole room rang with a roar",
+        "meaning": "n./v. 吼叫；咆哮\n\n例句：\nThe whole room rang with a roar",
         "example": ""
     },
     {
         "word": "rub",
         "category": "动物保护",
-        "pos": "v.",
-        "phonetic": "/n.|擦；摩擦/",
-        "meaning": "v. 困难；障碍\nthe ~ 问题，困难，障碍\n\n例句：\nIt is an Eskimo custom to cub noses as a greeting",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  擦；摩擦\nn.  困难；障碍\nthe ~ 问题，困难，障碍\n\n例句：\nIt is an Eskimo custom to cub noses as a greeting",
         "example": ""
     },
     {
@@ -3918,7 +3918,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  蜂房；繁忙的场所；\nv.  （使）入蜂箱；（像蜜蜂般）密集群居\nThis marketplace was once a hive of activity 一片繁忙景象",
+        "meaning": "n.  蜂房；繁忙的场所\nv.  （使）入蜂箱；（像蜜蜂般）密集群居\nThis marketplace was once a hive of activity 一片繁忙景象",
         "example": ""
     },
     {
@@ -3942,7 +3942,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  马厩；牛棚；\nadj.  稳定的\n\n例句：\nThe horse in the stable has broken out",
+        "meaning": "n.  马厩；牛棚\nadj.  稳定的\n\n例句：\nThe horse in the stable has broken out",
         "example": ""
     },
     {
@@ -3990,7 +3990,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  流行病；（坏事的）盛行；流行性的；\nadj.  极为盛行的\n\n例句：\nViolence is reaching epidemic levels in some of the films and TV shows",
+        "meaning": "n.  流行病；（坏事的）盛行；流行性的\nadj.  极为盛行的\n\n例句：\nViolence is reaching epidemic levels in some of the films and TV shows",
         "example": ""
     },
     {
@@ -4060,9 +4060,9 @@ const ieltsWords = [
     {
         "word": "secrete",
         "category": "动物保护",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n分泌\nsecret\nn.  秘密\n\n例句：\nThe kidneys secrete urine",
+        "meaning": "v.\n分泌\n\n例句：\nThe kidneys secrete urine",
         "example": ""
     },
     {
@@ -4100,17 +4100,17 @@ const ieltsWords = [
     {
         "word": "potential",
         "category": "动物保护",
-        "pos": "n.",
-        "phonetic": "/adj.|潜力/",
-        "meaning": "n. 潜在的\n\n例句：\nShe showed great potential as an actress",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  潜力\nadj.  潜在的\n\n例句：\nShe showed great potential as an actress",
         "example": ""
     },
     {
         "word": "intelligence",
         "category": "动物保护",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n智慧；智力；情报；谍报\nintelligent\nadj.  聪明的。an intelligence agent 情报人员。artificial intelligence 人工智能\n\n例句：\nUse your intelligence, and you're sure to succeed some day",
+        "meaning": "n.\n智慧；智力；情报；谍报\nan intelligence agent 情报人员。artificial intelligence 人工智能\n\n例句：\nUse your intelligence, and you're sure to succeed some day",
         "example": ""
     },
     {
@@ -4156,9 +4156,9 @@ const ieltsWords = [
     {
         "word": "nocturnal",
         "category": "动物保护",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n夜间活动的\nhamster\nn.  仓鼠\n\n例句：\nHamsters are nocturnal creatures",
+        "meaning": "adj.\n夜间活动的\n\n例句：\nHamsters are nocturnal creatures",
         "example": ""
     },
     {
@@ -4182,7 +4182,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  追踪；\nn.  足迹；踪迹；轨道\n\n例句：\nThe hunter followed the animal's tracks",
+        "meaning": "v.  追踪\nn.  足迹；踪迹；轨道\n\n例句：\nThe hunter followed the animal's tracks",
         "example": ""
     },
     {
@@ -4190,15 +4190,15 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  追踪；\nn.  查出；追溯；痕迹；少许\na trace of 少许；一丝。track back to 追溯到\n\n例句：\nThey traced the criminal to a house in the city",
+        "meaning": "v.  追踪\nn.  查出；追溯；痕迹；少许\na trace of 少许；一丝。track back to 追溯到\n\n例句：\nThey traced the criminal to a house in the city",
         "example": ""
     },
     {
         "word": "alternate",
         "category": "动物保护",
-        "pos": "v. adj. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n（使）交替；（使）轮流\nalternative\nadj.  可供选择的\nn.  可供选择的事物\n\n例句：\nSunny weather alternated with rain",
+        "meaning": "v.\n（使）交替；（使）轮流\n\n例句：\nSunny weather alternated with rain",
         "example": ""
     },
     {
@@ -4206,7 +4206,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  猎物；\nv.  捕食\n\n例句：\nsnacks track their prey by its scent",
+        "meaning": "n./v. 猎物；捕食\n\n例句：\nsnacks track their prey by its scent",
         "example": ""
     },
     {
@@ -4230,15 +4230,15 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  俘虏；被关押的；\nadj.  收控制的\nbreak into 侵入，闯入\n\n例句：\nArmed gunmen broke into the church and took the priest captive",
+        "meaning": "n.  俘虏；被关押的\nadj.  收控制的\nbreak into 侵入，闯入\n\n例句：\nArmed gunmen broke into the church and took the priest captive",
         "example": ""
     },
     {
         "word": "defensive",
         "category": "动物保护",
-        "pos": "adj. v.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n防御性的\ndefend\nv.  防卫。self-defensive\nadj.  自卫的\n\n例句：\nwe took a defensive attitude in the negotiation",
+        "meaning": "adj.\n防御性的\nself-\n\n例句：\nwe took a defensive attitude in the negotiation",
         "example": ""
     },
     {
@@ -4292,9 +4292,9 @@ const ieltsWords = [
     {
         "word": "tame",
         "category": "动物保护",
-        "pos": "v.",
-        "phonetic": "/adj.|驯养；制服/",
-        "meaning": "v. 驯服的；乏味的\ntame nature 征服大自然\n\n例句：\nThe tame lions can communicate and dance together with the actors",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  驯养；制服\nadj.  驯服的；乏味的\ntame nature 征服大自然\n\n例句：\nThe tame lions can communicate and dance together with the actors",
         "example": ""
     },
     {
@@ -4310,7 +4310,7 @@ const ieltsWords = [
         "category": "动物保护",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n牧羊人，羊倌\nsheepdog\nn.  牧羊犬\n\n例句：\nThe shepherd set out to look for the sheep that had wandered away",
+        "meaning": "n.\n牧羊人，羊倌\n\n例句：\nThe shepherd set out to look for the sheep that had wandered away",
         "example": ""
     },
     {
@@ -4318,7 +4318,7 @@ const ieltsWords = [
         "category": "太空探索",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n星系\nthe Galaxy 银河系\n\n例句：\nThe sun is only a very small star in the Galaxy",
+        "meaning": "n.\n星系\nthe Galaxy 银河系\n\n例句：\nThe sun is only a very small start in the Galaxy",
         "example": ""
     },
     {
@@ -4364,9 +4364,9 @@ const ieltsWords = [
     {
         "word": "astronomy",
         "category": "太空探索",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n天文学\ncognate\nadj.  同源的；有共同起源的\n\n例句：\nPhysics and astronomy are cognate sciences",
+        "meaning": "n.\n天文学\n有共同起源的\n\n例句：\nPhysics and astronomy are cognate sciences",
         "example": ""
     },
     {
@@ -4484,9 +4484,9 @@ const ieltsWords = [
     {
         "word": "pressure",
         "category": "太空探索",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n压力\ncapitulate\nv.  投降\n\n例句：\nWe will never capitulate to pressure from outside",
+        "meaning": "n.\n压力\n\n例句：\nWe will never capitulate to pressure from outside",
         "example": ""
     },
     {
@@ -4510,7 +4510,7 @@ const ieltsWords = [
         "category": "太空探索",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  排气口；\nv.  排放；发泄\n\n例句：\nWhen gases and steam can get vented from a valcano's cracks, it's probably not about to erupt",
+        "meaning": "n./v. 排气口；排放；发泄\n\n例句：\nWhen gases and steam can get vented from a valcano's cracks, it's probably not about to erupt",
         "example": ""
     },
     {
@@ -4572,9 +4572,9 @@ const ieltsWords = [
     {
         "word": "spectacle",
         "category": "太空探索",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n壮观的景象；奇观\nspectacular\nadj.  壮观的；壮丽的\n\n例句：\nThe sunrise was a splendid spectacle",
+        "meaning": "n.\n壮观的景象；奇观\n壮丽的\n\n例句：\nThe sunrise was a splendid spectacle",
         "example": ""
     },
     {
@@ -4628,9 +4628,9 @@ const ieltsWords = [
     {
         "word": "compound",
         "category": "太空探索",
-        "pos": "n. adj. v.",
+        "pos": "n./adj./v.",
         "phonetic": "",
-        "meaning": "n.\n混合物；化合物。\nadj.\n复合的；组合的。\nv.\n混合\n例句：\nEnglish loves compound words: \"washing machine\" and that sort of thing",
+        "meaning": "n.  /\nadj.\nv.\n混合物；化合物。复合的；组合的。混合\nEnglish loves compound words: \"washing machine\" and that sort of thing",
         "example": ""
     },
     {
@@ -4710,7 +4710,7 @@ const ieltsWords = [
         "category": "太空探索",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  液体；\nadj.  液体的\n\n例句：\nIf you add too much liquid, the mixture will not be thick enough",
+        "meaning": "n.  液体\nadj.  液体的\n\n例句：\nIf you add too much liquid, the mixture will not be thick enough",
         "example": ""
     },
     {
@@ -4732,7 +4732,7 @@ const ieltsWords = [
     {
         "word": "synthesise",
         "category": "太空探索",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/synthesize\nv.\n合成；综合\n\n例句：\nDarwinian theory has been synthesized with modern genetics",
         "example": ""
@@ -4862,7 +4862,7 @@ const ieltsWords = [
         "category": "太空探索",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  压扁；\nn.  壁球\n\n例句：\nI sat on my hat and squashed it",
+        "meaning": "v./n. 压扁；壁球\n\n例句：\nI sat on my hat and squashed it",
         "example": ""
     },
     {
@@ -4870,7 +4870,7 @@ const ieltsWords = [
         "category": "太空探索",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  碎片；片段；\nv.  （使）碎裂\n\n例句：\nHe was still in bad condition and could give only a fragmented account of the accident",
+        "meaning": "n.  碎片；片段\nv.  （使）碎裂\n\n例句：\nHe was still in bad condition and could give only a fragmented account of the accident",
         "example": ""
     },
     {
@@ -4964,9 +4964,9 @@ const ieltsWords = [
     {
         "word": "academy",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n专科院校；（美国的）私立学校；研究会；学会\nacademic\nadj.  学术的；学院的\n\n例句：\nThis is an academy of music",
+        "meaning": "n.\n专科院校；（美国的）私立学校；研究会；学会\n学院的\n\n例句：\nThis is an academy of music",
         "example": ""
     },
     {
@@ -4982,7 +4982,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  学习；\nn.  研究\n\n例句：\nThis reference book is very useful to study from",
+        "meaning": "v./n. 学习；研究\n\n例句：\nThis reference book is very useful to study from",
         "example": ""
     },
     {
@@ -5028,9 +5028,9 @@ const ieltsWords = [
     {
         "word": "literate",
         "category": "学校教育",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n有读写能力的\nliteracy\nn.  读写能力\n\n例句：\nOver one-quarter of the adult population are not fully literate",
+        "meaning": "adj.\n有读写能力的\n\n例句：\nOver one-quarter of the adult population are not fully literate",
         "example": ""
     },
     {
@@ -5108,7 +5108,7 @@ const ieltsWords = [
     {
         "word": "instil",
         "category": "学校教育",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/instill\nv.\n逐渐灌输\n\n例句：\nA sense of duty must be instilled in our children",
         "example": ""
@@ -5124,9 +5124,9 @@ const ieltsWords = [
     {
         "word": "emphasise",
         "category": "学校教育",
-        "pos": "v. adj.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/emphasize\nv.\n强调；着重\nboastful\nadj.  自夸的\n\n例句：\nI try to emphasize my strengths without sounding boastful",
+        "meaning": "/emphasize\nv.\n强调；着重\n\n例句：\nI try to emphasize my strengths without sounding boastful",
         "example": ""
     },
     {
@@ -5244,7 +5244,7 @@ const ieltsWords = [
     {
         "word": "all-round",
         "category": "学校教育",
-        "pos": "adj.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/all-around\nadj.\n有多方面才能的；全面的\n\n例句：\nShe is an all-round artist",
         "example": ""
@@ -5284,33 +5284,33 @@ const ieltsWords = [
     {
         "word": "wit",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n风趣的人；机智；风趣；智慧\ngregarious\nadj.  爱交际的；合群的\n\n例句：\nHolmes was a gregarious, a great wit, a man of wide interests",
+        "meaning": "n.\n风趣的人；机智；风趣；智慧\n合群的\n\n例句：\nHolmes was a gregarious, a great wit, a man of wide interests",
         "example": ""
     },
     {
         "word": "aptitude",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n天生的才能；资质\napt\nadj.  恰当的；聪明的\n\n例句：\nThat student has an aptitude for music",
+        "meaning": "n.\n天生的才能；资质\n聪明的\n\n例句：\nThat student has an aptitude for music",
         "example": ""
     },
     {
         "word": "capable",
         "category": "学校教育",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n有能力的；有才能的\ncapability\nn.  能力。capacity\nn.  容量。be capable of 能够\n\n例句：\nNot everyone is capable of judging fine arts",
+        "meaning": "adj.\n有能力的；有才能的\nbe capable of 能够\n\n例句：\nNot everyone is capable of judging fine arts",
         "example": ""
     },
     {
         "word": "excellent",
         "category": "学校教育",
-        "pos": "adj. v.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n杰出的；优秀的\ncel\nv.  擅长；突出\n\n例句：\nShe had a high reputation for her excellent detective novels",
+        "meaning": "adj.\n杰出的；优秀的\n\n例句：\nShe had a high reputation for her excellent detective novels",
         "example": ""
     },
     {
@@ -5332,9 +5332,9 @@ const ieltsWords = [
     {
         "word": "prestige",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n威望；声望\nprestigious\nadj.  有名望的；享有声望的\n\n例句：\nThese new policies will affect the president's national and international prestige",
+        "meaning": "n.\n威望；声望\n享有声望的\n\n例句：\nThese new policies will affect the president's national and international prestige",
         "example": ""
     },
     {
@@ -5356,9 +5356,9 @@ const ieltsWords = [
     {
         "word": "notorious",
         "category": "学校教育",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n名声狼藉的\nnotoriety\nn.  坏名声\n\n例句：\nThe notorious thief was finally caught and put to prison",
+        "meaning": "adj.\n名声狼藉的\n\n例句：\nThe notorious thief was finally caught and put to prison",
         "example": ""
     },
     {
@@ -5374,7 +5374,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  尊敬；\nv.  敬重\n\n例句：\nYou should know how to respect to yourself before you can get respect from others",
+        "meaning": "n./v. 尊敬；敬重\n\n例句：\nYou should know how to respect to yourself before you can get respect from others",
         "example": ""
     },
     {
@@ -5421,16 +5421,16 @@ const ieltsWords = [
         "word": "headmaster",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n男校长\ntrack record 履历记录，过去的成绩\n\n例句：\nHis track record as a headmaster was excellent",
+        "phonetic": "",
+        "meaning": "n.\n[英]男校长\ntrack record 履历记录，过去的成绩\n\n例句：\nHis track record as a headmaster was excellent",
         "example": ""
     },
     {
         "word": "principal",
         "category": "学校教育",
         "pos": "n./adj.",
-        "phonetic": "[美]",
-        "meaning": "n.  （中小学）校长；[英]大学校长；学院院长。\nadj.  首要的\n\n例句：\nHe is going to resign from the position of principal",
+        "phonetic": "",
+        "meaning": "n.  [美]（中小学）校长；[英]大学校长；学院院长。\nadj.  首要的\n\n例句：\nHe is going to resign from the position of principal",
         "example": ""
     },
     {
@@ -5540,7 +5540,7 @@ const ieltsWords = [
     {
         "word": "license",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/licence\nn.\n执照；许可证\n\n例句：\nHis driving license was suspended for three months",
         "example": ""
@@ -5574,7 +5574,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n大使\nembassy\nn.  大使馆\n\n例句：\nHe was appointed ambassador to France",
+        "meaning": "n.\n大使\n\n例句：\nHe was appointed ambassador to France",
         "example": ""
     },
     {
@@ -5590,7 +5590,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  毕业生；\nv.  毕业\n\n例句：\nPreference will be given to graduates in journalism",
+        "meaning": "n./v. 毕业生；毕业\n\n例句：\nPreference will be given to graduates in journalism",
         "example": ""
     },
     {
@@ -5629,40 +5629,40 @@ const ieltsWords = [
         "word": "fresher",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n（大学）一年级新生\n\n例句：\nOnly a few months ago, the freshers started their exciting life at university",
+        "phonetic": "",
+        "meaning": "n.\n[英]（大学）一年级新生\n\n例句：\nOnly a few months ago, the freshers started their exciting life at university",
         "example": ""
     },
     {
         "word": "sophomore",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n（大学或高中）二年级学士\n\n例句：\nMy sophomore year at college was perhaps the most remarkable year of my life",
+        "phonetic": "",
+        "meaning": "n.\n[美]（大学或高中）二年级学士\n\n例句：\nMy sophomore year at college was perhaps the most remarkable year of my life",
         "example": ""
     },
     {
         "word": "junior",
         "category": "学校教育",
         "pos": "n./adj.",
-        "phonetic": "[美]",
-        "meaning": "n.  （大学或高中）三年级学生；较年幼者。\nadj.  青少年的；级别（或地位）较低的\n\n例句：\nAt that time, I was a sophomore and Miss Yang was a junior",
+        "phonetic": "",
+        "meaning": "n.  [美]（大学或高中）三年级学生；较年幼者。\nadj.  青少年的；级别（或地位）较低的\n\n例句：\nAt that time, I was a sophomore and Miss Yang was a junior",
         "example": ""
     },
     {
         "word": "senior",
         "category": "学校教育",
         "pos": "n./adj.",
-        "phonetic": "[美]",
-        "meaning": "n.  （大学或高中）毕业班学士；较年长者。\nadj.  成人的；资深的\nThe seniors defeated the juniors by 4-2",
+        "phonetic": "",
+        "meaning": "n.  [美]（大学或高中）毕业班学士；较年长者。\nadj.  成人的；资深的\nThe seniors defeated the juniors by 4-2",
         "example": ""
     },
     {
         "word": "alumni",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[alumnus 的复数形式]",
-        "meaning": "n.\n毕业生；校友\n\n例句：\nMy alumni and alumna are present at my birthday party",
+        "phonetic": "",
+        "meaning": "n.\n[alumnus 的复数形式]毕业生；校友\n\n例句：\nMy alumni and alumna are present at my birthday party",
         "example": ""
     },
     {
@@ -5692,9 +5692,9 @@ const ieltsWords = [
     {
         "word": "coed",
         "category": "学校教育",
-        "pos": "n.",
-        "phonetic": "/co-educational|adj./",
-        "meaning": "n.\n男女同校的。（男女同校的大学生中的）女生\n\n例句：\nA nationwide research is under way for typical coeds",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/co-educational\nadj.  男女同校的。\nn.  （男女同校的大学生中的）女生\n\n例句：\nA nationwide research is under way for typical coeds",
         "example": ""
     },
     {
@@ -5716,7 +5716,7 @@ const ieltsWords = [
     {
         "word": "enrol",
         "category": "学校教育",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/enroll\nv.\n登记；注册；加入\n\n例句：\nThey enrolled that freshman as a member of the club",
         "example": ""
@@ -5757,14 +5757,14 @@ const ieltsWords = [
         "word": "canteen",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n水壶；食堂\n\n例句：\nThis canteen is much frequented by students",
+        "phonetic": "",
+        "meaning": "n.\n水壶；[英]食堂\n\n例句：\nThis canteen is much frequented by students",
         "example": ""
     },
     {
         "word": "laboratory",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/lab\nn.\n实验室；研究室\n\n例句：\nIt is important to check when the laboratory can do the tests",
         "example": ""
@@ -5781,8 +5781,8 @@ const ieltsWords = [
         "word": "data",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[datum 的复数形式]",
-        "meaning": "n.\n数据\n\n例句：\nThe data should updated once a week",
+        "phonetic": "",
+        "meaning": "n.\n[datum 的复数形式]数据\n\n例句：\nThe data should updated once a week",
         "example": ""
     },
     {
@@ -5908,7 +5908,7 @@ const ieltsWords = [
     {
         "word": "encyclopedia",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/encyclopaedia\nn.\n百科全书\n\n例句：\nI know someone who is a walking encyclopedia. She knows about everything",
         "example": ""
@@ -5926,7 +5926,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  纪录片；\nadj.  记录的\n\n例句：\nThe documentary left me in a state of shock",
+        "meaning": "n.  纪录片\nadj.  记录的\n\n例句：\nThe documentary left me in a state of shock",
         "example": ""
     },
     {
@@ -5950,7 +5950,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  档案；\nv.  把...归档\n\n例句：\nThe police have a file on him",
+        "meaning": "n./v. 档案；把...归档\n\n例句：\nThe police have a file on him",
         "example": ""
     },
     {
@@ -5974,7 +5974,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  概略；\nv.  概述\n\n例句：\nI have figured out a basic sketch of a plan",
+        "meaning": "n./v. 概略；概述\n\n例句：\nI have figured out a basic sketch of a plan",
         "example": ""
     },
     {
@@ -6006,13 +6006,13 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  指数；\nv.  索引；为...编索引\n\n例句：\nThe index is arranged in alphabetical order",
+        "meaning": "n./v. 指数；索引；为...编索引\n\n例句：\nThe index is arranged in alphabetical order",
         "example": ""
     },
     {
         "word": "catalogue",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/catalog\nn.\n目录\n\n例句：\nYou can look for the book in the library catalogue",
         "example": ""
@@ -6100,17 +6100,17 @@ const ieltsWords = [
     {
         "word": "major",
         "category": "学校教育",
-        "pos": "n. adj.",
-        "phonetic": "/v./",
-        "meaning": "n.\nadj.\n[美]主修科目；专业。主修。主要的\n\n例句：\nShe majored in international economy at university",
+        "pos": "n./v./adj.",
+        "phonetic": "",
+        "meaning": "n.  /\nv.\nadj.\n[美]主修科目；专业。主修。主要的\n\n例句：\nShe majored in international economy at university",
         "example": ""
     },
     {
         "word": "minor",
         "category": "学校教育",
         "pos": "n./adj.",
-        "phonetic": "[美]",
-        "meaning": "n.  辅修科目。\nadj.  不严重的\n\n例句：\nMy major is English, but I also have a minor in history.",
+        "phonetic": "",
+        "meaning": "n.  [美]辅修科目。\nadj.  不严重的\n\n例句：\nMy major is English, but I also have a minor in history.",
         "example": ""
     },
     {
@@ -6268,15 +6268,15 @@ const ieltsWords = [
     {
         "word": "electronics",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n电子学；电子器件\nelectron\nn.  电子。electronic\nadj.  电子的；电子学的。electrical\nadj.  电的；电气科学的。electricity\nn.  电；电流；电学\n\n例句：\nThat country wants to increase tariffs on items such as electronics",
+        "meaning": "n.\n电子学；电子器件\n电子学的。电气科学的。电流；电学\n\n例句：\nThat country wants to increase tariffs on items such as electronics",
         "example": ""
     },
     {
         "word": "maths",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/mathematics\nn.\n数学\n\n例句：\nThe teacher will test us in maths",
         "example": ""
@@ -6366,7 +6366,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "adj./prep.",
         "phonetic": "",
-        "meaning": "adj.  负的；\nprep.  零以下的；减去\n\n例句：\nThe temperature is minus ten degrees now",
+        "meaning": "adj.  负的\nprep.  零以下的；减去\n\n例句：\nThe temperature is minus ten degrees now",
         "example": ""
     },
     {
@@ -6414,7 +6414,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  有理数；\nadj.  （数、式等）有理的\n\n例句：\nA rational number can be expressed as a ratio of two integers",
+        "meaning": "n.  有理数\nadj.  （数、式等）有理的\n\n例句：\nA rational number can be expressed as a ratio of two integers",
         "example": ""
     },
     {
@@ -6460,25 +6460,25 @@ const ieltsWords = [
     {
         "word": "double",
         "category": "学校教育",
-        "pos": "adj. v.",
-        "phonetic": "/n./",
-        "meaning": "adj.\nv.\n两倍的。两倍数；两倍量。使加倍\n\n例句：\nMany things now cost double what they did a couple of years ago",
+        "pos": "adj./n./v.",
+        "phonetic": "",
+        "meaning": "adj.  /\nn.\nv.\n两倍的。两倍数；两倍量。使加倍\n\n例句：\nMany things now cost double what they did a couple of years ago",
         "example": ""
     },
     {
         "word": "triple",
         "category": "学校教育",
-        "pos": "adj.",
-        "phonetic": "/n./",
-        "meaning": "adj. v\n三倍的；三重的。三倍数；三包两。使增至三倍\n\n例句：\nHis income triped",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.\nn.  v\n三倍的；三重的。三倍数；三包两。使增至三倍\n\n例句：\nHis income triped",
         "example": ""
     },
     {
         "word": "quadruple",
         "category": "学校教育",
-        "pos": "adj. v.",
-        "phonetic": "/n./",
-        "meaning": "adj.\nv.\n四倍的。四倍\n\n例句：\nOur profits have quadrupled in the last decade",
+        "pos": "adj./n./v.",
+        "phonetic": "",
+        "meaning": "adj.  /\nn.\nv.\n四倍的。四倍\n\n例句：\nOur profits have quadrupled in the last decade",
         "example": ""
     },
     {
@@ -6598,7 +6598,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "adj./adv.",
         "phonetic": "",
-        "meaning": "adj.  直的；\nadv.  笔直地；直接\n\n例句：\nThe old lady closed her book and looked straight at me",
+        "meaning": "adj.  直的\nadv.  笔直地；直接\n\n例句：\nThe old lady closed her book and looked straight at me",
         "example": ""
     },
     {
@@ -6612,9 +6612,9 @@ const ieltsWords = [
     {
         "word": "round",
         "category": "学校教育",
-        "pos": "adj. adv.",
-        "phonetic": "/n./",
-        "meaning": "adj.\nadv.\n圆的。绕圈；一轮。环绕\n\n例句：\nHe went round and round but could find no way to get out of the room",
+        "pos": "adj./n./adv.",
+        "phonetic": "",
+        "meaning": "adj.  /\nn.\nadv.\n圆的。绕圈；一轮。环绕\n\n例句：\nHe went round and round but could find no way to get out of the room",
         "example": ""
     },
     {
@@ -6676,7 +6676,7 @@ const ieltsWords = [
     {
         "word": "percent",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/per cent\nn.\n百分之...\nI am 100 percent in agreement",
         "example": ""
@@ -6868,17 +6868,17 @@ const ieltsWords = [
     {
         "word": "rust",
         "category": "学校教育",
-        "pos": "v./n. adj.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  （使）生锈。\nn.  锈；铁锈\nrusty\nadj.  生锈的\n\n例句：\nIf you leave your metal tools outside in the rain, they will rust",
+        "meaning": "v.  （使）生锈。\nn.  锈；铁锈\n\n例句：\nIf you leave your metal tools outside in the rain, they will rust",
         "example": ""
     },
     {
         "word": "ferment",
         "category": "学校教育",
-        "pos": "v./n. n.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  （使）发酵；骚动。\nn.  酶；发酵；动乱\nyeast\nn.  酵母；酵母菌\n\n例句：\nThe whole country was in a state of ferment",
+        "meaning": "v.  （使）发酵；骚动。\nn.  酶；发酵；动乱\n酵母菌\n\n例句：\nThe whole country was in a state of ferment",
         "example": ""
     },
     {
@@ -6948,9 +6948,9 @@ const ieltsWords = [
     {
         "word": "compose",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n组成；构成；创作；写\ncomposer\nn.  作曲家。be composed of 由...组成\n\n例句：\nWater is composed of hydrogen and oxygen",
+        "meaning": "v.\n组成；构成；创作；写\nbe composed of 由...组成\n\n例句：\nWater is composed of hydrogen and oxygen",
         "example": ""
     },
     {
@@ -7021,8 +7021,8 @@ const ieltsWords = [
         "word": "term",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n期限；术语；学期\n\n例句：\nThe protocol would have many positive results in the long term",
+        "phonetic": "",
+        "meaning": "n.\n期限；术语；[英]学期\n\n例句：\nThe protocol would have many positive results in the long term",
         "example": ""
     },
     {
@@ -7045,8 +7045,8 @@ const ieltsWords = [
         "word": "schedule",
         "category": "学校教育",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n日程安排；时刻表\n\n例句：\nThe next thing on my schedule is to buy some milk in the supermarket",
+        "phonetic": "",
+        "meaning": "n.\n日程安排；[美]时刻表\n\n例句：\nThe next thing on my schedule is to buy some milk in the supermarket",
         "example": ""
     },
     {
@@ -7222,7 +7222,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  预习\nv.\n\n例句：\nPlease do the preview and review work",
+        "meaning": "n./v. 预习\n\n例句：\nPlease do the preview and review work",
         "example": ""
     },
     {
@@ -7230,7 +7230,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  回顾；\nv.  复习\n\n例句：\nWe must hold a careful review of historical events",
+        "meaning": "n./v. 回顾；复习\n\n例句：\nWe must hold a careful review of historical events",
         "example": ""
     },
     {
@@ -7270,15 +7270,15 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  细看；\nn.  浏览；扫描\n\n例句：\nI just had a quick scan through your book again",
+        "meaning": "v./n. 细看；浏览；扫描\n\n例句：\nI just had a quick scan through your book again",
         "example": ""
     },
     {
         "word": "scrutinise",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/scrutinize\nv.\n仔细检查\nscrutiny\nn.  详细审查\n\n例句：\nThe jeweler scrutinized the ruby for flaws",
+        "meaning": "/scrutinize\nv.\n仔细检查\n\n例句：\nThe jeweler scrutinized the ruby for flaws",
         "example": ""
     },
     {
@@ -7292,15 +7292,15 @@ const ieltsWords = [
     {
         "word": "dictate",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n让（某人）听写；命令；强行规定\ndictaion\nn.  听写；口述\n\n例句：\nThe English teacher dictates to the class every other week",
+        "meaning": "v.\n让（某人）听写；命令；强行规定\n\n例句：\nThe English teacher dictates to the class every other week",
         "example": ""
     },
     {
         "word": "examination",
         "category": "学校教育",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/exam\nn.\n考试；抽查\n\n例句：\nDid you have to get through an entrance examination",
         "example": ""
@@ -7310,7 +7310,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  测试；\nn.  检验\n\n例句：\nThe scientist have already experimented at test sites",
+        "meaning": "v./n. 测试；检验\n\n例句：\nThe scientist have already experimented at test sites",
         "example": ""
     },
     {
@@ -7332,7 +7332,7 @@ const ieltsWords = [
     {
         "word": "plagiarise",
         "category": "学校教育",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/plagiarize\nv.\n抄袭\n\n例句：\nIt is not a viable option to plagiarize someone's work",
         "example": ""
@@ -7492,9 +7492,9 @@ const ieltsWords = [
     {
         "word": "abstract",
         "category": "学校教育",
-        "pos": "n. v.",
-        "phonetic": "/adj./",
-        "meaning": "n.\nv.\n摘要。抽象的。提取；把...抽象出\n\n例句：\nIron is abstracted from ore",
+        "pos": "n./adj./v.",
+        "phonetic": "",
+        "meaning": "n.  /\nadj.\nv.\n摘要。抽象的。提取；把...抽象出\n\n例句：\nIron is abstracted from ore",
         "example": ""
     },
     {
@@ -7508,9 +7508,9 @@ const ieltsWords = [
     {
         "word": "assume",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n假定；设想；承担（责任）；取得（权力）\nassumption\nn.  假设；假想\n\n例句：\nWe assume his innocence before hearing the evidence against it",
+        "meaning": "v.\n假定；设想；承担（责任）；取得（权力）\n\n例句：\nWe assume his innocence before hearing the evidence against it",
         "example": ""
     },
     {
@@ -7542,7 +7542,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  假定；\nn.  假设\n\n例句：\nThe experts had postulated that this disease can be cured in a couple of decades",
+        "meaning": "v./n. 假定；假设\n\n例句：\nThe experts had postulated that this disease can be cured in a couple of decades",
         "example": ""
     },
     {
@@ -7588,7 +7588,7 @@ const ieltsWords = [
     {
         "word": "recognise",
         "category": "学校教育",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/recognize\nv.\n认识；辨认出\n\n例句：\nI recoginized Peter at once, although I hadn't seen him for many years",
         "example": ""
@@ -7676,7 +7676,7 @@ const ieltsWords = [
     {
         "word": "analyse",
         "category": "学校教育",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/analyze\nv.\n分析\n\n例句：\nWe should analyze the cause and the effect of this event",
         "example": ""
@@ -7700,9 +7700,9 @@ const ieltsWords = [
     {
         "word": "deduce",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n演绎；推论\npremise\nn.  前提\n\n例句：\nWe can deduce a conclusion from this premise",
+        "meaning": "v.\n演绎；推论\n\n例句：\nWe can deduce a conclusion from this premise",
         "example": ""
     },
     {
@@ -7716,9 +7716,9 @@ const ieltsWords = [
     {
         "word": "analogy",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n类比；类推\nanalogous\nadj.  类似的。by analogy 通过类推法\n\n例句：\nThe man drew an analogy between the human skin and a brick wall",
+        "meaning": "n.\n类比；类推\nby analogy 通过类推法\n\n例句：\nThe man drew an analogy between the human skin and a brick wall",
         "example": ""
     },
     {
@@ -7796,9 +7796,9 @@ const ieltsWords = [
     {
         "word": "detail",
         "category": "学校教育",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n细节；（画等的）细节\ndetailed\nadj.  详细的。in detail 详细地\n\n例句：\nNo detail was too small to escape the detective's attention",
+        "meaning": "n.\n细节；（画等的）细节\nin detail 详细地\n\n例句：\nNo detail was too small to escape the detective's attention",
         "example": ""
     },
     {
@@ -7836,9 +7836,9 @@ const ieltsWords = [
     {
         "word": "demonstrate",
         "category": "学校教育",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n示范；演示；证明\ndemonstration\nn.  示范；游行示威。demonstrative\nadj.  情感外露的；喜怒形于色的。demonstrator\nn.  示范者；游行示威者\n\n例句：\nHe demonstrated how to use the new machine",
+        "meaning": "v.\n示范；演示；证明\n游行示威。喜怒形于色的。游行示威者\n\n例句：\nHe demonstrated how to use the new machine",
         "example": ""
     },
     {
@@ -7868,25 +7868,25 @@ const ieltsWords = [
     {
         "word": "determine",
         "category": "学校教育",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n决定；下定决心；查明\ndeterminant\nn.  决定因素。 determined\nadj.  下定决心的。determine to do\nsth.  决心做某事。determine beforehand 事先决定\n\n例句：\nHe determined to move to another city and start a new life",
+        "meaning": "v.\n决定；下定决心；查明\ndetermine to do\nsth.  决心做某事。determine beforehand 事先决定\n\n例句：\nHe determined to move to another city and start a new life",
         "example": ""
     },
     {
         "word": "decide",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n决定\ndecision\nn.  决定；抉择\n\n例句：\nDon't decide on important matters too quickly",
+        "meaning": "v.\n决定\n\n例句：\nDon't decide on important matters too quickly",
         "example": ""
     },
     {
         "word": "resolve",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n决心；决定；（使）分解为；解决\nresolution\nn.  决心；分辨率。solution\nn.  解决方案；溶液\n\n例句：\nShe resolves that she will never eat junk food",
+        "meaning": "v.\n决心；决定；（使）分解为；解决\n分辨率。溶液\n\n例句：\nShe resolves that she will never eat junk food",
         "example": ""
     },
     {
@@ -7894,7 +7894,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  民意调查；\nv.  对...进行民意调查\n动词的时候重音在中间\n\n例句：\nA recent survey of public opinions shows that many people are worried about the rising house prices",
+        "meaning": "n.  民意调查\nv.  对...进行民意调查\n动词的时候重音在中间\n\n例句：\nA recent survey of public opinions shows that many people are worried about the rising house prices",
         "example": ""
     },
     {
@@ -7916,9 +7916,9 @@ const ieltsWords = [
     {
         "word": "inquire",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/enquire\nv.\n询问；调查\ninquiry\nn.  询问；调查。 inquire into 调查\n\n例句：\nWe must inquire into the matter",
+        "meaning": "/enquire\nv.\n询问；调查\n调查。 inquire into 调查\n\n例句：\nWe must inquire into the matter",
         "example": ""
     },
     {
@@ -7926,7 +7926,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  \u0010疑问；\nv.  询问；怀疑；询问\n\n例句：\nI have serveral queries about the work you give me",
+        "meaning": "n.  \u0010疑问\nv.  询问；怀疑；询问\n\n例句：\nI have serveral queries about the work you give me",
         "example": ""
     },
     {
@@ -7940,9 +7940,9 @@ const ieltsWords = [
     {
         "word": "achieve",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n实现；到达\nachievement\nn.  成就；完成；达到。achieve success 取得成功\n\n例句：\nIn many fields, women have yet to achieve the equal participation in policy making processes",
+        "meaning": "v.\n实现；到达\n完成；达到。achieve success 取得成功\n\n例句：\nIn many fields, women have yet to achieve the equal participation in policy making processes",
         "example": ""
     },
     {
@@ -7956,9 +7956,9 @@ const ieltsWords = [
     {
         "word": "attain",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n获得；达到\nattainment\nn.  达到；成就。attain one's goal 达到某人目标\n\n例句：\nGreat efforts are needed before we can attain our goal",
+        "meaning": "v.\n获得；达到\n成就。attain one's goal 达到某人目标\n\n例句：\nGreat efforts are needed before we can attain our goal",
         "example": ""
     },
     {
@@ -7982,7 +7982,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  分数；\nv.  标记；标志着；给...打分；在...上做记号\n\n例句：\nIt is dangerous to swim beyond this mark",
+        "meaning": "n.  分数\nv.  标记；标志着；给...打分；在...上做记号\n\n例句：\nIt is dangerous to swim beyond this mark",
         "example": ""
     },
     {
@@ -7990,15 +7990,15 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  给...分等级：等级；\nn.  成绩等级\n\n例句：\nThis grade of jade can be bought at a fairly low price",
+        "meaning": "v./n. 给...分等级：等级；成绩等级\n\n例句：\nThis grade of jade can be bought at a fairly low price",
         "example": ""
     },
     {
         "word": "rank",
         "category": "学校教育",
-        "pos": "n./v. n.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  等级；\nv.  排；列；给...评级；位列\nranking\nn.  排名（表）；等级\n\n例句：\nThere are people of all ranks and classes",
+        "meaning": "n.  等级\nv.  排；列；给...评级；位列\n\n例句：\nThere are people of all ranks and classes",
         "example": ""
     },
     {
@@ -8014,7 +8014,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  行列；\nv.  队列；排队等候\n\n例句：\nWe should join the queue inside the bank",
+        "meaning": "n./v. 行列；队列；排队等候\n\n例句：\nWe should join the queue inside the bank",
         "example": ""
     },
     {
@@ -8030,7 +8030,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  赞美；\nv.  赞扬\nfull of praise 赞不绝口 praise\nsb.  for\nsth.  为某事赞扬某人\n\n例句：\nAmerican reviewers are lavish in their praise of this movie",
+        "meaning": "n./v. 赞美；赞扬\nfull of praise 赞不绝口 praise\nsb.  for\nsth.  为某事赞扬某人\n\n例句：\nAmerican reviewers are lavish in their praise of this movie",
         "example": ""
     },
     {
@@ -8052,9 +8052,9 @@ const ieltsWords = [
     {
         "word": "underestimate",
         "category": "学校教育",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n低估\nestimate\nv.  估算；\nn.  估算；评价\n\n例句：\nDon't underestimate the difficulty of this job",
+        "meaning": "v.\n低估\nn.  估算；评价\n\n例句：\nDon't underestimate the difficulty of this job",
         "example": ""
     },
     {
@@ -8094,7 +8094,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  报答；\nv.  赏金；报答\nreward\nsb.  for\nsth.  为某事报答某人。 as a reward for 作为对（某事）的报酬\n\n例句：\nVirture is its own reward",
+        "meaning": "n./v. 报答；赏金；报答\nreward\nsb.  for\nsth.  为某事报答某人。 as a reward for 作为对（某事）的报酬\n\n例句：\nVirture is its own reward",
         "example": ""
     },
     {
@@ -8110,7 +8110,7 @@ const ieltsWords = [
         "category": "学校教育",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  奖赏；\nv.  珍视\n\n例句：\nWe prize honor above money",
+        "meaning": "n./v. 奖赏；珍视\n\n例句：\nWe prize honor above money",
         "example": ""
     },
     {
@@ -8124,17 +8124,17 @@ const ieltsWords = [
     {
         "word": "technology",
         "category": "科技发明",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n技术\ntechnological\nadj.  技术上的；advanced technology 先进的技术\n\n例句：\nLife is made so much easier with modern science and technology",
+        "meaning": "n.\n技术\nadvanced technology 先进的技术\n\n例句：\nLife is made so much easier with modern science and technology",
         "example": ""
     },
     {
         "word": "technique",
         "category": "科技发明",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n技巧；技术\ntechnical\nadj.  技术的；技能的；工艺的。technician\nn.  技术员；技师\n\n例句：\nI want to learn the latest technique in toy making",
+        "meaning": "n.\n技巧；技术\n技能的；工艺的。技师\n\n例句：\nI want to learn the latest technique in toy making",
         "example": ""
     },
     {
@@ -8142,7 +8142,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  有关多种工艺的；\nn.  理工学院\n\n例句：\nYou trainees will acquire polytechnic training",
+        "meaning": "adj.  有关多种工艺的\nn.  理工学院\n\n例句：\nYou trainees will acquire polytechnic training",
         "example": ""
     },
     {
@@ -8166,7 +8166,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  发展；\nv.  前进\n\n例句：\nWe have advanced greatly in our knowledge of the universe",
+        "meaning": "n./v. 发展；前进\n\n例句：\nWe have advanced greatly in our knowledge of the universe",
         "example": ""
     },
     {
@@ -8198,23 +8198,23 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  专利；\nv.  专利权；得到...的专利权；给...专利证\n\n例句：\nThe government patented this device to its inventor",
+        "meaning": "n.  专利\nv.  专利权；得到...的专利权；给...专利证\n\n例句：\nThe government patented this device to its inventor",
         "example": ""
     },
     {
         "word": "devise",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n设计；发明\ndevice\nn.  装置；设备\n\n例句：\nThe team is trying to devise a new system for handling mail order",
+        "meaning": "v.\n设计；发明\n\n例句：\nThe team is trying to devise a new system for handling mail order",
         "example": ""
     },
     {
         "word": "invent",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n发明，创造\nDo you who invented the magnetic needle?\ninvention\nn.  发明，创造。inventor\nn.  发明者，创造者",
+        "meaning": "v.\n发明，创造\nDo you who invented the magnetic needle?",
         "example": ""
     },
     {
@@ -8292,7 +8292,7 @@ const ieltsWords = [
     {
         "word": "specialise",
         "category": "科技发明",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/specialize\nv.\n专攻\nspecialize in 专攻；专门研究；专门经营\n\n例句：\nMany students specialize in engineering",
         "example": ""
@@ -8308,9 +8308,9 @@ const ieltsWords = [
     {
         "word": "concentrate",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n（集中）心思；（使）浓缩\nconcentration\nn.  专心；浓度。concentrate on 专心于\n\n例句：\nThey will concentrate on teaching the basics of reading, writing, and arithmetic",
+        "meaning": "v.\n（集中）心思；（使）浓缩\n浓度。concentrate on 专心于\n\n例句：\nThey will concentrate on teaching the basics of reading, writing, and arithmetic",
         "example": ""
     },
     {
@@ -8318,15 +8318,15 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  集中于；\nn.  焦点\n\n例句：\nToday he was able to focus his message exclusively on the economy",
+        "meaning": "v./n. 集中于；焦点\n\n例句：\nToday he was able to focus his message exclusively on the economy",
         "example": ""
     },
     {
         "word": "utilise",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/utilize\nv.\n利用\nutility\nn.  效用；有用。utilities\nn.  （水、电、煤气等）公用事业。utilizbation=utilization\nn.  利用；使用\n\n例句：\nIn order to utilize land more fully, they adopted close planting",
+        "meaning": "/utilize\nv.\n利用\n有用。utilizbation=使用\n\n例句：\nIn order to utilize land more fully, they adopted close planting",
         "example": ""
     },
     {
@@ -8406,23 +8406,23 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  测量仪器；\nv.  测量；判断\n\n例句：\nIt was difficult to gauge how people would respond",
+        "meaning": "n./v. 测量仪器；测量；判断\n\n例句：\nIt was difficult to gauge how people would respond",
         "example": ""
     },
     {
         "word": "measure",
         "category": "科技发明",
-        "pos": "v./n. adj. n.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  测量；\nn.  衡量；措施\nmeasurable\nadj.  可测量的。measurement\nn.  测量；衡量；尺寸。take measures 采取措施\n\n例句：\nMeasure this impedance, and you can measure how much it has rained",
+        "meaning": "v./n. 测量；衡量；措施\n衡量；尺寸。take measures 采取措施\n\n例句：\nMeasure this impedance, and you can measure how much it has rained",
         "example": ""
     },
     {
         "word": "calculate",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n计算；考虑；打算\ncalculation\nn.  计算。calculator\nn.  计算器\n\n例句：\nOur price has already been closely calculated. There is no room for reduction",
+        "meaning": "v.\n计算；考虑；打算\n\n例句：\nOur price has already been closely calculated. There is no room for reduction",
         "example": ""
     },
     {
@@ -8436,9 +8436,9 @@ const ieltsWords = [
     {
         "word": "count",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n计算\ncounter\nn.  柜台；计数器\n\n例句：\nIt is impossible to count the stars in the sky",
+        "meaning": "v.\n计算\n计数器\n\n例句：\nIt is impossible to count the stars in the sky",
         "example": ""
     },
     {
@@ -8446,7 +8446,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  估计；\nv.  估价；评价\n\n例句：\nNow I've realized that my estimate of her character was one-sided",
+        "meaning": "n./v. 估计；估价；评价\n\n例句：\nNow I've realized that my estimate of her character was one-sided",
         "example": ""
     },
     {
@@ -8478,7 +8478,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n副产品\nbypass\nn.  旁路。bypath\nn.  旁道；小路。bywork\nn.  业余活计。byname\nn.  绰号\n\n例句：\nHappiness is not a goal. It is a byproduct",
+        "meaning": "n.\n副产品\n小路。\n\n例句：\nHappiness is not a goal. It is a byproduct",
         "example": ""
     },
     {
@@ -8532,9 +8532,9 @@ const ieltsWords = [
     {
         "word": "attach",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n使依附；附加；缚；系；贴\nattachment\nn.  附件；附属物。attach importance to 重视\n\n例句：\nChina will not attach itself to any big power",
+        "meaning": "v.\n使依附；附加；缚；系；贴\n附属物。attach importance to 重视\n\n例句：\nChina will not attach itself to any big power",
         "example": ""
     },
     {
@@ -8558,7 +8558,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n显微镜\nmicrophone\nn.  麦克风。microwave\nn.  微波；微波炉。microbe\nn.  微生物\n\n例句：\nThe optical microscope magnifies the object a thousand times",
+        "meaning": "n.\n显微镜\n微波炉。\n\n例句：\nThe optical microscope magnifies the object a thousand times",
         "example": ""
     },
     {
@@ -8580,9 +8580,9 @@ const ieltsWords = [
     {
         "word": "echo",
         "category": "科技发明",
-        "pos": "n./v. n.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  回声；\nv.  发回声；模仿；重复\nhyms\nn.  赞美诗\n\n例句：\nThe cathedral is echoing with joynous hymns",
+        "meaning": "n.  回声\nv.  发回声；模仿；重复\n\n例句：\nThe cathedral is echoing with joynous hymns",
         "example": ""
     },
     {
@@ -8748,15 +8748,15 @@ const ieltsWords = [
     {
         "word": "fantasy",
         "category": "科技发明",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n幻想\nfantastic\nadj.  奇异的；奇妙的\n\n例句：\nHe is unable to divorce fantasy from reality",
+        "meaning": "n.\n幻想\n奇妙的\n\n例句：\nHe is unable to divorce fantasy from reality",
         "example": ""
     },
     {
         "word": "science fiction",
         "category": "科技发明",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/sci-fi\nn.\n科幻作品\n\n例句：\nScience fiction films are very popular with youngsters",
         "example": ""
@@ -8766,7 +8766,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  泵；\nv.  （用泵）抽\n\n例句：\nAt the farm, there was a old-fashioned pump for drawing water from a well",
+        "meaning": "n./v. 泵；（用泵）抽\n\n例句：\nAt the farm, there was a old-fashioned pump for drawing water from a well",
         "example": ""
     },
     {
@@ -8782,7 +8782,7 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  齿轮；传动装置；\nv.  使适合\nin high gear 以高速档；高速地。gear up 换高速档；促进\n\n例句：\nEducation should be geared to children's needs",
+        "meaning": "n.  齿轮\nv.  传动装置；使适合\nin high gear 以高速档；高速地。gear up 换高速档；促进\n\n例句：\nEducation should be geared to children's needs",
         "example": ""
     },
     {
@@ -8852,9 +8852,9 @@ const ieltsWords = [
     {
         "word": "simplify",
         "category": "科技发明",
-        "pos": "v. n. adj. adv.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n简化；精简\nsimplicity\nn.  简单；质朴。simple\nadj.  简单的。simply\nadv.  简单地；仅仅\n\n例句：\nTry to simplify your explanation for the children",
+        "meaning": "v.\n简化；精简\n质朴。仅仅\n\n例句：\nTry to simplify your explanation for the children",
         "example": ""
     },
     {
@@ -8870,13 +8870,13 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  过滤；\nn.  （光或声音）透过；过滤器\nfilter through （消息等）慢慢传开；走漏\n\n例句：\nSunlight filtered through the chinks of the shutters",
+        "meaning": "v./n. 过滤；（光或声音）透过；过滤器\nfilter through （消息等）慢慢传开；走漏\n\n例句：\nSunlight filtered through the chinks of the shutters",
         "example": ""
     },
     {
         "word": "distil",
         "category": "科技发明",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/distill\nv.\n蒸馏；提取...的精华\n\n例句：\nYou can distill the water from the lake and make it drinkable",
         "example": ""
@@ -8892,9 +8892,9 @@ const ieltsWords = [
     {
         "word": "mould",
         "category": "科技发明",
-        "pos": "n.",
-        "phonetic": "/mold|v./",
-        "meaning": "n.\n浇铸；塑造/模子\n和霉菌是一个词 at will 随意，任意\n\n例句：\nIt can be molded and shaped at will",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/mold\nv.  浇铸；塑造\nn.  模子\n和霉菌是一个词 at will 随意，任意\n\n例句：\nIt can be molded and shaped at will",
         "example": ""
     },
     {
@@ -8932,9 +8932,9 @@ const ieltsWords = [
     {
         "word": "operate",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n操作；运营；做手术\noperation\nn.  操作；企业；手术\n\n例句：\nIt's too difficult for him to operate this new sophisticated machine",
+        "meaning": "v.\n操作；运营；做手术\n企业；手术\n\n例句：\nIt's too difficult for him to operate this new sophisticated machine",
         "example": ""
     },
     {
@@ -8948,65 +8948,65 @@ const ieltsWords = [
     {
         "word": "transform",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n使改变形态；使改观\ntransformation\nn.  变化；转变\n\n例句：\nShe transformed the room by painting it",
+        "meaning": "v.\n使改变形态；使改观\n\n例句：\nShe transformed the room by painting it",
         "example": ""
     },
     {
         "word": "convert",
         "category": "科技发明",
-        "pos": "v. n.",
-        "phonetic": "/n.|（使）转变、改变（信仰、观点等）/",
-        "meaning": "v. 皈依者\nconversion\nn.  转变；换算。convert defeat into victory 转败为胜\n\n例句：\nThe solar cell can convert the energy of sunlight into electric energy",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）转变、改变（信仰、观点等）\nn.  皈依者\n换算。convert defeat into victory 转败为胜\n\n例句：\nThe solar cell can convert the energy of sunlight into electric energy",
         "example": ""
     },
     {
         "word": "alter",
         "category": "科技发明",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n变更；改变\nalternative\nadj.  可供选择的。an alter ego 知己；个性的另一面\n\n例句：\nIf it is not a convenient time, we can alter the date",
+        "meaning": "v.\n变更；改变\nan alter ego 知己；个性的另一面\n\n例句：\nIf it is not a convenient time, we can alter the date",
         "example": ""
     },
     {
         "word": "shift",
         "category": "科技发明",
-        "pos": "v.",
-        "phonetic": "/n.|转移；变换/",
-        "meaning": "v. 轮班\nthe day shift 白班。the night shift 晚班\n\n例句：\nThe wind shifted to the north",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  转移；变换\nn.  轮班\nthe day shift 白班。the night shift 晚班\n\n例句：\nThe wind shifted to the north",
         "example": ""
     },
     {
         "word": "turn",
         "category": "科技发明",
-        "pos": "v. n.",
-        "phonetic": "/n.|转移；转变/",
-        "meaning": "v. （一次轮到的）机会\nturning\nn.  旋转；转弯处\n\n例句：\nIt was your turn last time. It's always your turn to be the boss",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  转移；转变\nn.  （一次轮到的）机会\n转弯处\n\n例句：\nIt was your turn last time. It's always your turn to be the boss",
         "example": ""
     },
     {
         "word": "adapt",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n适应；改编\nadaptation\nn.  适应。adapt to\nsth.  适应某事\n\n例句：\nThere will be more than one person who can adapt to your personality",
+        "meaning": "v.\n适应；改编\nadapt to\nsth.  适应某事\n\n例句：\nThere will be more than one person who can adapt to your personality",
         "example": ""
     },
     {
         "word": "adjust",
         "category": "科技发明",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n调节；改变（行为或观点）以适应\nadjustment\nn.  调整；适应。 adjust to 适应\n\n例句：\nHe soon adjusted to army life",
+        "meaning": "v.\n调节；改变（行为或观点）以适应\n适应。 adjust to 适应\n\n例句：\nHe soon adjusted to army life",
         "example": ""
     },
     {
         "word": "pinpoint",
         "category": "科技发明",
-        "pos": "v.",
-        "phonetic": "/n.|精确指明...位置/",
-        "meaning": "v. 针尖；极小的事物\n\n例句：\nWith this device, we can pinpoint your exact location",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  精确指明...位置\nn.  针尖；极小的事物\n\n例句：\nWith this device, we can pinpoint your exact location",
         "example": ""
     },
     {
@@ -9020,17 +9020,17 @@ const ieltsWords = [
     {
         "word": "precise",
         "category": "科技发明",
-        "pos": "adj. adv.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n精确的；准确的；一丝不苟的\nprecisely\nadv.  正是；恰好地。at that precise moment 恰好在那个时刻\n\n例句：\nA lawyer needs a precise mind",
+        "meaning": "adj.\n精确的；准确的；一丝不苟的\n恰好地。at that precise moment 恰好在那个时刻\n\n例句：\nA lawyer needs a precise mind",
         "example": ""
     },
     {
         "word": "correct",
         "category": "科技发明",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n正确的\ncorrection\nn.  改正。incorrect\nadj.  不正确的；错误的\n\n例句：\nThe correct answers can be found at the bottom of page eight",
+        "meaning": "adj.\n正确的\n错误的\n\n例句：\nThe correct answers can be found at the bottom of page eight",
         "example": ""
     },
     {
@@ -9044,9 +9044,9 @@ const ieltsWords = [
     {
         "word": "mistake",
         "category": "科技发明",
-        "pos": "n.",
-        "phonetic": "/v.|错误/",
-        "meaning": "n. 误解\n\n例句：\nI may have made a mistake in that regard",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  错误\nv.  误解\n\n例句：\nI may have made a mistake in that regard",
         "example": ""
     },
     {
@@ -9062,15 +9062,15 @@ const ieltsWords = [
         "category": "科技发明",
         "pos": "adj./adv.",
         "phonetic": "",
-        "meaning": "adj.  错误的；\nadv.  错误地\ngo wrong 出现问题；出差错\n\n例句：\nInstead of complaining about what's wrong, be grateful for what's right",
+        "meaning": "adj.  错误的\nadv.  错误地\ngo wrong 出现问题；出差错\n\n例句：\nInstead of complaining about what's wrong, be grateful for what's right",
         "example": ""
     },
     {
         "word": "fault",
         "category": "科技发明",
-        "pos": "n. adj.",
-        "phonetic": "/v.|缺点；故障/",
-        "meaning": "n. 找出缺点\nfaulty\nadj.  有错误的；有缺陷的。false\nadj.  不正确的。find fault with 挑错；挑剔；抱怨\n\n例句：\nIt is hard to fault the way he runs his own operation",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  缺点；故障\nv.  找出缺点\n有缺陷的。find fault with 挑错；挑剔；抱怨\n\n例句：\nIt is hard to fault the way he runs his own operation",
         "example": ""
     },
     {
@@ -9100,25 +9100,25 @@ const ieltsWords = [
     {
         "word": "culture",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n文化；文明；教养\ncultural\nadj.  文化的。multicultural\nadj.  文化多样的\n\n例句：\nChina plays an important role in promoting Asian culture",
+        "meaning": "n.\n文化；文明；教养\n\n例句：\nChina plays an important role in promoting Asian culture",
         "example": ""
     },
     {
         "word": "civilisation",
         "category": "文化历史",
-        "pos": "v.",
-        "phonetic": "/civilization|n.|文明|Western civilization was cradled in Ancient Greece 古希腊滋养了西方文明|cradle n./",
-        "meaning": "v.  摇篮，吊架，发源地/轻轻抱着 —— 这里翻译成了滋养。civilize=civilise\nv.  使文明，开化",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/civilization\nn.\n文明\nWestern civilization was cradled in Ancient Greece 古希腊滋养了西方文明\ncivilize=",
         "example": ""
     },
     {
         "word": "renaissance",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\nthe Renaissance 文艺复兴时期\nThe Renaissance was an epoch of unparalleled cultural achievement 文艺复兴时期是一个在文化上取得空前成就的时代\nepoch\nn.  （尤指出现新进步和大变革的）时代，纪元，时期——注意美音和英音的发音区别。unparalleled\nadj.  无双的，无比的，空前的",
+        "meaning": "n.\nthe Renaissance 文艺复兴时期\nThe Renaissance was an epoch of unparalleled cultural achievement 文艺复兴时期是一个在文化上取得空前成就的时代",
         "example": ""
     },
     {
@@ -9126,47 +9126,47 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  史诗；\nadj.  宏大的\n他们的伟大战斗是一部新电影的主题\n\n例句：\nTheir epic fight is the subject of a new film",
+        "meaning": "n.  史诗\nadj.  宏大的\n他们的伟大战斗是一部新电影的主题\n\n例句：\nTheir epic fight is the subject of a new film",
         "example": ""
     },
     {
         "word": "ideology",
         "category": "文化历史",
-        "pos": "n. adj. v.",
-        "phonetic": "/n. 阻碍，妨碍/",
-        "meaning": "n.\n意识形态；思想体系\nobsolete\nadj.  废弃的，过时的，老化的，淘汰的。hamper\nv. 带盖的方形大容器，食品盒，洗衣篮\n\n例句：\nAn obsolete ideology can hamper an economy",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n意识形态；思想体系\n\n例句：\nAn obsolete ideology can hamper an economy",
         "example": ""
     },
     {
         "word": "tradition",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n传统\ntraditional\nadj.  传统的；惯例的。by tradition 根据传说；依照传说\n\n例句：\nAsia has a long tradition of tea drinking. China is of no exception",
+        "meaning": "n.\n传统\n惯例的。by tradition 根据传说；依照传说\n\n例句：\nAsia has a long tradition of tea drinking. China is of no exception",
         "example": ""
     },
     {
         "word": "convention",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n惯例；大型会议\nconventional\nadj.  传统的；惯例的\n\n例句：\nThe handshake is a social convention",
+        "meaning": "n.\n惯例；大型会议\n惯例的\n\n例句：\nThe handshake is a social convention",
         "example": ""
     },
     {
         "word": "custom",
         "category": "文化历史",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n习俗；（个人的）习惯\nThe custom prevails over the whole area 该风俗盛行于这整个地区\nprevail\nv.  占优势，占上风；流行，盛行（V for Vendetta 里元首的口头语 England Prevails-英格兰必胜）。 customs\nn.  海关；关税",
+        "meaning": "n.\n习俗；（个人的）习惯\nThe custom prevails over the whole area 该风俗盛行于这整个地区\n流行，盛行（V for Vendetta 里元首的口头语 England Prevails-英格兰必胜）。 关税",
         "example": ""
     },
     {
         "word": "feudalism",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n封建主义；封建制度\nFeudalism was not abolished in England util 1660\nfeudal\nadj.  封建的",
+        "meaning": "n.\n封建主义；封建制度\nFeudalism was not abolished in England util 1660",
         "example": ""
     },
     {
@@ -9174,7 +9174,7 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n奴隶制\nslave\nn.  奴隶\n\n例句：\nThey thought slavery was morally wrong",
+        "meaning": "n.\n奴隶制\n\n例句：\nThey thought slavery was morally wrong",
         "example": ""
     },
     {
@@ -9188,33 +9188,33 @@ const ieltsWords = [
     {
         "word": "moral",
         "category": "文化历史",
-        "pos": "adj./n. adj.",
+        "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  道德上的；\nn.  有道德的；morals 道德\nimmoral\nadj.  不道德的。moral principles 道德准则。moral standards 道德水准\n\n例句：\nThe old gentleman claimed himself to be a moral man, who had never told a lie in his life",
+        "meaning": "adj.  道德上的；有道德的\nn.  morals 道德\nmoral principles 道德准则。moral standards 道德水准\n\n例句：\nThe old gentleman claimed himself to be a moral man, who had never told a lie in his life",
         "example": ""
     },
     {
         "word": "tribe",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n部落\nThe tribe's development was more primitive than that of their neighbours/neighbors\nprimitive\nadj.  早期的，原始的，远古的；简陋的",
+        "meaning": "n.\n部落\nThe tribe's development was more primitive than that of their neighbours/neighbors\n简陋的",
         "example": ""
     },
     {
         "word": "aboriginal",
         "category": "文化历史",
-        "pos": "n. adj.",
-        "phonetic": "/adj.|Aboriginal 澳大利亚土人/",
-        "meaning": "n. 本土原有的；土著的\nMany Aboriginals do not like the idea of a day to celebrate the British landing. 许多澳大利亚土著并不喜欢庆祝英国人登陆的日子\noriginal\nadj.  原本的；最初的。origin\nn.  起源",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  Aboriginal 澳大利亚土人\nadj.  本土原有的；土著的\nMany Aboriginals do not like the idea of a day to celebrate the British landing. 许多澳大利亚土著并不喜欢庆祝英国人登陆的日子\n最初的。",
         "example": ""
     },
     {
         "word": "inhabitant",
         "category": "文化历史",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n居民\ninhabit\nv.  居住于；栖息于\n\n例句：\nThe local inhabitants do not like the noisy tourists in summer",
+        "meaning": "n.\n居民\n栖息于\n\n例句：\nThe local inhabitants do not like the noisy tourists in summer",
         "example": ""
     },
     {
@@ -9222,15 +9222,15 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  本土的；\nn.  本地人\n\n例句：\nHe is a native of Beijing",
+        "meaning": "adj.  本土的\nn.  本地人\n\n例句：\nHe is a native of Beijing",
         "example": ""
     },
     {
         "word": "local",
         "category": "文化历史",
-        "pos": "adj./n. n.",
+        "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  当地的；\nn.  本地人\nHe provided local delicacies for his guests.他用当地的美味佳肴来招待客人\ndelicacy\nn.  美食，佳肴；慎重，周到；易碎，易损；精妙，精细",
+        "meaning": "adj.  当地的\nn.  本地人\nHe provided local delicacies for his guests.他用当地的美味佳肴来招待客人\n慎重，周到；易碎，易损；精妙，精细",
         "example": ""
     },
     {
@@ -9244,25 +9244,25 @@ const ieltsWords = [
     {
         "word": "foreigner",
         "category": "文化历史",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n外国人\nassimilate\nv.  加入，融入，同化；学习；吸收\n\n例句：\nSome foreigners assimilate easily into our way of life",
+        "meaning": "n.\n外国人\n学习；吸收\n\n例句：\nSome foreigners assimilate easily into our way of life",
         "example": ""
     },
     {
         "word": "alien",
         "category": "文化历史",
-        "pos": "n. v.",
-        "phonetic": "/adj.|外侨；外星人；外国的；陌生的|I ran into an old friend in the alien land. 他乡遇故知|run into sb./",
-        "meaning": "n.\nsth.  偶然遇到、无意碰见（某人）/遇到、陷入（困境）；共计，合计。  alienate\nv.  使疏远；使不友好；离间。an alien culture 异域文化",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  外侨；外星人；外国的\nadj.  陌生的\nI ran into an old friend in the alien\nland.  他乡遇故知\nrun into\nsb.  偶然遇到、无意碰见（某人）/遇到、陷入（困境）；共计，合计。\nsth.  使不友好；离间。an alien culture 异域文化",
         "example": ""
     },
     {
         "word": "anthropologist",
         "category": "文化历史",
-        "pos": "n. v.",
-        "phonetic": "/n. 对比，对照/",
-        "meaning": "n.\n人类学家\nThe anthropologist contrasted two cultures in his lecture. 这位人类学家在讲座中将两种文化进行对比\ncontrast\nv. 差异，对照物，（屏幕、显示器）对比度。anthropology\nn.  人类学",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n人类学家\nThe anthropologist contrasted two cultures in his lecture. 这位人类学家在讲座中将两种文化进行对比",
         "example": ""
     },
     {
@@ -9270,7 +9270,7 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  人道主义者；人道主义的；\nadj.  博爱的\n\n例句：\nHepburn is known as a great humanitarian",
+        "meaning": "n.  人道主义者；人道主义的\nadj.  博爱的\n\n例句：\nHepburn is known as a great humanitarian",
         "example": ""
     },
     {
@@ -9284,9 +9284,9 @@ const ieltsWords = [
     {
         "word": "inherit",
         "category": "文化历史",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n继承（财产等）；经遗传获得\ninheritance\nn.  继承；遗产\n\n例句：\nHe inherited a house from his father",
+        "meaning": "v.\n继承（财产等）；经遗传获得\n\n例句：\nHe inherited a house from his father",
         "example": ""
     },
     {
@@ -9294,23 +9294,23 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  古董；\nadj.  古董的\ndesigner clothes 名牌服装\n\n例句：\nHe wears designer clothes and drives an antique car",
+        "meaning": "n.  古董\nadj.  古董的\ndesigner clothes 名牌服装\n\n例句：\nHe wears designer clothes and drives an antique car",
         "example": ""
     },
     {
         "word": "archaeology",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n考古学\narchaeological\nadj.  考古学的；archaeologist\nn.  考古学家\n\n例句：\nArchaeology is the study of ancient civilizations",
+        "meaning": "n.\n考古学\n\n例句：\nArchaeology is the study of ancient civilizations",
         "example": ""
     },
     {
         "word": "excavate",
         "category": "文化历史",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n发掘；挖掘\ncavation\nn.  挖掘；发掘\n\n例句：\nIt took a long time to excavate the ancient city of Troy",
+        "meaning": "v.\n发掘；挖掘\n\n例句：\nIt took a long time to excavate the ancient city of Troy",
         "example": ""
     },
     {
@@ -9324,9 +9324,9 @@ const ieltsWords = [
     {
         "word": "pottery",
         "category": "文化历史",
-        "pos": "n. adj.",
-        "phonetic": "/ˌɔː.nəˈmen.təl/",
-        "meaning": "n.\n陶瓷\nornamental\nadj.  装饰性的，装饰用的。pot\nn.  壶，罐子\n\n例句：\nModern pottery is usually ornamental",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n陶瓷\nornamental /ˌɔː.nəˈ\nmen. təl/\nadj.  装饰性的，装饰用的。\n\n例句：\nModern pottery is usually ornamental",
         "example": ""
     },
     {
@@ -9340,17 +9340,17 @@ const ieltsWords = [
     {
         "word": "decorate",
         "category": "文化历史",
-        "pos": "v. adj. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n装饰\nUsing extremely different decorating schemes in adjoining rooms may result in lack of unity in style. 相邻的房间用悬殊太大的装修方案会导致风格不统一\nadjoining\nadj.  相邻的。decoration\nn.  装饰，装饰品。decorative\nadj.  装饰性的。decorate A with B 用 B 装饰 A。",
+        "meaning": "v.\n装饰\nUsing extremely different decorating schemes in adjoining rooms may result in lack of unity in style. 相邻的房间用悬殊太大的装修方案会导致风格不统一\ndecorate A with B 用 B 装饰 A。",
         "example": ""
     },
     {
         "word": "religion",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n宗教；宗教信仰\nreligious\nadj.  宗教的\n\n例句：\nThere are many religions in the world",
+        "meaning": "n.\n宗教；宗教信仰\n\n例句：\nThere are many religions in the world",
         "example": ""
     },
     {
@@ -9365,8 +9365,8 @@ const ieltsWords = [
         "word": "etiquette",
         "category": "文化历史",
         "pos": "n.",
-        "phonetic": "/v. 破坏，违反，不履行；（防御工事的）缺口/",
-        "meaning": "n.\n礼仪；礼节\nHe felt very sorry for his breach of etiquette. 他为他的失礼行为深感抱歉\nbreach\nn. 破坏，违反，不履行；（尤指从背后突袭）在...上打开缺口",
+        "phonetic": "",
+        "meaning": "n.\n礼仪；礼节\nHe felt very sorry for his breach of etiquette. 他为他的失礼行为深感抱歉\n（防御工事的）缺口/破坏，违反，不履行；（尤指从背后突袭）在...上打开缺口",
         "example": ""
     },
     {
@@ -9382,15 +9382,15 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n灵魂；心灵；精神\nNo words can express the secret agony of my\nsoul.  没有语言能够表达我心灵的隐痛\nagony\nn.  （肉体或精神的）极度痛苦",
+        "meaning": "n.\n灵魂；心灵；精神\nNo words can express the secret agony of my\nsoul.  没有语言能够表达我心灵的隐痛",
         "example": ""
     },
     {
         "word": "spirit",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n精神；心灵\nWe need a spirit of enterprise if we are to overcome our difficulties. 如果要克服困难，我们就要有进取心\nenterprise\nn.  公司，组织，企业，计划，事业；事业心，进取心，创业精神，冒险精神。spiritual\nadj.  精神上的",
+        "meaning": "n.\n精神；心灵\nWe need a spirit of enterprise if we are to overcome our difficulties. 如果要克服困难，我们就要有进取心\n事业心，进取心，创业精神，冒险精神。",
         "example": ""
     },
     {
@@ -9500,9 +9500,9 @@ const ieltsWords = [
     {
         "word": "pagoda",
         "category": "文化历史",
-        "pos": "n. v.",
-        "phonetic": "/n. 坐在...（的边缘）上，栖息于，停留于；使位于高处（或...的边缘）/",
-        "meaning": "n.\n佛塔\nThe pagoda perches on the top of the\nhill.  佛塔立在山顶上\nperch\nv. 河鲈；（鸟的）栖息处（尤指鸟笼里的细杆）；（常指能很好地俯视低处的）高座，高处",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n佛塔\nThe pagoda perches on the top of the\nhill.  佛塔立在山顶上\n使位于高处（或...的边缘）/河鲈；（鸟的）栖息处（尤指鸟笼里的细杆）；（常指能很好地俯视低处的）高座，高处",
         "example": ""
     },
     {
@@ -9516,9 +9516,9 @@ const ieltsWords = [
     {
         "word": "imperial",
         "category": "文化历史",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n帝国的\nThey made an objection to the imperial system with resolution. 他们坚决反对这种帝国制度\nresolution\nn.  决议，正式决定；决心，决定；坚决；解决，消除；分辨率；分解",
+        "meaning": "adj.\n帝国的\nThey made an objection to the imperial system with resolution. 他们坚决反对这种帝国制度\n决心，决定；坚决；解决，消除；分辨率；分解",
         "example": ""
     },
     {
@@ -9564,9 +9564,9 @@ const ieltsWords = [
     {
         "word": "queen",
         "category": "文化历史",
-        "pos": "n. v.",
-        "phonetic": "/n. （使）鞠躬；（使）欠身；点头致意/",
-        "meaning": "n.\n王后；女王\nThey were bowing as the king and the queen walked\nin.  当国王和王后进来时，他们屈膝致敬\nbow\nv. 弓",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n王后；女王\nThey were bowing as the king and the queen walked\nin.  当国王和王后进来时，他们屈膝致敬\n（使）欠身；点头致意/弓",
         "example": ""
     },
     {
@@ -9580,17 +9580,17 @@ const ieltsWords = [
     {
         "word": "princess",
         "category": "文化历史",
-        "pos": "n. v. adj.",
-        "phonetic": "/ˈbɔːʒ.wɑː/",
-        "meaning": "n.\n公主；王妃\nThe princess was ostracised for marrying a rich bourgeois\nman.  公主因与一位富有的资本家结婚而遭到排挤\nostracize=ostracise\nv.  故意避开；排挤，排斥。bourgeois\nadj.  中产阶级的；追求物质享受的；平庸粗俗的",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n公主；王妃\nThe princess was ostracised for marrying a rich bourgeois\nman.  公主因与一位富有的资本家结婚而遭到排挤\nostracize=排挤，排斥。bourgeois  /ˈbɔːʒ.wɑː/\nadj.  中产阶级的；追求物质享受的；平庸粗俗的",
         "example": ""
     },
     {
         "word": "majesty",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n威严；壮观；陛下\nmajestic\nadj.  宏伟的；庄严的\n\n例句：\nI enjoyed all the majesty of royal ceremonies",
+        "meaning": "n.\n威严；壮观；陛下\n庄严的\n\n例句：\nI enjoyed all the majesty of royal ceremonies",
         "example": ""
     },
     {
@@ -9598,7 +9598,7 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n高尚的品质；贵族\nVirtue is the only true nobility. 万事不如美德高\nvirtue\nn.  美德，高山品德；优点，好处",
+        "meaning": "n.\n高尚的品质；贵族\nVirtue is the only true nobility. 万事不如美德高\n优点，好处",
         "example": ""
     },
     {
@@ -9614,15 +9614,15 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  骑士；\nv.  封（某人）为爵士\n\n例句：\nHe was knighted for his war services",
+        "meaning": "n./v. 骑士；封（某人）为爵士\n\n例句：\nHe was knighted for his war services",
         "example": ""
     },
     {
         "word": "guardian",
         "category": "文化历史",
-        "pos": "n./adj. n. v.",
+        "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  保卫者；监护人；\nadj.  守护的\nguard\nn.  守卫\nv.  保护\n\n例句：\nHe became the legal guardian of his brother's daughter",
+        "meaning": "n.  保卫者；监护人\nadj.  守护的\n\n例句：\nHe became the legal guardian of his brother's daughter",
         "example": ""
     },
     {
@@ -9636,9 +9636,9 @@ const ieltsWords = [
     {
         "word": "homesick",
         "category": "文化历史",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n思乡的\nhomesickness\nn.  思乡之情\n\n例句：\nMy American friend tells me she is never as homesick as during this time of year around Thanksgiving",
+        "meaning": "adj.\n思乡的\n\n例句：\nMy American friend tells me she is never as homesick as during this time of year around Thanksgiving",
         "example": ""
     },
     {
@@ -9646,7 +9646,7 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n名人；名誉\nCelebrity, money and possessions are too often the touchstones for teenagers. 名誉、金钱和财产常常成为青少年们衡量事物的标准\ntouchstone\nn.  试金石，检验标准",
+        "meaning": "n.\n名人；名誉\nCelebrity, money and possessions are too often the touchstones for teenagers. 名誉、金钱和财产常常成为青少年们衡量事物的标准",
         "example": ""
     },
     {
@@ -9668,25 +9668,25 @@ const ieltsWords = [
     {
         "word": "experience",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n经验；（一次）经历、体验\nperienced\nadj.  经验丰富的\n\n例句：\nIt was a truly memorible experience",
+        "meaning": "n.\n经验；（一次）经历、体验\n\n例句：\nIt was a truly memorible experience",
         "example": ""
     },
     {
         "word": "anecdote",
         "category": "文化历史",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n轶事；奇闻\nprecede\nv.  （指时间或空间上）处在…之前，先于\n\n例句：\nHe preceded his lecture with a humorous anecdote.",
+        "meaning": "n.\n轶事；奇闻\n\n例句：\nHe preceded his lecture with a humorous anecdote.",
         "example": ""
     },
     {
         "word": "accident",
         "category": "文化历史",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n事故；意外；偶然事件\naccidental\nadj.  意外的；偶然的；附属的。by accident 偶然。 an aviation accident 空难\n\n例句：\nHis left knee was hurt in a traffic accident",
+        "meaning": "n.\n事故；意外；偶然事件\n偶然的；附属的。by accident 偶然。 an aviation accident 空难\n\n例句：\nHis left knee was hurt in a traffic accident",
         "example": ""
     },
     {
@@ -9702,15 +9702,15 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n繁荣；兴旺发达；茁壮成长\nFirst thrive and then\nwive.  先立业，后成家\nwive\nv.  娶妻",
+        "meaning": "v.\n繁荣；兴旺发达；茁壮成长\nFirst thrive and then\nwive.  先立业，后成家",
         "example": ""
     },
     {
         "word": "prosperity",
         "category": "文化历史",
-        "pos": "n. v. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n繁荣；兴旺\nThe empire was on the wane after its period of prosperity. 帝国在经历繁盛之后逐渐衰落\nwane\nv.  衰减，减弱 on the ~ （权力、人气等）衰落，减弱。 prosper\nv.  成功；繁荣。prosperous\nadj.  繁荣的",
+        "meaning": "n.\n繁荣；兴旺\nThe empire was on the wane after its period of prosperity. 帝国在经历繁盛之后逐渐衰落\n繁荣。",
         "example": ""
     },
     {
@@ -9718,15 +9718,15 @@ const ieltsWords = [
         "category": "文化历史",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n挫折；阻碍\ndrain\nsth.  away （使）彻底消失;（使）流失。keenness\nn.  积极；敏锐，精明；渴望，热衷；锋利\n\n例句：\nThis setback has drained away my keenness",
+        "meaning": "n.\n挫折；阻碍\ndrain\nsth.  away （使）彻底消失;（使）流失。敏锐，精明；渴望，热衷；锋利\n\n例句：\nThis setback has drained away my keenness",
         "example": ""
     },
     {
         "word": "adversity",
         "category": "文化历史",
         "pos": "n.",
-        "phonetic": "/towards sb./",
-        "meaning": "n.\n逆境\nHardship disposes man to meet adversity. 困苦使人们愿意去客户困境\ndispose\nsb.  tosth. 表示使某人对某人或某事物产生一种倾向、态度或情感。",
+        "phonetic": "",
+        "meaning": "n.\n逆境\nHardship disposes man to meet adversity. 困苦使人们愿意去客户困境\ndispose\nsb.  to/towards\nsb.  表示使某人对某人或某事物产生一种倾向、态度或情感。\nsth.",
         "example": ""
     },
     {
@@ -9740,9 +9740,9 @@ const ieltsWords = [
     {
         "word": "symbol",
         "category": "语言演化",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n象征；符号；记号\nsymbolise=symbolize\nv.  象征\n\n例句：\nTo them the monarchy is the special symbol of nationhood",
+        "meaning": "n.\n象征；符号；记号\nsymbolise=\n\n例句：\nTo them the monarchy is the special symbol of nationhood",
         "example": ""
     },
     {
@@ -9750,7 +9750,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  符号；\nv.  征兆；迹象；手势；签（名）\n\n例句：\nHe made a sign for me to follow him",
+        "meaning": "n.  符号\nv.  征兆；迹象；手势；签（名）\n\n例句：\nHe made a sign for me to follow him",
         "example": ""
     },
     {
@@ -9828,17 +9828,17 @@ const ieltsWords = [
     {
         "word": "phonetics",
         "category": "语言演化",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n语音学\nphonetic\nadj.  语音的\n\n例句：\nDaniel Jones is generally referred to be the foremost authority on phonetics",
+        "meaning": "n.\n语音学\n\n例句：\nDaniel Jones is generally referred to be the foremost authority on phonetics",
         "example": ""
     },
     {
         "word": "pronounce",
         "category": "语言演化",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n发...的音；宣布\nDid I pronounce your name correctly?\npronunciation\nn.  发音 pronounced\nadj.  显著的；表达明确的",
+        "meaning": "v.\n发...的音；宣布\nDid I pronounce your name correctly?\n表达明确的",
         "example": ""
     },
     {
@@ -9876,17 +9876,17 @@ const ieltsWords = [
     {
         "word": "utterance",
         "category": "语言演化",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n说话；言论\nHis every utterance will be scrutinized 他说的每句话都会被仔细审查\nscrutinize=scrutinise\nv.  仔细查看、审查。scrutiny\nn.  仔细观察、审查",
+        "meaning": "n.\n说话；言论\nHis every utterance will be scrutinized 他说的每句话都会被仔细审查\nscrutinize=",
         "example": ""
     },
     {
         "word": "oral",
         "category": "语言演化",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n口头的\ndrill\nn.  钻头，（尤指军事）练习 a spelling/pronunciation drill 拼写／发音练习\n\n例句：\nStudents of English should have a lot of oral drills",
+        "meaning": "adj.\n口头的\n\n例句：\nStudents of English should have a lot of oral drills",
         "example": ""
     },
     {
@@ -9894,7 +9894,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n口头的；言语的\nnonverbal\nadj.  不用语言的\n\n例句：\nDon't be afraid of verbal abuse or criticism.",
+        "meaning": "adj.\n口头的；言语的\n\n例句：\nDon't be afraid of verbal abuse or criticism.",
         "example": ""
     },
     {
@@ -9998,7 +9998,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  时态；\nadj.  紧张的\n\n例句：\nDut, who had at first been very tense, at last relaxed",
+        "meaning": "n.  时态\nadj.  紧张的\n\n例句：\nDut, who had at first been very tense, at last relaxed",
         "example": ""
     },
     {
@@ -10062,7 +10062,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  单数；非凡的；\nadj.  单数的\n\n例句：\nThe young man has a singular ear for music",
+        "meaning": "n.  单数；非凡的\nadj.  单数的\n\n例句：\nThe young man has a singular ear for music",
         "example": ""
     },
     {
@@ -10070,7 +10070,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  复数；复数的；\nadj.  多元的\n\n例句：\nA plural marriage is forbidden by many countries",
+        "meaning": "n.  复数；复数的\nadj.  多元的\n\n例句：\nA plural marriage is forbidden by many countries",
         "example": ""
     },
     {
@@ -10124,17 +10124,17 @@ const ieltsWords = [
     {
         "word": "consistent",
         "category": "语言演化",
-        "pos": "adj. v.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n一致的；（观点或看法）连贯的\ninconsistent\nadj.  不一致的。consist\nv.  由...组成。be consistent with 与...一致\n\n例句：\nThe policies, which will be put into place, are clear and consistent",
+        "meaning": "adj.\n一致的；（观点或看法）连贯的\nbe consistent with 与...一致\n\n例句：\nThe policies, which will be put into place, are clear and consistent",
         "example": ""
     },
     {
         "word": "complicated",
         "category": "语言演化",
-        "pos": "adj. v.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n复杂的\ncomplicate\nv.  使复杂化\n\n例句：\nThe business is a large, complicated organism",
+        "meaning": "adj.\n复杂的\n\n例句：\nThe business is a large, complicated organism",
         "example": ""
     },
     {
@@ -10174,23 +10174,23 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  意译；\nn.  改述\n\n例句：\nThe teacher asked his students to paraphrase the long sentence",
+        "meaning": "v./n. 意译；改述\n\n例句：\nThe teacher asked his students to paraphrase the long sentence",
         "example": ""
     },
     {
         "word": "interpret",
         "category": "语言演化",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n口译；解释；说明；领会；理解\ninterpretation\nn.  口译；解释。interpreter\nn.  口译员\n\n例句：\nHe interpreted the silence as contempt",
+        "meaning": "v.\n口译；解释；说明；领会；理解\n解释。\n\n例句：\nHe interpreted the silence as contempt",
         "example": ""
     },
     {
         "word": "narrate",
         "category": "语言演化",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n讲（故事）；叙述\ntavern\nn.  酒馆\n\n例句：\nThe sailer narrated his life story to me in the tavern",
+        "meaning": "v.\n讲（故事）；叙述\n\n例句：\nThe sailer narrated his life story to me in the tavern",
         "example": ""
     },
     {
@@ -10212,9 +10212,9 @@ const ieltsWords = [
     {
         "word": "eloquence",
         "category": "语言演化",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n雄辩；流利的口才\nbe struck by 被...所触动、打动。spellbinding\nadj.  引人入胜的。eloquent\nadj.  雄辩的；有口才的\n\n例句：\nThe audience are struck by her simple, spellbinding eloquence",
+        "meaning": "n.\n雄辩；流利的口才\nbe struck by 被...所触动、打动。有口才的\n\n例句：\nThe audience are struck by her simple, spellbinding eloquence",
         "example": ""
     },
     {
@@ -10238,15 +10238,15 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  集体自由讨论；\nv.  头脑风暴；集思广益；进行头脑风暴\n\n例句：\nManagers get together and brainstorm a more permanent solution to the problem",
+        "meaning": "n.  集体自由讨论；头脑风暴；集思广益\nv.  进行头脑风暴\n\n例句：\nManagers get together and brainstorm a more permanent solution to the problem",
         "example": ""
     },
     {
         "word": "debate",
         "category": "语言演化",
-        "pos": "v.",
-        "phonetic": "/n.|辩论；争论；讨论|The government is debating about the education laws|debatable adj. 有争议的。debate about/",
-        "meaning": "v. on/upon\nsth.  就某事进行讨论。have a debate with\nsb.  与某人进行辩论",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v./n. 辩论；争论；讨论\ndebate about/on/upon\nsth.  就某事进行讨论。have a debate with\nsb.  与某人进行辩论\n\n例句：\nThe government is debating about the education laws",
         "example": ""
     },
     {
@@ -10260,9 +10260,9 @@ const ieltsWords = [
     {
         "word": "negotiate",
         "category": "语言演化",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n协商；谈判\nnegotiation\nn.  协商；谈判。negotiate about 就...进行协商\n\n例句：\nWe are not about to negotiate with terrorists.",
+        "meaning": "v.\n协商；谈判\n谈判。negotiate about 就...进行协商\n\n例句：\nWe are not about to negotiate with terrorists.",
         "example": ""
     },
     {
@@ -10270,7 +10270,7 @@ const ieltsWords = [
         "category": "语言演化",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n争论；争辩；观点\ncontent\nn.  内容\n\n例句：\nMy contention is that the scheme will never work",
+        "meaning": "n.\n争论；争辩；观点\n\n例句：\nMy contention is that the scheme will never work",
         "example": ""
     },
     {
@@ -10278,7 +10278,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  媒介；中间的；\nadj.  中等的\n\n例句：\nThe president's speech was broadcast through the medium of television",
+        "meaning": "n.  媒介；中间的\nadj.  中等的\n\n例句：\nThe president's speech was broadcast through the medium of television",
         "example": ""
     },
     {
@@ -10300,9 +10300,9 @@ const ieltsWords = [
     {
         "word": "critic",
         "category": "娱乐运动",
-        "pos": "n. adj. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n批评家；挑剔的人\ncritical\nadj.  批评的；挑剔的。criticism\nn.  批评；职责。criticise=criticize\nv.  批评。a movie critic 影评人 box office 票房，售票处\n\n例句：\nThe critic said the new movie would not do well at the box office",
+        "meaning": "n.\n批评家；挑剔的人\n挑剔的。职责。criticise=a movie critic 影评人 box office 票房，售票处\n\n例句：\nThe critic said the new movie would not do well at the box office",
         "example": ""
     },
     {
@@ -10374,7 +10374,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  传单；\nv.  散发传单\n\n例句：\nWe were paid to leaflet advertisements in the shopping mall",
+        "meaning": "n./v. 传单；散发传单\n\n例句：\nWe were paid to leaflet advertisements in the shopping mall",
         "example": ""
     },
     {
@@ -10414,15 +10414,15 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n预期；预料\nparticipate\nv.  参与\n\n例句：\nSales are better than they have anticipated",
+        "meaning": "v.\n预期；预料\n\n例句：\nSales are better than they have anticipated",
         "example": ""
     },
     {
         "word": "expect",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n预料；期待\npectation\nn.  期待；期望\n\n例句：\nThe managers expect exceptional sales growth in the last quarter",
+        "meaning": "v.\n预料；期待\n\n例句：\nThe managers expect exceptional sales growth in the last quarter",
         "example": ""
     },
     {
@@ -10444,9 +10444,9 @@ const ieltsWords = [
     {
         "word": "entertain",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n娱乐；招待；心存；怀有\nentertainment\nn.  娱乐；消遣；款待\n\n例句：\nThis television program is designed to educate and to entertain as well",
+        "meaning": "v.\n娱乐；招待；心存；怀有\n消遣；款待\n\n例句：\nThis television program is designed to educate and to entertain as well",
         "example": ""
     },
     {
@@ -10476,7 +10476,7 @@ const ieltsWords = [
     {
         "word": "rumour",
         "category": "娱乐运动",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/rumor\nn.\n谣言；传闻\n\n例句：\nThe rumor soon swept the entire company",
         "example": ""
@@ -10508,9 +10508,9 @@ const ieltsWords = [
     {
         "word": "programme",
         "category": "娱乐运动",
-        "pos": "v. n.",
-        "phonetic": "/program|n./",
-        "meaning": "v.\n节目；方案；程序；为系统设置程序；计划\nprogrammer\nn.  程序设计员\n\n例句：\nThere was an interesting program on TV yesterday",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/program\nn.  节目\nv.  方案；程序；为系统设置程序；计划\n\n例句：\nThere was an interesting program on TV yesterday",
         "example": ""
     },
     {
@@ -10548,9 +10548,9 @@ const ieltsWords = [
     {
         "word": "simulate",
         "category": "娱乐运动",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n模拟；假装；冒充\nsimulative\nadj.  模拟的；假装的\n\n例句：\nWe can use computers to simulate many situations",
+        "meaning": "v.\n模拟；假装；冒充\n假装的\n\n例句：\nWe can use computers to simulate many situations",
         "example": ""
     },
     {
@@ -10582,7 +10582,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n音乐会\nmusicale\nn.  社交音乐会。concertmaster\nn.  首席小提琴手。concertgoer\nn.  常去听音乐会者。concerto\nn.  协奏曲。conductor\nn.  （乐队、合唱团）指挥。melody\nn.  旋律。rhythm\nn.  节奏。lyrics\nn.  歌词。score\nn.  总谱。in concert with 与...合作\n\n例句：\nVarious performers will present a concert to raise money for AIDS charities",
+        "meaning": "n.\n音乐会\nin concert with 与...合作\n\n例句：\nVarious performers will present a concert to raise money for AIDS charities",
         "example": ""
     },
     {
@@ -10732,9 +10732,9 @@ const ieltsWords = [
     {
         "word": "aesthetic",
         "category": "娱乐运动",
-        "pos": "n.",
-        "phonetic": "/esthetic|adj./",
-        "meaning": "n.\n审美的；审美观\n\n例句：\nHis aesthetic standards are quite different from mine",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/esthetic\nadj.  审美的\nn.  审美观\n\n例句：\nHis aesthetic standards are quite different from mine",
         "example": ""
     },
     {
@@ -10750,15 +10750,15 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./adj.",
         "phonetic": "",
-        "meaning": "v.  选择；挑选；\nadj.  精选的\n\n例句：\nThey were selected from many applicants",
+        "meaning": "v.  选择；挑选\nadj.  精选的\n\n例句：\nThey were selected from many applicants",
         "example": ""
     },
     {
         "word": "opt",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n选择\noption\nn.  选择；选择权。 opt for\nsth.  选择某事物\n\n例句：\nMy aunt opted for early retirement",
+        "meaning": "v.\n选择\n选择权。 opt for\nsth.  选择某事物\n\n例句：\nMy aunt opted for early retirement",
         "example": ""
     },
     {
@@ -10806,7 +10806,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  素描；\nv.  草图；速写；画素描；画速写\n\n例句：\nI sketched the cat sleeping in the yard",
+        "meaning": "n.  素描\nv.  草图；速写；画素描；画速写\n\n例句：\nI sketched the cat sleeping in the yard",
         "example": ""
     },
     {
@@ -10836,9 +10836,9 @@ const ieltsWords = [
     {
         "word": "improvise",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n临时做；即兴创作\nimprovisation\nn.  即兴创作\n\n例句：\nIf an actor forgets his lines on the stage, he has to improvise",
+        "meaning": "v.\n临时做；即兴创作\n\n例句：\nIf an actor forgets his lines on the stage, he has to improvise",
         "example": ""
     },
     {
@@ -10894,7 +10894,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  抒情诗；\nadj.  抒情的\n\n例句：\nI don't understand the lyrics, which are in French, but the song sounds peaceful",
+        "meaning": "n.  抒情诗\nadj.  抒情的\n\n例句：\nI don't understand the lyrics, which are in French, but the song sounds peaceful",
         "example": ""
     },
     {
@@ -10910,7 +10910,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  独奏；独唱；独奏的；\nadj.  独唱的\n\n例句：\nShe has acquired a reputation as this country's premier solo voilinist",
+        "meaning": "n.  独奏；独唱；独奏的\nadj.  独唱的\n\n例句：\nShe has acquired a reputation as this country's premier solo voilinist",
         "example": ""
     },
     {
@@ -10942,13 +10942,13 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  曲调；\nv.  短乐曲；调试\n\n例句：\nThe violin seems to be out of tune",
+        "meaning": "n./v. 曲调；短乐曲；调试\n\n例句：\nThe violin seems to be out of tune",
         "example": ""
     },
     {
         "word": "disc",
         "category": "娱乐运动",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/disk\nn.\n光碟；唱片；磁盘\n\n例句：\nThere is no disc that interests me",
         "example": ""
@@ -11020,9 +11020,9 @@ const ieltsWords = [
     {
         "word": "competition",
         "category": "娱乐运动",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n竞争；比赛\ncompete\nv.  竞争。competitor\nn.  竞争者\n\n例句：\nThere is a rise in unemployment, so the competition for jobs is very fierce",
+        "meaning": "n.\n竞争；比赛\n\n例句：\nThere is a rise in unemployment, so the competition for jobs is very fierce",
         "example": ""
     },
     {
@@ -11070,7 +11070,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  冠军；\nv.  第一名；拥护；支持\ndefending champion 卫冕冠军\n\n例句：\nAs the defending champion, she is expected to reach the final",
+        "meaning": "n.  冠军\nv.  第一名；拥护；支持\ndefending champion 卫冕冠军\n\n例句：\nAs the defending champion, she is expected to reach the final",
         "example": ""
     },
     {
@@ -11086,15 +11086,15 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  志愿者；\nv.  自愿做\n\n例句：\nMany people volunteer to work on the farms",
+        "meaning": "n./v. 志愿者；自愿做\n\n例句：\nMany people volunteer to work on the farms",
         "example": ""
     },
     {
         "word": "famous",
         "category": "娱乐运动",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n著名的；出名的\nfame\nn.  名声。be famous for 以...闻名\n\n例句：\nWeathering Heights in one of the most famous novels in the world",
+        "meaning": "adj.\n著名的；出名的\nbe famous for 以...闻名\n\n例句：\nWeathering Heights in one of the most famous novels in the world",
         "example": ""
     },
     {
@@ -11156,9 +11156,9 @@ const ieltsWords = [
     {
         "word": "indoor",
         "category": "娱乐运动",
-        "pos": "adj. adv.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n室内的\nindoors\nadv.  在室内\n\n例句：\nBilliards is a good indoor game",
+        "meaning": "adj.\n室内的\n\n例句：\nBilliards is a good indoor game",
         "example": ""
     },
     {
@@ -11326,7 +11326,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  踢\nv.\n\n例句：\nDon't kick the ball into the road",
+        "meaning": "n./v. 踢\n\n例句：\nDon't kick the ball into the road",
         "example": ""
     },
     {
@@ -11350,7 +11350,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  投；\nn.  掷；球场；（棒球中的）投球\ninvade the pitch 涌进球场。throw a pitch 投球\n\n例句：\nShe pitched the ball as far as she could",
+        "meaning": "v.  投\nn.  掷；球场；（棒球中的）投球\ninvade the pitch 涌进球场。throw a pitch 投球\n\n例句：\nShe pitched the ball as far as she could",
         "example": ""
     },
     {
@@ -11374,7 +11374,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  滑动；\nn.  逐渐降低；滑行；下跌\n\n例句：\nHouse values may begin to slide",
+        "meaning": "v.  滑动\nn.  逐渐降低；滑行；下跌\n\n例句：\nHouse values may begin to slide",
         "example": ""
     },
     {
@@ -11382,7 +11382,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  滑跤；\nn.  滑落；溜；滑到\na slip of the tongue 口误；失言\n\n例句：\nShe slipped and fell down the stairs",
+        "meaning": "v.  滑跤\nn.  滑落；溜；滑到\na slip of the tongue 口误；失言\n\n例句：\nShe slipped and fell down the stairs",
         "example": ""
     },
     {
@@ -11390,7 +11390,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  滑动；\nn.  掠过；滑行\n\n例句：\nThe beautiful swan glides gracefully on the pond",
+        "meaning": "v.  滑动\nn.  掠过；滑行\n\n例句：\nThe beautiful swan glides gracefully on the pond",
         "example": ""
     },
     {
@@ -11406,7 +11406,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  滑雪；\nn.  滑雪板\n\n例句：\nThe students often go skiing during winter vacations",
+        "meaning": "v./n. 滑雪；滑雪板\n\n例句：\nThe students often go skiing during winter vacations",
         "example": ""
     },
     {
@@ -11454,7 +11454,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  跳；\nn.  跃；跳跃\n\n例句：\nThe thief leaped over the wall and ran away",
+        "meaning": "v./n. 跳；跃；跳跃\n\n例句：\nThe thief leaped over the wall and ran away",
         "example": ""
     },
     {
@@ -11470,7 +11470,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  跳；\nn.  跃\n\n例句：\nThe cat crouched, ready to spring",
+        "meaning": "v./n. 跳；跃\n\n例句：\nThe cat crouched, ready to spring",
         "example": ""
     },
     {
@@ -11485,8 +11485,8 @@ const ieltsWords = [
         "word": "bounce",
         "category": "娱乐运动",
         "pos": "v.",
-        "phonetic": "/弹起/",
-        "meaning": "v.\n（使）反弹跳动\n\n例句：\nThe ball hit the wall and bounced off it",
+        "phonetic": "",
+        "meaning": "v.\n（使）反弹/弹起/跳动\n\n例句：\nThe ball hit the wall and bounced off it",
         "example": ""
     },
     {
@@ -11510,15 +11510,15 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  野餐；\nv.  野餐食物\n\n例句：\nLet's eat our picnic by the waterfall\ngo for a picnic",
+        "meaning": "n./v. 野餐；野餐食物\n\n例句：\nLet's eat our picnic by the waterfall\ngo for a picnic",
         "example": ""
     },
     {
         "word": "hunt",
         "category": "娱乐运动",
-        "pos": "v./n. n.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  打猎；\nn.  搜寻；猎取\nhunter\nn.  猎人。hunt for 寻找\n\n例句：\nParent birds begin to hunt for food for their young",
+        "meaning": "v./n. 打猎；搜寻；猎取\nhunt for 寻找\n\n例句：\nParent birds begin to hunt for food for their young",
         "example": ""
     },
     {
@@ -11550,7 +11550,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  步速；\nv.  速度；步调；节奏；来回踱步\n\n例句：\nOur wage's keeping pace with inflation",
+        "meaning": "n.  步速\nv.  速度；步调；节奏；来回踱步\n\n例句：\nOur wage's keeping pace with inflation",
         "example": ""
     },
     {
@@ -11558,7 +11558,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n步伐；步骤\nfootstep\nn.  脚步声；足迹。step by step 一步一步；逐步\n\n例句：\nOne thing you can do is trying to solve it step by step",
+        "meaning": "n.\n步伐；步骤\n足迹。step by step 一步一步；逐步\n\n例句：\nOne thing you can do is trying to solve it step by step",
         "example": ""
     },
     {
@@ -11572,9 +11572,9 @@ const ieltsWords = [
     {
         "word": "cruise",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n乘船游览；以平稳的速度行驶\nThe car was cruising along at 60 kilometers an hour\ncruiser\nn.  巡洋舰；舱式游艇；巡逻警车",
+        "meaning": "v.\n乘船游览；以平稳的速度行驶\nThe car was cruising along at 60 kilometers an hour\n舱式游艇；巡逻警车",
         "example": ""
     },
     {
@@ -11582,7 +11582,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  绊倒；\nn.  旅行\n\n例句：\nThe trip was expensive and uncomfortable",
+        "meaning": "v./n. 绊倒；旅行\n\n例句：\nThe trip was expensive and uncomfortable",
         "example": ""
     },
     {
@@ -11590,7 +11590,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  休假；\nn.  假期\n\n例句：\nI was too busy to spare time for a vacation",
+        "meaning": "v./n. 休假；假期\n\n例句：\nI was too busy to spare time for a vacation",
         "example": ""
     },
     {
@@ -11598,15 +11598,15 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  徒步旅行；\nv.  远足\n\n例句：\nIt may rain, in which case the hike will be cancelled",
+        "meaning": "n./v. 徒步旅行；远足\n\n例句：\nIt may rain, in which case the hike will be cancelled",
         "example": ""
     },
     {
         "word": "jog",
         "category": "娱乐运动",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n慢跑\njogger\nn.  慢跑锻炼的人。jogging\nn.  慢跑\n\n例句：\nThe old bus jogs steadily down the road",
+        "meaning": "v.\n慢跑\n\n例句：\nThe old bus jogs steadily down the road",
         "example": ""
     },
     {
@@ -11636,9 +11636,9 @@ const ieltsWords = [
     {
         "word": "lag",
         "category": "娱乐运动",
-        "pos": "v.",
-        "phonetic": "/n.|落后；间隔；时间差|Let not a single classmate lag behind|lag behind sb./",
-        "meaning": "v.\nsth.  落后于某人/某物",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v./n. 落后；间隔；时间差\nlag behind\nsb.  落后于某人\nsth.  某物\n\n例句：\nLet not a single classmate lag behind",
         "example": ""
     },
     {
@@ -11678,7 +11678,7 @@ const ieltsWords = [
         "category": "娱乐运动",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  鞠躬\nn.\ntake a bow\n\n例句：\nHe can't agree with her, but bowed to her greater experience and knowledge",
+        "meaning": "v./n. 鞠躬\ntake a bow\n\n例句：\nHe can't agree with her, but bowed to her greater experience and knowledge",
         "example": ""
     },
     {
@@ -11716,7 +11716,7 @@ const ieltsWords = [
     {
         "word": "artifact",
         "category": "物品材料",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/artefact\nn.\n人造物品；手工艺品\n\n例句：\nSoftware is a cultural artifact of the modern world",
         "example": ""
@@ -11726,7 +11726,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  材料；原料；人才；\nadj.  物质的\n\n例句：\nThere is singer material among these young girls",
+        "meaning": "n.  材料；原料；人才\nadj.  物质的\n\n例句：\nThere is singer material among these young girls",
         "example": ""
     },
     {
@@ -11748,9 +11748,9 @@ const ieltsWords = [
     {
         "word": "necessity",
         "category": "物品材料",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n必需品；必要\nnecessary\nadj.  必须的；必要的\n\n例句：\nWater is a necessity of life",
+        "meaning": "n.\n必需品；必要\n必要的\n\n例句：\nWater is a necessity of life",
         "example": ""
     },
     {
@@ -11758,7 +11758,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  全套服装；\nn.  全套装备；配备；装备\n\n例句：\nThe football team were wearing orange outfits",
+        "meaning": "adj.  全套服装\nn.  全套装备；配备；装备\n\n例句：\nThe football team were wearing orange outfits",
         "example": ""
     },
     {
@@ -11766,7 +11766,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n成套工具\nboot\nn.  （英）汽车后备箱\n\n例句：\nThere is a repair kit provided in the boot of each car",
+        "meaning": "n.\n成套工具\n\n例句：\nThere is a repair kit provided in the boot of each car",
         "example": ""
     },
     {
@@ -11780,9 +11780,9 @@ const ieltsWords = [
     {
         "word": "garbage",
         "category": "物品材料",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n（尤美）垃圾；废物\nfoul\nv.  弄脏；污染\n\n例句：\nThey fouled the water by throwing in garbage",
+        "meaning": "n.\n（尤美）垃圾；废物\n\n例句：\nThey fouled the water by throwing in garbage",
         "example": ""
     },
     {
@@ -11822,7 +11822,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  垃圾；\nv.  废弃物；乱丢东西\n\n例句：\nLitter covered the cinema floor after the film",
+        "meaning": "n./v. 垃圾；废弃物；乱丢东西\n\n例句：\nLitter covered the cinema floor after the film",
         "example": ""
     },
     {
@@ -11830,7 +11830,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  废物；\nv.  浪费\n\n例句：\nIt's a waste of time to speak to her",
+        "meaning": "n./v. 废物；浪费\n\n例句：\nIt's a waste of time to speak to her",
         "example": ""
     },
     {
@@ -11878,7 +11878,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  用洗发剂（头发）；\nn.  洗发剂\n\n例句：\nShe weted her hair and then put shampoo on it",
+        "meaning": "v./n. 用洗发剂（头发）；洗发剂\n\n例句：\nShe weted her hair and then put shampoo on it",
         "example": ""
     },
     {
@@ -11886,7 +11886,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  肥皂；\nv.  用肥皂擦洗\n\n例句：\nDon't touch anything before you soap your hands",
+        "meaning": "n./v. 肥皂；用肥皂擦洗\n\n例句：\nDon't touch anything before you soap your hands",
         "example": ""
     },
     {
@@ -11902,15 +11902,15 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  塞子；\nv.  插头；把...塞住\n\n例句：\nYou don't need to plug your ears since the music is not so loud",
+        "meaning": "n./v. 塞子；插头；把...塞住\n\n例句：\nYou don't need to plug your ears since the music is not so loud",
         "example": ""
     },
     {
         "word": "tap",
         "category": "物品材料",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n旋塞；龙头\n和轻拍是一个单词。 rig\nv.  安装；装配\n\n例句：\nHe rigged a rubber hose to tap in kitchen",
+        "meaning": "n.\n旋塞；龙头\n和轻拍是一个单词。 装配\n\n例句：\nHe rigged a rubber hose to tap in kitchen",
         "example": ""
     },
     {
@@ -11934,15 +11934,15 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  拖把；\nv.  用拖把擦\n\n例句：\nShe mopped up the water",
+        "meaning": "n./v. 拖把；用拖把擦\n\n例句：\nShe mopped up the water",
         "example": ""
     },
     {
         "word": "broom",
         "category": "物品材料",
-        "pos": "n./v. n.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  扫帚；\nv.  用扫帚扫\nscrap\nn.  碎片，碎屑 ~ paper 废纸\n\n例句：\nShe used a broom to sweep up the scraps of paper",
+        "meaning": "n./v. 扫帚；用扫帚扫\n\n例句：\nShe used a broom to sweep up the scraps of paper",
         "example": ""
     },
     {
@@ -11988,9 +11988,9 @@ const ieltsWords = [
     {
         "word": "cushion",
         "category": "物品材料",
-        "pos": "n. adj.",
-        "phonetic": "/v. 丰满的；饱满的；发福的/",
-        "meaning": "n.\n软垫\nShe plumps up the sofa cushion 她把沙发垫拍得鼓鼓的\nplump\nadj. 使丰满；使鼓起。 ~\nsth.  up 鼓起，变丰满。 a back cushion 靠背垫。a sofa cushion 沙发垫",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n软垫\nShe plumps up the sofa cushion 她把沙发垫拍得鼓鼓的\n饱满的；发福的/使丰满；使鼓起。 ~\nsth.  up 鼓起，变丰满。 a back cushion 靠背垫。a sofa cushion 沙发垫",
         "example": ""
     },
     {
@@ -11998,15 +11998,15 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  衬垫；\nv.  便签本；（用软材料）填塞\n\n例句：\nShe always kept a pad and a pencil by the phone",
+        "meaning": "n./v. 衬垫；便签本；（用软材料）填塞\n\n例句：\nShe always kept a pad and a pencil by the phone",
         "example": ""
     },
     {
         "word": "blanket",
         "category": "物品材料",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n毛毯；毯子\nhuddle\nv.  蜷缩；缩成一团\n\n例句：\nShe huddled herself in the blanket",
+        "meaning": "n.\n毛毯；毯子\n缩成一团\n\n例句：\nShe huddled herself in the blanket",
         "example": ""
     },
     {
@@ -12062,7 +12062,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  指甲；\nv.  钉子；（用钉子）钉住\n\n例句：\nPlease hammer a nail into the wall",
+        "meaning": "n./v. 指甲；钉子；（用钉子）钉住\n\n例句：\nPlease hammer a nail into the wall",
         "example": ""
     },
     {
@@ -12076,9 +12076,9 @@ const ieltsWords = [
     {
         "word": "shave",
         "category": "物品材料",
-        "pos": "v. n.",
-        "phonetic": "/v. 肥皂泡/",
-        "meaning": "v.\n剃须；刮脸\nlather\nn. 形成泡沫；在...涂皂泡\n\n例句：\nI lathered my face and started to shave",
+        "pos": "v.",
+        "phonetic": "",
+        "meaning": "v.\n剃须；刮脸\n在...涂皂泡\n\n例句：\nI lathered my face and started to shave",
         "example": ""
     },
     {
@@ -12086,7 +12086,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  保险丝；导火线；\nv.  （使）融化、融合\n\n例句：\nWe fuse copper and tin to make bronze",
+        "meaning": "n.  保险丝；导火线\nv.  （使）融化、融合\n\n例句：\nWe fuse copper and tin to make bronze",
         "example": ""
     },
     {
@@ -12118,7 +12118,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  火柴；\nv.  比赛；匹配的人或物；与...匹配\n\n例句：\nA high standard of play marked the match between the two teams",
+        "meaning": "n.  火柴\nv.  比赛；匹配的人或物；与...匹配\n\n例句：\nA high standard of play marked the match between the two teams",
         "example": ""
     },
     {
@@ -12142,7 +12142,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n文件夹；公事包\nbriefcase\nn.  公事包\n\n例句：\nShe has left her portfolio in a chair",
+        "meaning": "n.\n文件夹；公事包\n\n例句：\nShe has left her portfolio in a chair",
         "example": ""
     },
     {
@@ -12190,7 +12190,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  重复；\nn.  副本；复制品\n\n例句：\nDon't duplicate what you have already done",
+        "meaning": "v./n. 重复；副本；复制品\n\n例句：\nDon't duplicate what you have already done",
         "example": ""
     },
     {
@@ -12246,7 +12246,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  shears（尤指修篱笆用的）大剪刀；\nv.  剪\n\n例句：\nWith a few quick snips of the shears, he pruned the bush",
+        "meaning": "n./v. shears（尤指修篱笆用的）大剪刀；剪\n\n例句：\nWith a few quick snips of the shears, he pruned the bush",
         "example": ""
     },
     {
@@ -12318,7 +12318,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  螺栓；\nv.  插销；闩上（门、窗）\n\n例句：\nWe need an eye bold to fit this valve",
+        "meaning": "n./v. 螺栓；插销；闩上（门、窗）\n\n例句：\nWe need an eye bold to fit this valve",
         "example": ""
     },
     {
@@ -12334,7 +12334,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  柄；\nv.  把手；拿；处理\n\n例句：\nYou have to press on the handle to turn it. It's very stiff",
+        "meaning": "n.  柄\nv.  把手；拿；处理\n\n例句：\nYou have to press on the handle to turn it. It's very stiff",
         "example": ""
     },
     {
@@ -12342,7 +12342,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  百叶窗；\nv.  快门；停止（营业）\n\n例句：\nThe company shuttered its Hong Kong investment banking business a year ago",
+        "meaning": "n./v. 百叶窗；快门；停止（营业）\n\n例句：\nThe company shuttered its Hong Kong investment banking business a year ago",
         "example": ""
     },
     {
@@ -12350,7 +12350,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  窗帘；\nv.  幕布；给...装上帘子\n\n例句：\nI have enough material to curtain all the windows",
+        "meaning": "n./v. 窗帘；幕布；给...装上帘子\n\n例句：\nI have enough material to curtain all the windows",
         "example": ""
     },
     {
@@ -12364,9 +12364,9 @@ const ieltsWords = [
     {
         "word": "opacity",
         "category": "物品材料",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n不透明性\nopaque\nn.  不透明物体；\nadj.  不透明的\n\n例句：\nThey have chosen the frosted glass owing to its opacity",
+        "meaning": "n.\n不透明性\nadj.  不透明的\n\n例句：\nThey have chosen the frosted glass owing to its opacity",
         "example": ""
     },
     {
@@ -12486,7 +12486,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  真空；真空吸尘器；\nadj.  真空的\n\n例句：\nThe food is kept in a vacuum pack",
+        "meaning": "n.  真空；真空吸尘器\nadj.  真空的\n\n例句：\nThe food is kept in a vacuum pack",
         "example": ""
     },
     {
@@ -12494,7 +12494,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  扇子；\nv.  风扇；狂热爱好者；扇\n\n例句：\nHe has charmed most of them into membership of his fan club",
+        "meaning": "n.  扇子\nv.  风扇；狂热爱好者；扇\n\n例句：\nHe has charmed most of them into membership of his fan club",
         "example": ""
     },
     {
@@ -12502,7 +12502,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  开关；\nv.  转换；\n\n例句：\nPress the switch to see if the light comes on",
+        "meaning": "n./v. 开关；转换；\n\n例句：\nPress the switch to see if the light comes on",
         "example": ""
     },
     {
@@ -12526,7 +12526,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  踏板；\nv.  踩踏板\n\n例句：\nOne of the pedals has come off my bicycle",
+        "meaning": "n./v. 踏板；踩踏板\n\n例句：\nOne of the pedals has come off my bicycle",
         "example": ""
     },
     {
@@ -12550,7 +12550,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  提；\nn.  抬；提高；（英）电梯（美 elevator）\n\n例句：\nThis box is too heavy for me to lift",
+        "meaning": "v.  提\nn.  抬；提高；（英）电梯（美 elevator）\n\n例句：\nThis box is too heavy for me to lift",
         "example": ""
     },
     {
@@ -12588,9 +12588,9 @@ const ieltsWords = [
     {
         "word": "dredge",
         "category": "物品材料",
-        "pos": "n.",
-        "phonetic": "/v.|挖泥船；挖掘机/",
-        "meaning": "n. 挖掘；撒（糖；面粉等）\n\n例句：\nShe dredged a little sugar over the cake",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  挖泥船；挖掘机\nv.  挖掘；撒（糖；面粉等）\n\n例句：\nShe dredged a little sugar over the cake",
         "example": ""
     },
     {
@@ -12598,15 +12598,15 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  把（食品）罐装保存；\nn.  罐头；听\n\n例句：\nShe was carrying an armful of cat food cans and talking to herself",
+        "meaning": "v./n. 把（食品）罐装保存；罐头；听\n\n例句：\nShe was carrying an armful of cat food cans and talking to herself",
         "example": ""
     },
     {
         "word": "mill",
         "category": "物品材料",
-        "pos": "n.",
-        "phonetic": "/v.|磨粉机；磨坊/",
-        "meaning": "n. 碾碎；无目的地乱转\n\n例句：\nCorn is ground into flour in a mill",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  磨粉机；磨坊\nv.  碾碎；无目的地乱转\n\n例句：\nCorn is ground into flour in a mill",
         "example": ""
     },
     {
@@ -12614,7 +12614,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  炼铁炉；\nv.  锻造；伪造\n\n例句：\nThese machine parts have been forged with the finest steel",
+        "meaning": "n./v. 炼铁炉；锻造；伪造\n\n例句：\nThese machine parts have been forged with the finest steel",
         "example": ""
     },
     {
@@ -12638,7 +12638,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  铁；\nv.  熨斗；熨；烫\n\n例句：\nThey analyzed the ore and found iron in it",
+        "meaning": "n.  铁\nv.  熨斗；熨；烫\n\n例句：\nThey analyzed the ore and found iron in it",
         "example": ""
     },
     {
@@ -12668,9 +12668,9 @@ const ieltsWords = [
     {
         "word": "cement",
         "category": "物品材料",
-        "pos": "n./v. v.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  水泥；胶结剂；\nv.  使黏结\nhoist\nv.  提起；升起\n\n例句：\nThe mixed cement has been hoisted up the building",
+        "meaning": "n.  水泥；胶结剂\nv.  使黏结\n\n例句：\nThe mixed cement has been hoisted up the building",
         "example": ""
     },
     {
@@ -12684,9 +12684,9 @@ const ieltsWords = [
     {
         "word": "lime",
         "category": "物品材料",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n石灰\ndetrimental\nadj.  有害的\n\n例句：\nLime in the soil is detrimental to some plants",
+        "meaning": "n.\n石灰\n\n例句：\nLime in the soil is detrimental to some plants",
         "example": ""
     },
     {
@@ -12710,13 +12710,13 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  塑料；有塑性的；\nadj.  塑料的\n\n例句：\nMany items in daily use are made out of plastic",
+        "meaning": "n.  塑料；有塑性的\nadj.  塑料的\n\n例句：\nMany items in daily use are made out of plastic",
         "example": ""
     },
     {
         "word": "fiber",
         "category": "物品材料",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/fibre\nn.\n纤维；纤维素\n\n例句：\nScientists are recommending that people eat more fiber",
         "example": ""
@@ -12814,7 +12814,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  燃料；\nv.  给...加燃料\nadd fuel to 给...加燃料\n\n例句：\nWe aim for a ten percent saving in fuel",
+        "meaning": "n./v. 燃料；给...加燃料\nadd fuel to 给...加燃料\n\n例句：\nWe aim for a ten percent saving in fuel",
         "example": ""
     },
     {
@@ -12844,9 +12844,9 @@ const ieltsWords = [
     {
         "word": "inferior",
         "category": "物品材料",
-        "pos": "adj. v.",
-        "phonetic": "/n.|差的；下级的；低等的；级别/",
-        "meaning": "adj. 地位低的人；次品\ninferiority grudge\nv.  勉强做；不情愿地给\n\n例句：\nI grudge paying so much for such inferior goods",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  差的；下级的；低等的；级别\nn.  地位低的人；次品\ninferiority 不情愿地给\n\n例句：\nI grudge paying so much for such inferior goods",
         "example": ""
     },
     {
@@ -12854,7 +12854,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "adj./v.",
         "phonetic": "",
-        "meaning": "adj.  假冒的；\nv.  伪造\n\n例句：\nIt is against the law to counterfeit money",
+        "meaning": "adj.  假冒的\nv.  伪造\n\n例句：\nIt is against the law to counterfeit money",
         "example": ""
     },
     {
@@ -12862,7 +12862,7 @@ const ieltsWords = [
         "category": "物品材料",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  假冒的；\nn.  冒充者；假货\n\n例句：\nOn closer examination, the painting was proved to be a fake",
+        "meaning": "adj.  假冒的\nn.  冒充者；假货\n\n例句：\nOn closer examination, the painting was proved to be a fake",
         "example": ""
     },
     {
@@ -12876,9 +12876,9 @@ const ieltsWords = [
     {
         "word": "miniature",
         "category": "物品材料",
-        "pos": "adj.",
-        "phonetic": "/n.|微型的；很小的/",
-        "meaning": "adj. 微缩模型；微型画\nlate\nadj.  已故的\n\n例句：\nThe locket contained a miniature portrait of her late husband",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  微型的；很小的\nn.  微缩模型；微型画\n\n例句：\nThe locket contained a miniature portrait of her late husband",
         "example": ""
     },
     {
@@ -12900,17 +12900,17 @@ const ieltsWords = [
     {
         "word": "fashion",
         "category": "时尚潮流",
-        "pos": "n./v. adj.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  时尚；\nv.  制作；制成\nfashionable\nadj.  流行的。come into fashion 流行起来；开始流行。out of fashion 过时的\n\n例句：\nLoose trousers are the latest fashion",
+        "meaning": "n./v. 时尚；制作；制成\ncome into fashion 流行起来；开始流行。out of fashion 过时的\n\n例句：\nLoose trousers are the latest fashion",
         "example": ""
     },
     {
         "word": "style",
         "category": "时尚潮流",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n风格；样式；时尚\nstylish\nadj.  时髦的；有格调的\n\n例句：\nThe style of this skirt is just in season",
+        "meaning": "n.\n风格；样式；时尚\n有格调的\n\n例句：\nThe style of this skirt is just in season",
         "example": ""
     },
     {
@@ -12934,7 +12934,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  潮流；趋势；\nadj.  当前的\ncurrent of thought 思潮\n\n例句：\nNewspapers influenced the current of thought",
+        "meaning": "n.  潮流；趋势\nadj.  当前的\ncurrent of thought 思潮\n\n例句：\nNewspapers influenced the current of thought",
         "example": ""
     },
     {
@@ -12956,17 +12956,17 @@ const ieltsWords = [
     {
         "word": "prevail",
         "category": "时尚潮流",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n盛行；获胜\nprevalence\nn.  流行；普遍存在。prevailing\nadj.  盛行的。prevail over/against 压倒；战胜\n\n例句：\nTruth will ultimately prevail",
+        "meaning": "v.\n盛行；获胜\n普遍存在。prevail over/against 压倒；战胜\n\n例句：\nTruth will ultimately prevail",
         "example": ""
     },
     {
         "word": "model",
         "category": "时尚潮流",
-        "pos": "n.",
-        "phonetic": "/v.|模型；模特/",
-        "meaning": "n. 使模仿\nspell\nn.  作名词有“（持续的）一段时间”的意思\n\n例句：\nAfter a brief spell as a model, she got into singing",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  模型；模特\nv.  使模仿\n\n例句：\nAfter a brief spell as a model, she got into singing",
         "example": ""
     },
     {
@@ -12988,9 +12988,9 @@ const ieltsWords = [
     {
         "word": "luxury",
         "category": "时尚潮流",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n奢侈；奢侈品\nluxurious\nadj.  奢侈的；豪华的\n\n例句：\nThe increasing sales of luxuries are an indication of the country's prosperity",
+        "meaning": "n.\n奢侈；奢侈品\n豪华的\n\n例句：\nThe increasing sales of luxuries are an indication of the country's prosperity",
         "example": ""
     },
     {
@@ -13004,7 +13004,7 @@ const ieltsWords = [
     {
         "word": "jewelry",
         "category": "时尚潮流",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/jewellery\nn.\n珠宝；手势\n\n例句：\nThe piece of jewelry is priceless",
         "example": ""
@@ -13013,8 +13013,8 @@ const ieltsWords = [
         "word": "jewel",
         "category": "时尚潮流",
         "pos": "n.",
-        "phonetic": "/v.|微光；闪烁/",
-        "meaning": "n.\n宝石\nshimmer\nn. 发微光；闪烁\n\n例句：\nThat jewel has a beautiful shimmer",
+        "phonetic": "",
+        "meaning": "n.\n宝石\n微光；闪烁/发微光；闪烁\n\n例句：\nThat jewel has a beautiful shimmer",
         "example": ""
     },
     {
@@ -13030,7 +13030,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n玉石；翡翠\nbracelet\nn.  手镯；手链\n\n例句：\nI have a pair of jade bracelets",
+        "meaning": "n.\n玉石；翡翠\n\n例句：\nI have a pair of jade bracelets",
         "example": ""
     },
     {
@@ -13046,15 +13046,15 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  装饰品；\nv.  装饰\nClearness ornaments profound thought 清晰性能为深刻的思想增辉",
+        "meaning": "n./v. 装饰品；装饰\nClearness ornaments profound thought 清晰性能为深刻的思想增辉",
         "example": ""
     },
     {
         "word": "embellish",
         "category": "时尚潮流",
-        "pos": "v. adj. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n修饰\nintricate\nadj.  错综复杂的；复杂精细的；难理解的；难解决的。carving\nn.  雕刻品；雕刻图案；雕刻技艺\n\n例句：\nThe door of the old church was embellished with intricate carvings",
+        "meaning": "v.\n修饰\n复杂精细的；难理解的；难解决的。雕刻图案；雕刻技艺\n\n例句：\nThe door of the old church was embellished with intricate carvings",
         "example": ""
     },
     {
@@ -13078,7 +13078,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n色素；颜料\nadditive\nn.  添加剂\n\n例句：\nThis pigment is a good and common food additive",
+        "meaning": "n.\n色素；颜料\n\n例句：\nThis pigment is a good and common food additive",
         "example": ""
     },
     {
@@ -13094,7 +13094,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  化装舞会；\nv.  化妆；假扮\n\n例句：\nShe masqueraded as a shepherdess",
+        "meaning": "n./v. 化装舞会；化妆；假扮\n\n例句：\nShe masqueraded as a shepherdess",
         "example": ""
     },
     {
@@ -13116,9 +13116,9 @@ const ieltsWords = [
     {
         "word": "fascinate",
         "category": "时尚潮流",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n迷住\nfascinating\nadj.  迷人的。be fascinated with 迷上\n\n例句：\nThis city fascinates him",
+        "meaning": "v.\n迷住\nbe fascinated with 迷上\n\n例句：\nThis city fascinates him",
         "example": ""
     },
     {
@@ -13126,7 +13126,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n得体的；尚好的\nHe made a decent record 他成绩善佳\nindecent\nadj.  下流的",
+        "meaning": "adj.\n得体的；尚好的\nHe made a decent record 他成绩善佳",
         "example": ""
     },
     {
@@ -13142,15 +13142,15 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n优美；优雅\nShe was a beautiful girl with the grace and poise of a natural model 她是一个美丽的女孩，天生有着模特的那种优雅仪态\npoise\nn.  沉着，泰然自若；平衡",
+        "meaning": "n.\n优美；优雅\nShe was a beautiful girl with the grace and poise of a natural model 她是一个美丽的女孩，天生有着模特的那种优雅仪态",
         "example": ""
     },
     {
         "word": "elegance",
         "category": "时尚潮流",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n文雅；典雅\nelegant\nadj.  优雅的\n\n例句：\nHe is admired for the elegance of this writing",
+        "meaning": "n.\n文雅；典雅\n\n例句：\nHe is admired for the elegance of this writing",
         "example": ""
     },
     {
@@ -13164,9 +13164,9 @@ const ieltsWords = [
     {
         "word": "appearance",
         "category": "时尚潮流",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n外貌；出现\nappear\nv.  出现\n\n例句：\nDon't judge by appearances",
+        "meaning": "n.\n外貌；出现\n\n例句：\nDon't judge by appearances",
         "example": ""
     },
     {
@@ -13206,7 +13206,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./adv.",
         "phonetic": "",
-        "meaning": "adj.  漂亮的；\nadv.  相当地\n\n例句：\nAll the pretty mowen wore their smartest dresses",
+        "meaning": "adj.  漂亮的\nadv.  相当地\n\n例句：\nAll the pretty mowen wore their smartest dresses",
         "example": ""
     },
     {
@@ -13236,9 +13236,9 @@ const ieltsWords = [
     {
         "word": "clothe",
         "category": "时尚潮流",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n给...穿衣；为...提供衣服\nclothes\nn.  衣服。clothing\nn.  衣服\n\n例句：\nHe had to work hard to feed and clothe the large family",
+        "meaning": "v.\n给...穿衣；为...提供衣服\n\n例句：\nHe had to work hard to feed and clothe the large family",
         "example": ""
     },
     {
@@ -13246,7 +13246,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  制服；\nadj.  一致的\nDo you have to wear uniform if you work at McDonald's?",
+        "meaning": "n.  制服\nadj.  一致的\nDo you have to wear uniform if you work at McDonald's?",
         "example": ""
     },
     {
@@ -13261,8 +13261,8 @@ const ieltsWords = [
         "word": "laundry",
         "category": "时尚潮流",
         "pos": "n.",
-        "phonetic": "/hang/",
-        "meaning": "n.\n洗衣店；要（或正在）洗的衣服；刚洗好的衣服\ndoiron the laundry 洗/晾/熨衣服\n\n例句：\nThere's a lot of laundry in the basket",
+        "phonetic": "",
+        "meaning": "n.\n洗衣店；要（或正在）洗的衣服；刚洗好的衣服\ndo/hang/iron the laundry 洗/晾/熨衣服\n\n例句：\nThere's a lot of laundry in the basket",
         "example": ""
     },
     {
@@ -13278,7 +13278,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  （英）（工作时穿的）罩衣；\nadj.  全面的\n\n例句：\nThe shop assistant was wearing a white overall",
+        "meaning": "n.  （英）（工作时穿的）罩衣\nadj.  全面的\n\n例句：\nThe shop assistant was wearing a white overall",
         "example": ""
     },
     {
@@ -13302,7 +13302,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n长外衣；女礼服\nball\nn.  除了球还有舞会的意思\n\n例句：\nShe put on her silk gown and went to the ball",
+        "meaning": "n.\n长外衣；女礼服\n\n例句：\nShe put on her silk gown and went to the ball",
         "example": ""
     },
     {
@@ -13350,15 +13350,15 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  搭扣；\nv.  扣住\nThe button won't clasp 纽扣扣不上",
+        "meaning": "n./v. 搭扣；扣住\nThe button won't clasp 纽扣扣不上",
         "example": ""
     },
     {
         "word": "button",
         "category": "时尚潮流",
-        "pos": "n./v. v.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  纽扣；\nv.  按钮；扣上...的纽扣\nunbutton\nv.  解开...的纽扣；如解开纽扣一样解开\n\n例句：\nOne of the buttons has come off my coat",
+        "meaning": "n./v. 纽扣；按钮；扣上...的纽扣\n如解开纽扣一样解开\n\n例句：\nOne of the buttons has come off my coat",
         "example": ""
     },
     {
@@ -13390,7 +13390,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n边缘；帽檐\ndrink 现在分词 drinking，过去式 drank 过去分词 drunk 或 drank。fountain\nn.  泉水;（尤指具有装饰效果的）喷泉\n\n例句：\nHe drank at the fountain's brim",
+        "meaning": "n.\n边缘；帽檐\ndrink 现在分词 drinking，过去式 drank 过去分词 drunk 或 drank。\n\n例句：\nHe drank at the fountain's brim",
         "example": ""
     },
     {
@@ -13436,9 +13436,9 @@ const ieltsWords = [
     {
         "word": "wrap",
         "category": "时尚潮流",
-        "pos": "n. v.",
-        "phonetic": "/n. 修理；修补；缝补/",
-        "meaning": "n.\n披肩\nOver her shoulders was a much-mended wrap 她的肩上搭着一条被多次缝补的披肩\nmend\nv. 修补过的地方",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n披肩\nOver her shoulders was a much-mended wrap 她的肩上搭着一条被多次缝补的披肩\n修补；缝补/修补过的地方",
         "example": ""
     },
     {
@@ -13485,8 +13485,8 @@ const ieltsWords = [
         "word": "slipper",
         "category": "时尚潮流",
         "pos": "n.",
-        "phonetic": "/ləˈbɒr.ə.tər.i/",
-        "meaning": "n.\n拖鞋\nlaboratory\nn.  UK   US  /ˈlæ\nb. rə.tɔː\nr. i/ 实验室，实验大楼\n\n例句：\nNo slipper is allowed in the laboratory",
+        "phonetic": "",
+        "meaning": "n.\n拖鞋\n\n例句：\nNo slipper is allowed in the laboratory",
         "example": ""
     },
     {
@@ -13510,7 +13510,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  裁缝；\nv.  专门制作\n\n例句：\nThe tailor can alter your new coat to fit you",
+        "meaning": "n./v. 裁缝；专门制作\n\n例句：\nThe tailor can alter your new coat to fit you",
         "example": ""
     },
     {
@@ -13526,7 +13526,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  纺；\nn.  （使）旋转；高速旋转；（乘车）兜风\n\n例句：\nWe took a spin around the town",
+        "meaning": "v.  纺\nn.  （使）旋转；高速旋转；（乘车）兜风\n\n例句：\nWe took a spin around the town",
         "example": ""
     },
     {
@@ -13534,7 +13534,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  针脚；\nv.  缝\n\n例句：\nMy mother is stitching a new dress",
+        "meaning": "n./v. 针脚；缝\n\n例句：\nMy mother is stitching a new dress",
         "example": ""
     },
     {
@@ -13550,7 +13550,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  别针；\nv.  大头针；别住，钉住\n\n例句：\nPin the bills together so you won't lose them",
+        "meaning": "n./v. 别针；大头针；别住，钉住\n\n例句：\nPin the bills together so you won't lose them",
         "example": ""
     },
     {
@@ -13574,7 +13574,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  带子；\nv.  用带子系\n\n例句：\nA safety strap is used to prevent falling",
+        "meaning": "n./v. 带子；用带子系\n\n例句：\nA safety strap is used to prevent falling",
         "example": ""
     },
     {
@@ -13630,7 +13630,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  珠子，（液体的）小滴；\nv.  形成珠状\n\n例句：\nShe wore a string of beads around her neck",
+        "meaning": "n.  珠子，（液体的）小滴\nv.  形成珠状\n\n例句：\nShe wore a string of beads around her neck",
         "example": ""
     },
     {
@@ -13638,7 +13638,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  纺织品；\nadj.  纺织的\n\n例句：\nHe intends to retail textile goods",
+        "meaning": "n.  纺织品\nadj.  纺织的\n\n例句：\nHe intends to retail textile goods",
         "example": ""
     },
     {
@@ -13652,25 +13652,25 @@ const ieltsWords = [
     {
         "word": "wool",
         "category": "时尚潮流",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n（羊等的）毛；毛线\nwoollen=woolen\nadj.  羊毛的\n\n例句：\nHe found a job of shearing wool from sheep",
+        "meaning": "n.\n（羊等的）毛；毛线\nwoollen=\n\n例句：\nHe found a job of shearing wool from sheep",
         "example": ""
     },
     {
         "word": "patch",
         "category": "时尚潮流",
-        "pos": "n./v. n.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  补丁，（与周围不同的）小片；\nv.  补缀\nShe sewed a patch onto the knee of the trousers 她在裤子的膝部缝了个补丁\npatchwork\nn.  拼布工艺；混杂物",
+        "meaning": "n./v. 补丁，（与周围不同的）小片；补缀\nShe sewed a patch onto the knee of the trousers 她在裤子的膝部缝了个补丁\n混杂物",
         "example": ""
     },
     {
         "word": "rag",
         "category": "时尚潮流",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n破布\nragged\nadj.  破旧的\n\n例句：\nShe wrapped the box with an old rag",
+        "meaning": "n.\n破布\n\n例句：\nShe wrapped the box with an old rag",
         "example": ""
     },
     {
@@ -13692,17 +13692,17 @@ const ieltsWords = [
     {
         "word": "colour",
         "category": "时尚潮流",
-        "pos": "n. v. adj.",
-        "phonetic": "[formal]",
-        "meaning": "/color\nn.\n颜色；颜料\nDue to the use of natural pigments, these folk paintings retain their color\nwell.  因为使用了天然颜料，这些民俗画的颜色很好地保留了下来\nretain\nv.  保持；保留；保有；留住；容纳。colorful=colourful\nadj.  富于色彩的",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/color\nn.\n颜色；颜料\nDue to the use of natural pigments, these folk paintings retain their color\nwell.  因为使用了天然颜料，这些民俗画的颜色很好地保留了下来\nretain [formal]\nv.  保持；保留；保有；留住；容纳。colorful=",
         "example": ""
     },
     {
         "word": "white",
         "category": "时尚潮流",
-        "pos": "adj./n. v.",
+        "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  白的；\nn.  白色\nHe was white with fury 他气的脸色发白\nwhitewash\nv.  粉刷，刷石灰水",
+        "meaning": "adj.  白的\nn.  白色\nHe was white with fury 他气的脸色发白",
         "example": ""
     },
     {
@@ -13710,7 +13710,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  黄的；\nn.  黄色\n\n例句：\nThe leaves turn yellow in autumn",
+        "meaning": "adj.  黄的\nn.  黄色\n\n例句：\nThe leaves turn yellow in autumn",
         "example": ""
     },
     {
@@ -13718,15 +13718,15 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  褐色的；\nn.  褐色\n\n例句：\nHe had brown skin",
+        "meaning": "adj.  褐色的\nn.  褐色\n\n例句：\nHe had brown skin",
         "example": ""
     },
     {
         "word": "grey",
         "category": "时尚潮流",
-        "pos": "n.",
-        "phonetic": "/gray|adj./",
-        "meaning": "n.\n灰色的；灰色\n\n例句：\nShe dressed in grey",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/gray\nadj.  灰色的\nn.  灰色\n\n例句：\nShe dressed in grey",
         "example": ""
     },
     {
@@ -13734,7 +13734,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  粉色的；\nn.  粉色\n\n例句：\nShe carried a spray of pink roses",
+        "meaning": "adj.  粉色的\nn.  粉色\n\n例句：\nShe carried a spray of pink roses",
         "example": ""
     },
     {
@@ -13742,7 +13742,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  紫色的；\nn.  紫色\n\n例句：\nThat girl liked to wear purple dresses",
+        "meaning": "adj.  紫色的\nn.  紫色\n\n例句：\nThat girl liked to wear purple dresses",
         "example": ""
     },
     {
@@ -13750,7 +13750,7 @@ const ieltsWords = [
         "category": "时尚潮流",
         "pos": "adj./n.",
         "phonetic": "",
-        "meaning": "adj.  棕黄色的；\nn.  棕黄色；晒成的棕褐色\n\n例句：\nIt took me all summer to get this tan",
+        "meaning": "adj.  棕黄色的\nn.  棕黄色；晒成的棕褐色\n\n例句：\nIt took me all summer to get this tan",
         "example": ""
     },
     {
@@ -13764,9 +13764,9 @@ const ieltsWords = [
     {
         "word": "stain",
         "category": "时尚潮流",
-        "pos": "v./n. adj.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  污染；\nn.  污渍\nstainless\nadj.  无瑕疵的；不锈钢的\n\n例句：\nThe coffe stained her shirt brown",
+        "meaning": "v./n. 污染；污渍\n不锈钢的\n\n例句：\nThe coffe stained her shirt brown",
         "example": ""
     },
     {
@@ -13780,9 +13780,9 @@ const ieltsWords = [
     {
         "word": "figure",
         "category": "时尚潮流",
-        "pos": "n.",
-        "phonetic": "/v.|身材；身影；重要人物；数字；认为|I could see a tall figure near the door|figure out 理解；弄明白。a slender/",
-        "meaning": "n. slim figure 苗条的身材；a hourglass figure 沙漏身材",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  身材\nv.  身影；重要人物；数字；认为\nfigure out 理解；弄明白。a slender/slim figure 苗条的身材；a hourglass figure 沙漏身材\n\n例句：\nI could see a tall figure near the door",
         "example": ""
     },
     {
@@ -13796,9 +13796,9 @@ const ieltsWords = [
     {
         "word": "slight",
         "category": "时尚潮流",
-        "pos": "adj. adv.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n纤细的；轻微的\nreverse 作名词有失败、挫折的意思。slightly\nadv.  稍微\n\n例句：\nOur army suffered a slight reverse",
+        "meaning": "adj.\n纤细的；轻微的\nreverse 作名词有失败、挫折的意思。\n\n例句：\nOur army suffered a slight reverse",
         "example": ""
     },
     {
@@ -13806,15 +13806,15 @@ const ieltsWords = [
         "category": "饮食健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n食物\nfoodie\nn.  美食家；吃货\n\n例句：\nI prefer vegetarian food",
+        "meaning": "n.\n食物\n\n例句：\nI prefer vegetarian food",
         "example": ""
     },
     {
         "word": "diet",
         "category": "饮食健康",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n日常饮食；（医生指定的）特别饮食；节食\ndietary\nadj.  饮食的。on a diet 进行节食 diabetic\nadj.  糖尿病的\n\n例句：\nA sugar-free diet is recommended for diabetics",
+        "meaning": "n.\n日常饮食；（医生指定的）特别饮食；节食\non a diet 进行节食\n\n例句：\nA sugar-free diet is recommended for diabetics",
         "example": ""
     },
     {
@@ -13828,9 +13828,9 @@ const ieltsWords = [
     {
         "word": "treat",
         "category": "饮食健康",
-        "pos": "v. n.",
-        "phonetic": "/n.|请客；对待；治疗/",
-        "meaning": "v. 款待\ntreatment\nn.  对待；处理；治疗\n\n例句：\nIt is my turn to treat us today",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  请客；对待；治疗\nn.  款待\n处理；治疗\n\n例句：\nIt is my turn to treat us today",
         "example": ""
     },
     {
@@ -13908,9 +13908,9 @@ const ieltsWords = [
     {
         "word": "barbecue",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|烧烤野餐、烤架/",
-        "meaning": "n. 烧烤\nhave\nsb.  over 邀请某人到家里做客\n\n例句：\nI you're not busy Sunday, we'd love to have you both over for a barbecue",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  烧烤野餐、烤架\nv.  烧烤\nhave\nsb.  over 邀请某人到家里做客\n\n例句：\nI you're not busy Sunday, we'd love to have you both over for a barbecue",
         "example": ""
     },
     {
@@ -13948,7 +13948,7 @@ const ieltsWords = [
     {
         "word": "appetiser",
         "category": "饮食健康",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/appetizer\nn.\n开胃饮料、开胃小菜\n\n例句：\nWe served some crackers and cheese as an appetizer",
         "example": ""
@@ -13972,17 +13972,17 @@ const ieltsWords = [
     {
         "word": "order",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|订单、点的餐/",
-        "meaning": "n. 点（酒菜等）\n\n例句：\nHe gave his order to the waiter",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  订单、点的餐\nv.  点（酒菜等）\n\n例句：\nHe gave his order to the waiter",
         "example": ""
     },
     {
         "word": "takeaway",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n外卖餐馆、外卖食物\nEat in or takeaway?",
+        "phonetic": "",
+        "meaning": "n.\n[英]外卖餐馆、外卖食物\nEat in or takeaway?",
         "example": ""
     },
     {
@@ -13996,17 +13996,17 @@ const ieltsWords = [
     {
         "word": "gourmet",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/adj.|美食家/",
-        "meaning": "n. 美味佳肴的\n\n例句：\nThe gourmet is very particular about food",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  美食家\nadj.  美味佳肴的\n\n例句：\nThe gourmet is very particular about food",
         "example": ""
     },
     {
         "word": "vegetarian",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/adj.|素食者/",
-        "meaning": "n. 素食的、无肉的\n\n例句：\nI've become used to a vegetarian diet",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  素食者\nadj.  素食的、无肉的\n\n例句：\nI've become used to a vegetarian diet",
         "example": ""
     },
     {
@@ -14020,17 +14020,17 @@ const ieltsWords = [
     {
         "word": "silver",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/adj.|银、银器/",
-        "meaning": "n. 银的、银色的\n\n例句：\nShe wore a silver chain around her neck",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  银、银器\nadj.  银的、银色的\n\n例句：\nShe wore a silver chain around her neck",
         "example": ""
     },
     {
         "word": "ceramic",
         "category": "饮食健康",
-        "pos": "adj.",
-        "phonetic": "/n.|陶瓷的/",
-        "meaning": "adj. 陶瓷制品\n\n例句：\nThe ceramic industry dates from the ancient times",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  陶瓷的\nn.  陶瓷制品\n\n例句：\nThe ceramic industry dates from the ancient times",
         "example": ""
     },
     {
@@ -14046,7 +14046,7 @@ const ieltsWords = [
         "category": "饮食健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n碗\ncereal\nn.  谷类植物，谷物；（尤指早晨加牛奶食用的）谷类食物，麦片。a fish bowl 鱼缸\n\n例句：\nI have a bowl of cereal every morning",
+        "meaning": "n.\n碗\n（尤指早晨加牛奶食用的）谷类食物，麦片。a fish bowl 鱼缸\n\n例句：\nI have a bowl of cereal every morning",
         "example": ""
     },
     {
@@ -14117,16 +14117,16 @@ const ieltsWords = [
         "word": "kettle",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n水壶、锅\n\n例句：\nThe kettle is boiling",
+        "phonetic": "",
+        "meaning": "n.\n水壶、[美]锅\n\n例句：\nThe kettle is boiling",
         "example": ""
     },
     {
         "word": "pan",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n平底锅、烤盘\n\n例句：\nI cracked two eggs into the frying pan",
+        "phonetic": "",
+        "meaning": "n.\n平底锅、[美]烤盘\n\n例句：\nI cracked two eggs into the frying pan",
         "example": ""
     },
     {
@@ -14172,17 +14172,17 @@ const ieltsWords = [
     {
         "word": "lid",
         "category": "饮食健康",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n盖子；眼睑，眼皮\nslam\nv.  （使）重重撞上，（使）砰地关上\n\n例句：\nHe slammed the lid down",
+        "meaning": "n.\n盖子；眼睑，眼皮\n\n例句：\nHe slammed the lid down",
         "example": ""
     },
     {
         "word": "drink",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|饮、喝；喝酒/",
-        "meaning": "v. 饮料\n\n例句：\nIt is harmful to your health to drink too much",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  饮、喝；喝酒\nn.  饮料\n\n例句：\nIt is harmful to your health to drink too much",
         "example": ""
     },
     {
@@ -14205,8 +14205,8 @@ const ieltsWords = [
         "word": "soda",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n无碳酸钠的；苏打水；汽水\n\n例句：\nHe gave me a bottle of orange soda",
+        "phonetic": "",
+        "meaning": "n.\n无碳酸钠的；苏打水；[美]汽水\n\n例句：\nHe gave me a bottle of orange soda",
         "example": ""
     },
     {
@@ -14236,7 +14236,7 @@ const ieltsWords = [
     {
         "word": "whisky",
         "category": "饮食健康",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/whiskey\nn.\n威士忌酒\n\n例句：\nA great deal of whisky is made in Scotland",
         "example": ""
@@ -14276,9 +14276,9 @@ const ieltsWords = [
     {
         "word": "sober",
         "category": "饮食健康",
-        "pos": "adj.",
-        "phonetic": "/v.|清醒的/",
-        "meaning": "adj. （使）醒酒\nsober up （使）醒酒\n\n例句：\nHe was tipsy yesterday, but now he is sober",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  清醒的\nv.  （使）醒酒\nsober up （使）醒酒\n\n例句：\nHe was tipsy yesterday, but now he is sober",
         "example": ""
     },
     {
@@ -14348,9 +14348,9 @@ const ieltsWords = [
     {
         "word": "mushroom",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|蘑菇/",
-        "meaning": "n. 呈蘑菇状扩散\n\n例句：\nThe smoke mushroomed into the sky",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  蘑菇\nv.  呈蘑菇状扩散\n\n例句：\nThe smoke mushroomed into the sky",
         "example": ""
     },
     {
@@ -14396,17 +14396,17 @@ const ieltsWords = [
     {
         "word": "peel",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|剥（水果、蔬菜的）皮/",
-        "meaning": "v. （水果）皮\n\n例句：\nShe throwed the banana peel into the trash can",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  剥（水果、蔬菜的）皮\nn.  （水果）皮\n\n例句：\nShe throwed the banana peel into the trash can",
         "example": ""
     },
     {
         "word": "strip",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|剥去、除去/",
-        "meaning": "v. 条、带\n\n例句：\nElephants strip the leaves from trees",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  剥去、除去\nn.  条、带\n\n例句：\nElephants strip the leaves from trees",
         "example": ""
     },
     {
@@ -14414,15 +14414,15 @@ const ieltsWords = [
         "category": "饮食健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n果核\nplum\nn.  李子、梅子\n\n例句：\nHe ate the plum and then threw the core away",
+        "meaning": "n.\n果核\n\n例句：\nHe ate the plum and then threw the core away",
         "example": ""
     },
     {
         "word": "hull",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|（果实等的）外壳；船体/",
-        "meaning": "n. 剥去（果实的）外壳\n\n例句：\nRice is gathered, cleaned, and hulled before being sold",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  （果实等的）外壳；船体\nv.  剥去（果实的）外壳\n\n例句：\nRice is gathered, cleaned, and hulled before being sold",
         "example": ""
     },
     {
@@ -14525,8 +14525,8 @@ const ieltsWords = [
         "word": "corn",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n谷物；[美]玉米\n\n例句：\nThe corn is nearly ready for harvesting",
+        "phonetic": "",
+        "meaning": "n.\n[英]谷物；[美]玉米\n\n例句：\nThe corn is nearly ready for harvesting",
         "example": ""
     },
     {
@@ -14612,9 +14612,9 @@ const ieltsWords = [
     {
         "word": "pork",
         "category": "饮食健康",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n猪肉\nlean\nadj.  瘦的\n\n例句：\nThe little girl only eats lean pork",
+        "meaning": "n.\n猪肉\n\n例句：\nThe little girl only eats lean pork",
         "example": ""
     },
     {
@@ -14636,9 +14636,9 @@ const ieltsWords = [
     {
         "word": "fish",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|鱼/",
-        "meaning": "n. 钓鱼\n\n例句：\nWe caught three little fish",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  鱼\nv.  钓鱼\n\n例句：\nWe caught three little fish",
         "example": ""
     },
     {
@@ -14660,17 +14660,17 @@ const ieltsWords = [
     {
         "word": "dairy",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/adj.|乳制品、乳品店/",
-        "meaning": "n. 乳制的\ndiary\nn.  日记（注意拼写）。dairy products 乳制品\n\n例句：\nWe bought milk at the dairy",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  乳制品、乳品店\nadj.  乳制的\ndairy products 乳制品\n\n例句：\nWe bought milk at the dairy",
         "example": ""
     },
     {
         "word": "milk",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|奶/",
-        "meaning": "n. 挤奶\n\n例句：\nI am boiling the milk",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  奶\nv.  挤奶\n\n例句：\nI am boiling the milk",
         "example": ""
     },
     {
@@ -14700,9 +14700,9 @@ const ieltsWords = [
     {
         "word": "butter",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|黄油/",
-        "meaning": "n. 涂黄油\n\n例句：\nI'll butter the bread",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  黄油\nv.  涂黄油\n\n例句：\nI'll butter the bread",
         "example": ""
     },
     {
@@ -14716,9 +14716,9 @@ const ieltsWords = [
     {
         "word": "sandwich",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|把...夹入/",
-        "meaning": "v. 三明治\n\n例句：\nShe was sandwiched between two fat men",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  把...夹入\nn.  三明治\n\n例句：\nShe was sandwiched between two fat men",
         "example": ""
     },
     {
@@ -14732,9 +14732,9 @@ const ieltsWords = [
     {
         "word": "loaf",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|一条（面包）/",
-        "meaning": "n. 游荡、闲逛\nHalf a loaf is better than no bread 聊胜于无",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  一条（面包）\nv.  游荡、闲逛\nHalf a loaf is better than no bread 聊胜于无",
         "example": ""
     },
     {
@@ -14789,8 +14789,8 @@ const ieltsWords = [
         "word": "biscuit",
         "category": "饮食健康",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n饼干，[美]烤饼、小圆面包\n\n例句：\nHe had some biscuits before the dinner",
+        "phonetic": "",
+        "meaning": "n.\n[英]饼干，[美]烤饼、小圆面包\n\n例句：\nHe had some biscuits before the dinner",
         "example": ""
     },
     {
@@ -14828,9 +14828,9 @@ const ieltsWords = [
     {
         "word": "vanilla",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/adj.|香草/",
-        "meaning": "n. 香草味的\n\n例句：\nMany children don't like vanilla-flavored ice cream",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  香草\nadj.  香草味的\n\n例句：\nMany children don't like vanilla-flavored ice cream",
         "example": ""
     },
     {
@@ -14924,7 +14924,7 @@ const ieltsWords = [
     {
         "word": "flavor",
         "category": "饮食健康",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/flavour\nn.\n味道、口味、特色、风格\n\n例句：\nYou may choose anyone from the six popular flavors",
         "example": ""
@@ -15044,9 +15044,9 @@ const ieltsWords = [
     {
         "word": "supplement",
         "category": "饮食健康",
-        "pos": "n.",
-        "phonetic": "/v.|营养补给、补贴/",
-        "meaning": "n. 增补、补充\n\n例句：\nJohn had to get a job to supplement the family income",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  营养补给、补贴\nv.  增补、补充\n\n例句：\nJohn had to get a job to supplement the family income",
         "example": ""
     },
     {
@@ -15060,9 +15060,9 @@ const ieltsWords = [
     {
         "word": "cook",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|烹调、烧、煮/",
-        "meaning": "v. 厨师\nWill she cook dinner this evening?",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  烹调、烧、煮\nn.  厨师\nWill she cook dinner this evening?",
         "example": ""
     },
     {
@@ -15084,17 +15084,17 @@ const ieltsWords = [
     {
         "word": "roast",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|烤/",
-        "meaning": "v. 烤肉\n\n例句：\nLet's have a nice roast for Sunday dinner",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  烤\nn.  烤肉\n\n例句：\nLet's have a nice roast for Sunday dinner",
         "example": ""
     },
     {
         "word": "toast",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|向...祝酒；为...干杯；烤/",
-        "meaning": "v. 烤面包片\n\n例句：\nWe toasted the bride and bridegroom",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  向...祝酒；为...干杯；烤\nn.  烤面包片\n\n例句：\nWe toasted the bride and bridegroom",
         "example": ""
     },
     {
@@ -15108,9 +15108,9 @@ const ieltsWords = [
     {
         "word": "swallow",
         "category": "饮食健康",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n咽下、吞下\nboa\nn.  蟒蛇 prey\nn.  猎物\n\n例句：\nA boa swollowed its prey whole",
+        "meaning": "v.\n咽下、吞下\n\n例句：\nA boa swollowed its prey whole",
         "example": ""
     },
     {
@@ -15164,25 +15164,25 @@ const ieltsWords = [
     {
         "word": "stir",
         "category": "饮食健康",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n搅动\noatmeal\nn.  燕麦粥 lumpy\nadj.  多块状物的\n\n例句：\nThe oatmeal will become lumpy if you don't stir it well",
+        "meaning": "v.\n搅动\n\n例句：\nThe oatmeal will become lumpy if you don't stir it well",
         "example": ""
     },
     {
         "word": "grind",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|碾碎/",
-        "meaning": "v. 枯燥乏味的事情\n\n例句：\nThe mill of god grinds slowly but it grinds exceedingly well",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  碾碎\nn.  枯燥乏味的事情\n\n例句：\nThe mill of god grinds slowly but it grinds exceedingly well",
         "example": ""
     },
     {
         "word": "slice",
         "category": "饮食健康",
-        "pos": "v.",
-        "phonetic": "/n.|切成薄片、切、划/",
-        "meaning": "v. 薄片\n\n例句：\nI sliced the bread",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  切成薄片、切、划\nn.  薄片\n\n例句：\nI sliced the bread",
         "example": ""
     },
     {
@@ -15252,9 +15252,9 @@ const ieltsWords = [
     {
         "word": "concrete",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/adj.|混泥土/",
-        "meaning": "n. 具体的、混凝土制的\n\n例句：\nThe statue rests on a concrete base",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  混泥土\nadj.  具体的、混凝土制的\n\n例句：\nThe statue rests on a concrete base",
         "example": ""
     },
     {
@@ -15365,8 +15365,8 @@ const ieltsWords = [
         "word": "villa",
         "category": "建筑场所",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n乡间别墅；度假别墅\n\n例句：\nI want to buy a villa outside the city",
+        "phonetic": "",
+        "meaning": "n.\n乡间别墅；[英]度假别墅\n\n例句：\nI want to buy a villa outside the city",
         "example": ""
     },
     {
@@ -15389,8 +15389,8 @@ const ieltsWords = [
         "word": "flat",
         "category": "建筑场所",
         "pos": "n.",
-        "phonetic": "[尤英]",
-        "meaning": "n.\n单元房；公寓\n\n例句：\nShe is buying a flat close to her office",
+        "phonetic": "",
+        "meaning": "n.\n[尤英]单元房；公寓\n\n例句：\nShe is buying a flat close to her office",
         "example": ""
     },
     {
@@ -15404,9 +15404,9 @@ const ieltsWords = [
     {
         "word": "lodge",
         "category": "建筑场所",
-        "pos": "n. v.",
+        "pos": "v./n.",
         "phonetic": "",
-        "meaning": "n.\n 租住\n v. \n小屋；度假屋\n\n例句：\nWhere we lodge is the problem",
+        "meaning": "v.  租住\nn.  小屋；度假屋\n\n例句：\nWhere we lodge is the problem",
         "example": ""
     },
     {
@@ -15436,9 +15436,9 @@ const ieltsWords = [
     {
         "word": "shed",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|简易房、棚/",
-        "meaning": "n. 流、洒、摆脱\n\n例句：\nHe built a bicycle shed",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  简易房、棚\nv.  流、洒、摆脱\n\n例句：\nHe built a bicycle shed",
         "example": ""
     },
     {
@@ -15468,9 +15468,9 @@ const ieltsWords = [
     {
         "word": "shelter",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|庇护所；掩蔽/",
-        "meaning": "n. 庇护；遮蔽\n\n例句：\nThese plants must be sheltered from direct sunlight",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  庇护所；掩蔽\nv.  庇护；遮蔽\n\n例句：\nThese plants must be sheltered from direct sunlight",
         "example": ""
     },
     {
@@ -15532,7 +15532,7 @@ const ieltsWords = [
     {
         "word": "storey",
         "category": "建筑场所",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/story\nn.\n楼层\n\n例句：\nThere's a nice-story apartment building next to the park",
         "example": ""
@@ -15549,8 +15549,8 @@ const ieltsWords = [
         "word": "elevator",
         "category": "建筑场所",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n电梯\nlift\nn.  [英]电梯。a freight elevator 货梯\n\n例句：\nHer job is to operate an elevator",
+        "phonetic": "",
+        "meaning": "n.\n[美]电梯\na freight elevator 货梯\n\n例句：\nHer job is to operate an elevator",
         "example": ""
     },
     {
@@ -15604,9 +15604,9 @@ const ieltsWords = [
     {
         "word": "arch",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|拱门/",
-        "meaning": "n. （使）弯成弓形\n\n例句：\nThe cat arches its back when it sees the dog",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  拱门\nv.  （使）弯成弓形\n\n例句：\nThe cat arches its back when it sees the dog",
         "example": ""
     },
     {
@@ -15644,9 +15644,9 @@ const ieltsWords = [
     {
         "word": "lobby",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|大厅；前厅；游说/",
-        "meaning": "n. 游说\nlobbyist\nn.  说客\n\n例句：\nPlease wait for me in the lobby of the hotel",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  大厅；前厅；游说\nv.  游说\n\n例句：\nPlease wait for me in the lobby of the hotel",
         "example": ""
     },
     {
@@ -15660,7 +15660,7 @@ const ieltsWords = [
     {
         "word": "parlour",
         "category": "建筑场所",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/parlor\nn.\n客厅\n\n例句：\nThe parlor has been decorated delicately",
         "example": ""
@@ -15733,16 +15733,16 @@ const ieltsWords = [
         "word": "toilet",
         "category": "建筑场所",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n抽水马桶；厕所\n\n例句：\nEvery flat has its own toilet",
+        "phonetic": "",
+        "meaning": "n.\n抽水马桶；[英]厕所\n\n例句：\nEvery flat has its own toilet",
         "example": ""
     },
     {
         "word": "bath",
         "category": "建筑场所",
-        "pos": "n. v.",
-        "phonetic": "[英]",
-        "meaning": "n.\n洗澡；浴缸\nbathe\nv.  用水清洗\n\n例句：\nHe has a cold bath every day",
+        "pos": "n.",
+        "phonetic": "",
+        "meaning": "n.\n洗澡；[英]浴缸\n\n例句：\nHe has a cold bath every day",
         "example": ""
     },
     {
@@ -15756,17 +15756,17 @@ const ieltsWords = [
     {
         "word": "reserve",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|储备；自然保护区/",
-        "meaning": "n. 预订\nreservoir\nn.  水库\n\n例句：\nI have reserved a room for you at the hotel",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  储备；自然保护区\nv.  预订\n\n例句：\nI have reserved a room for you at the hotel",
         "example": ""
     },
     {
         "word": "store",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|商店；贮存物/",
-        "meaning": "n. 贮存\n\n例句：\nWhen he got into the convenience store, he saw the long lines",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  商店；贮存物\nv.  贮存\n\n例句：\nWhen he got into the convenience store, he saw the long lines",
         "example": ""
     },
     {
@@ -15820,9 +15820,9 @@ const ieltsWords = [
     {
         "word": "downtown",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/adj.|市中心/",
-        "meaning": "n. 市中心的\n\n例句：\nMost of the old buildings in the downtown were torn down",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  市中心\nadj.  市中心的\n\n例句：\nMost of the old buildings in the downtown were torn down",
         "example": ""
     },
     {
@@ -15836,9 +15836,9 @@ const ieltsWords = [
     {
         "word": "peripheral",
         "category": "建筑场所",
-        "pos": "adj. n.",
-        "phonetic": "/n.|外围的/",
-        "meaning": "adj. 外围设备\nperiphery\nn.  外围；边缘\n\n例句：\nThe peripheral parts of the city are poor",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  外围的\nn.  外围设备\n\n例句：\nThe peripheral parts of the city are poor",
         "example": ""
     },
     {
@@ -15860,9 +15860,9 @@ const ieltsWords = [
     {
         "word": "void",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/adj.|空间；空白；空虚/",
-        "meaning": "n. 空的\n\n例句：\nThe amusement park will fill a void in this town, which has little entertainment for children",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  空间；空白；空虚\nadj.  空的\n\n例句：\nThe amusement park will fill a void in this town, which has little entertainment for children",
         "example": ""
     },
     {
@@ -15892,9 +15892,9 @@ const ieltsWords = [
     {
         "word": "plaza",
         "category": "建筑场所",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n广场；购物中心\ncram\nv.  塞满、挤满\n\n例句：\nThe plaza is crammed with people",
+        "meaning": "n.\n广场；购物中心\n\n例句：\nThe plaza is crammed with people",
         "example": ""
     },
     {
@@ -16044,9 +16044,9 @@ const ieltsWords = [
     {
         "word": "trim",
         "category": "建筑场所",
-        "pos": "v.",
-        "phonetic": "/adj.|修剪；装饰/",
-        "meaning": "v. 整齐的、整洁的\n\n例句：\nThey trimmed their Christmas tree and put strings of color lights on it",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  修剪；装饰\nadj.  整齐的、整洁的\n\n例句：\nThey trimmed their Christmas tree and put strings of color lights on it",
         "example": ""
     },
     {
@@ -16076,17 +16076,17 @@ const ieltsWords = [
     {
         "word": "drill",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|钻机；反复练习/",
-        "meaning": "n. 钻孔；训练\n\n例句：\nThe Saudi government has announced plans to drill for water in the desert",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  钻机；反复练习\nv.  钻孔；训练\n\n例句：\nThe Saudi government has announced plans to drill for water in the desert",
         "example": ""
     },
     {
         "word": "plumb",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|（表示垂直度的）铅锤/",
-        "meaning": "n. 用铅锤线校正\n\n例句：\nWe need to plumb the line",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  （表示垂直度的）铅锤\nv.  用铅锤线校正\n\n例句：\nWe need to plumb the line",
         "example": ""
     },
     {
@@ -16108,9 +16108,9 @@ const ieltsWords = [
     {
         "word": "dam",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|水坝/",
-        "meaning": "n. 控制、抑制\n\n例句：\nA new dam is under construction at the valley",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  水坝\nv.  控制、抑制\n\n例句：\nA new dam is under construction at the valley",
         "example": ""
     },
     {
@@ -16156,9 +16156,9 @@ const ieltsWords = [
     {
         "word": "design",
         "category": "建筑场所",
-        "pos": "v.",
-        "phonetic": "/n.|设计；计划/",
-        "meaning": "v. 设计\n\n例句：\nHe has already designed a good excuse for not attending the conference",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  设计；计划\nn.  设计\n\n例句：\nHe has already designed a good excuse for not attending the conference",
         "example": ""
     },
     {
@@ -16188,33 +16188,33 @@ const ieltsWords = [
     {
         "word": "exit",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/v.|出口；退场；离去/",
-        "meaning": "n. 离去\n\n例句：\nI was eventually granted an exit visa",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  出口；退场；离去\nv.  离去\n\n例句：\nI was eventually granted an exit visa",
         "example": ""
     },
     {
         "word": "outside",
         "category": "建筑场所",
-        "pos": "adj.",
-        "phonetic": "/n.|外部的/",
-        "meaning": "adj. 外表\n\n例句：\nHe had a tough outside but a kind heart",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  外部的\nn.  外表\n\n例句：\nHe had a tough outside but a kind heart",
         "example": ""
     },
     {
         "word": "outward",
         "category": "建筑场所",
-        "pos": "adj.",
-        "phonetic": "/adv.|向外的/",
-        "meaning": "adj. 向外\n\n例句：\nFrost consists of tiny crystals of ice, which grow outward from a solid surface",
+        "pos": "adj./adv.",
+        "phonetic": "",
+        "meaning": "adj.  向外的\nadv.  向外\n\n例句：\nFrost consists of tiny crystals of ice, which grow outward from a solid surface",
         "example": ""
     },
     {
         "word": "exterior",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/adj.|外部；外观/",
-        "meaning": "n. 外部的\n\n例句：\nThe designer gives a design for the exterior of the container",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  外部；外观\nadj.  外部的\n\n例句：\nThe designer gives a design for the exterior of the container",
         "example": ""
     },
     {
@@ -16236,17 +16236,17 @@ const ieltsWords = [
     {
         "word": "interior",
         "category": "建筑场所",
-        "pos": "n.",
-        "phonetic": "/adj.|内部/",
-        "meaning": "n. 内部的\ninterior design 室内设计\n\n例句：\nInterior design is a very promising industry nowadays",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  内部\nadj.  内部的\ninterior design 室内设计\n\n例句：\nInterior design is a very promising industry nowadays",
         "example": ""
     },
     {
         "word": "inward",
         "category": "建筑场所",
-        "pos": "adj.",
-        "phonetic": "/adv.|向内的；内心的/",
-        "meaning": "adj. 向内\n\n例句：\nThe expedition discovered an inward passage",
+        "pos": "adj./adv.",
+        "phonetic": "",
+        "meaning": "adj.  向内的；内心的\nadv.  向内\n\n例句：\nThe expedition discovered an inward passage",
         "example": ""
     },
     {
@@ -16270,7 +16270,7 @@ const ieltsWords = [
         "category": "交通旅行",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n航海，航行；旅行\nwarship\nn.  军舰\n\n例句：\nHe goes on a voyage on a warship in the name of the government",
+        "meaning": "n.\n航海，航行；旅行\n\n例句：\nHe goes on a voyage on a warship in the name of the government",
         "example": ""
     },
     {
@@ -16292,9 +16292,9 @@ const ieltsWords = [
     {
         "word": "travel",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|旅行/",
-        "meaning": "n. 旅行\n\n例句：\nDuring his travels, he met many interesting people",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  旅行\nv.  旅行\n\n例句：\nDuring his travels, he met many interesting people",
         "example": ""
     },
     {
@@ -16308,17 +16308,17 @@ const ieltsWords = [
     {
         "word": "parade",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|游行；炫耀/",
-        "meaning": "v. 庆祝游行；列队进行；炫耀\n\n例句：\nThe sports meeting began with a parade for all the competing teams",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  游行；炫耀\nn.  庆祝游行；列队进行；炫耀\n\n例句：\nThe sports meeting began with a parade for all the competing teams",
         "example": ""
     },
     {
         "word": "haunt",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|（鬼魂等）常出没于/",
-        "meaning": "v. 常去的地方\n\n例句：\nThis cafe used to be my favorite haunt",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （鬼魂等）常出没于\nn.  常去的地方\n\n例句：\nThis cafe used to be my favorite haunt",
         "example": ""
     },
     {
@@ -16332,9 +16332,9 @@ const ieltsWords = [
     {
         "word": "memorial",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/adj.|纪念碑/",
-        "meaning": "n. 纪念的；悼念的\n\n例句：\nA memorial for victims of the blast was built",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  纪念碑\nadj.  纪念的；悼念的\n\n例句：\nA memorial for victims of the blast was built",
         "example": ""
     },
     {
@@ -16460,9 +16460,9 @@ const ieltsWords = [
     {
         "word": "carry-on",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/adj.|（可随身携带上飞机的）小包/",
-        "meaning": "n. 随身携带上飞机的\n\n例句：\nI have two carry-on bags with me",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  （可随身携带上飞机的）小包\nadj.  随身携带上飞机的\n\n例句：\nI have two carry-on bags with me",
         "example": ""
     },
     {
@@ -16476,9 +16476,9 @@ const ieltsWords = [
     {
         "word": "freight",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|货运；货物/",
-        "meaning": "n. 运送（货物）\n\n例句：\nWe can send these goods by air freight or by sea freight",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  货运；货物\nv.  运送（货物）\n\n例句：\nWe can send these goods by air freight or by sea freight",
         "example": ""
     },
     {
@@ -16532,9 +16532,9 @@ const ieltsWords = [
     {
         "word": "cross",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|十字形；十字架/",
-        "meaning": "n. 穿过\n\n例句：\nIt's very dangerous for children to cross a busy road",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  十字形；十字架\nv.  穿过\n\n例句：\nIt's very dangerous for children to cross a busy road",
         "example": ""
     },
     {
@@ -16573,8 +16573,8 @@ const ieltsWords = [
         "word": "highway",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[尤美]",
-        "meaning": "n.\n公路\n\n例句：\nA four-lane highway connects the two towns",
+        "phonetic": "",
+        "meaning": "n.\n[尤美]公路\n\n例句：\nA four-lane highway connects the two towns",
         "example": ""
     },
     {
@@ -16620,33 +16620,33 @@ const ieltsWords = [
     {
         "word": "express",
         "category": "交通旅行",
-        "pos": "n. adj.",
-        "phonetic": "/v./",
-        "meaning": "n.\nadj.\n特快列车；快递服务/表示/特快的\n\n例句：\nWe have to change here for the express train",
+        "pos": "n./v./adj.",
+        "phonetic": "",
+        "meaning": "n.  /\nv.\nadj.\n特快列车；快递服务/表示/特快的\n\n例句：\nWe have to change here for the express train",
         "example": ""
     },
     {
         "word": "tram",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[尤英]",
-        "meaning": "n.\n有轨电车\n[US]streetcar/trolley\n\n例句：\nIf you want to go to that place, you can travel by tram",
+        "phonetic": "",
+        "meaning": "n.\n[尤英]有轨电车\n[US]streetcar/trolley\n\n例句：\nIf you want to go to that place, you can travel by tram",
         "example": ""
     },
     {
         "word": "coach",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|[英]长途汽车；教练；私人教师/",
-        "meaning": "n. 训练\n\n例句：\nWe went to New York City by coach",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  [英]长途汽车；教练；私人教师\nv.  训练\n\n例句：\nWe went to New York City by coach",
         "example": ""
     },
     {
         "word": "ambulance",
         "category": "交通旅行",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n救护车\nrace by 飞驰而过 wail\nv.  哀号、嚎叫\n\n例句：\nAn ambulance was racing by with its siren wailing",
+        "meaning": "n.\n救护车\nrace by 飞驰而过\n\n例句：\nAn ambulance was racing by with its siren wailing",
         "example": ""
     },
     {
@@ -16661,8 +16661,8 @@ const ieltsWords = [
         "word": "lorry",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n卡车\n\n例句：\nA heavy lorry is floundering in deep snow",
+        "phonetic": "",
+        "meaning": "n.\n[英]卡车\n\n例句：\nA heavy lorry is floundering in deep snow",
         "example": ""
     },
     {
@@ -16677,16 +16677,16 @@ const ieltsWords = [
         "word": "wagon",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n四轮运货马车（或牛车）；（火车的）火车车厢\n\n例句：\nAn ox pulls a wagon into the village",
+        "phonetic": "",
+        "meaning": "n.\n四轮运货马车（或牛车）；[英]（火车的）火车车厢\n\n例句：\nAn ox pulls a wagon into the village",
         "example": ""
     },
     {
         "word": "carriage",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n四轮马车；（客运火车的）车厢\n\n例句：\nThe carriage, which he had ordered, arrived, and we drove off",
+        "phonetic": "",
+        "meaning": "n.\n四轮马车；[英]（客运火车的）车厢\n\n例句：\nThe carriage, which he had ordered, arrived, and we drove off",
         "example": ""
     },
     {
@@ -16716,9 +16716,9 @@ const ieltsWords = [
     {
         "word": "cycle",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|骑/",
-        "meaning": "v. 周期；自行车\n\n例句：\nIn many universities, students cycle from their dorms to the classroom or library",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  骑\nn.  周期；自行车\n\n例句：\nIn many universities, students cycle from their dorms to the classroom or library",
         "example": ""
     },
     {
@@ -16732,9 +16732,9 @@ const ieltsWords = [
     {
         "word": "motor",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/adj.|发动机/",
-        "meaning": "n. 机动的\n\n例句：\nIf the battery is dead, the motor won't be started",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  发动机\nadj.  机动的\n\n例句：\nIf the battery is dead, the motor won't be started",
         "example": ""
     },
     {
@@ -16756,15 +16756,15 @@ const ieltsWords = [
     {
         "word": "brake",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|车闸；刹车/",
-        "meaning": "n. 刹车\n\n例句：\nThe car in front of me stopped suddenly, and I had to brake sharply",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  车闸；刹车\nv.  刹车\n\n例句：\nThe car in front of me stopped suddenly, and I had to brake sharply",
         "example": ""
     },
     {
         "word": "tire",
         "category": "交通旅行",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/tyre\nn.\n轮胎\n\n例句：\nMy uncle jacked up his car to fix a flat tire",
         "example": ""
@@ -16772,9 +16772,9 @@ const ieltsWords = [
     {
         "word": "honk",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|汽车喇叭声；鹅叫声/",
-        "meaning": "n. 按（汽车喇叭）\n\n例句：\nThe drivers honked their horns, hoping to disperse the crowd in the streets",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  汽车喇叭声；鹅叫声\nv.  按（汽车喇叭）\n\n例句：\nThe drivers honked their horns, hoping to disperse the crowd in the streets",
         "example": ""
     },
     {
@@ -16804,17 +16804,17 @@ const ieltsWords = [
     {
         "word": "emergency",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/adj.|紧急事件/",
-        "meaning": "n. 应急的\n\n例句：\nHe has the ability to keep calm in emergencies",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  紧急事件\nadj.  应急的\n\n例句：\nHe has the ability to keep calm in emergencies",
         "example": ""
     },
     {
         "word": "wreck",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|使失事；破坏/",
-        "meaning": "v. 失事的船只；残破的东西\n\n例句：\nBecause of the tsunami, the coast was a wreck",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使失事；破坏\nn.  失事的船只；残破的东西\n\n例句：\nBecause of the tsunami, the coast was a wreck",
         "example": ""
     },
     {
@@ -16828,9 +16828,9 @@ const ieltsWords = [
     {
         "word": "crush",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|压碎、压坏/",
-        "meaning": "v. 拥挤的人群；迷恋；迷恋对象\n\n例句：\nThere was such a crush on the bus that I could hardly breathe",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  压碎、压坏\nn.  拥挤的人群；迷恋；迷恋对象\n\n例句：\nThere was such a crush on the bus that I could hardly breathe",
         "example": ""
     },
     {
@@ -16860,15 +16860,15 @@ const ieltsWords = [
     {
         "word": "hazard",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|危险/",
-        "meaning": "n. 使冒风险\n\n例句：\nThere are many hazards in a journey across the Arctic",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  危险\nv.  使冒风险\n\n例句：\nThere are many hazards in a journey across the Arctic",
         "example": ""
     },
     {
         "word": "harbour",
         "category": "交通旅行",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/harbor\nn.\n港口\n\n例句：\nOur hotel room overlooked a pretty little harbour",
         "example": ""
@@ -16948,9 +16948,9 @@ const ieltsWords = [
     {
         "word": "ferry",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|渡船/",
-        "meaning": "n. 渡运\n\n例句：\nWe can take the ferry that crosses the river every hour",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  渡船\nv.  渡运\n\n例句：\nWe can take the ferry that crosses the river every hour",
         "example": ""
     },
     {
@@ -16980,17 +16980,17 @@ const ieltsWords = [
     {
         "word": "oar",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|桨/",
-        "meaning": "n. 用桨划\n\n例句：\nIn dragon boat rowing, each paddler has one oar",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  桨\nv.  用桨划\n\n例句：\nIn dragon boat rowing, each paddler has one oar",
         "example": ""
     },
     {
         "word": "deck",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|甲板/",
-        "meaning": "n. 装饰\n\n例句：\nThe deck of the sailing ship was made of thick planks",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  甲板\nv.  装饰\n\n例句：\nThe deck of the sailing ship was made of thick planks",
         "example": ""
     },
     {
@@ -17012,9 +17012,9 @@ const ieltsWords = [
     {
         "word": "stern",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/adj.|船尾/",
-        "meaning": "n. 严厉的，苛刻的；严峻的，棘手的\n\n例句：\nShe seated herself in the stern",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  船尾\nadj.  严厉的，苛刻的；严峻的，棘手的\n\n例句：\nShe seated herself in the stern",
         "example": ""
     },
     {
@@ -17052,25 +17052,25 @@ const ieltsWords = [
     {
         "word": "ditch",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|沟、渠/",
-        "meaning": "n. 抛弃\n\n例句：\nWhen the road became impassable, they ditched their car and walked",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  沟、渠\nv.  抛弃\n\n例句：\nWhen the road became impassable, they ditched their car and walked",
         "example": ""
     },
     {
         "word": "railroad",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[美]",
-        "meaning": "n.\n铁路；铁路公司\n\n例句：\nThe building of the railroad is progressing",
+        "phonetic": "",
+        "meaning": "n.\n[美]铁路；铁路公司\n\n例句：\nThe building of the railroad is progressing",
         "example": ""
     },
     {
         "word": "railway",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n铁路；铁路系统\n\n例句：\nThe goods were sent to you by railway",
+        "phonetic": "",
+        "meaning": "n.\n[英]铁路；铁路系统\n\n例句：\nThe goods were sent to you by railway",
         "example": ""
     },
     {
@@ -17085,16 +17085,16 @@ const ieltsWords = [
         "word": "subway",
         "category": "交通旅行",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n地下通道；[美]地铁\n\n例句：\nThere is a new subway being built",
+        "phonetic": "",
+        "meaning": "n.\n[英]地下通道；[美]地铁\n\n例句：\nThere is a new subway being built",
         "example": ""
     },
     {
         "word": "underground",
         "category": "交通旅行",
-        "pos": "adj.",
-        "phonetic": "/n.|地下的；秘密的/",
-        "meaning": "adj. [英]地铁\n\n例句：\nThere is an underground passage leading to the old house",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  地下的；秘密的\nn.  [英]地铁\n\n例句：\nThere is an underground passage leading to the old house",
         "example": ""
     },
     {
@@ -17140,9 +17140,9 @@ const ieltsWords = [
     {
         "word": "delay",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|耽搁；延期/",
-        "meaning": "n. 使耽搁；使延期\n\n例句：\nWe have decided to delay our holiday until September",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  耽搁；延期\nv.  使耽搁；使延期\n\n例句：\nWe have decided to delay our holiday until September",
         "example": ""
     },
     {
@@ -17164,9 +17164,9 @@ const ieltsWords = [
     {
         "word": "lull",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|暂停；暂时平静期/",
-        "meaning": "n. 使昏昏欲睡\n\n例句：\nThe monotonous sound of the train's movement lulled me to sleep",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  暂停；暂时平静期\nv.  使昏昏欲睡\n\n例句：\nThe monotonous sound of the train's movement lulled me to sleep",
         "example": ""
     },
     {
@@ -17182,7 +17182,7 @@ const ieltsWords = [
         "category": "交通旅行",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n到期的；预期的\nIf you are going to the library, would you mind returning this book for me? It's due today\noverdue\nadj.  过期未完成的",
+        "meaning": "adj.\n到期的；预期的\nIf you are going to the library, would you mind returning this book for me? It's due today",
         "example": ""
     },
     {
@@ -17196,9 +17196,9 @@ const ieltsWords = [
     {
         "word": "stamp",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|邮票；印章/",
-        "meaning": "n. 贴邮票；盖章\n\n例句：\nYou can buy a stamp over there and affix it to the postcard",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  邮票；印章\nv.  贴邮票；盖章\n\n例句：\nYou can buy a stamp over there and affix it to the postcard",
         "example": ""
     },
     {
@@ -17212,9 +17212,9 @@ const ieltsWords = [
     {
         "word": "mail",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|邮件；邮包；邮政/",
-        "meaning": "n. 邮寄\n\n例句：\nShe opened her mail and took out a vase carefully",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  邮件；邮包；邮政\nv.  邮寄\n\n例句：\nShe opened her mail and took out a vase carefully",
         "example": ""
     },
     {
@@ -17228,9 +17228,9 @@ const ieltsWords = [
     {
         "word": "package",
         "category": "交通旅行",
-        "pos": "n.",
-        "phonetic": "/v.|包裹；盒；包/",
-        "meaning": "n. 包装\n\n例句：\nThe old town was packaged to attract tourists",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  包裹；盒；包\nv.  包装\n\n例句：\nThe old town was packaged to attract tourists",
         "example": ""
     },
     {
@@ -17244,25 +17244,25 @@ const ieltsWords = [
     {
         "word": "parcel",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|打包；包/",
-        "meaning": "v. 土地的一块；包裹\n\n例句：\nHe parcelled up the books",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  打包；包\nn.  土地的一块；包裹\n\n例句：\nHe parcelled up the books",
         "example": ""
     },
     {
         "word": "load",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|装载；装满/",
-        "meaning": "v. 负荷；大量\n\n例句：\nThe lorry was carrying a load of pineapples",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  装载；装满\nn.  负荷；大量\n\n例句：\nThe lorry was carrying a load of pineapples",
         "example": ""
     },
     {
         "word": "burden",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|使负担/",
-        "meaning": "v. 重担；负担\n\n例句：\nIt's a burden I have been carrying for a long time",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使负担\nn.  重担；负担\n\n例句：\nIt's a burden I have been carrying for a long time",
         "example": ""
     },
     {
@@ -17284,9 +17284,9 @@ const ieltsWords = [
     {
         "word": "transit",
         "category": "交通旅行",
-        "pos": "v.",
-        "phonetic": "/n.|通过；运送/",
-        "meaning": "v. 运输；通行；过境；中转\n\n例句：\nTransit passengers, please go to the transit lounge",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  通过；运送\nn.  运输；通行；过境；中转\n\n例句：\nTransit passengers, please go to the transit lounge",
         "example": ""
     },
     {
@@ -17420,9 +17420,9 @@ const ieltsWords = [
     {
         "word": "egalitarian",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|平等主义的/",
-        "meaning": "adj. 平等主义者\n\n例句：\nClearly, the egalitarian society remains a dream",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  平等主义的\nn.  平等主义者\n\n例句：\nClearly, the egalitarian society remains a dream",
         "example": ""
     },
     {
@@ -17444,25 +17444,25 @@ const ieltsWords = [
     {
         "word": "reform",
         "category": "国家政府",
-        "pos": "v.",
-        "phonetic": "/n.|改革、改良；改过自新/",
-        "meaning": "v. 改革、改良\n\n例句：\nHe promised to reform if given another chance",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  改革、改良；改过自新\nn.  改革、改良\n\n例句：\nHe promised to reform if given another chance",
         "example": ""
     },
     {
         "word": "process",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|过程；进程/",
-        "meaning": "n. 处理；加工；列队前进\n\n例句：\nThey went over every process again, but couldn't find the cause of the problem",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  过程；进程\nv.  处理；加工；列队前进\n\n例句：\nThey went over every process again, but couldn't find the cause of the problem",
         "example": ""
     },
     {
         "word": "conservative",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|保守的/",
-        "meaning": "adj. 保守党员\n\n例句：\nThe researchers made a conservative estimation of the population of New Delhi",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  保守的\nn.  保守党员\n\n例句：\nThe researchers made a conservative estimation of the population of New Delhi",
         "example": ""
     },
     {
@@ -17532,9 +17532,9 @@ const ieltsWords = [
     {
         "word": "premier",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/adj.|总理、首相/",
-        "meaning": "n. 首要的，第一的\n\n例句：\nThe premier deals with important state affairs",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  总理、首相\nadj.  首要的，第一的\n\n例句：\nThe premier deals with important state affairs",
         "example": ""
     },
     {
@@ -17605,8 +17605,8 @@ const ieltsWords = [
         "word": "behalf",
         "category": "国家政府",
         "pos": "n.",
-        "phonetic": "[on ~ of sb.]",
-        "meaning": "n.\n代表某人\n\n例句：\nThe president signed the document on behalf of the school",
+        "phonetic": "",
+        "meaning": "n.\n[on ~ of\nsb. ]代表某人\n\n例句：\nThe president signed the document on behalf of the school",
         "example": ""
     },
     {
@@ -17645,8 +17645,8 @@ const ieltsWords = [
         "word": "office",
         "category": "国家政府",
         "pos": "n.",
-        "phonetic": "[Office]",
-        "meaning": "n.\n办公室；要职；官职；部、局、厅\n\n例句：\nNow he holds office in the foreign ministry",
+        "phonetic": "",
+        "meaning": "n.\n办公室；要职；官职；[Office]部、局、厅\n\n例句：\nNow he holds office in the foreign ministry",
         "example": ""
     },
     {
@@ -17700,9 +17700,9 @@ const ieltsWords = [
     {
         "word": "influence",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|影响；作用/",
-        "meaning": "n. 影响\n\n例句：\nI was influenced by my teacher and chose to study science at college",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  影响；作用\nv.  影响\n\n例句：\nI was influenced by my teacher and chose to study science at college",
         "example": ""
     },
     {
@@ -17716,9 +17716,9 @@ const ieltsWords = [
     {
         "word": "importance",
         "category": "国家政府",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n重要，重要性\nimportant\nadj.  重要的；有势力的。realise the importance 意识到重要性\n\n例句：\nThe police officer emphasised the importance of careful driving",
+        "meaning": "n.\n重要，重要性\n有势力的。realise the importance 意识到重要性\n\n例句：\nThe police officer emphasised the importance of careful driving",
         "example": ""
     },
     {
@@ -17732,7 +17732,7 @@ const ieltsWords = [
     {
         "word": "organization",
         "category": "国家政府",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/organisation\nn.\n组织；团体；机构\n\n例句：\nThey have established a student organization",
         "example": ""
@@ -17844,9 +17844,9 @@ const ieltsWords = [
     {
         "word": "overseas",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/adv.|海外的；外国的/",
-        "meaning": "adj. 向海外；在海外\n\n例句：\nThe overseas students were concerned about the destiny of their motherland",
+        "pos": "adj./adv.",
+        "phonetic": "",
+        "meaning": "adj.  海外的；外国的\nadv.  向海外；在海外\n\n例句：\nThe overseas students were concerned about the destiny of their motherland",
         "example": ""
     },
     {
@@ -17884,9 +17884,9 @@ const ieltsWords = [
     {
         "word": "reign",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|君主统治的时期/",
-        "meaning": "n. 统治\nThe reign of Queen Victoria lasted more than 60 years",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  君主统治的时期\nv.  统治\nThe reign of Queen Victoria lasted more than 60 years",
         "example": ""
     },
     {
@@ -17908,9 +17908,9 @@ const ieltsWords = [
     {
         "word": "crown",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|王冠/",
-        "meaning": "n. 为...加冕\n\n例句：\nThey crowned him shortly after the old king's death",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  王冠\nv.  为...加冕\n\n例句：\nThey crowned him shortly after the old king's death",
         "example": ""
     },
     {
@@ -17998,7 +17998,7 @@ const ieltsWords = [
         "category": "国家政府",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  居民；\nadj.  居住的\n\n例句：\nThe residents of the town are proud of its new library",
+        "meaning": "n.  居民\nadj.  居住的\n\n例句：\nThe residents of the town are proud of its new library",
         "example": ""
     },
     {
@@ -18028,17 +18028,17 @@ const ieltsWords = [
     {
         "word": "franchise",
         "category": "国家政府",
-        "pos": "v.",
-        "phonetic": "/n.|向…授予（或出售）特许经销权/",
-        "meaning": "v. 特许权\nIn Britain, women were given the franchise in 1918\nthe franchise 选举权",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  向…授予（或出售）特许经销权\nn.  特许权\nIn Britain, women were given the franchise in 1918\nthe franchise 选举权",
         "example": ""
     },
     {
         "word": "entitle",
         "category": "国家政府",
         "pos": "v.",
-        "phonetic": "/do sth. 有获得某物/",
-        "meaning": "v.\n给...权力（或资格）；给...题名\nbe entitled to做某事的权利\n\n例句：\nThis ticket entitles you to one-day admission to all three parks",
+        "phonetic": "",
+        "meaning": "v.\n给...权力（或资格）；给...题名\nbe entitled to/do\nsth.  有获得某物/做某事的权利\n\n例句：\nThis ticket entitles you to one-day admission to all three parks",
         "example": ""
     },
     {
@@ -18052,9 +18052,9 @@ const ieltsWords = [
     {
         "word": "vote",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|选举权；投票/",
-        "meaning": "n. 表决、投票\nvote against 投票反对\n\n例句：\nThe vote will be held next month",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  选举权；投票\nv.  表决、投票\nvote against 投票反对\n\n例句：\nThe vote will be held next month",
         "example": ""
     },
     {
@@ -18220,9 +18220,9 @@ const ieltsWords = [
     {
         "word": "ethic",
         "category": "国家政府",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n行为准则；ethics 道德规范，伦理标准\nethical\nadj.  道德的；伦理的。a work ~ 职业道德观\n\n例句：\nMerchants must observe their code of ethics",
+        "meaning": "n.\n行为准则；ethics 道德规范，伦理标准\n伦理的。a work ~ 职业道德观\n\n例句：\nMerchants must observe their code of ethics",
         "example": ""
     },
     {
@@ -18254,7 +18254,7 @@ const ieltsWords = [
         "category": "国家政府",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  暗示，提示\nn.\n\n例句：\nWhen she said she was tired, it was a hint that she wanted us to leave",
+        "meaning": "v./n. 暗示，提示\n\n例句：\nWhen she said she was tired, it was a hint that she wanted us to leave",
         "example": ""
     },
     {
@@ -18276,9 +18276,9 @@ const ieltsWords = [
     {
         "word": "claim",
         "category": "国家政府",
-        "pos": "n.",
-        "phonetic": "/v.|声称；主张；索赔/",
-        "meaning": "n. 声称；要求（拥有）\n\n例句：\nEvery citizen may claim the protection of the law",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  声称；主张；索赔\nv.  声称；要求（拥有）\n\n例句：\nEvery citizen may claim the protection of the law",
         "example": ""
     },
     {
@@ -18292,9 +18292,9 @@ const ieltsWords = [
     {
         "word": "state",
         "category": "国家政府",
-        "pos": "v.",
-        "phonetic": "/n.|陈述；说明/",
-        "meaning": "v. 国家，州，状况\n\n例句：\nRailways in Britain belong to the state",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  陈述；说明\nn.  国家，州，状况\n\n例句：\nRailways in Britain belong to the state",
         "example": ""
     },
     {
@@ -18340,17 +18340,17 @@ const ieltsWords = [
     {
         "word": "implement",
         "category": "国家政府",
-        "pos": "v.",
-        "phonetic": "/n.|实施；执行/",
-        "meaning": "v. 工具；器具\n\n例句：\nThe new policy on housing will be implemented next month",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  实施；执行\nn.  工具；器具\n\n例句：\nThe new policy on housing will be implemented next month",
         "example": ""
     },
     {
         "word": "monitor",
         "category": "国家政府",
-        "pos": "v.",
-        "phonetic": "/n.|监视；监听/",
-        "meaning": "v. 监控器，监视器，班长\n\n例句：\nThe agents are monitoring the enemy's radio broadcasts to try to find out their secret plans",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  监视；监听\nn.  监控器，监视器，班长\n\n例句：\nThe agents are monitoring the enemy's radio broadcasts to try to find out their secret plans",
         "example": ""
     },
     {
@@ -18364,25 +18364,25 @@ const ieltsWords = [
     {
         "word": "African",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|非洲的/",
-        "meaning": "adj. 非洲人\n\n例句：\nMany African people are very energetic and outgoing",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  非洲的\nn.  非洲人\n\n例句：\nMany African people are very energetic and outgoing",
         "example": ""
     },
     {
         "word": "European",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|欧洲的/",
-        "meaning": "adj. 欧洲人\n\n例句：\nThe Japanese have taken in many European ways of life",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  欧洲的\nn.  欧洲人\n\n例句：\nThe Japanese have taken in many European ways of life",
         "example": ""
     },
     {
         "word": "Latin",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|拉丁语的，拉丁人的/",
-        "meaning": "adj. 拉丁人，拉丁语\n\n例句：\nMany languages have Latin as their origin",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  拉丁语的，拉丁人的\nn.  拉丁人，拉丁语\n\n例句：\nMany languages have Latin as their origin",
         "example": ""
     },
     {
@@ -18404,73 +18404,73 @@ const ieltsWords = [
     {
         "word": "Portuguese",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|葡萄牙的/",
-        "meaning": "adj. 葡萄牙人，葡萄牙语\non the wane 衰落中\n\n例句：\nThe Portuguese power in the East was on the wane",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  葡萄牙的\nn.  葡萄牙人，葡萄牙语\non the wane 衰落中\n\n例句：\nThe Portuguese power in the East was on the wane",
         "example": ""
     },
     {
         "word": "Roman",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|罗马的/",
-        "meaning": "adj. 罗马人\n\n例句：\nThe wrote a storybook about ancient Roman",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  罗马的\nn.  罗马人\n\n例句：\nThe wrote a storybook about ancient Roman",
         "example": ""
     },
     {
         "word": "Russian",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|俄国的/",
-        "meaning": "adj. 俄国人\n\n例句：\nThe limit of Russian endurance was reached",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  俄国的\nn.  俄国人\n\n例句：\nThe limit of Russian endurance was reached",
         "example": ""
     },
     {
         "word": "Spanish",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|西班牙的/",
-        "meaning": "adj. 西班牙人\n\n例句：\nFrench is a sister language of Spanish",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  西班牙的\nn.  西班牙人\n\n例句：\nFrench is a sister language of Spanish",
         "example": ""
     },
     {
         "word": "Swiss",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|瑞士的/",
-        "meaning": "adj. 瑞士人\n\n例句：\nThe Swiss standard of living is very high",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  瑞士的\nn.  瑞士人\n\n例句：\nThe Swiss standard of living is very high",
         "example": ""
     },
     {
         "word": "Greek",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|希腊的/",
-        "meaning": "adj. 希腊人\n\n例句：\nThe chef is not interested in Greek food",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  希腊的\nn.  希腊人\n\n例句：\nThe chef is not interested in Greek food",
         "example": ""
     },
     {
         "word": "Italian",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|意大利的/",
-        "meaning": "adj. 意大利人\n\n例句：\nItalian pizza is very popular in China",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  意大利的\nn.  意大利人\n\n例句：\nItalian pizza is very popular in China",
         "example": ""
     },
     {
         "word": "soviet",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|苏联的/",
-        "meaning": "adj. 苏维埃\n\n例句：\nThe Soviet Union was a major power on the Eurasian continent",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  苏联的\nn.  苏维埃\n\n例句：\nThe Soviet Union was a major power on the Eurasian continent",
         "example": ""
     },
     {
         "word": "Indian",
         "category": "国家政府",
-        "pos": "adj.",
-        "phonetic": "/n.|印度的/",
-        "meaning": "adj. 印度人\n\n例句：\nTo an Indian, the owl is a symbol of bad luck",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  印度的\nn.  印度人\n\n例句：\nTo an Indian, the owl is a symbol of bad luck",
         "example": ""
     },
     {
@@ -18532,9 +18532,9 @@ const ieltsWords = [
     {
         "word": "trade",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|贸易/",
-        "meaning": "n. 交换\n\n例句：\nChina does a lot of trade with many countries",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  贸易\nv.  交换\n\n例句：\nChina does a lot of trade with many countries",
         "example": ""
     },
     {
@@ -18556,9 +18556,9 @@ const ieltsWords = [
     {
         "word": "merchant",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/adj.|商人/",
-        "meaning": "n. 商业的\n\n例句：\nThe merchant decided to use camels to carry his goods across the desert",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  商人\nadj.  商业的\n\n例句：\nThe merchant decided to use camels to carry his goods across the desert",
         "example": ""
     },
     {
@@ -18572,9 +18572,9 @@ const ieltsWords = [
     {
         "word": "fund",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|资助/",
-        "meaning": "v. 基金；资金\n\n例句：\nThe research is funded the government",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  资助\nn.  基金；资金\n\n例句：\nThe research is funded the government",
         "example": ""
     },
     {
@@ -18596,9 +18596,9 @@ const ieltsWords = [
     {
         "word": "commercial",
         "category": "社会经济",
-        "pos": "adj.",
-        "phonetic": "/n.|商业的/",
-        "meaning": "adj. 商业广告\n\n例句：\nThe downtown area is zoned for commercial use",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  商业的\nn.  商业广告\n\n例句：\nThe downtown area is zoned for commercial use",
         "example": ""
     },
     {
@@ -18622,15 +18622,15 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  购买\nv.\n\n例句：\nThe new couple spent some money for the purchase of the furniture necessary for their new house",
+        "meaning": "n./v. 购买\n\n例句：\nThe new couple spent some money for the purchase of the furniture necessary for their new house",
         "example": ""
     },
     {
         "word": "lease",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|租约/",
-        "meaning": "n. 出租；租用\n\n例句：\nWe'll lease you the house for one year",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  租约\nv.  出租；租用\n\n例句：\nWe'll lease you the house for one year",
         "example": ""
     },
     {
@@ -18644,9 +18644,9 @@ const ieltsWords = [
     {
         "word": "retail",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|零售/",
-        "meaning": "n. 以...价格零售\n\n例句：\nThese slippers retail at ten dollars per pair",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  零售\nv.  以...价格零售\n\n例句：\nThese slippers retail at ten dollars per pair",
         "example": ""
     },
     {
@@ -18668,9 +18668,9 @@ const ieltsWords = [
     {
         "word": "discount",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|折扣/",
-        "meaning": "n. 打折出售\n\n例句：\nI'll sell at the discount in return for a speedy sale",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  折扣\nv.  打折出售\n\n例句：\nI'll sell at the discount in return for a speedy sale",
         "example": ""
     },
     {
@@ -18716,9 +18716,9 @@ const ieltsWords = [
     {
         "word": "swap",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/swop|v./",
-        "meaning": "n.\n交换\n\n例句：\nShe swapped her watch for an antique locket",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/swop\nv./n. 交换\n\n例句：\nShe swapped her watch for an antique locket",
         "example": ""
     },
     {
@@ -18732,25 +18732,25 @@ const ieltsWords = [
     {
         "word": "invoice",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|发票/",
-        "meaning": "n. 开发票给\n\n例句：\nThe seller issued an invoice for the goods",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  发票\nv.  开发票给\n\n例句：\nThe seller issued an invoice for the goods",
         "example": ""
     },
     {
         "word": "tax",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|税/",
-        "meaning": "n. 对...征税\n\n例句：\nGovernments don't tax children",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  税\nv.  对...征税\n\n例句：\nGovernments don't tax children",
         "example": ""
     },
     {
         "word": "levy",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|税款/",
-        "meaning": "n. 征收\n\n例句：\nThe government has decided to levy a tax on imported cars",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  税款\nv.  征收\n\n例句：\nThe government has decided to levy a tax on imported cars",
         "example": ""
     },
     {
@@ -18788,17 +18788,17 @@ const ieltsWords = [
     {
         "word": "spend",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|花费/",
-        "meaning": "v. 开支\n\n例句：\nThe time I spend in commuting everyday adds up to two hours",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  花费\nn.  开支\n\n例句：\nThe time I spend in commuting everyday adds up to two hours",
         "example": ""
     },
     {
         "word": "cost",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|需付费/",
-        "meaning": "v. 费用；代价；成本\n\n例句：\nI'm determined to attain my purpose at any cost",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  需付费\nn.  费用；代价；成本\n\n例句：\nI'm determined to attain my purpose at any cost",
         "example": ""
     },
     {
@@ -18853,8 +18853,8 @@ const ieltsWords = [
         "word": "security",
         "category": "社会经济",
         "pos": "n.",
-        "phonetic": "[securities]",
-        "meaning": "n.\n安全工作；安全；证券\n\n例句：\nThe government looks after the security of the country",
+        "phonetic": "",
+        "meaning": "n.\n安全工作；安全；[securities]证券\n\n例句：\nThe government looks after the security of the country",
         "example": ""
     },
     {
@@ -18908,9 +18908,9 @@ const ieltsWords = [
     {
         "word": "decrease",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|减少；减小/",
-        "meaning": "n. （使）减少；（使）减小\n\n例句：\nHer interest in the subject gradually decreases",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  减少；减小\nv.  （使）减少；（使）减小\n\n例句：\nHer interest in the subject gradually decreases",
         "example": ""
     },
     {
@@ -18926,7 +18926,7 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  下降\nn.\n\n例句：\nThere is a sharp decline in unemployment",
+        "meaning": "v./n. 下降\n\n例句：\nThere is a sharp decline in unemployment",
         "example": ""
     },
     {
@@ -18948,9 +18948,9 @@ const ieltsWords = [
     {
         "word": "increase",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|增加，增长/",
-        "meaning": "n. （使）增加，（使）增长\n\n例句：\nHis employer has increased his salary",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  增加，增长\nv.  （使）增加，（使）增长\n\n例句：\nHis employer has increased his salary",
         "example": ""
     },
     {
@@ -19014,7 +19014,7 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n足够的\ninsufficient\nadj.  不足的\n\n例句：\nWe must work hard, but equally, we must get sufficient rest",
+        "meaning": "adj.\n足够的\n\n例句：\nWe must work hard, but equally, we must get sufficient rest",
         "example": ""
     },
     {
@@ -19028,9 +19028,9 @@ const ieltsWords = [
     {
         "word": "spare",
         "category": "社会经济",
-        "pos": "adj.",
-        "phonetic": "/v.|多余的；空闲的/",
-        "meaning": "adj. 剩余\nIf you have a spare bed, may I stay tonight?",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  多余的；空闲的\nv.  剩余\nIf you have a spare bed, may I stay tonight?",
         "example": ""
     },
     {
@@ -19052,9 +19052,9 @@ const ieltsWords = [
     {
         "word": "lack",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|缺乏；不足/",
-        "meaning": "n. 缺少；没有\ncirculating funds 流动资金\n\n例句：\nSerious lack of circulating funds forced the closure of the company",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  缺乏；不足\nv.  缺少；没有\ncirculating funds 流动资金\n\n例句：\nSerious lack of circulating funds forced the closure of the company",
         "example": ""
     },
     {
@@ -19068,9 +19068,9 @@ const ieltsWords = [
     {
         "word": "firm",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/adj.|公司/",
-        "meaning": "n. 坚定的；坚固的\n\n例句：\nBecause of their common values, they soon formed a firm friendship",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  公司\nadj.  坚定的；坚固的\n\n例句：\nBecause of their common values, they soon formed a firm friendship",
         "example": ""
     },
     {
@@ -19156,9 +19156,9 @@ const ieltsWords = [
     {
         "word": "guarantee",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|担保；确保/",
-        "meaning": "v. 保证；保修单；担保金；担保物\n\n例句：\nThey offer a two-year guarantee on all their household appliances",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  担保；确保\nn.  保证；保修单；担保金；担保物\n\n例句：\nThey offer a two-year guarantee on all their household appliances",
         "example": ""
     },
     {
@@ -19214,7 +19214,7 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  拍卖\nn.\n\n例句：\nHis house was sold at an auction",
+        "meaning": "v./n. 拍卖\n\n例句：\nHis house was sold at an auction",
         "example": ""
     },
     {
@@ -19222,15 +19222,15 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  出价；\nn.  投标\n\n例句：\nThey lost the contract because their bid was too high",
+        "meaning": "v.  出价\nn.  投标\n\n例句：\nThey lost the contract because their bid was too high",
         "example": ""
     },
     {
         "word": "deal",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|买卖；[~ with]处理；应付/",
-        "meaning": "v. 协议；交易；大量\n\n例句：\nI'll deal with the children later",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  买卖；[~ with]处理；应付\nn.  协议；交易；大量\n\n例句：\nI'll deal with the children later",
         "example": ""
     },
     {
@@ -19260,17 +19260,17 @@ const ieltsWords = [
     {
         "word": "export",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|出口/",
-        "meaning": "v. 出口；出口商品\n\n例句：\nOil has supplanted coffee as our main export",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  出口\nn.  出口；出口商品\n\n例句：\nOil has supplanted coffee as our main export",
         "example": ""
     },
     {
         "word": "import",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|进口/",
-        "meaning": "v. 进口；进口商品\n\n例句：\nWe import a huge amount of produce from other countries every year",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  进口\nn.  进口；进口商品\n\n例句：\nWe import a huge amount of produce from other countries every year",
         "example": ""
     },
     {
@@ -19284,25 +19284,25 @@ const ieltsWords = [
     {
         "word": "share",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|股份，股票；一份/",
-        "meaning": "n. 分享；共享；分担\n\n例句：\nHe has put all his money in stocks and shares",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  股份，股票；一份\nv.  分享；共享；分担\n\n例句：\nHe has put all his money in stocks and shares",
         "example": ""
     },
     {
         "word": "benefit",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|益处/",
-        "meaning": "n. 有利于；获益\n\n例句：\nA large number of students will benefit from the new teaching method",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  益处\nv.  有利于；获益\n\n例句：\nA large number of students will benefit from the new teaching method",
         "example": ""
     },
     {
         "word": "interest",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|兴趣；利益；利息/",
-        "meaning": "n. 使感兴趣\n\n例句：\nYou must pay interest on that loan",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  兴趣；利益；利息\nv.  使感兴趣\n\n例句：\nYou must pay interest on that loan",
         "example": ""
     },
     {
@@ -19340,7 +19340,7 @@ const ieltsWords = [
     {
         "word": "instalment",
         "category": "社会经济",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/installment\nn.\n（分期付款的）一期付款\n\n例句：\nBuying goods in installments has become an epidemic in recent years",
         "example": ""
@@ -19348,7 +19348,7 @@ const ieltsWords = [
     {
         "word": "cheque",
         "category": "社会经济",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/check\nn.\n支票\n\n例句：\nThe bank cashed my check",
         "example": ""
@@ -19356,17 +19356,17 @@ const ieltsWords = [
     {
         "word": "cash",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|现金/",
-        "meaning": "n. 兑现（支票）\n\n例句：\nHe paied for the meal in cash",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  现金\nv.  兑现（支票）\n\n例句：\nHe paied for the meal in cash",
         "example": ""
     },
     {
         "word": "coin",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|硬币/",
-        "meaning": "n. 铸币；创造（新词语）\n\n例句：\nWe'd better not coin terms which are not intelligible",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  硬币\nv.  铸币；创造（新词语）\n\n例句：\nWe'd better not coin terms which are not intelligible",
         "example": ""
     },
     {
@@ -19381,8 +19381,8 @@ const ieltsWords = [
         "word": "copper",
         "category": "社会经济",
         "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n铜；铜币；警察\ncop\nn.  警察\n\n例句：\nHe polished up the old copper coins",
+        "phonetic": "",
+        "meaning": "n.\n铜；[~s]铜币；警察\n\n例句：\nHe polished up the old copper coins",
         "example": ""
     },
     {
@@ -19476,9 +19476,9 @@ const ieltsWords = [
     {
         "word": "prompt",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/adj.|促使/",
-        "meaning": "v. 迅速的\nWhat prompted you to do such a thing?",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  促使\nadj.  迅速的\nWhat prompted you to do such a thing?",
         "example": ""
     },
     {
@@ -19518,7 +19518,7 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  退款\nv.\n\n例句：\nWe can refund the price difference",
+        "meaning": "n./v. 退款\n\n例句：\nWe can refund the price difference",
         "example": ""
     },
     {
@@ -19548,9 +19548,9 @@ const ieltsWords = [
     {
         "word": "subsidy",
         "category": "社会经济",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n津贴，补贴\nsubsidise=subsidize\nv.  资助，给...发津贴\n\n例句：\nThe government has decided to increase subsidies on farm produce",
+        "meaning": "n.\n津贴，补贴\nsubsidise=\n\n例句：\nThe government has decided to increase subsidies on farm produce",
         "example": ""
     },
     {
@@ -19612,7 +19612,7 @@ const ieltsWords = [
     {
         "word": "labour",
         "category": "社会经济",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/labor\nn.\n劳动；体力劳动\n\n例句：\nMany women do hard manual labour",
         "example": ""
@@ -19652,9 +19652,9 @@ const ieltsWords = [
     {
         "word": "interview",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|面试；采访/",
-        "meaning": "n. 对...进行面试；采访\n\n例句：\nThe interview has drawn considerable attention to the profession",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  面试；采访\nv.  对...进行面试；采访\n\n例句：\nThe interview has drawn considerable attention to the profession",
         "example": ""
     },
     {
@@ -19676,17 +19676,17 @@ const ieltsWords = [
     {
         "word": "hire",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|雇用；租用/",
-        "meaning": "v. 租赁（业）\n\n例句：\nThey hired an advertising company to help sell a new product",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  雇用；租用\nn.  租赁（业）\n\n例句：\nThey hired an advertising company to help sell a new product",
         "example": ""
     },
     {
         "word": "fire",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|解雇/",
-        "meaning": "v. 火\n\n例句：\nHe was fired by his boss",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  解雇\nn.  火\n\n例句：\nHe was fired by his boss",
         "example": ""
     },
     {
@@ -19708,9 +19708,9 @@ const ieltsWords = [
     {
         "word": "discharge",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|解雇/",
-        "meaning": "v. 卸货\nHow long will the discharge of the cargo take?",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  解雇\nn.  卸货\nHow long will the discharge of the cargo take?",
         "example": ""
     },
     {
@@ -19724,9 +19724,9 @@ const ieltsWords = [
     {
         "word": "sack",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|大口袋，麻布袋/",
-        "meaning": "n. 开除\n\n例句：\nThe poor guy got sacked yesterday",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  大口袋，麻布袋\nv.  开除\n\n例句：\nThe poor guy got sacked yesterday",
         "example": ""
     },
     {
@@ -19734,15 +19734,15 @@ const ieltsWords = [
         "category": "社会经济",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n退休\ndemote\nv.  降职\n\n例句：\nIf they prove incompetent, they should be demoted or asked to retire",
+        "meaning": "v.\n退休\n\n例句：\nIf they prove incompetent, they should be demoted or asked to retire",
         "example": ""
     },
     {
         "word": "result",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|结果，后果/",
-        "meaning": "n. 导致\n\n例句：\nAs a result, there is often trouble in American families",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  结果，后果\nv.  导致\n\n例句：\nAs a result, there is often trouble in American families",
         "example": ""
     },
     {
@@ -19852,17 +19852,17 @@ const ieltsWords = [
     {
         "word": "sanction",
         "category": "社会经济",
-        "pos": "n.",
-        "phonetic": "/v.|批准；制裁/",
-        "meaning": "n. 批准；对...制裁\n\n例句：\nThe minister can only act in this matter with the sanction of parliament",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  批准；制裁\nv.  批准；对...制裁\n\n例句：\nThe minister can only act in this matter with the sanction of parliament",
         "example": ""
     },
     {
         "word": "coordinate",
         "category": "社会经济",
-        "pos": "v.",
-        "phonetic": "/n.|调和；协调/",
-        "meaning": "v. 坐标\n\n例句：\nOur efforts need to be further coordinated for higher efficiency",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  调和；协调\nn.  坐标\n\n例句：\nOur efforts need to be further coordinated for higher efficiency",
         "example": ""
     },
     {
@@ -19900,9 +19900,9 @@ const ieltsWords = [
     {
         "word": "rule",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|规则/",
-        "meaning": "n. 统治\n\n例句：\nIt's against the rules to pick up the ball",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  规则\nv.  统治\n\n例句：\nIt's against the rules to pick up the ball",
         "example": ""
     },
     {
@@ -19918,7 +19918,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n条目\nagenda\nn.  议事日程;（会议的）议程；议事日程;（会议的）议程\n\n例句：\nThis is the next item on the agenda",
+        "meaning": "n.\n条目\n议事日程;（会议的）议程\n\n例句：\nThis is the next item on the agenda",
         "example": ""
     },
     {
@@ -19940,9 +19940,9 @@ const ieltsWords = [
     {
         "word": "charter",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|宪章/",
-        "meaning": "n. 租；包（船、车、飞机等）\n\n例句：\nThe rights of our citizens are granted by the Charter",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  宪章\nv.  租；包（船、车、飞机等）\n\n例句：\nThe rights of our citizens are granted by the Charter",
         "example": ""
     },
     {
@@ -19957,8 +19957,8 @@ const ieltsWords = [
         "word": "norm",
         "category": "法律法规",
         "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n标准；行为准则；规范\n\n例句：\nYou must adapt to the norms of the society you live in",
+        "phonetic": "",
+        "meaning": "n.\n标准；[~s]行为准则；规范\n\n例句：\nYou must adapt to the norms of the society you live in",
         "example": ""
     },
     {
@@ -19973,8 +19973,8 @@ const ieltsWords = [
         "word": "criteria",
         "category": "法律法规",
         "pos": "n.",
-        "phonetic": "[criterion 的复数形式]",
-        "meaning": "n.\n标准；准则\n\n例句：\nWe each have our own criteria for success",
+        "phonetic": "",
+        "meaning": "n.\n[criterion 的复数形式]标准；准则\n\n例句：\nWe each have our own criteria for success",
         "example": ""
     },
     {
@@ -20028,17 +20028,17 @@ const ieltsWords = [
     {
         "word": "default",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|不支付、不履行/",
-        "meaning": "v. 违约；默认值\n\n例句：\nThe company has already been in default on its loan",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  不支付、不履行\nn.  违约；默认值\n\n例句：\nThe company has already been in default on its loan",
         "example": ""
     },
     {
         "word": "reject",
         "category": "法律法规",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n拒绝接受；摒弃\nnon-starter\nn.  毫无希望的计划（或建议）\n\n例句：\nThe board of directors rejected the proposal as a non-starter",
+        "meaning": "v.\n拒绝接受；摒弃\nnon-\n\n例句：\nThe board of directors rejected the proposal as a non-starter",
         "example": ""
     },
     {
@@ -20077,8 +20077,8 @@ const ieltsWords = [
         "word": "bound",
         "category": "法律法规",
         "pos": "adj.",
-        "phonetic": "[be ~ to]",
-        "meaning": "adj.\n一定会；很可能会；有义务\n\n例句：\nYou are not legally bound to answer these questions",
+        "phonetic": "",
+        "meaning": "adj.\n[be ~ to]一定会；很可能会；有义务\n\n例句：\nYou are not legally bound to answer these questions",
         "example": ""
     },
     {
@@ -20140,9 +20140,9 @@ const ieltsWords = [
     {
         "word": "just",
         "category": "法律法规",
-        "pos": "adj.",
-        "phonetic": "/adv.|公证的；正义的/",
-        "meaning": "adj. 刚刚；仅仅\n\n例句：\nOur aim is a just and lasting peace",
+        "pos": "adj./adv.",
+        "phonetic": "",
+        "meaning": "adj.  公证的；正义的\nadv.  刚刚；仅仅\n\n例句：\nOur aim is a just and lasting peace",
         "example": ""
     },
     {
@@ -20206,7 +20206,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  抵制；\nv.  拒绝购买\n\n例句：\nThey boycott all products tested on animals",
+        "meaning": "n./v. 抵制；拒绝购买\n\n例句：\nThey boycott all products tested on animals",
         "example": ""
     },
     {
@@ -20238,7 +20238,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  呼吁；\nn.  申述\n\n例句：\nThe response to our appeal was encouraging",
+        "meaning": "v./n. 呼吁；申述\n\n例句：\nThe response to our appeal was encouraging",
         "example": ""
     },
     {
@@ -20284,25 +20284,25 @@ const ieltsWords = [
     {
         "word": "murmur",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|低声说/",
-        "meaning": "n. 咕哝；低语\n\n例句：\nThere was a low murmur of conversation in the hall",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  低声说\nv.  咕哝；低语\n\n例句：\nThere was a low murmur of conversation in the hall",
         "example": ""
     },
     {
         "word": "silent",
         "category": "法律法规",
-        "pos": "adj. n.",
-        "phonetic": "/v. 沉默；寂静/",
-        "meaning": "adj.\n沉默的；寂静无声的\nsilence\nn. 使安静\n\n例句：\nHe couldn't speak English and was completely silent during the visit",
+        "pos": "adj.",
+        "phonetic": "",
+        "meaning": "adj.\n沉默的；寂静无声的\n寂静/使安静\n\n例句：\nHe couldn't speak English and was completely silent during the visit",
         "example": ""
     },
     {
         "word": "mute",
         "category": "法律法规",
-        "pos": "adj.",
-        "phonetic": "/n.|缄默的；哑的；无声的/",
-        "meaning": "adj. 哑巴\n\n例句：\nShe kept herself mute during the meeting",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  缄默的；哑的；无声的\nn.  哑巴\n\n例句：\nShe kept herself mute during the meeting",
         "example": ""
     },
     {
@@ -20316,9 +20316,9 @@ const ieltsWords = [
     {
         "word": "witness",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|目击者；见证人/",
-        "meaning": "n. 见证\n\n例句：\nChildren in regions of chaos and bloodshed are witnessing a disturbing amount of violence",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  目击者；见证人\nv.  见证\n\n例句：\nChildren in regions of chaos and bloodshed are witnessing a disturbing amount of violence",
         "example": ""
     },
     {
@@ -20358,7 +20358,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n陪审团；评判委员会\nThe jury will retire to consider its verdict today. 陪审团今天将退庭商议其e决\nverdict\nn.  裁决",
+        "meaning": "n.\n陪审团；评判委员会\nThe jury will retire to consider its verdict today. 陪审团今天将退庭商议其e决",
         "example": ""
     },
     {
@@ -20372,33 +20372,33 @@ const ieltsWords = [
     {
         "word": "suspect",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|嫌疑犯/",
-        "meaning": "n. 怀疑\n\n例句：\nThe police couldn't prove that the suspect was guilty",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  嫌疑犯\nv.  怀疑\n\n例句：\nThe police couldn't prove that the suspect was guilty",
         "example": ""
     },
     {
         "word": "sentence",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|判决/",
-        "meaning": "n. 宣判\n\n例句：\nHe stood emtionless as he heard the judge sentence him to twenty years in prison",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  判决\nv.  宣判\n\n例句：\nHe stood emtionless as he heard the judge sentence him to twenty years in prison",
         "example": ""
     },
     {
         "word": "arrest",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|逮捕；吸引（注意）/",
-        "meaning": "v. 逮捕\narrest\nsb. 's attention 引起某人的注意\n\n例句：\nYou shouldn't arrest him without an arrest warrant",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  逮捕；吸引（注意）\nn.  逮捕\narrest\nsb. 's attention 引起某人的注意\n\n例句：\nYou shouldn't arrest him without an arrest warrant",
         "example": ""
     },
     {
         "word": "jail",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|监狱/",
-        "meaning": "n. 监禁\n\n例句：\nA bunch of prisoners broke loose from jail",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  监狱\nv.  监禁\n\n例句：\nA bunch of prisoners broke loose from jail",
         "example": ""
     },
     {
@@ -20412,9 +20412,9 @@ const ieltsWords = [
     {
         "word": "confine",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|[~s]边界；范围/",
-        "meaning": "n. 限制；监禁\nbe confined to 局限于。 within the confines of 在（某范围）之内\n\n例句：\nthis is outside the confines of human knowledge",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  [~s]边界；范围\nv.  限制；监禁\nbe confined to 局限于。 within the confines of 在（某范围）之内\n\n例句：\nthis is outside the confines of human knowledge",
         "example": ""
     },
     {
@@ -20460,9 +20460,9 @@ const ieltsWords = [
     {
         "word": "sin",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/s.|罪孽/",
-        "meaning": "n. 犯戒律\n\n例句：\nShe was baptized and she was pure and clean of sin",
+        "pos": "n./s.",
+        "phonetic": "",
+        "meaning": "n.  罪孽\ns.  犯戒律\n\n例句：\nShe was baptized and she was pure and clean of sin",
         "example": ""
     },
     {
@@ -20478,15 +20478,15 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n恶行；缺点\nVirtue and vise are two different things: the former leads to peace, the latter to misery\nvirtue\nn.  美德；高尚品德。misery\nn.  痛苦，悲惨；常常不高兴/老发牢骚的人",
+        "meaning": "n.\n恶行；缺点\nVirtue and vise are two different things: the former leads to peace, the latter to misery\n高尚品德。常常不高兴/老发牢骚的人",
         "example": ""
     },
     {
         "word": "bribe",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|贿赂/",
-        "meaning": "n. 向...行贿\nbribery\nn.  贿赂行为。bribee\nn.  受贿者 briber\nn.  行贿者\n\n例句：\nThe counterfeiter bribed the police officer to let him go free",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  贿赂\nv.  向...行贿\n\n例句：\nThe counterfeiter bribed the police officer to let him go free",
         "example": ""
     },
     {
@@ -20500,9 +20500,9 @@ const ieltsWords = [
     {
         "word": "pirate",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|海盗；盗版者/",
-        "meaning": "n. 盗印，窃用\n\n例句：\nThe terrible pirates attacked a merchant ship",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  海盗；盗版者\nv.  盗印，窃用\n\n例句：\nThe terrible pirates attacked a merchant ship",
         "example": ""
     },
     {
@@ -20526,7 +20526,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  谋杀\nv.\n\n例句：\nThere have been serveral murder cases this year",
+        "meaning": "n./v. 谋杀\n\n例句：\nThere have been serveral murder cases this year",
         "example": ""
     },
     {
@@ -20548,9 +20548,9 @@ const ieltsWords = [
     {
         "word": "cheat",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|欺骗；作弊/",
-        "meaning": "v. 作弊者\n\n例句：\nShe always cheats at cards",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  欺骗；作弊\nn.  作弊者\n\n例句：\nShe always cheats at cards",
         "example": ""
     },
     {
@@ -20572,17 +20572,17 @@ const ieltsWords = [
     {
         "word": "trap",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|陷阱；诡计/",
-        "meaning": "n. 诱骗\n\n例句：\nThe police set a trap for the thieves",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  陷阱；诡计\nv.  诱骗\n\n例句：\nThe police set a trap for the thieves",
         "example": ""
     },
     {
         "word": "trick",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/v.|诡计/",
-        "meaning": "n. 哄骗\n\n例句：\nThe children played a trick on their teacher",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  诡计\nv.  哄骗\n\n例句：\nThe children played a trick on their teacher",
         "example": ""
     },
     {
@@ -20596,9 +20596,9 @@ const ieltsWords = [
     {
         "word": "fool",
         "category": "法律法规",
-        "pos": "n. adj.",
-        "phonetic": "/v.|蠢人；傻子/",
-        "meaning": "n. 欺骗\nA fool's haste is no speed. 欲速则不达\nfoolish\nadj.  愚蠢的。make a fool of\nsb.  愚弄某人。haste\nn.  仓促，匆忙",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  蠢人；傻子\nv.  欺骗\nA fool's haste is no speed. 欲速则不达\nmake a fool of\nsb.  愚弄某人。",
         "example": ""
     },
     {
@@ -20660,17 +20660,17 @@ const ieltsWords = [
     {
         "word": "fine",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/adj.|罚款/",
-        "meaning": "n. 美好的\n\n例句：\nThe judge imposed a fine of twenty pounds on him",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  罚款\nadj.  美好的\n\n例句：\nThe judge imposed a fine of twenty pounds on him",
         "example": ""
     },
     {
         "word": "mortgage",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|抵押（房屋、土地）借款/",
-        "meaning": "v. 房贷\n\n例句：\nIt is easy to get a mortgage on a house",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  抵押（房屋、土地）借款\nn.  房贷\n\n例句：\nIt is easy to get a mortgage on a house",
         "example": ""
     },
     {
@@ -20756,9 +20756,9 @@ const ieltsWords = [
     {
         "word": "routine",
         "category": "法律法规",
-        "pos": "n.",
-        "phonetic": "/adj.|例行公事；常规/",
-        "meaning": "n. 惯例的\n\n例句：\nOur department holds a routine meeting every month",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  行公事；常规\nadj.  惯例的\n\n例句：\nOur department holds a routine meeting every month",
         "example": ""
     },
     {
@@ -20772,9 +20772,9 @@ const ieltsWords = [
     {
         "word": "demand",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|要求；需要/",
-        "meaning": "v. 需求；需求量\n\n例句：\nThis work demands your patience",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  要求；需要\nn.  需求；需求量\n\n例句：\nThis work demands your patience",
         "example": ""
     },
     {
@@ -20782,7 +20782,7 @@ const ieltsWords = [
         "category": "法律法规",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  要求；\nv.  请求\n\n例句：\nWe shall give your request our careful consideration",
+        "meaning": "n./v. 要求；请求\n\n例句：\nWe shall give your request our careful consideration",
         "example": ""
     },
     {
@@ -20796,17 +20796,17 @@ const ieltsWords = [
     {
         "word": "petition",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|请求/",
-        "meaning": "v. 请愿书；上诉\n\n例句：\nThe villagers all signed a petition for a hospital to be built",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  请求\nn.  请愿书；上诉\n\n例句：\nThe villagers all signed a petition for a hospital to be built",
         "example": ""
     },
     {
         "word": "command",
         "category": "法律法规",
-        "pos": "v.",
-        "phonetic": "/n.|命令；指挥；统率/",
-        "meaning": "v. 命令；指挥；控制；运用能力\nhave a good command of 能自如地运用\n\n例句：\nThe army is under the King's command",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  命令；指挥；统率\nn.  命令；指挥；控制；运用能力\nhave a good command of 能自如地运用\n\n例句：\nThe army is under the King's command",
         "example": ""
     },
     {
@@ -20828,9 +20828,9 @@ const ieltsWords = [
     {
         "word": "conflict",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|斗争，冲突/",
-        "meaning": "n. 冲突\n\n例句：\nMany people feel that religion conflicts with science",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  斗争，冲突\nv.  冲突\n\n例句：\nMany people feel that religion conflicts with science",
         "example": ""
     },
     {
@@ -20838,7 +20838,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  突袭；\nv.  突然搜查\ncarry out a raid 实施突然袭击\n\n例句：\nWe launched a bombing raid on enemy bases.",
+        "meaning": "n./v. 突袭；突然搜查\ncarry out a raid 实施突然袭击\n\n例句：\nWe launched a bombing raid on enemy bases.",
         "example": ""
     },
     {
@@ -20852,17 +20852,17 @@ const ieltsWords = [
     {
         "word": "campaign",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|战役；（社会、政治）运动/",
-        "meaning": "n. 参加（或领导）运动\n\n例句：\nThose people are campaigning for equal rights for women\norginze a compaign",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  战役；（社会、政治）运动\nv.  参加（或领导）运动\n\n例句：\nThose people are campaigning for equal rights for women\norginze a compaign",
         "example": ""
     },
     {
         "word": "battle",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|战斗，战役/",
-        "meaning": "n. 与...战斗\n\n例句：\nLife is a battle from cradle to grave",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  战斗，战役\nv.  与...战斗\n\n例句：\nLife is a battle from cradle to grave",
         "example": ""
     },
     {
@@ -20870,7 +20870,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  挣扎；\nn.  奋力；奋斗\n\n例句：\nHis father struggled to control his temper",
+        "meaning": "v./n. 挣扎；奋力；奋斗\n\n例句：\nHis father struggled to control his temper",
         "example": ""
     },
     {
@@ -20892,25 +20892,25 @@ const ieltsWords = [
     {
         "word": "bomb",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|炸弹/",
-        "meaning": "n. 轰炸\n\n例句：\nThe terrorist planted a bomb in the post office",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  炸弹\nv.  轰炸\n\n例句：\nThe terrorist planted a bomb in the post office",
         "example": ""
     },
     {
         "word": "blast",
         "category": "沙场争锋",
-        "pos": "n. adj.",
-        "phonetic": "/v.|爆炸/",
-        "meaning": "n. 爆炸，炸毁\nvolatile\nadj.  不稳定的；易变的；易怒的，喜怒无常的；（液体或固体）易挥发的，易气化的\n\n例句：\nIt's thought that the blast occurred when volatile chemicals exploded.",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  爆炸\nv.  爆炸，炸毁\n易变的；易怒的，喜怒无常的；（液体或固体）易挥发的，易气化的\n\n例句：\nIt's thought that the blast occurred when volatile chemicals exploded.",
         "example": ""
     },
     {
         "word": "burst",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|爆裂，展开/",
-        "meaning": "v. 迸发，爆裂\ngo burst 破产。burst on 突然在...出现\n\n例句：\nPrices went up and up in those years before the housing bubble burst",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  爆裂，展开\nn.  迸发，爆裂\ngo burst 破产。burst on 突然在...出现\n\n例句：\nPrices went up and up in those years before the housing bubble burst",
         "example": ""
     },
     {
@@ -20918,7 +20918,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n火花，火星\nA single spark can start a prairie\nfire.  星星之火可以燎原\nprairie\nn. （加拿大和美国北部的）大草原",
+        "meaning": "n.\n火花，火星\nA single spark can start a prairie\nfire.  星星之火可以燎原",
         "example": ""
     },
     {
@@ -20926,7 +20926,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  闪烁，闪耀\nv.\n\n例句：\nWe could see the distant twinkle of the harbor lights",
+        "meaning": "n./v. 闪烁，闪耀\n\n例句：\nWe could see the distant twinkle of the harbor lights",
         "example": ""
     },
     {
@@ -21004,9 +21004,9 @@ const ieltsWords = [
     {
         "word": "deflect",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n（使）偏斜，（使）偏转；转移\ndeflection\nn.  偏转；偏斜\n\n例句：\nThe bullet struck a wall and was deflected from its course",
+        "meaning": "v.\n（使）偏斜，（使）偏转；转移\n\n例句：\nThe bullet struck a wall and was deflected from its course",
         "example": ""
     },
     {
@@ -21014,7 +21014,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n使命；重要任务；传教团\nmissionary\nn.  传教士\n\n例句：\nHe has been on confidential missions to Berlin",
+        "meaning": "n.\n使命；重要任务；传教团\n\n例句：\nHe has been on confidential missions to Berlin",
         "example": ""
     },
     {
@@ -21028,25 +21028,25 @@ const ieltsWords = [
     {
         "word": "flare",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|（闪耀的）火光；闪光信号灯/",
-        "meaning": "n. 闪耀\na flare of anger 怒气的爆发\n\n例句：\nThe flare of the match lit up the little girl's face",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  （闪耀的）火光；闪光信号灯\nv.  闪耀\na flare of anger 怒气的爆发\n\n例句：\nThe flare of the match lit up the little girl's face",
         "example": ""
     },
     {
         "word": "glitter",
         "category": "沙场争锋",
-        "pos": "v. adj.",
-        "phonetic": "/n.|闪烁；闪现/",
-        "meaning": "v. 发光小物\nglittery\nadj.  闪闪发亮的\n\n例句：\nThe diamond ring on her finger glittered in the moonlight",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  闪烁；闪现\nn.  发光小物\n\n例句：\nThe diamond ring on her finger glittered in the moonlight",
         "example": ""
     },
     {
         "word": "glow",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|发出微弱稳定的光/",
-        "meaning": "v. 微弱稳定的光\nMaple leaves glowed red in the sunlight 枫叶在阳光里闪耀着红光",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  发出微弱稳定的光\nn.  微弱稳定的光\nMaple leaves glowed red in the sunlight 枫叶在阳光里闪耀着红光",
         "example": ""
     },
     {
@@ -21076,9 +21076,9 @@ const ieltsWords = [
     {
         "word": "hammer",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|锤，榔头/",
-        "meaning": "n. 用锤击\n\n例句：\nHe hammered the nail into the wall with a hammer",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  锤，榔头\nv.  用锤击\n\n例句：\nHe hammered the nail into the wall with a hammer",
         "example": ""
     },
     {
@@ -21092,17 +21092,17 @@ const ieltsWords = [
     {
         "word": "arrow",
         "category": "沙场争锋",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n箭头，箭\npierce\nv.  刺入；刺穿\n\n例句：\nThe arrow pierced her shoulder",
+        "meaning": "n.\n箭头，箭\n\n例句：\nThe arrow pierced her shoulder",
         "example": ""
     },
     {
         "word": "spear",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|矛；标枪/",
-        "meaning": "n. 用尖物刺穿\n\n例句：\nThe athlete is trying to launch a spear",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  矛；标枪\nv.  用尖物刺穿\n\n例句：\nThe athlete is trying to launch a spear",
         "example": ""
     },
     {
@@ -21116,9 +21116,9 @@ const ieltsWords = [
     {
         "word": "shield",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|盾；防护物/",
-        "meaning": "n. 保护\n\n例句：\nThe shield protected the warrior from the blows of his enemies",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  盾；防护物\nv.  保护\n\n例句：\nThe shield protected the warrior from the blows of his enemies",
         "example": ""
     },
     {
@@ -21156,33 +21156,33 @@ const ieltsWords = [
     {
         "word": "hit",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|打，击，碰撞/",
-        "meaning": "v. 打，击中\nhit a level 达到一个水平; worst hit area 受灾最严重的地区\n\n例句：\nThey insisted that food and medical supplis should be given to the worst hit areas",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  打，击，碰撞\nn.  打，击中\nhit a level 达到一个水平; worst hit area 受灾最严重的地区\n\n例句：\nThey insisted that food and medical supplis should be given to the worst hit areas",
         "example": ""
     },
     {
         "word": "beat",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|打；打败；（心脏等）跳动/",
-        "meaning": "v. 节拍；击鼓声\nbeat a record 打破纪录\n\n例句：\nIf we don't prepare for the debate, they will beat us",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  打；打败；（心脏等）跳动\nn.  节拍；击鼓声\nbeat a record 打破纪录\n\n例句：\nIf we don't prepare for the debate, they will beat us",
         "example": ""
     },
     {
         "word": "strike",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|打，击，突击；罢工/",
-        "meaning": "v. 罢工；打击\nThe strike has delivered a heavy blow to the management 这场罢工给了资方一个沉重的打击\nstrike against 为反对...而罢工",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  打，击，突击；罢工\nn.  罢工；打击\nThe strike has delivered a heavy blow to the management 这场罢工给了资方一个沉重的打击\nstrike against 为反对...而罢工",
         "example": ""
     },
     {
         "word": "punch",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|打孔机；重拳打击/",
-        "meaning": "n. 给...打孔；拳打\nSpectators cheered at his knockout punch 观众为他击倒对手的一拳而喝彩\npunch in/out 上下班打卡。punch\nsb.  on 击打在某人的...上",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  打孔机；重拳打击\nv.  给...打孔；拳打\nSpectators cheered at his knockout punch 观众为他击倒对手的一拳而喝彩\npunch in/out 上下班打卡。punch\nsb.  on 击打在某人的...上",
         "example": ""
     },
     {
@@ -21198,15 +21198,15 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  刺；\nn.  戳\n\n例句：\nShe stabbled him in the leg with a knife",
+        "meaning": "v./n. 刺；戳\n\n例句：\nShe stabbled him in the leg with a knife",
         "example": ""
     },
     {
         "word": "dilemma",
         "category": "沙场争锋",
         "pos": "n.",
-        "phonetic": "/daɪˈlem.ə/",
-        "meaning": "n.\n/dɪˈ\nlem. ə/（进退两难的）困境\n\n例句：\nThe man has a scheduling conflict, so now he is in a dilemma",
+        "phonetic": "",
+        "meaning": "n.\n/daɪˈ\nlem. ə/ /dɪˈ\nlem. ə/（进退两难的）困境\n\n例句：\nThe man has a scheduling conflict, so now he is in a dilemma",
         "example": ""
     },
     {
@@ -21228,9 +21228,9 @@ const ieltsWords = [
     {
         "word": "conspiracy",
         "category": "沙场争锋",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n阴谋；密谋；合谋\nconspire\nv.  密谋\n\n例句：\nThe conspiracy of the assassination of the president was brought to light in time",
+        "meaning": "n.\n阴谋；密谋；合谋\n\n例句：\nThe conspiracy of the assassination of the president was brought to light in time",
         "example": ""
     },
     {
@@ -21252,17 +21252,17 @@ const ieltsWords = [
     {
         "word": "starve",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n使挨饿；饿死\nstarvation\nn.  饥饿，极度饥饿\n\n例句：\nThey besieged the town and tried to starve the army into surrender",
+        "meaning": "v.\n使挨饿；饿死\n\n例句：\nThey besieged the town and tried to starve the army into surrender",
         "example": ""
     },
     {
         "word": "deprive",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n剥夺\ndeprivation\nn.  剥夺，丧失。~\nsb.  of\nsth.  剥夺某人的某事物\n\n例句：\nSickness deprived me of the pleasure of traveling overseas",
+        "meaning": "v.\n剥夺\n~\nsb.  of\nsth.  剥夺某人的某事物\n\n例句：\nSickness deprived me of the pleasure of traveling overseas",
         "example": ""
     },
     {
@@ -21276,17 +21276,17 @@ const ieltsWords = [
     {
         "word": "pursue",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n追赶\npursuit\nn.  追赶，追求，爱好。pursue pleasure 寻欢作乐\n\n例句：\nWhy should we even have to decide whether to pursue truth",
+        "meaning": "v.\n追赶\npursue pleasure 寻欢作乐\n\n例句：\nWhy should we even have to decide whether to pursue truth",
         "example": ""
     },
     {
         "word": "threat",
         "category": "沙场争锋",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n威胁；恐吓\nthreaten\nv.  威胁；恐吓\n\n例句：\nThe United Nations is trying to free the world from the threat of war",
+        "meaning": "n.\n威胁；恐吓\n\n例句：\nThe United Nations is trying to free the world from the threat of war",
         "example": ""
     },
     {
@@ -21316,9 +21316,9 @@ const ieltsWords = [
     {
         "word": "trespass",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|非法入侵/",
-        "meaning": "v. 罪过，非法入侵\n\n例句：\nThe farmer saied we were trespassing on private land",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  非法入侵\nn.  罪过，非法入侵\n\n例句：\nThe farmer saied we were trespassing on private land",
         "example": ""
     },
     {
@@ -21342,23 +21342,23 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  攻击；\nn.  进攻\n~\nsb.  by words 用语言抨击某人\n\n例句：\nThe police are launching a major attack on drug dealers",
+        "meaning": "v./n. 攻击；进攻\n~\nsb.  by words 用语言抨击某人\n\n例句：\nThe police are launching a major attack on drug dealers",
         "example": ""
     },
     {
         "word": "assault",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|猛攻；（身体）侵犯/",
-        "meaning": "n. 袭击\nan ~ on/against 对...的（人身）侵犯\n\n例句：\nHe was accused of sexual assault",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  猛攻；（身体）侵犯\nv.  袭击\nan ~ on/against 对...的（人身）侵犯\n\n例句：\nHe was accused of sexual assault",
         "example": ""
     },
     {
         "word": "challenge",
         "category": "沙场争锋",
-        "pos": "n. adj.",
-        "phonetic": "/v.|挑战/",
-        "meaning": "n. 向...挑战\nchallenging\nadj.  有挑战性的；挑衅的。face a ~ 遇到挑战。accept a ~ 接受挑战\n\n例句：\nHe challenged me to play another tennis game",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  挑战\nv.  向...挑战\n挑衅的。face a ~ 遇到挑战。accept a ~ 接受挑战\n\n例句：\nHe challenged me to play another tennis game",
         "example": ""
     },
     {
@@ -21390,15 +21390,15 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  暂停，停顿\nv.\n\n例句：\nAfter she ran up the hill, she paused for a minute to rest",
+        "meaning": "n./v. 暂停，停顿\n\n例句：\nAfter she ran up the hill, she paused for a minute to rest",
         "example": ""
     },
     {
         "word": "halt",
         "category": "沙场争锋",
-        "pos": "v. n.",
-        "phonetic": "/n.|（使）停止/",
-        "meaning": "v. 停止\nThe cab rolled to a halt before the hotel 计程车缓缓地停在了酒店前\nhalter\nn.  🐴的缰绳。halt the advance of history 阻挡历史的前进",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）停止\nn.  停止\nThe cab rolled to a halt before the hotel 计程车缓缓地停在了酒店前\nhalt the advance of history 阻挡历史的前进",
         "example": ""
     },
     {
@@ -21420,17 +21420,17 @@ const ieltsWords = [
     {
         "word": "oppress",
         "category": "沙场争锋",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n压迫；压制；使压抑\noppressive\nadj.  压制的，压迫的\n\n例句：\nThe king oppressed his people with terrible taxes and punishments",
+        "meaning": "v.\n压迫；压制；使压抑\n\n例句：\nThe king oppressed his people with terrible taxes and punishments",
         "example": ""
     },
     {
         "word": "counter",
         "category": "沙场争锋",
-        "pos": "v. n.",
-        "phonetic": "/adv./",
-        "meaning": "v.\nn.\n抵消；反击；反驳/相反的/柜台；工作台\n\n例句：\nMy colleague countered my proposal with one of his own",
+        "pos": "v./adv./n.",
+        "phonetic": "",
+        "meaning": "v.  /\nadv.\nn.\n抵消；反击；反驳/相反的/柜台；工作台\n\n例句：\nMy colleague countered my proposal with one of his own",
         "example": ""
     },
     {
@@ -21468,17 +21468,17 @@ const ieltsWords = [
     {
         "word": "revolt",
         "category": "沙场争锋",
-        "pos": "n./v. adj.",
+        "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  叛乱；\nv.  反抗\nAutocracy often causes the people to revolt 独裁统治常常引起人民的反抗\nrevoltive\nadj.  厌恶的，反感的。rise in revolt 发生叛乱",
+        "meaning": "n./v. 叛乱；反抗\nAutocracy often causes the people to revolt 独裁统治常常引起人民的反抗\nrise in revolt 发生叛乱",
         "example": ""
     },
     {
         "word": "betray",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n背叛；出卖；（无意中）泄露；流露出\nbetrayal\nn.  背叛，出卖\n\n例句：\nThey have promised never to betray the organization",
+        "meaning": "v.\n背叛；出卖；（无意中）泄露；流露出\n\n例句：\nThey have promised never to betray the organization",
         "example": ""
     },
     {
@@ -21492,9 +21492,9 @@ const ieltsWords = [
     {
         "word": "rebel",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|反叛者；叛逆者/",
-        "meaning": "n. 造反；反抗；反对\n\n例句：\nThe rebels made regular attacks on the railways",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  反叛者；叛逆者\nv.  造反；反抗；反对\n\n例句：\nThe rebels made regular attacks on the railways",
         "example": ""
     },
     {
@@ -21516,9 +21516,9 @@ const ieltsWords = [
     {
         "word": "blame",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|责备，指责/",
-        "meaning": "v. （对坏事应负的）责任\n\n例句：\nBad workmen often blame their tools",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  责备，指责\nn.  （对坏事应负的）责任\n\n例句：\nBad workmen often blame their tools",
         "example": ""
     },
     {
@@ -21526,7 +21526,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  责备；\nv.  指责\nHis manners are beyond reproach 他的举止无可指摘\nbring reproach on oneself 让自己丢脸",
+        "meaning": "n./v. 责备；指责\nHis manners are beyond reproach 他的举止无可指摘\nbring reproach on oneself 让自己丢脸",
         "example": ""
     },
     {
@@ -21550,7 +21550,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n恐惧；恐慌\nterrorist\nn.  恐怖分子。in terror 惊慌地\n\n例句：\nHis terror is so intense that he can't do anything",
+        "meaning": "n.\n恐惧；恐慌\nin terror 惊慌地\n\n例句：\nHis terror is so intense that he can't do anything",
         "example": ""
     },
     {
@@ -21588,9 +21588,9 @@ const ieltsWords = [
     {
         "word": "dread",
         "category": "沙场争锋",
-        "pos": "v. adj.",
-        "phonetic": "/n.|极为害怕；非常担心/",
-        "meaning": "v. 恐惧忧愁\ndreadful\nadj.  可怕的，糟透的\n\n例句：\nI dread to think what will happen if she finds out the truth",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  极为害怕；非常担心\nn.  恐惧忧愁\n\n例句：\nI dread to think what will happen if she finds out the truth",
         "example": ""
     },
     {
@@ -21604,17 +21604,17 @@ const ieltsWords = [
     {
         "word": "tension",
         "category": "沙场争锋",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n紧张；拉紧状态\nTension mounted as we waited for the exam results to be published 在我们等待公布考试成绩时，气氛越来越紧张\ntense\nadj.  绷紧的；紧张的。ease the tension 缓和紧张局势",
+        "meaning": "n.\n紧张；拉紧状态\nTension mounted as we waited for the exam results to be published 在我们等待公布考试成绩时，气氛越来越紧张\n紧张的。ease the tension 缓和紧张局势",
         "example": ""
     },
     {
         "word": "turbulent",
         "category": "沙场争锋",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n动荡的；混乱的；汹涌的\nturbulence\nn.  动荡；骚乱。a turbulent period 动荡时期\n\n例句：\nThe sea was to turbulent for us to set sail",
+        "meaning": "adj.\n动荡的；混乱的；汹涌的\n骚乱。a turbulent period 动荡时期\n\n例句：\nThe sea was to turbulent for us to set sail",
         "example": ""
     },
     {
@@ -21636,17 +21636,17 @@ const ieltsWords = [
     {
         "word": "occasion",
         "category": "沙场争锋",
-        "pos": "n. adv.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n场合；时机；机会\noccasionally\nadv.  偶尔；时而。on occasion 有时；不时\n\n例句：\nA wedding is a very happy occasion",
+        "meaning": "n.\n场合；时机；机会\n时而。on occasion 有时；不时\n\n例句：\nA wedding is a very happy occasion",
         "example": ""
     },
     {
         "word": "limit",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|限度；界限/",
-        "meaning": "n. 限制，限定\n\n例句：\nI'll help as much as I can, but there is a limit to what I can do",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  限度；界限\nv.  限制，限定\n\n例句：\nI'll help as much as I can, but there is a limit to what I can do",
         "example": ""
     },
     {
@@ -21660,9 +21660,9 @@ const ieltsWords = [
     {
         "word": "rein",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|缰绳；控制权/",
-        "meaning": "n. 用缰绳勒马；管束\ngive free rein to 放任，对...不加约束\n\n例句：\nThe hourse responds to the slightest pull on the rein",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  缰绳；控制权\nv.  用缰绳勒马；管束\ngive free rein to 放任，对...不加约束\n\n例句：\nThe hourse responds to the slightest pull on the rein",
         "example": ""
     },
     {
@@ -21676,9 +21676,9 @@ const ieltsWords = [
     {
         "word": "contest",
         "category": "沙场争锋",
-        "pos": "v. n.",
-        "phonetic": "/n.|争取赢得；争辩/",
-        "meaning": "v. 竞争；比赛\ncontestant\nn.  参赛者。a contest with 与...的竞争\n\n例句：\nIf the election is one-sided, it is really no contest",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  争取赢得；争辩\nn.  竞争；比赛\na contest with 与...的竞争\n\n例句：\nIf the election is one-sided, it is really no contest",
         "example": ""
     },
     {
@@ -21692,9 +21692,9 @@ const ieltsWords = [
     {
         "word": "rival",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|竞争者；对手/",
-        "meaning": "n. 与...匹敌\nrivalry\nn.  竞争，敌对状态\n\n例句：\nShe and I are rivals for the swimming prize",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  竞争者；对手\nv.  与...匹敌\n\n例句：\nShe and I are rivals for the swimming prize",
         "example": ""
     },
     {
@@ -21732,9 +21732,9 @@ const ieltsWords = [
     {
         "word": "maneuver",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "/manoeuvre\nn.\n策略；技巧；军事演习\n\n例句：\nThe army is doing maneuvers at sea",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/manoeuvre\nn.\n策略；技巧；[~s]军事演习\n\n例句：\nThe army is doing maneuvers at sea",
         "example": ""
     },
     {
@@ -21764,33 +21764,33 @@ const ieltsWords = [
     {
         "word": "oblige",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n迫使；强迫；帮忙\nobligation\nn.  义务；责任\n\n例句：\nThe law obliges parents to send their children to school",
+        "meaning": "v.\n迫使；强迫；帮忙\n\n例句：\nThe law obliges parents to send their children to school",
         "example": ""
     },
     {
         "word": "order",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|次序；整齐/",
-        "meaning": "n. 命令\n\n例句：\nSome teachers find it difficult to keep order in class",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  次序；整齐\nv.  命令\n\n例句：\nSome teachers find it difficult to keep order in class",
         "example": ""
     },
     {
         "word": "protest",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|抗议；申明/",
-        "meaning": "n. 抗议；申辩\n\n例句：\nThe diners protested about the bad service at the restaurant",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  抗议；申明\nv.  抗议；申辩\n\n例句：\nThe diners protested about the bad service at the restaurant",
         "example": ""
     },
     {
         "word": "refute",
         "category": "沙场争锋",
         "pos": "v.",
-        "phonetic": "/claim 驳斥某人的论点/",
-        "meaning": "v.\n反驳；驳斥；否认\nHe had hardly finished when someone rose to refute his points 他还没有说完，就有人起来驳斥他的观点\nrefute\nsb. 's argument说法",
+        "phonetic": "",
+        "meaning": "v.\n反驳；驳斥；否认\nHe had hardly finished when someone rose to refute his points 他还没有说完，就有人起来驳斥他的观点\nrefute\nsb. 's argument/claim 驳斥某人的论点/说法",
         "example": ""
     },
     {
@@ -21804,9 +21804,9 @@ const ieltsWords = [
     {
         "word": "force",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|力量；武力/",
-        "meaning": "n. 强迫；迫使\n\n例句：\nWe'll settle the problem by force if necessary",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  力量；武力\nv.  强迫；迫使\n\n例句：\nWe'll settle the problem by force if necessary",
         "example": ""
     },
     {
@@ -21828,17 +21828,17 @@ const ieltsWords = [
     {
         "word": "mitigate",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n减轻；缓和\nNothing could mitigate the cruelty with which she had treated him 她对他太残暴了，没有什么能为她开脱\nmitigation\nn.  缓和；减轻",
+        "meaning": "v.\n减轻；缓和\nNothing could mitigate the cruelty with which she had treated him 她对他太残暴了，没有什么能为她开脱",
         "example": ""
     },
     {
         "word": "comfort",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|安慰；舒适/",
-        "meaning": "n. 缓和抚慰\n\n例句：\nA father is a treasure, a brother is a comfort, but a friend is both",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  安慰；舒适\nv.  缓和抚慰\n\n例句：\nA father is a treasure, a brother is a comfort, but a friend is both",
         "example": ""
     },
     {
@@ -21852,9 +21852,9 @@ const ieltsWords = [
     {
         "word": "matter",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|事情；物质/",
-        "meaning": "n. 要紧\nas a matter of fact 事实上\n\n例句：\nHe reconsidered his decision on the matter because something unexpected happened",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  事情；物质\nv.  要紧\nas a matter of fact 事实上\n\n例句：\nHe reconsidered his decision on the matter because something unexpected happened",
         "example": ""
     },
     {
@@ -21868,25 +21868,25 @@ const ieltsWords = [
     {
         "word": "occur",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n发生，出现\noccurrence\nn.  发生，出现，发生的事情\n\n例句：\nThe accident occurred at six o'clock in the morning",
+        "meaning": "v.\n发生，出现\n\n例句：\nThe accident occurred at six o'clock in the morning",
         "example": ""
     },
     {
         "word": "savage",
         "category": "沙场争锋",
-        "pos": "adj. n.",
-        "phonetic": "/v./",
-        "meaning": "adj.\nn.\n野蛮的；凶狠的/凶狠的攻击/野蛮人\n\n例句：\nElephants are tame most of the time, but they can be very savage",
+        "pos": "adj./v./n.",
+        "phonetic": "",
+        "meaning": "adj.  /\nv.\nn.\n野蛮的；凶狠的/凶狠的攻击/野蛮人\n\n例句：\nElephants are tame most of the time, but they can be very savage",
         "example": ""
     },
     {
         "word": "reckless",
         "category": "沙场争锋",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n鲁莽的；不计后果的\nrecklessness\nn.  不顾后果，鲁莽。be reckless of 不注意\n\n例句：\nHe is very reckless when he is drunk",
+        "meaning": "adj.\n鲁莽的；不计后果的\nbe reckless of 不注意\n\n例句：\nHe is very reckless when he is drunk",
         "example": ""
     },
     {
@@ -21900,17 +21900,17 @@ const ieltsWords = [
     {
         "word": "foul",
         "category": "沙场争锋",
-        "pos": "adj.",
-        "phonetic": "/v.|恶臭的；恶劣的；邪恶的/",
-        "meaning": "adj. 弄脏；对...犯规\nThe foul weather spoiled our vacation 恶劣的天气毁了我们的假期\na foul deed 邪恶的行为",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  恶臭的；恶劣的；邪恶的\nv.  弄脏；对...犯规\nThe foul weather spoiled our vacation 恶劣的天气毁了我们的假期\na foul deed 邪恶的行为",
         "example": ""
     },
     {
         "word": "evil",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/adj.|邪恶；祸害/",
-        "meaning": "n. 邪恶的\n\n例句：\nMoney is thought to be the root cause of all evil",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  邪恶；祸害\nadj.  邪恶的\n\n例句：\nMoney is thought to be the root cause of all evil",
         "example": ""
     },
     {
@@ -21948,9 +21948,9 @@ const ieltsWords = [
     {
         "word": "sacrifice",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|牺牲；献祭/",
-        "meaning": "n. 牺牲；以...为祭品\n\n例句：\nI would never dream of asking you to make such a sacrifice",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  牺牲；献祭\nv.  牺牲；以...为祭品\n\n例句：\nI would never dream of asking you to make such a sacrifice",
         "example": ""
     },
     {
@@ -21980,9 +21980,9 @@ const ieltsWords = [
     {
         "word": "grave",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/adj.|坟墓；死亡/",
-        "meaning": "n. 庄重的；严肃的\n\n例句：\nThe lady's grave is made of granite",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  坟墓；死亡\nadj.  庄重的；严肃的\n\n例句：\nThe lady's grave is made of granite",
         "example": ""
     },
     {
@@ -22012,9 +22012,9 @@ const ieltsWords = [
     {
         "word": "naval",
         "category": "沙场争锋",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n海军的\nnavy\nn.  海军\n\n例句：\nHe took part in a great naval battle",
+        "meaning": "adj.\n海军的\n\n例句：\nHe took part in a great naval battle",
         "example": ""
     },
     {
@@ -22028,9 +22028,9 @@ const ieltsWords = [
     {
         "word": "troop",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|一群，一对；[~s]军队/",
-        "meaning": "n. 结队前行\n\n例句：\nThe troops made good their retreat from the occupied city",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  一群，一对；[~s]军队\nv.  结队前行\n\n例句：\nThe troops made good their retreat from the occupied city",
         "example": ""
     },
     {
@@ -22060,9 +22060,9 @@ const ieltsWords = [
     {
         "word": "progress",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|前进；进步；进程/",
-        "meaning": "n. 前进；进步\n\n例句：\nThe building of the largest bridge across a river in that country is in progress",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  前进；进步；进程\nv.  前进；进步\n\n例句：\nThe building of the largest bridge across a river in that country is in progress",
         "example": ""
     },
     {
@@ -22084,41 +22084,41 @@ const ieltsWords = [
     {
         "word": "poison",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|毒物，毒药/",
-        "meaning": "n. 毒害\n\n例句：\nSpiritual rubbish can poison the children's pure minds",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  毒物，毒药\nv.  毒害\n\n例句：\nSpiritual rubbish can poison the children's pure minds",
         "example": ""
     },
     {
         "word": "devastate",
         "category": "沙场争锋",
-        "pos": "v. n. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n毁坏，摧毁\ndevastation\nn.  （尤指大面积）破坏。devastating\nadj.  毁灭性的\n\n例句：\nThey intended to devastate the town at a stroke",
+        "meaning": "v.\n毁坏，摧毁\n\n例句：\nThey intended to devastate the town at a stroke",
         "example": ""
     },
     {
         "word": "risk",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|危险，风险/",
-        "meaning": "n. 冒着...的危险\n\n例句：\nIf you don't warm up before taking exercise, you risk injuring yourself",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  危险，风险\nv.  冒着...的危险\n\n例句：\nIf you don't warm up before taking exercise, you risk injuring yourself",
         "example": ""
     },
     {
         "word": "adventure",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|冒险，冒险尽量/",
-        "meaning": "n. 去（某地）探险\n\n例句：\nAll the children were listening to her adventures with eager attention",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  冒险，冒险尽量\nv.  去（某地）探险\n\n例句：\nAll the children were listening to her adventures with eager attention",
         "example": ""
     },
     {
         "word": "peril",
         "category": "沙场争锋",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n重大危险，险情，危险\navert\nv.  防止，避免。at one's (own) peril 自担风险\n\n例句：\nPreparedness averts peril",
+        "meaning": "n.\n重大危险，险情，危险\nat one's (own) peril 自担风险\n\n例句：\nPreparedness averts peril",
         "example": ""
     },
     {
@@ -22134,15 +22134,15 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  倒塌，崩溃\nv.\n\n例句：\nThe man lost all his money in the collapse of the stock market",
+        "meaning": "n./v. 倒塌，崩溃\n\n例句：\nThe man lost all his money in the collapse of the stock market",
         "example": ""
     },
     {
         "word": "torture",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|拷问，痛苦，折磨/",
-        "meaning": "n. 拷问，使痛苦\n\n例句：\nShe suffered the torture of toothache",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  拷问，痛苦，折磨\nv.  拷问，使痛苦\n\n例句：\nShe suffered the torture of toothache",
         "example": ""
     },
     {
@@ -22158,7 +22158,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  损害；\nv.  伤害\n\n例句：\nAn earthquake sometimes causes extensive damage to a town",
+        "meaning": "n./v. 损害；伤害\n\n例句：\nAn earthquake sometimes causes extensive damage to a town",
         "example": ""
     },
     {
@@ -22206,7 +22206,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  撤退；\nv.  退避\n\n例句：\nHe immediately sounded a retreat",
+        "meaning": "n./v. 撤退；退避\n\n例句：\nHe immediately sounded a retreat",
         "example": ""
     },
     {
@@ -22228,9 +22228,9 @@ const ieltsWords = [
     {
         "word": "withstand",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n承受；顶住；经受住\nThe bridge is built to withstand an earthquake of 8.0 magnitude 这座桥可以经受 8 级地震\nmagnitude\nn.  巨大；重大；重要性。~ severe tests 经得住严峻的考验",
+        "meaning": "v.\n承受；顶住；经受住\nThe bridge is built to withstand an earthquake of 8.0 magnitude 这座桥可以经受 8 级地震\n重大；重要性。~ severe tests 经得住严峻的考验",
         "example": ""
     },
     {
@@ -22246,7 +22246,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  投降；\nv.  （被迫）放弃\n\n例句：\nThousands of illegal immigrants have surrendered to police",
+        "meaning": "n./v. 投降；（被迫）放弃\n\n例句：\nThousands of illegal immigrants have surrendered to police",
         "example": ""
     },
     {
@@ -22254,7 +22254,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  逃跑；\nv.  逃脱；逃避\n\n例句：\nTo my suprise, he managed to escape from that big fire",
+        "meaning": "n./v. 逃跑；逃脱；逃避\n\n例句：\nTo my suprise, he managed to escape from that big fire",
         "example": ""
     },
     {
@@ -22284,7 +22284,7 @@ const ieltsWords = [
     {
         "word": "forgo",
         "category": "沙场争锋",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/forego\nv.\n放弃\n\n例句：\nWe'll have to forgo our rest hour to gather in the wheat before the storm begins",
         "example": ""
@@ -22301,32 +22301,32 @@ const ieltsWords = [
         "word": "rid",
         "category": "沙场争锋",
         "pos": "adj.",
-        "phonetic": "[get ~ of]",
-        "meaning": "adj.\n摆脱，丢弃\n\n例句：\nIf you get rid of the water, you get rid of the mosquitoes",
+        "phonetic": "",
+        "meaning": "adj.\n[get ~ of]摆脱，丢弃\n\n例句：\nIf you get rid of the water, you get rid of the mosquitoes",
         "example": ""
     },
     {
         "word": "defend",
         "category": "沙场争锋",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n防御，保护；为...辩护\ndefendant\nn.  被告\n\n例句：\nShe demonstrated the best way to defend oneself",
+        "meaning": "v.\n防御，保护；为...辩护\n\n例句：\nShe demonstrated the best way to defend oneself",
         "example": ""
     },
     {
         "word": "safeguard",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|保护，保卫/",
-        "meaning": "v. 保护措施\n\n例句：\nTo safeguard the peace is one of the most important tasks of the army",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  保护，保卫\nn.  保护措施\n\n例句：\nTo safeguard the peace is one of the most important tasks of the army",
         "example": ""
     },
     {
         "word": "defeat",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/n.|战胜，击败/",
-        "meaning": "v. 失败\n\n例句：\nThey were defeated in the football match",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  战胜，击败\nn.  失败\n\n例句：\nThey were defeated in the football match",
         "example": ""
     },
     {
@@ -22340,25 +22340,25 @@ const ieltsWords = [
     {
         "word": "capture",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|战利品/",
-        "meaning": "n. 捕获，夺得\n\n例句：\nThe fraudster was captured when trying to escape from the city",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  战利品\nv.  捕获，夺得\n\n例句：\nThe fraudster was captured when trying to escape from the city",
         "example": ""
     },
     {
         "word": "victory",
         "category": "沙场争锋",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n胜利，成功\nvictorious\nadj.  胜利的，得胜的\n\n例句：\nThe school football team has had three victories this month against other schools",
+        "meaning": "n.\n胜利，成功\n\n例句：\nThe school football team has had three victories this month against other schools",
         "example": ""
     },
     {
         "word": "triumph",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|伟大胜利，非凡的成功/",
-        "meaning": "n. 获得胜利\n\n例句：\nIt was a great triumph when our team won the race",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  伟大胜利，非凡的成功\nv.  获得胜利\n\n例句：\nIt was a great triumph when our team won the race",
         "example": ""
     },
     {
@@ -22404,17 +22404,17 @@ const ieltsWords = [
     {
         "word": "honor",
         "category": "沙场争锋",
-        "pos": "v.",
-        "phonetic": "/honour|n./",
-        "meaning": "v.\n尊敬，敬意，冗余/尊敬，给予表扬\n\n例句：\nHe's won an academy award and a host of other honors",
+        "pos": "",
+        "phonetic": "",
+        "meaning": "/honour\nn.  尊敬，敬意，冗余\nv.  尊敬，给予表扬\n\n例句：\nHe's won an academy award and a host of other honors",
         "example": ""
     },
     {
         "word": "glorious",
         "category": "沙场争锋",
-        "pos": "adj. n.",
+        "pos": "adj.",
         "phonetic": "",
-        "meaning": "adj.\n光荣的，荣耀的\nglory\nn.  光荣，荣耀\n\n例句：\nOur country has a glorious past",
+        "meaning": "adj.\n光荣的，荣耀的\n\n例句：\nOur country has a glorious past",
         "example": ""
     },
     {
@@ -22446,15 +22446,15 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  巡逻，巡查\nv.\n\n例句：\nEvery hour, a policeman patrolled our street",
+        "meaning": "n./v. 巡逻，巡查\n\n例句：\nEvery hour, a policeman patrolled our street",
         "example": ""
     },
     {
         "word": "guard",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|卫兵，警卫员/",
-        "meaning": "n. 看守，守卫，保卫\n\n例句：\nThe dog guarded the house against strangers",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  卫兵，警卫员\nv.  看守，守卫，保卫\n\n例句：\nThe dog guarded the house against strangers",
         "example": ""
     },
     {
@@ -22462,7 +22462,7 @@ const ieltsWords = [
         "category": "沙场争锋",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  伪装\nn.\nprotection camouflage 防护伪装\n\n例句：\nMany animals have natural camouflage, which hides them from the preditors",
+        "meaning": "v./n. 伪装\nprotection camouflage 防护伪装\n\n例句：\nMany animals have natural camouflage, which hides them from the preditors",
         "example": ""
     },
     {
@@ -22476,33 +22476,33 @@ const ieltsWords = [
     {
         "word": "burrow",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|地洞，地道/",
-        "meaning": "n. 掘地洞\nprairie dog 草原犬鼠\n\n例句：\nThe prairie dog stores food in its burrow",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  地洞，地道\nv.  掘地洞\nprairie dog 草原犬鼠\n\n例句：\nThe prairie dog stores food in its burrow",
         "example": ""
     },
     {
         "word": "spy",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|间谍，特务/",
-        "meaning": "n. 收集情报，从事间谍活动\n\n例句：\nShe hired a detective to spy on her husband",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  间谍，特务\nv.  收集情报，从事间谍活动\n\n例句：\nShe hired a detective to spy on her husband",
         "example": ""
     },
     {
         "word": "scout",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/v.|侦查员，侦察机/",
-        "meaning": "n. 侦查，搜寻\n\n例句：\nThe scout was searching through the woods",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  侦查员，侦察机\nv.  侦查，搜寻\n\n例句：\nThe scout was searching through the woods",
         "example": ""
     },
     {
         "word": "general",
         "category": "沙场争锋",
-        "pos": "n.",
-        "phonetic": "/adj.|将军/",
-        "meaning": "n. 总的，一般性的\n\n例句：\nAs a general rule, prices follow demands",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  将军\nadj.  总的，一般性的\n\n例句：\nAs a general rule, prices follow demands",
         "example": ""
     },
     {
@@ -22540,9 +22540,9 @@ const ieltsWords = [
     {
         "word": "herald",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|使者，传令官，先驱；预兆/",
-        "meaning": "n. 预告；宣布\n\n例句：\nEarly green birds are heralds of spring",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  使者，传令官，先驱；预兆\nv.  预告；宣布\n\n例句：\nEarly green birds are heralds of spring",
         "example": ""
     },
     {
@@ -22572,9 +22572,9 @@ const ieltsWords = [
     {
         "word": "surname",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|姓/",
-        "meaning": "n. 给...起别名\n\n例句：\nTo make a nickname from someone's surname can sometimes be bad",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  姓\nv.  给...起别名\n\n例句：\nTo make a nickname from someone's surname can sometimes be bad",
         "example": ""
     },
     {
@@ -22596,9 +22596,9 @@ const ieltsWords = [
     {
         "word": "female",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|女子 ；雌性生物/",
-        "meaning": "n. 女的；雌性的\n\n例句：\nWe've got three cats, two females and a male",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  女子 ；雌性生物\nadj.  女的；雌性的\n\n例句：\nWe've got three cats, two females and a male",
         "example": ""
     },
     {
@@ -22628,9 +22628,9 @@ const ieltsWords = [
     {
         "word": "gay",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|同性恋者（尤指男性）/",
-        "meaning": "n. 同性恋的；快乐的；艳丽的\n\n例句：\nThe children were all gay at the thought of the coming holidays",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  同性恋者（尤指男性）\nadj.  同性恋的；快乐的；艳丽的\n\n例句：\nThe children were all gay at the thought of the coming holidays",
         "example": ""
     },
     {
@@ -22684,17 +22684,17 @@ const ieltsWords = [
     {
         "word": "twin",
         "category": "社会角色",
-        "pos": "adj.",
-        "phonetic": "/n.|成双的/",
-        "meaning": "adj. 双胞胎之一\n\n例句：\nYou should know that this plan has a twin purpose",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  成双的\nn.  双胞胎之一\n\n例句：\nYou should know that this plan has a twin purpose",
         "example": ""
     },
     {
         "word": "embryo",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|胚胎/",
-        "meaning": "n. 胚胎的，初期的\n\n例句：\nOur plans are still in embryo",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  胚胎\nadj.  胚胎的，初期的\n\n例句：\nOur plans are still in embryo",
         "example": ""
     },
     {
@@ -22702,23 +22702,23 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  供婴儿用的；\nadj.  婴儿的\n\n例句：\nThe infant mortality rate is highly sensitive barometer of social-economic conditions",
+        "meaning": "n.  供婴儿用的\nadj.  婴儿的\n\n例句：\nThe infant mortality rate is highly sensitive barometer of social-economic conditions",
         "example": ""
     },
     {
         "word": "orphan",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|孤儿/",
-        "meaning": "n. 使成为孤儿\n\n例句：\nThe three children were orphaned when their parents died in the plane crash",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  孤儿\nv.  使成为孤儿\n\n例句：\nThe three children were orphaned when their parents died in the plane crash",
         "example": ""
     },
     {
         "word": "juvenile",
         "category": "社会角色",
-        "pos": "adj.",
-        "phonetic": "/n.|少年的/",
-        "meaning": "adj. 少年\n\n例句：\nThe problem of juvenile delinquency calls for the attention of the whole society",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  少年的\nn.  少年\n\n例句：\nThe problem of juvenile delinquency calls for the attention of the whole society",
         "example": ""
     },
     {
@@ -22764,17 +22764,17 @@ const ieltsWords = [
     {
         "word": "kin",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|（统称）家属，亲戚/",
-        "meaning": "n. 有血缘关系的；类似的\n\n例句：\nAll his kin were at the wedding",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  （统称）家属，亲戚\nadj.  有血缘关系的；类似的\n\n例句：\nAll his kin were at the wedding",
         "example": ""
     },
     {
         "word": "folk",
         "category": "社会角色",
         "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n人们；家属，亲属\n\n例句：\nYou're on the list of folds I'm indebted to",
+        "phonetic": "",
+        "meaning": "n.\n人们；[~s]家属，亲属\n\n例句：\nYou're on the list of folds I'm indebted to",
         "example": ""
     },
     {
@@ -22782,23 +22782,23 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  相对的；\nadj.  有关的\n\n例句：\nWe do not abandon our relatives when times get tough",
+        "meaning": "n.  相对的\nadj.  有关的\n\n例句：\nWe do not abandon our relatives when times get tough",
         "example": ""
     },
     {
         "word": "intimate",
         "category": "社会角色",
-        "pos": "adj.",
-        "phonetic": "/n.|亲密的；个人隐私的/",
-        "meaning": "adj. 密友，至交\nDo you believe these two intimates friends used to be mutual sworn enemies?",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  亲密的；个人隐私的\nn.  密友，至交\nDo you believe these two intimates friends used to be mutual sworn enemies?",
         "example": ""
     },
     {
         "word": "dear",
         "category": "社会角色",
-        "pos": "adj.",
-        "phonetic": "/int.|亲爱的/",
-        "meaning": "adj. 啊呀\n\n例句：\nDear John, thanks for asking me to help you with the class trip",
+        "pos": "adj./int.",
+        "phonetic": "",
+        "meaning": "adj.  亲爱的\nint.  啊呀\n\n例句：\nDear John, thanks for asking me to help you with the class trip",
         "example": ""
     },
     {
@@ -22820,17 +22820,17 @@ const ieltsWords = [
     {
         "word": "beloved",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|爱人/",
-        "meaning": "n. 深受喜爱的\n\n例句：\nThis safari park is beloved by tourists from all parts of the globe",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  爱人\nadj.  深受喜爱的\n\n例句：\nThis safari park is beloved by tourists from all parts of the globe",
         "example": ""
     },
     {
         "word": "madam",
         "category": "社会角色",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n夫人；女士；自以为是的小姑娘\n\n例句：\nThat poor madam has lost all contact with reality",
+        "phonetic": "",
+        "meaning": "n.\n夫人；女士；[英]自以为是的小姑娘\n\n例句：\nThat poor madam has lost all contact with reality",
         "example": ""
     },
     {
@@ -22958,7 +22958,7 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  遭遇；\nn.  偶遇；邂逅\n\n例句：\nThe more dangerous we encounter, the harder should we push forward",
+        "meaning": "v./n. 遭遇；偶遇；邂逅\n\n例句：\nThe more dangerous we encounter, the harder should we push forward",
         "example": ""
     },
     {
@@ -22966,7 +22966,7 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  追逐；\nn.  追求\n\n例句：\nPlease chased the speeding car",
+        "meaning": "v./n. 追逐；追求\n\n例句：\nPlease chased the speeding car",
         "example": ""
     },
     {
@@ -23044,25 +23044,25 @@ const ieltsWords = [
     {
         "word": "kiss",
         "category": "社会角色",
-        "pos": "v.",
-        "phonetic": "/n.|吻，接吻/",
-        "meaning": "v. 吻\n\n例句：\nThe singer blew a kiss to the audience",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  吻，接吻\nn.  吻\n\n例句：\nThe singer blew a kiss to the audience",
         "example": ""
     },
     {
         "word": "divorce",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|离婚；脱离/",
-        "meaning": "n. （与...）离婚；使脱离\n\n例句：\nNever be divorced from real life",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  离婚；脱离\nv.  （与...）离婚；使脱离\n\n例句：\nNever be divorced from real life",
         "example": ""
     },
     {
         "word": "separate",
         "category": "社会角色",
-        "pos": "adj.",
-        "phonetic": "/v.|分开的，单独的/",
-        "meaning": "adj. （使）分开；分局\n\n例句：\nThe children sleep in separate beds",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  分开的，单独的\nv.  （使）分开；分局\n\n例句：\nThe children sleep in separate beds",
         "example": ""
     },
     {
@@ -23100,9 +23100,9 @@ const ieltsWords = [
     {
         "word": "individual",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|个人；个体/",
-        "meaning": "n. 个别的，单独的\n\n例句：\nThe rights of the individual are considered to be very important",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  个人；个体\nadj.  个别的，单独的\n\n例句：\nThe rights of the individual are considered to be very important",
         "example": ""
     },
     {
@@ -23116,7 +23116,7 @@ const ieltsWords = [
     {
         "word": "neighborhood",
         "category": "社会角色",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/neighbourhood\nn.\n街坊；居住区；周边地区\n\n例句：\nShe was reluctant to leave the neighborhood of Paris",
         "example": ""
@@ -23132,9 +23132,9 @@ const ieltsWords = [
     {
         "word": "boss",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|老板，上司/",
-        "meaning": "n. 对...指手画脚\n\n例句：\nThe boss always makes them work overtime without pay",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  老板，上司\nv.  对...指手画脚\n\n例句：\nThe boss always makes them work overtime without pay",
         "example": ""
     },
     {
@@ -23156,9 +23156,9 @@ const ieltsWords = [
     {
         "word": "subordinate",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/adj.|部署，下级/",
-        "meaning": "n. 次要的；下级的\n\n例句：\nThe minority is subordinate to the majority",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  部署，下级\nadj.  次要的；下级的\n\n例句：\nThe minority is subordinate to the majority",
         "example": ""
     },
     {
@@ -23173,8 +23173,8 @@ const ieltsWords = [
         "word": "mate",
         "category": "社会角色",
         "pos": "n.",
-        "phonetic": "[构成复合词]",
-        "meaning": "n.\n伙伴；同伴\n\n例句：\nThe people we work with are called workmates and our friends at school are called classmates",
+        "phonetic": "",
+        "meaning": "n.\n伙伴；[构成复合词]同伴\n\n例句：\nThe people we work with are called workmates and our friends at school are called classmates",
         "example": ""
     },
     {
@@ -23213,8 +23213,8 @@ const ieltsWords = [
         "word": "affection",
         "category": "社会角色",
         "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n喜爱，喜欢；爱情\n\n例句：\nI can not believe that you are unaware of my growing affection for you",
+        "phonetic": "",
+        "meaning": "n.\n喜爱，喜欢；[~s]爱情\n\n例句：\nI can not believe that you are unaware of my growing affection for you",
         "example": ""
     },
     {
@@ -23228,9 +23228,9 @@ const ieltsWords = [
     {
         "word": "apprentice",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|学徒，徒弟/",
-        "meaning": "n. 使当...的学徒\n\n例句：\nHis father apprenticed him to a barber",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  学徒，徒弟\nv.  使当...的学徒\n\n例句：\nHis father apprenticed him to a barber",
         "example": ""
     },
     {
@@ -23254,7 +23254,7 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n女主角；女主；女英雄\nheroin\nn.  毒品海洛因（这里没有 e）\n\n例句：\nThe fairy godmother waves her magic wand and grants the heroine's wishes",
+        "meaning": "n.\n女主角；女主；女英雄\n\n例句：\nThe fairy godmother waves her magic wand and grants the heroine's wishes",
         "example": ""
     },
     {
@@ -23270,7 +23270,7 @@ const ieltsWords = [
         "category": "社会角色",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n（德国或奥地利的）总理；（英国）财政大臣\nchequer\nn.  国库，财政部\n\n例句：\nIn Britain, the chancelllor of the exchequer deals with the taxes and government spending",
+        "meaning": "n.\n（德国或奥地利的）总理；（英国）财政大臣\n\n例句：\nIn Britain, the chancelllor of the exchequer deals with the taxes and government spending",
         "example": ""
     },
     {
@@ -23316,9 +23316,9 @@ const ieltsWords = [
     {
         "word": "delegate",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|代表/",
-        "meaning": "n. 授权，委派\n\n例句：\nI was delegated to approach the local press",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  代表\nv.  授权，委派\n\n例句：\nI was delegated to approach the local press",
         "example": ""
     },
     {
@@ -23333,8 +23333,8 @@ const ieltsWords = [
         "word": "consultant",
         "category": "社会角色",
         "pos": "n.",
-        "phonetic": "[英]",
-        "meaning": "n.\n顾问；会诊医师\n\n例句：\nThe consultant committee met at the call of the chairman",
+        "phonetic": "",
+        "meaning": "n.\n顾问；[英]会诊医师\n\n例句：\nThe consultant committee met at the call of the chairman",
         "example": ""
     },
     {
@@ -23348,7 +23348,7 @@ const ieltsWords = [
     {
         "word": "counsellor",
         "category": "社会角色",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/counselor\nn.\n顾问，辅导顾问；（美国的）律师\n\n例句：\nI'd like to talk to my counselor before I answer any of your questions",
         "example": ""
@@ -23444,9 +23444,9 @@ const ieltsWords = [
     {
         "word": "groom",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|马夫；新郎/",
-        "meaning": "n. （给动物）刷洗；理毛；梳毛\n\n例句：\nThe head groom is responsible for seeing that his stable mates have safe journeys",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  马夫；新郎\nv.  （给动物）刷洗；理毛；梳毛\n\n例句：\nThe head groom is responsible for seeing that his stable mates have safe journeys",
         "example": ""
     },
     {
@@ -23460,17 +23460,17 @@ const ieltsWords = [
     {
         "word": "toil",
         "category": "社会角色",
-        "pos": "n.",
-        "phonetic": "/v.|苦工，苦活，网，圈套/",
-        "meaning": "n. 辛勤劳作，苦干\n\n例句：\nThey spent months of toil on the water conservation project",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  苦工，苦活，网，圈套\nv.  辛勤劳作，苦干\n\n例句：\nThey spent months of toil on the water conservation project",
         "example": ""
     },
     {
         "word": "beggar",
         "category": "社会角色",
-        "pos": "n. v.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n乞丐\nbeg\nv.  恳求；乞讨\n\n例句：\nHe tossed the beggar a handful of coins",
+        "meaning": "n.\n乞丐\n\n例句：\nHe tossed the beggar a handful of coins",
         "example": ""
     },
     {
@@ -23492,9 +23492,9 @@ const ieltsWords = [
     {
         "word": "act",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|行动/",
-        "meaning": "v. 行为\n\n例句：\nDreaming is one thing, but acting is another",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  行动\nn.  行为\n\n例句：\nDreaming is one thing, but acting is another",
         "example": ""
     },
     {
@@ -23572,17 +23572,17 @@ const ieltsWords = [
     {
         "word": "mow",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|割，修剪/",
-        "meaning": "v. 干草堆\nmow the lawn\n\n例句：\nI want to have my garden mowed",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  割，修剪\nn.  干草堆\nmow the lawn\n\n例句：\nI want to have my garden mowed",
         "example": ""
     },
     {
         "word": "support",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|支撑；支持；供养/",
-        "meaning": "v. 支持；帮助\n\n例句：\nWe should encourage and support them to participate in collective activities with friends, family, colleagues and support groups",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  支撑；支持；供养\nn.  支持；帮助\n\n例句：\nWe should encourage and support them to participate in collective activities with friends, family, colleagues and support groups",
         "example": ""
     },
     {
@@ -23620,33 +23620,33 @@ const ieltsWords = [
     {
         "word": "glare",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|怒目而视；发出强光/",
-        "meaning": "v. 刺眼的光；怒视\n\n例句：\nThe glare of the oncoming headlights temporarily blinded me",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  怒目而视；发出强光\nn.  刺眼的光；怒视\n\n例句：\nThe glare of the oncoming headlights temporarily blinded me",
         "example": ""
     },
     {
         "word": "glimpse",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|瞥见/",
-        "meaning": "v. 一瞥\n\n例句：\nI caught a glimpse of our new neighbor",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  瞥见\nn.  一瞥\n\n例句：\nI caught a glimpse of our new neighbor",
         "example": ""
     },
     {
         "word": "glance",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|瞥，迅速看一眼/",
-        "meaning": "v. 一瞥\n\n例句：\nThe man glanced at the burglar climbing out of the window",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  瞥，迅速看一眼\nn.  一瞥\n\n例句：\nThe man glanced at the burglar climbing out of the window",
         "example": ""
     },
     {
         "word": "peep",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|窥视，偷看/",
-        "meaning": "v. 偷偷一瞥\n\n例句：\nI peeped through the window to see if she was there",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  窥视，偷看\nn.  偷偷一瞥\n\n例句：\nI peeped through the window to see if she was there",
         "example": ""
     },
     {
@@ -23660,9 +23660,9 @@ const ieltsWords = [
     {
         "word": "peer",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|凝视；盯着看/",
-        "meaning": "v. 同等地位的人，同辈\n\n例句：\nThe new postman peered through the mist, trying to find the right house",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  凝视；盯着看\nn.  同等地位的人，同辈\n\n例句：\nThe new postman peered through the mist, trying to find the right house",
         "example": ""
     },
     {
@@ -23684,9 +23684,9 @@ const ieltsWords = [
     {
         "word": "vow",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|誓约/",
-        "meaning": "n. 发誓\n\n例句：\nThe couple made their wedding vows at Saint Paul's church",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  誓约\nv.  发誓\n\n例句：\nThe couple made their wedding vows at Saint Paul's church",
         "example": ""
     },
     {
@@ -23700,17 +23700,17 @@ const ieltsWords = [
     {
         "word": "pledge",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|保证/",
-        "meaning": "v. 保证；誓言\n\n例句：\nThe conflicts continued in spite of a no strike pledge by the unions",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  保证\nn.  保证；誓言\n\n例句：\nThe conflicts continued in spite of a no strike pledge by the unions",
         "example": ""
     },
     {
         "word": "whistle",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|口哨；哨子；汽笛声/",
-        "meaning": "n. 吹口哨；吹哨子\n\n例句：\nThe referee blew the whistle at the end of the game",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  口哨；哨子；汽笛声\nv.  吹口哨；吹哨子\n\n例句：\nThe referee blew the whistle at the end of the game",
         "example": ""
     },
     {
@@ -23718,7 +23718,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  回答，答复\nn.\n\n例句：\nHe tried to reply and then stopped",
+        "meaning": "v./n. 回答，答复\n\n例句：\nHe tried to reply and then stopped",
         "example": ""
     },
     {
@@ -23750,7 +23750,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  吵架，争论\nn.\n\n例句：\nWe had a quarrel about the price",
+        "meaning": "v./n. 吵架，争论\n\n例句：\nWe had a quarrel about the price",
         "example": ""
     },
     {
@@ -23758,7 +23758,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  争论，辩论\nn.\n\n例句：\nA long dispute means that both parties are wrong",
+        "meaning": "v./n. 争论，辩论\n\n例句：\nA long dispute means that both parties are wrong",
         "example": ""
     },
     {
@@ -23774,15 +23774,15 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  提及；\nn.  说起\nnot my scene 不是我的菜\n\n例句：\nAs for that film you mentioned, not my scene",
+        "meaning": "v./n. 提及；说起\nnot my scene 不是我的菜\n\n例句：\nAs for that film you mentioned, not my scene",
         "example": ""
     },
     {
         "word": "hurry",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|赶紧；催促/",
-        "meaning": "v. 匆忙\n\n例句：\nI'm in no hurry to get back to school",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  赶紧；催促\nn.  匆忙\n\n例句：\nI'm in no hurry to get back to school",
         "example": ""
     },
     {
@@ -23812,9 +23812,9 @@ const ieltsWords = [
     {
         "word": "curse",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|诅咒；咒骂/",
-        "meaning": "v. 咒语\nA light purse is a heavy curse 贫穷是沉重的诅咒",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  诅咒；咒骂\nn.  咒语\nA light purse is a heavy curse 贫穷是沉重的诅咒",
         "example": ""
     },
     {
@@ -23828,9 +23828,9 @@ const ieltsWords = [
     {
         "word": "provoke",
         "category": "行为动作",
-        "pos": "v. adj.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n激怒，挑拨；引起\nthought-provoking\nadj.  引起思考的，发人深省的\n\n例句：\nMind you, that dog is very dangerous when provoked",
+        "meaning": "v.\n激怒，挑拨；引起\nthought-\n\n例句：\nMind you, that dog is very dangerous when provoked",
         "example": ""
     },
     {
@@ -23846,7 +23846,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  自夸，吹嘘\nn.\n\n例句：\nNobody should boast of his knowledge",
+        "meaning": "v./n. 自夸，吹嘘\n\n例句：\nNobody should boast of his knowledge",
         "example": ""
     },
     {
@@ -23860,17 +23860,17 @@ const ieltsWords = [
     {
         "word": "mock",
         "category": "行为动作",
-        "pos": "v. n.",
-        "phonetic": "/adj.|嘲笑；嘲弄/",
-        "meaning": "v. 模拟的；假装的\ntimidity\nn.  胆小，羞怯\n\n例句：\nThey mocked at my timidity",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  嘲笑；嘲弄\nadj.  模拟的；假装的\n\n例句：\nThey mocked at my timidity",
         "example": ""
     },
     {
         "word": "touch",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|触摸；触动/",
-        "meaning": "v. 触觉，接触\n\n例句：\nBy the way, you don't want to touch the onion and then touch your eyes",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  触摸；触动\nn.  触觉，接触\n\n例句：\nBy the way, you don't want to touch the onion and then touch your eyes",
         "example": ""
     },
     {
@@ -23878,7 +23878,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  拥抱\nn.\n\n例句：\nHe hugged his daughter tightly",
+        "meaning": "v./n. 拥抱\n\n例句：\nHe hugged his daughter tightly",
         "example": ""
     },
     {
@@ -23892,9 +23892,9 @@ const ieltsWords = [
     {
         "word": "clap",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|拍手；轻拍/",
-        "meaning": "v. 鼓掌\nclap hands 拍手\n\n例句：\nLet's give the children a big clap",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  拍手；轻拍\nn.  鼓掌\nclap hands 拍手\n\n例句：\nLet's give the children a big clap",
         "example": ""
     },
     {
@@ -23964,25 +23964,25 @@ const ieltsWords = [
     {
         "word": "grip",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|紧握，抓牢/",
-        "meaning": "v. 紧握，抓牢；理解，了解\nin the grip of 受制于；受...严重影响\n\n例句：\nShe has a fragile grip on reality",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  紧握，抓牢\nn.  紧握，抓牢；理解，了解\nin the grip of 受制于；受...严重影响\n\n例句：\nShe has a fragile grip on reality",
         "example": ""
     },
     {
         "word": "mess",
         "category": "行为动作",
-        "pos": "n. adj.",
-        "phonetic": "/v.|混乱，脏乱/",
-        "meaning": "n. 弄乱\nYour books and magazines are all in a mess; go and put them in order.\nmessy\nadj.  凌乱的；难以处理的。mess up 弄乱，弄脏",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  混乱，脏乱\nv.  弄乱\nYour books and magazines are all in a mess; go and put them in order.\n难以处理的。mess up 弄乱，弄脏",
         "example": ""
     },
     {
         "word": "twist",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|拧，扭；使缠绕/",
-        "meaning": "v. 拧，扭动\n\n例句：\nTwist the lid to open it",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  拧，扭；使缠绕\nn.  拧，扭动\n\n例句：\nTwist the lid to open it",
         "example": ""
     },
     {
@@ -24028,9 +24028,9 @@ const ieltsWords = [
     {
         "word": "scratch",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|擦破，刮坏；搔/",
-        "meaning": "v. 乱涂；划痕，擦伤\n\n例句：\nHe scratched the insect bite on his arm",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  擦破，刮坏；搔\nn.  乱涂；划痕，擦伤\n\n例句：\nHe scratched the insect bite on his arm",
         "example": ""
     },
     {
@@ -24044,9 +24044,9 @@ const ieltsWords = [
     {
         "word": "scrape",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|刮掉；擦坏；勉强获得/",
-        "meaning": "v. 刮；擦伤\nscrape by 勉强度日\n\n例句：\nThe family has to scrape by on social security",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  刮掉；擦坏；勉强获得\nn.  刮；擦伤\nscrape by 勉强度日\n\n例句：\nThe family has to scrape by on social security",
         "example": ""
     },
     {
@@ -24084,9 +24084,9 @@ const ieltsWords = [
     {
         "word": "shake",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|摇动；（使）颤动/",
-        "meaning": "v. 摇动；颤动\n\n例句：\nThe movie didn't give me any kind of shake",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  摇动；（使）颤动\nn.  摇动；颤动\n\n例句：\nThe movie didn't give me any kind of shake",
         "example": ""
     },
     {
@@ -24100,9 +24100,9 @@ const ieltsWords = [
     {
         "word": "whirl",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（使）回旋/",
-        "meaning": "v. 回旋\n\n例句：\nHe whirled about in the yard",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）回旋\nn.  回旋\n\n例句：\nHe whirled about in the yard",
         "example": ""
     },
     {
@@ -24124,9 +24124,9 @@ const ieltsWords = [
     {
         "word": "shuffle",
         "category": "行为动作",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n洗（牌）；拖着脚走；搅乱...的次序/洗牌\nresuffle\nn.  改组，公司重组\n\n例句：\nWith sore legs and aching chest, he shuffled over to the bathroom",
+        "meaning": "v.\n洗（牌）；拖着脚走；搅乱...的次序/洗牌\n\n例句：\nWith sore legs and aching chest, he shuffled over to the bathroom",
         "example": ""
     },
     {
@@ -24142,7 +24142,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  接触，联系\nv.\n\n例句：\nThis remote tribe had little contact with the outside world",
+        "meaning": "n./v. 接触，联系\n\n例句：\nThis remote tribe had little contact with the outside world",
         "example": ""
     },
     {
@@ -24164,9 +24164,9 @@ const ieltsWords = [
     {
         "word": "bond",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|与...黏合（或连接）/",
-        "meaning": "v. 黏合；（情感的）纽带\n\n例句：\nThese two different materials weren't bond together",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  与...黏合（或连接）\nn.  黏合；（情感的）纽带\n\n例句：\nThese two different materials weren't bond together",
         "example": ""
     },
     {
@@ -24204,9 +24204,9 @@ const ieltsWords = [
     {
         "word": "insert",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|插入；嵌入/",
-        "meaning": "v. 插入物\n\n例句：\nHe inserted the key into the lock but could not open the door",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  插入；嵌入\nn.  插入物\n\n例句：\nHe inserted the key into the lock but could not open the door",
         "example": ""
     },
     {
@@ -24220,17 +24220,17 @@ const ieltsWords = [
     {
         "word": "tow",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|拖、拉；牵引/",
-        "meaning": "v. 牵引\n\n例句：\nWe towed the car to the garage",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  拖、拉；牵引\nn.  牵引\n\n例句：\nWe towed the car to the garage",
         "example": ""
     },
     {
         "word": "trail",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（使）拖在后面/",
-        "meaning": "v. 踪迹\n\n例句：\nThe carriage drove along a dirt road and left a trail of dust",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）拖在后面\nn.  踪迹\n\n例句：\nThe carriage drove along a dirt road and left a trail of dust",
         "example": ""
     },
     {
@@ -24260,25 +24260,25 @@ const ieltsWords = [
     {
         "word": "baptize",
         "category": "行为动作",
-        "pos": "v. n.",
+        "pos": "",
         "phonetic": "",
-        "meaning": "/baptise\nv.\n给...施行洗礼\nbaptism\nn.  洗礼；浸礼\n\n例句：\nIt transpired that Mark had been baptized a catholic",
+        "meaning": "/baptise\nv.\n给...施行洗礼\n\n例句：\nIt transpired that Mark had been baptized a catholic",
         "example": ""
     },
     {
         "word": "bet",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|下注；打赌；敢说/",
-        "meaning": "v. 打赌；赌注\n\n例句：\nI bet our team will win",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  下注；打赌；敢说\nn.  打赌；赌注\n\n例句：\nI bet our team will win",
         "example": ""
     },
     {
         "word": "stake",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|赌注；桩/",
-        "meaning": "n. 以...打赌\n\n例句：\nI'd stake my all on it",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  赌注；桩\nv.  以...打赌\n\n例句：\nI'd stake my all on it",
         "example": ""
     },
     {
@@ -24286,15 +24286,15 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  赌博；\nn.  冒险\n\n例句：\nDon't gamble with your future",
+        "meaning": "v./n. 赌博；冒险\n\n例句：\nDon't gamble with your future",
         "example": ""
     },
     {
         "word": "promise",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|诺言/",
-        "meaning": "n. 承诺\n\n例句：\nI hope you'll keep your promise to come for a long visit",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  诺言\nv.  承诺\n\n例句：\nI hope you'll keep your promise to come for a long visit",
         "example": ""
     },
     {
@@ -24316,7 +24316,7 @@ const ieltsWords = [
     {
         "word": "mesmerize",
         "category": "行为动作",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/mesmerise\nv.\n吸引；迷住\n\n例句：\nI stood by the lake, mesmerized by the flashing colors of the fish",
         "example": ""
@@ -24340,9 +24340,9 @@ const ieltsWords = [
     {
         "word": "marvel",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|感到惊讶，大为赞叹/",
-        "meaning": "v. 奇迹\n\n例句：\nI marvel at how it can be so",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  感到惊讶，大为赞叹\nn.  奇迹\n\n例句：\nI marvel at how it can be so",
         "example": ""
     },
     {
@@ -24414,15 +24414,15 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  忽视；\nn.  忽略\n\n例句：\nIn course of time, old customs and observances tend to fall into neglect",
+        "meaning": "v./n. 忽视；忽略\n\n例句：\nIn course of time, old customs and observances tend to fall into neglect",
         "example": ""
     },
     {
         "word": "disregard",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|不顾，漠视/",
-        "meaning": "v. 忽视，漠视\n\n例句：\nDisregarding all difficulties, we succeeded in bringing them around in the end",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  不顾，漠视\nn.  忽视，漠视\n\n例句：\nDisregarding all difficulties, we succeeded in bringing them around in the end",
         "example": ""
     },
     {
@@ -24436,9 +24436,9 @@ const ieltsWords = [
     {
         "word": "bias",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|使有偏见；使偏心/",
-        "meaning": "v. 偏见；偏心\n\n例句：\nHis experiences bias him against businessmen",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使有偏见；使偏心\nn.  偏见；偏心\n\n例句：\nHis experiences bias him against businessmen",
         "example": ""
     },
     {
@@ -24468,17 +24468,17 @@ const ieltsWords = [
     {
         "word": "bully",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|恐吓，欺凌/",
-        "meaning": "v. 恃强凌弱者\n\n例句：\nHe's always bullying smaller boys",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  恐吓，欺凌\nn.  恃强凌弱者\n\n例句：\nHe's always bullying smaller boys",
         "example": ""
     },
     {
         "word": "panic",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|惊慌，惊恐/",
-        "meaning": "n. （使）惊恐、惊慌\n\n例句：\nWhen the theater caught fire, there was a panic",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  惊慌，惊恐\nv.  （使）惊恐、惊慌\n\n例句：\nWhen the theater caught fire, there was a panic",
         "example": ""
     },
     {
@@ -24492,9 +24492,9 @@ const ieltsWords = [
     {
         "word": "revenge",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|报仇，复仇/",
-        "meaning": "n. 为...报仇\n\n例句：\nHamlet took revenge for his father's murder",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  报仇，复仇\nv.  为...报仇\n\n例句：\nHamlet took revenge for his father's murder",
         "example": ""
     },
     {
@@ -24524,9 +24524,9 @@ const ieltsWords = [
     {
         "word": "convict",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|定罪；宣判...有罪/",
-        "meaning": "v. 已决犯\n\n例句：\nHe was convicted of murder",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  定罪；宣判...有罪\nn.  已决犯\n\n例句：\nHe was convicted of murder",
         "example": ""
     },
     {
@@ -24580,9 +24580,9 @@ const ieltsWords = [
     {
         "word": "bait",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|使上当发火/",
-        "meaning": "v. 诱饵，诱惑物\nHe is known for baiting his opponents. 众所周知，他善于激怒对手",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使上当发火\nn.  诱饵，诱惑物\nHe is known for baiting his opponents. 众所周知，他善于激怒对手",
         "example": ""
     },
     {
@@ -24606,7 +24606,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n指明；选派；指派\nappoint\nv.  指派\n\n例句：\nHe designated Smith as his successor",
+        "meaning": "v.\n指明；选派；指派\n\n例句：\nHe designated Smith as his successor",
         "example": ""
     },
     {
@@ -24628,7 +24628,7 @@ const ieltsWords = [
     {
         "word": "despatch",
         "category": "行为动作",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/dispatch\nv.\n派遣；调派；迅速处理\n\n例句：\nHe dispatched his breakfast and left",
         "example": ""
@@ -24652,9 +24652,9 @@ const ieltsWords = [
     {
         "word": "disguise",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|掩饰；假扮；伪装/",
-        "meaning": "v. 假扮；伪装物\n\n例句：\nThe spy disguised himself as a nurse",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  掩饰；假扮；伪装\nn.  假扮；伪装物\n\n例句：\nThe spy disguised himself as a nurse",
         "example": ""
     },
     {
@@ -24684,9 +24684,9 @@ const ieltsWords = [
     {
         "word": "reverse",
         "category": "行为动作",
-        "pos": "v. adj.",
-        "phonetic": "/n./",
-        "meaning": "v.\nadj.\n颠倒；彻底改变；撤销/相反的情况；反面/相反的\n\n例句：\nHe reversed the judgement and set the prisoner free",
+        "pos": "v./n./adj.",
+        "phonetic": "",
+        "meaning": "v.  /\nn.\nadj.\n颠倒；彻底改变；撤销/相反的情况；反面/相反的\n\n例句：\nHe reversed the judgement and set the prisoner free",
         "example": ""
     },
     {
@@ -24732,9 +24732,9 @@ const ieltsWords = [
     {
         "word": "wish",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|想要（某事发生）/",
-        "meaning": "v. 希望\n\n例句：\nI wish it to be clearly understood",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  想要（某事发生）\nn.  希望\n\n例句：\nI wish it to be clearly understood",
         "example": ""
     },
     {
@@ -24748,9 +24748,9 @@ const ieltsWords = [
     {
         "word": "desire",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|愿望；欲望/",
-        "meaning": "n. 渴望，期望\n\n例句：\nHe desired a college education",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  愿望；欲望\nv.  渴望，期望\n\n例句：\nHe desired a college education",
         "example": ""
     },
     {
@@ -24758,7 +24758,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n渴望；向往\nyearn for 渴望。abduct\nv.  绑架，劫持，诱拐\n\n例句：\nThe children who had been abducted and sold yearned to return to their homes",
+        "meaning": "v.\n渴望；向往\nyearn for 渴望。\n\n例句：\nThe children who had been abducted and sold yearned to return to their homes",
         "example": ""
     },
     {
@@ -24772,17 +24772,17 @@ const ieltsWords = [
     {
         "word": "itch",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|发痒；渴望/",
-        "meaning": "v. 痒；渴望\n\n例句：\nI've gotten itch on my back",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  发痒；渴望\nn.  痒；渴望\n\n例句：\nI've gotten itch on my back",
         "example": ""
     },
     {
         "word": "attempt",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|尝试；试图/",
-        "meaning": "v. 尝试；企图\n\n例句：\nHe studied hard in an attempt to pass the exam",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  尝试；试图\nn.  尝试；企图\n\n例句：\nHe studied hard in an attempt to pass the exam",
         "example": ""
     },
     {
@@ -24804,7 +24804,7 @@ const ieltsWords = [
     {
         "word": "fulfil",
         "category": "行为动作",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/fulfill\nv.\n履行；实现；完成；满足\n\n例句：\nWe're determined to fulfill the task",
         "example": ""
@@ -24812,25 +24812,25 @@ const ieltsWords = [
     {
         "word": "range",
         "category": "行为动作",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n（在一定幅度内的）变动\nThe price is ranged from 10 pounds to 20 pounds\nranger\nn.  护林员；公园看管人",
+        "meaning": "v.\n（在一定幅度内的）变动\nThe price is ranged from 10 pounds to 20 pounds\n公园看管人",
         "example": ""
     },
     {
         "word": "sort",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|种类，类别/",
-        "meaning": "n. 把...分类\n\n例句：\nWe must sort out the good apples from the bad ones",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  种类，类别\nv.  把...分类\n\n例句：\nWe must sort out the good apples from the bad ones",
         "example": ""
     },
     {
         "word": "loom",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（庞然大物或形状模糊之物）隐现；逼近/",
-        "meaning": "v. 织布机\n\n例句：\nA hard struggle looms ahead",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （庞然大物或形状模糊之物）隐现；逼近\nn.  织布机\n\n例句：\nA hard struggle looms ahead",
         "example": ""
     },
     {
@@ -24876,9 +24876,9 @@ const ieltsWords = [
     {
         "word": "tackle",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|处理；应对；处理/",
-        "meaning": "v. 用具；器材\n\n例句：\nEveryone has their own problems to tackle",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  处理；应对；处理\nn.  用具；器材\n\n例句：\nEveryone has their own problems to tackle",
         "example": ""
     },
     {
@@ -24892,17 +24892,17 @@ const ieltsWords = [
     {
         "word": "dispose",
         "category": "行为动作",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n布置；安排\ndisposal\nn.  处理；清除。dispose of\nsth.  清除某物；处理某事；解决某事\n\n例句：\nI have to dispose of this pile of old papers and magazines",
+        "meaning": "v.\n布置；安排\n清除。dispose of\nsth.  清除某物；处理某事；解决某事\n\n例句：\nI have to dispose of this pile of old papers and magazines",
         "example": ""
     },
     {
         "word": "conduct",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|进行；实施/",
-        "meaning": "v. 举止；行为\n\n例句：\nHis conduct contradicts his words",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  进行；实施\nn.  举止；行为\n\n例句：\nHis conduct contradicts his words",
         "example": ""
     },
     {
@@ -24932,9 +24932,9 @@ const ieltsWords = [
     {
         "word": "clear",
         "category": "行为动作",
-        "pos": "adj.",
-        "phonetic": "/v.|清晰的；明显的/",
-        "meaning": "adj. 清除\n\n例句：\nIt seems clear that he has no reasonable alternative",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  清晰的；明显的\nv.  清除\n\n例句：\nIt seems clear that he has no reasonable alternative",
         "example": ""
     },
     {
@@ -24950,15 +24950,15 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v./n.",
         "phonetic": "",
-        "meaning": "v.  营救；\nn.  救援\n\n例句：\nThey rescued the boy who fell into the river",
+        "meaning": "v./n. 营救；救援\n\n例句：\nThey rescued the boy who fell into the river",
         "example": ""
     },
     {
         "word": "resort",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|求助于；采取；诉诸/",
-        "meaning": "v. （度假）胜地\n\n例句：\nI'm sorry you have resorted to deception",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  求助于；采取；诉诸\nn.  （度假）胜地\n\n例句：\nI'm sorry you have resorted to deception",
         "example": ""
     },
     {
@@ -24982,7 +24982,7 @@ const ieltsWords = [
         "category": "行为动作",
         "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n纠正；矫正；改正\ncorrect\nv.  改正\n\n例句：\nI hope I can find a way to rectify your opinion of my behavior",
+        "meaning": "v.\n纠正；矫正；改正\n\n例句：\nI hope I can find a way to rectify your opinion of my behavior",
         "example": ""
     },
     {
@@ -24996,9 +24996,9 @@ const ieltsWords = [
     {
         "word": "offset",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|补偿；抵消|He offset his small salary by living economically|offset sth. by (doing) sth. 以某物/",
-        "meaning": "v. 做某事来补偿（或抵消）某事物",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v./n. 补偿；抵消\noffset\nsth.  by (doing)\nsth.  以某物/做某事来补偿（或抵消）某事物\n\n例句：\nHe offset his small salary by living economically",
         "example": ""
     },
     {
@@ -25020,25 +25020,25 @@ const ieltsWords = [
     {
         "word": "gain",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|获得；增加/",
-        "meaning": "v. 增加；改进\n\n例句：\nevery time they reap gains from their investment, more people wish to join them",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  获得；增加\nn.  增加；改进\n\n例句：\nevery time they reap gains from their investment, more people wish to join them",
         "example": ""
     },
     {
         "word": "supply",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|供给；供应；提供/",
-        "meaning": "v. 供应量；[supplies]补给品\n\n例句：\nDomestic consumers were supplied enough necessities by those companies",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  供给；供应；提供\nn.  供应量；[supplies]补给品\n\n例句：\nDomestic consumers were supplied enough necessities by those companies",
         "example": ""
     },
     {
         "word": "offer",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|给予（物）；提议/",
-        "meaning": "n. 提供；出（价）\n\n例句：\nThey reject all our offers to help",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  给予（物）；提议\nv.  提供；出（价）\n\n例句：\nThey reject all our offers to help",
         "example": ""
     },
     {
@@ -25108,17 +25108,17 @@ const ieltsWords = [
     {
         "word": "backup",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/adj.|后援；支持（文件等的）备份/",
-        "meaning": "n. 备用的\n\n例句：\nMake a backup of any work you do on the computer",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  后援；支持（文件等的）备份\nadj.  备用的\n\n例句：\nMake a backup of any work you do on the computer",
         "example": ""
     },
     {
         "word": "propel",
         "category": "行为动作",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n推动；驱使；推进\npropeller\nn.  螺旋桨\n\n例句：\nHis addiction to drugs propelled him towards a life of crime",
+        "meaning": "v.\n推动；驱使；推进\n\n例句：\nHis addiction to drugs propelled him towards a life of crime",
         "example": ""
     },
     {
@@ -25140,9 +25140,9 @@ const ieltsWords = [
     {
         "word": "leak",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|泄露/",
-        "meaning": "v. 漏洞，裂缝\n\n例句：\nA small leak will sink a great ship",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  泄露\nn.  漏洞，裂缝\n\n例句：\nA small leak will sink a great ship",
         "example": ""
     },
     {
@@ -25180,9 +25180,9 @@ const ieltsWords = [
     {
         "word": "trench",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|掘沟于；砍除/",
-        "meaning": "v. 沟，渠，壕沟\n\n例句：\nThe fireman's successfully trenched the roof, preventing the fire spreading further down the block",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  掘沟于；砍除\nn.  沟，渠，壕沟\n\n例句：\nThe fireman's successfully trenched the roof, preventing the fire spreading further down the block",
         "example": ""
     },
     {
@@ -25196,9 +25196,9 @@ const ieltsWords = [
     {
         "word": "excuse",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|原谅；同意免除/",
-        "meaning": "v. 理由；借口\n\n例句：\nThere is no excuse for treapassing on private property",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  原谅；同意免除\nn.  理由；借口\n\n例句：\nThere is no excuse for treapassing on private property",
         "example": ""
     },
     {
@@ -25220,9 +25220,9 @@ const ieltsWords = [
     {
         "word": "regard",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|尊重；问候/",
-        "meaning": "n. 看待\n\n例句：\nYou can't regard him as a friend but a business associate",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  尊重；问候\nv.  看待\n\n例句：\nYou can't regard him as a friend but a business associate",
         "example": ""
     },
     {
@@ -25236,17 +25236,17 @@ const ieltsWords = [
     {
         "word": "worship",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|崇拜，礼拜，爱慕/",
-        "meaning": "n. 做礼拜\n\n例句：\nShe gazed at the famous singer with worship in her eyes",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  崇拜，礼拜，爱慕\nv.  做礼拜\n\n例句：\nShe gazed at the famous singer with worship in her eyes",
         "example": ""
     },
     {
         "word": "cause",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/v.|原因，理由，事业/",
-        "meaning": "n. 引起；导致\n\n例句：\nPolice are investigating the likely cause of the explosion",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  原因，理由，事业\nv.  引起；导致\n\n例句：\nPolice are investigating the likely cause of the explosion",
         "example": ""
     },
     {
@@ -25268,9 +25268,9 @@ const ieltsWords = [
     {
         "word": "objective",
         "category": "行为动作",
-        "pos": "n.",
-        "phonetic": "/adj.|宗旨；目标/",
-        "meaning": "n. 客观的\n\n例句：\nMy objective this summer is to learn to swim",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  宗旨；目标\nadj.  客观的\n\n例句：\nMy objective this summer is to learn to swim",
         "example": ""
     },
     {
@@ -25284,9 +25284,9 @@ const ieltsWords = [
     {
         "word": "trigger",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|引发；触发/",
-        "meaning": "v. 扳机\n\n例句：\nHe accidentally triggered his revolver",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  引发；触发\nn.  扳机\n\n例句：\nHe accidentally triggered his revolver",
         "example": ""
     },
     {
@@ -25356,9 +25356,9 @@ const ieltsWords = [
     {
         "word": "drop",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（使）落下；（使）降低；断绝关系/",
-        "meaning": "v. 滴\n\n例句：\nIn the winter, the temperature often drops below freezing",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）落下；（使）降低；断绝关系\nn.  滴\n\n例句：\nIn the winter, the temperature often drops below freezing",
         "example": ""
     },
     {
@@ -25404,9 +25404,9 @@ const ieltsWords = [
     {
         "word": "welcome",
         "category": "行为动作",
-        "pos": "int. v.",
-        "phonetic": "/n./",
-        "meaning": "int.\nv.\n欢迎\n\n例句：\nWe welcome constructive criticism",
+        "pos": "int./n./v.",
+        "phonetic": "",
+        "meaning": "int.  /\nn.\nv.\n欢迎\n\n例句：\nWe welcome constructive criticism",
         "example": ""
     },
     {
@@ -25420,9 +25420,9 @@ const ieltsWords = [
     {
         "word": "salute",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（向...）行礼；致敬/",
-        "meaning": "v. 行礼；致敬\n\n例句：\nThey saluted each other by raising their hats",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （向...）行礼；致敬\nn.  行礼；致敬\n\n例句：\nThey saluted each other by raising their hats",
         "example": ""
     },
     {
@@ -25460,9 +25460,9 @@ const ieltsWords = [
     {
         "word": "farewell",
         "category": "行为动作",
-        "pos": "int.",
-        "phonetic": "/n.|再会/",
-        "meaning": "int. 告别\n\n例句：\nThe girl had come on the pretext of bidding him farewell",
+        "pos": "int./n.",
+        "phonetic": "",
+        "meaning": "int.  再会\nn.  告别\n\n例句：\nThe girl had come on the pretext of bidding him farewell",
         "example": ""
     },
     {
@@ -25484,17 +25484,17 @@ const ieltsWords = [
     {
         "word": "accord",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|与...一致；给予/",
-        "meaning": "v. 协议\n\n例句：\nThe government and the rebels are in accord on one point",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  与...一致；给予\nn.  协议\n\n例句：\nThe government and the rebels are in accord on one point",
         "example": ""
     },
     {
         "word": "attribute",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|把...归因于/",
-        "meaning": "v. 属性，特性\n\n例句：\nDavid attributed his company success to the unity of the staff and their persevering hard word",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  把...归因于\nn.  属性，特性\n\n例句：\nDavid attributed his company success to the unity of the staff and their persevering hard word",
         "example": ""
     },
     {
@@ -25532,17 +25532,17 @@ const ieltsWords = [
     {
         "word": "repeat",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/adj.|重复/",
-        "meaning": "v. 再次光顾的\n\n例句：\nA large proportion of our bookings come from repeat business and personal recommendation",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  重复\nadj.  再次光顾的\n\n例句：\nA large proportion of our bookings come from repeat business and personal recommendation",
         "example": ""
     },
     {
         "word": "retrospect",
         "category": "行为动作",
         "pos": "n.",
-        "phonetic": "[in ~]",
-        "meaning": "n.\n回顾\n\n例句：\nIt was in retrospect the happiest day of her life",
+        "phonetic": "",
+        "meaning": "n.\n[in ~]回顾\n\n例句：\nIt was in retrospect the happiest day of her life",
         "example": ""
     },
     {
@@ -25588,17 +25588,17 @@ const ieltsWords = [
     {
         "word": "substitute",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|替换/",
-        "meaning": "v. 替代品，替补\n\n例句：\nWe recommended this brand as a substitute",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  替换\nn.  替代品，替补\n\n例句：\nWe recommended this brand as a substitute",
         "example": ""
     },
     {
         "word": "distinguish",
         "category": "行为动作",
-        "pos": "v. adj. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n区别，辨别；使出众；使著名\ndistinguished\nadj.  著名的；卓越的。distinction\nn.  差别；区分。distinct\nadj.  明显的；截然不同的\n\n例句：\nSome people cannot distinguished between some colors",
+        "meaning": "v.\n区别，辨别；使出众；使著名\n卓越的。区分。截然不同的\n\n例句：\nSome people cannot distinguished between some colors",
         "example": ""
     },
     {
@@ -25612,33 +25612,33 @@ const ieltsWords = [
     {
         "word": "incline",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/n.|（使）倾向于、倾斜/",
-        "meaning": "v. 斜坡；倾斜\n\n例句：\nWhat he said inclines me to think that he will agree to our plan",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）倾向于、倾斜\nn.  斜坡；倾斜\n\n例句：\nWhat he said inclines me to think that he will agree to our plan",
         "example": ""
     },
     {
         "word": "lean",
         "category": "行为动作",
-        "pos": "v.",
-        "phonetic": "/adj.|（使）倚靠；倾斜/",
-        "meaning": "v. 瘦的；贫乏的\n\n例句：\nShe leaned against his shoulder",
+        "pos": "v./adj.",
+        "phonetic": "",
+        "meaning": "v.  （使）倚靠；倾斜\nadj.  瘦的；贫乏的\n\n例句：\nShe leaned against his shoulder",
         "example": ""
     },
     {
         "word": "sideways",
         "category": "行为动作",
-        "pos": "adv. n.",
+        "pos": "adv.",
         "phonetic": "",
-        "meaning": "adv.\n向（或从、往）一侧\nhedgehog\nn.  刺猬\n\n例句：\nThe dog swatted the hedgehog sideways",
+        "meaning": "adv.\n向（或从、往）一侧\n\n例句：\nThe dog swatted the hedgehog sideways",
         "example": ""
     },
     {
         "word": "feel",
         "category": "身心健康",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n感觉到，感知；触碰\nCan you feel the tension in this room?\nfeeling\nn.  感情；感觉",
+        "meaning": "v.\n感觉到，感知；触碰\nCan you feel the tension in this room?",
         "example": ""
     },
     {
@@ -25660,9 +25660,9 @@ const ieltsWords = [
     {
         "word": "temper",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|坏脾气；情绪；心情/",
-        "meaning": "n. 是缓和",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  坏脾气；情绪；心情\nv.  是缓和",
         "example": ""
     },
     {
@@ -25716,9 +25716,9 @@ const ieltsWords = [
     {
         "word": "feature",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|特征；面容的一部分/",
-        "meaning": "n. 以...为特色",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  特征；面容的一部分\nv.  以...为特色",
         "example": ""
     },
     {
@@ -25748,9 +25748,9 @@ const ieltsWords = [
     {
         "word": "human",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/n.|人类的；有人性的/",
-        "meaning": "adj. 人类",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  人类的；有人性的\nn.  人类",
         "example": ""
     },
     {
@@ -25789,8 +25789,8 @@ const ieltsWords = [
         "word": "brain",
         "category": "身心健康",
         "pos": "n.",
-        "phonetic": "[~s]",
-        "meaning": "n.\n脑；智力；智慧",
+        "phonetic": "",
+        "meaning": "n.\n脑；[~s]智力；智慧",
         "example": ""
     },
     {
@@ -25854,7 +25854,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n嘴唇；（洞口、伤口等的）边缘\nlipstick\nn.  口红；唇膏",
+        "meaning": "n.\n嘴唇；（洞口、伤口等的）边缘",
         "example": ""
     },
     {
@@ -25884,9 +25884,9 @@ const ieltsWords = [
     {
         "word": "gorge",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|咽喉；暴食；山峡；峡谷/",
-        "meaning": "n. 狼吞虎咽",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  咽喉；暴食；山峡；峡谷\nv.  狼吞虎咽",
         "example": ""
     },
     {
@@ -25940,9 +25940,9 @@ const ieltsWords = [
     {
         "word": "elbow",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|肘部；弯头；扶手/",
-        "meaning": "n. 用肘挤",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  肘部；弯头；扶手\nv.  用肘挤",
         "example": ""
     },
     {
@@ -25964,9 +25964,9 @@ const ieltsWords = [
     {
         "word": "palm",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|棕榈树；手掌/",
-        "meaning": "n. 把...藏在手中",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  棕榈树；手掌\nv.  把...藏在手中",
         "example": ""
     },
     {
@@ -26100,9 +26100,9 @@ const ieltsWords = [
     {
         "word": "joint",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/adj.|结合处；关节/",
-        "meaning": "n. 共同的；联合的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  结合处；关节\nadj.  共同的；联合的",
         "example": ""
     },
     {
@@ -26134,7 +26134,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n足跟\nhigh-heel\nn.  高跟鞋",
+        "meaning": "n.\n足跟\nhigh-",
         "example": ""
     },
     {
@@ -26156,9 +26156,9 @@ const ieltsWords = [
     {
         "word": "pore",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|毛孔；小孔；气孔/",
-        "meaning": "n. 凝视；沉思",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  毛孔；小孔；气孔\nv.  凝视；沉思",
         "example": ""
     },
     {
@@ -26214,7 +26214,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n生物节律\nrhythm\nn.  韵律；节律。biorhythm upset 生物节律失调",
+        "meaning": "n.\n生物节律\n节律。biorhythm upset 生物节律失调",
         "example": ""
     },
     {
@@ -26332,9 +26332,9 @@ const ieltsWords = [
     {
         "word": "yawn",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|打哈欠；裂开/",
-        "meaning": "v. 呵欠",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  打哈欠；裂开\nn.  呵欠",
         "example": ""
     },
     {
@@ -26348,9 +26348,9 @@ const ieltsWords = [
     {
         "word": "doze",
         "category": "身心健康",
-        "pos": "v. n.",
+        "pos": "v.",
         "phonetic": "",
-        "meaning": "v.\n小睡；打盹儿\ndose\nn.  (药物的)一剂",
+        "meaning": "v.\n小睡；打盹儿",
         "example": ""
     },
     {
@@ -26372,9 +26372,9 @@ const ieltsWords = [
     {
         "word": "cripple",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|跛子；残疾人/",
-        "meaning": "n. 使跛",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  跛子；残疾人\nv.  使跛",
         "example": ""
     },
     {
@@ -26388,9 +26388,9 @@ const ieltsWords = [
     {
         "word": "dwarf",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/adj.|（童话中的）小矮人；侏儒/",
-        "meaning": "n. 矮小的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  （童话中的）小矮人；侏儒\nadj.  矮小的",
         "example": ""
     },
     {
@@ -26404,9 +26404,9 @@ const ieltsWords = [
     {
         "word": "born",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/v.|天生的；与生俱来的/",
-        "meaning": "adj. [be ~]出生\nbe born of 出生于...家庭",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  天生的；与生俱来的\nv.  [be ~]出生\nbe born of 出生于...家庭",
         "example": ""
     },
     {
@@ -26420,9 +26420,9 @@ const ieltsWords = [
     {
         "word": "clone",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|克隆/",
-        "meaning": "v. 克隆的动植物",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  克隆\nn.  克隆的动植物",
         "example": ""
     },
     {
@@ -26454,7 +26454,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  呻吟；\nv.  哀悼",
+        "meaning": "n./v. 呻吟；哀悼",
         "example": ""
     },
     {
@@ -26492,17 +26492,17 @@ const ieltsWords = [
     {
         "word": "invalid",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/adj.|病弱者；伤残者/",
-        "meaning": "n. 病弱的；伤残的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  病弱者；伤残者\nadj.  病弱的；伤残的",
         "example": ""
     },
     {
         "word": "patient",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/adj.|病人/",
-        "meaning": "n. 有耐心的；能忍耐的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  病人\nadj.  有耐心的；能忍耐的",
         "example": ""
     },
     {
@@ -26532,9 +26532,9 @@ const ieltsWords = [
     {
         "word": "overweight",
         "category": "身心健康",
-        "pos": "adj. v.",
-        "phonetic": "/n./",
-        "meaning": "adj.\nv.\n超重的；过胖的/超重/使超重；过于重视",
+        "pos": "adj./n./v.",
+        "phonetic": "",
+        "meaning": "adj.  /\nn.\nv.\n超重的；过胖的/超重/使超重；过于重视",
         "example": ""
     },
     {
@@ -26548,7 +26548,7 @@ const ieltsWords = [
     {
         "word": "paralyse",
         "category": "身心健康",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/paralyze\nv.\n使麻痹；使瘫痪；使无助",
         "example": ""
@@ -26556,9 +26556,9 @@ const ieltsWords = [
     {
         "word": "dizzy",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/v.|头晕目眩的；眩晕的/",
-        "meaning": "adj. 使眩晕",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  头晕目眩的；眩晕的\nv.  使眩晕",
         "example": ""
     },
     {
@@ -26636,7 +26636,7 @@ const ieltsWords = [
     {
         "word": "flu",
         "category": "身心健康",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/influenze\nn.\n流行性感冒",
         "example": ""
@@ -26644,9 +26644,9 @@ const ieltsWords = [
     {
         "word": "fever",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|狂热；发烧；发热/",
-        "meaning": "n. （使）发烧；（使）狂热",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  狂热；发烧；发热\nv.  （使）发烧；（使）狂热",
         "example": ""
     },
     {
@@ -26708,9 +26708,9 @@ const ieltsWords = [
     {
         "word": "bruise",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|瘀伤；伤痕/",
-        "meaning": "n. 擦伤",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  瘀伤；伤痕\nv.  擦伤",
         "example": ""
     },
     {
@@ -26740,17 +26740,17 @@ const ieltsWords = [
     {
         "word": "lump",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|块；肿块/",
-        "meaning": "n. 使成块状",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  块；肿块\nv.  使成块状",
         "example": ""
     },
     {
         "word": "pain",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|痛苦；疼痛/",
-        "meaning": "n. 使痛苦",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  痛苦；疼痛\nv.  使痛苦",
         "example": ""
     },
     {
@@ -26764,25 +26764,25 @@ const ieltsWords = [
     {
         "word": "mortal",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/n.|必死的；致命的/",
-        "meaning": "adj. 凡人；人类",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  必死的；致命的\nn.  凡人；人类",
         "example": ""
     },
     {
         "word": "demise",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|死亡；君权的转移或授予；禅让/",
-        "meaning": "n. 遗赠；转让",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  死亡；君权的转移或授予；禅让\nv.  遗赠；转让",
         "example": ""
     },
     {
         "word": "doom",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|厄运；毁灭/",
-        "meaning": "n. 使注定失败（或死亡等）",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  厄运；毁灭\nv.  使注定失败（或死亡等）",
         "example": ""
     },
     {
@@ -26812,9 +26812,9 @@ const ieltsWords = [
     {
         "word": "overwork",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|过度操劳；过度工作/",
-        "meaning": "n. （使）过度工作",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  过度操劳；过度工作\nv.  （使）过度工作",
         "example": ""
     },
     {
@@ -26836,17 +26836,17 @@ const ieltsWords = [
     {
         "word": "fatigue",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|疲劳/",
-        "meaning": "n. （使）疲劳",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  疲劳\nv.  （使）疲劳",
         "example": ""
     },
     {
         "word": "faint",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/v.|模糊的；微弱的；虚弱的/",
-        "meaning": "adj. 晕倒",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  模糊的；微弱的；虚弱的\nv.  晕倒",
         "example": ""
     },
     {
@@ -26932,9 +26932,9 @@ const ieltsWords = [
     {
         "word": "lament",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|悲伤；哀悼/",
-        "meaning": "n. .哀悼；对...感到悔恨",
+        "pos": "n. v.",
+        "phonetic": "",
+        "meaning": "n. ./v.\n悲伤；哀悼/哀悼；对...感到悔恨",
         "example": ""
     },
     {
@@ -26980,9 +26980,9 @@ const ieltsWords = [
     {
         "word": "curative",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/n.|治疗的/",
-        "meaning": "adj. 药品",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  治疗的\nn.  药品",
         "example": ""
     },
     {
@@ -27036,9 +27036,9 @@ const ieltsWords = [
     {
         "word": "cure",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|治好；治愈/",
-        "meaning": "v. 疗法；治疗",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  治好；治愈\nn.  疗法；治疗",
         "example": ""
     },
     {
@@ -27060,9 +27060,9 @@ const ieltsWords = [
     {
         "word": "check",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|检查；核对/",
-        "meaning": "v. [美]账单",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  检查；核对\nn.  [美]账单",
         "example": ""
     },
     {
@@ -27084,9 +27084,9 @@ const ieltsWords = [
     {
         "word": "X-ray",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|X射线/",
-        "meaning": "n. 用 X 射线检查",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  X射线\nv.  用 X 射线检查",
         "example": ""
     },
     {
@@ -27116,9 +27116,9 @@ const ieltsWords = [
     {
         "word": "quarantine",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|对...进行隔离检疫/",
-        "meaning": "v. 检疫；隔离检查期",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  对...进行隔离检疫\nn.  检疫；隔离检查期",
         "example": ""
     },
     {
@@ -27212,9 +27212,9 @@ const ieltsWords = [
     {
         "word": "dose",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|一剂/",
-        "meaning": "n. 给...服药",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  一剂\nv.  给...服药",
         "example": ""
     },
     {
@@ -27268,9 +27268,9 @@ const ieltsWords = [
     {
         "word": "ease",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|减轻；返送；缓和/",
-        "meaning": "v. 容易；悠闲",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  减轻；返送；缓和\nn.  容易；悠闲",
         "example": ""
     },
     {
@@ -27388,9 +27388,9 @@ const ieltsWords = [
     {
         "word": "delight",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|（使）高兴；爱好/",
-        "meaning": "v. 乐趣",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  （使）高兴；爱好\nn.  乐趣",
         "example": ""
     },
     {
@@ -27404,17 +27404,17 @@ const ieltsWords = [
     {
         "word": "fun",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/adj.|乐趣；玩笑/",
-        "meaning": "n. 有趣的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  乐趣；玩笑\nadj.  有趣的",
         "example": ""
     },
     {
         "word": "joke",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|笑话；玩笑/",
-        "meaning": "n. 说笑话；开玩笑",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  笑话；玩笑\nv.  说笑话；开玩笑",
         "example": ""
     },
     {
@@ -27436,9 +27436,9 @@ const ieltsWords = [
     {
         "word": "please",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/adv.|使高兴；取悦/",
-        "meaning": "v. 请",
+        "pos": "v./adv.",
+        "phonetic": "",
+        "meaning": "v.  使高兴；取悦\nadv.  请",
         "example": ""
     },
     {
@@ -27454,7 +27454,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  （使）激动；\nv.  感到紧张",
+        "meaning": "n.  （使）激动\nv.  感到紧张",
         "example": ""
     },
     {
@@ -27556,7 +27556,7 @@ const ieltsWords = [
     {
         "word": "favor",
         "category": "身心健康",
-        "pos": "n.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/favour\nn.\n偏爱；赞同；恩惠；帮助",
         "example": ""
@@ -27572,9 +27572,9 @@ const ieltsWords = [
     {
         "word": "startle",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|使大吃一惊/",
-        "meaning": "v. 吃惊",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使大吃一惊\nn.  吃惊",
         "example": ""
     },
     {
@@ -27796,9 +27796,9 @@ const ieltsWords = [
     {
         "word": "concern",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|关心；忧虑/",
-        "meaning": "n. 涉及；使担忧；关心",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  关心；忧虑\nv.  涉及；使担忧；关心",
         "example": ""
     },
     {
@@ -27844,7 +27844,7 @@ const ieltsWords = [
     {
         "word": "apologize",
         "category": "身心健康",
-        "pos": "v.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/apologise\nv.\n道歉；赔罪",
         "example": ""
@@ -27908,9 +27908,9 @@ const ieltsWords = [
     {
         "word": "sound",
         "category": "身心健康",
-        "pos": "adj. v.",
-        "phonetic": "/n./",
-        "meaning": "adj.\nv.\n健全的；（睡眠）酣畅的；合理地/声音/发出声音；听起来",
+        "pos": "adj./n./v.",
+        "phonetic": "",
+        "meaning": "adj.  /\nn.\nv.\n健全的；（睡眠）酣畅的；合理地/声音/发出声音；听起来",
         "example": ""
     },
     {
@@ -27988,9 +27988,9 @@ const ieltsWords = [
     {
         "word": "tender",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/v.|脆弱的；温柔的；软弱的；疼痛的/",
-        "meaning": "adj. （正式）提出；投标",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  脆弱的；温柔的；软弱的；疼痛的\nv.  （正式）提出；投标",
         "example": ""
     },
     {
@@ -28204,9 +28204,9 @@ const ieltsWords = [
     {
         "word": "fancy",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|想象（力）；爱好/",
-        "meaning": "n. 认为；想象\nfantasy\nn.  幻想",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  想象（力）；爱好\nv.  认为；想象",
         "example": ""
     },
     {
@@ -28260,9 +28260,9 @@ const ieltsWords = [
     {
         "word": "distress",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|悲痛；穷困；不幸/",
-        "meaning": "n. 使伤心；使忧虑",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  悲痛；穷困；不幸\nv.  使伤心；使忧虑",
         "example": ""
     },
     {
@@ -28324,9 +28324,9 @@ const ieltsWords = [
     {
         "word": "anger",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|怒；怒气/",
-        "meaning": "n. 使发怒",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  怒；怒气\nv.  使发怒",
         "example": ""
     },
     {
@@ -28340,9 +28340,9 @@ const ieltsWords = [
     {
         "word": "frown",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|皱眉；不悦/",
-        "meaning": "n. 皱眉；表示不悦",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  皱眉；不悦\nv.  皱眉；表示不悦",
         "example": ""
     },
     {
@@ -28388,9 +28388,9 @@ const ieltsWords = [
     {
         "word": "disgust",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|使厌恶；使作呕/",
-        "meaning": "v. 厌恶",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  使厌恶；使作呕\nn.  厌恶",
         "example": ""
     },
     {
@@ -28412,17 +28412,17 @@ const ieltsWords = [
     {
         "word": "bore",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|烦扰；钻孔/",
-        "meaning": "v. 讨厌的人；令人生厌的事",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  烦扰；钻孔\nn.  讨厌的人；令人生厌的事",
         "example": ""
     },
     {
         "word": "bother",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|花费时间精力（做某事）；（使）苦恼/",
-        "meaning": "v. 麻烦，困难",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  花费时间精力（做某事）；（使）苦恼\nn.  麻烦，困难",
         "example": ""
     },
     {
@@ -28524,9 +28524,9 @@ const ieltsWords = [
     {
         "word": "mean",
         "category": "身心健康",
-        "pos": "adj.",
-        "phonetic": "/v.|卑鄙的；吝啬的/",
-        "meaning": "adj. 意思是",
+        "pos": "adj./v.",
+        "phonetic": "",
+        "meaning": "adj.  卑鄙的；吝啬的\nv.  意思是",
         "example": ""
     },
     {
@@ -28614,7 +28614,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  害怕；\nv.  担心",
+        "meaning": "n./v. 害怕；担心",
         "example": ""
     },
     {
@@ -28636,9 +28636,9 @@ const ieltsWords = [
     {
         "word": "insult",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|侮辱；凌辱/",
-        "meaning": "v. 侮辱，凌辱",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  侮辱；凌辱\nn.  侮辱，凌辱",
         "example": ""
     },
     {
@@ -28654,7 +28654,7 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  羡慕；\nv.  嫉妒",
+        "meaning": "n./v. 羡慕；嫉妒",
         "example": ""
     },
     {
@@ -28668,9 +28668,9 @@ const ieltsWords = [
     {
         "word": "doubt",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|怀疑，疑问/",
-        "meaning": "n. 怀疑；不信",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  怀疑，疑问\nv.  怀疑；不信",
         "example": ""
     },
     {
@@ -28684,7 +28684,7 @@ const ieltsWords = [
     {
         "word": "skeptical",
         "category": "身心健康",
-        "pos": "adj.",
+        "pos": "",
         "phonetic": "",
         "meaning": "/sceptical\nadj.\n怀疑的",
         "example": ""
@@ -28764,9 +28764,9 @@ const ieltsWords = [
     {
         "word": "regret",
         "category": "身心健康",
-        "pos": "n.",
-        "phonetic": "/v.|遗憾；抱歉；悲叹/",
-        "meaning": "n. 后悔；痛惜；惋惜",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  遗憾；抱歉；悲叹\nv.  后悔；痛惜；惋惜",
         "example": ""
     },
     {
@@ -28790,15 +28790,15 @@ const ieltsWords = [
         "category": "身心健康",
         "pos": "n./v.",
         "phonetic": "",
-        "meaning": "n.  叹息；\nv.  叹气",
+        "meaning": "n./v. 叹息；叹气",
         "example": ""
     },
     {
         "word": "weep",
         "category": "身心健康",
-        "pos": "v.",
-        "phonetic": "/n.|哭泣；流泪；哀悼/",
-        "meaning": "v. 哭泣",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  哭泣；流泪；哀悼\nn.  哭泣",
         "example": ""
     },
     {
@@ -28972,41 +28972,41 @@ const ieltsWords = [
     {
         "word": "daily",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/n.|每日的/",
-        "meaning": "adj. 日报",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  每日的\nn.  日报",
         "example": ""
     },
     {
         "word": "monthly",
         "category": "时间日期",
-        "pos": "adj. n.",
-        "phonetic": "/adv./",
-        "meaning": "adj.\nn.\n每月的/每月一次/月刊",
+        "pos": "adj./adv./n.",
+        "phonetic": "",
+        "meaning": "adj.  /\nadv.\nn.\n每月的/每月一次/月刊",
         "example": ""
     },
     {
         "word": "quarterly",
         "category": "时间日期",
-        "pos": "adj. n.",
-        "phonetic": "/adv./",
-        "meaning": "adj.\nn.\n季度的/按季度地/季刊",
+        "pos": "adj./adv./n.",
+        "phonetic": "",
+        "meaning": "adj.  /\nadv.\nn.\n季度的/按季度地/季刊",
         "example": ""
     },
     {
         "word": "annual",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/n.|每年的；一年的/",
-        "meaning": "adj. 年报",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  每年的；一年的\nn.  年报",
         "example": ""
     },
     {
         "word": "yearly",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/adv.|每年的；一年的/",
-        "meaning": "adj. 每年地",
+        "pos": "adj./adv.",
+        "phonetic": "",
+        "meaning": "adj.  每年的；一年的\nadv.  每年地",
         "example": ""
     },
     {
@@ -29028,9 +29028,9 @@ const ieltsWords = [
     {
         "word": "present",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/n.|现在的/",
-        "meaning": "adj. 目前；礼物；赠送物",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  现在的\nn.  目前；礼物；赠送物",
         "example": ""
     },
     {
@@ -29092,9 +29092,9 @@ const ieltsWords = [
     {
         "word": "dawn",
         "category": "时间日期",
-        "pos": "n.",
-        "phonetic": "/v.|黎明；开端/",
-        "meaning": "n. 破晓",
+        "pos": "n./v.",
+        "phonetic": "",
+        "meaning": "n.  黎明；开端\nv.  破晓",
         "example": ""
     },
     {
@@ -29156,9 +29156,9 @@ const ieltsWords = [
     {
         "word": "first",
         "category": "时间日期",
-        "pos": "",
-        "phonetic": "/adv.|第一/",
-        "meaning": "ord. 最初",
+        "pos": "adv.",
+        "phonetic": "",
+        "meaning": "ord.  第一\nadv.  最初",
         "example": ""
     },
     {
@@ -29180,9 +29180,9 @@ const ieltsWords = [
     {
         "word": "finish",
         "category": "时间日期",
-        "pos": "v.",
-        "phonetic": "/n.|完成；结束/",
-        "meaning": "v. 结尾；最后部分",
+        "pos": "v./n.",
+        "phonetic": "",
+        "meaning": "v.  完成；结束\nn.  结尾；最后部分",
         "example": ""
     },
     {
@@ -29198,7 +29198,7 @@ const ieltsWords = [
         "category": "时间日期",
         "pos": "n./adj.",
         "phonetic": "",
-        "meaning": "n.  瞬间；\nadj.  立即的",
+        "meaning": "n.  瞬间\nadj.  立即的",
         "example": ""
     },
     {
@@ -29212,9 +29212,9 @@ const ieltsWords = [
     {
         "word": "minute",
         "category": "时间日期",
-        "pos": "n.",
-        "phonetic": "/adj.|分；分钟；一会儿/",
-        "meaning": "n. 细微的",
+        "pos": "n./adj.",
+        "phonetic": "",
+        "meaning": "n.  分；分钟；一会儿\nadj.  细微的",
         "example": ""
     },
     {
@@ -29228,9 +29228,9 @@ const ieltsWords = [
     {
         "word": "former",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/pron.|以前的；前者的/",
-        "meaning": "adj. 前者",
+        "pos": "adj./pron.",
+        "phonetic": "",
+        "meaning": "adj.  以前的；前者的\npron.  前者",
         "example": ""
     },
     {
@@ -29244,9 +29244,9 @@ const ieltsWords = [
     {
         "word": "precedent",
         "category": "时间日期",
-        "pos": "n. adj.",
+        "pos": "n.",
         "phonetic": "",
-        "meaning": "n.\n先例；常规\nunprecedented\nadj.  史无前例的；绝无仅有的\n\n例句：\nThey were determined to break with precedent",
+        "meaning": "n.\n先例；常规\n绝无仅有的\n\n例句：\nThey were determined to break with precedent",
         "example": ""
     },
     {
@@ -29260,9 +29260,9 @@ const ieltsWords = [
     {
         "word": "opening",
         "category": "时间日期",
-        "pos": "adj.",
-        "phonetic": "/n.|开始的/",
-        "meaning": "adj. 开始；开端",
+        "pos": "adj./n.",
+        "phonetic": "",
+        "meaning": "adj.  开始的\nn.  开始；开端",
         "example": ""
     },
     {
@@ -29293,8 +29293,8 @@ const ieltsWords = [
         "word": "meantime",
         "category": "时间日期",
         "pos": "n.",
-        "phonetic": "[in the ~]",
-        "meaning": "n.\n其间；同时/[for the ~]眼下；暂时",
+        "phonetic": "",
+        "meaning": "n.\n[in the ~]其间；同时/[for the ~]眼下；暂时",
         "example": ""
     },
     {
